@@ -29,14 +29,15 @@
 
   // --- Initialization ---
   function init() {
-    initNavigation();
-    initMap();
-    renderShowcaseCards();
-    renderRouteIndex();
-    initFilters();
-    initSearch();
-    initCTAForm();
-    initModal();
+    try { initNavigation(); } catch(e) { console.error('Nav error:', e); }
+    try { initMap(); } catch(e) { console.error('Map error:', e); }
+    try { renderShowcaseCards(); } catch(e) { console.error('Showcase error:', e); }
+    try { renderRouteIndex(); } catch(e) { console.error('Index error:', e); }
+    try { initFilters(); } catch(e) { console.error('Filter error:', e); }
+    try { initSearch(); } catch(e) { console.error('Search error:', e); }
+    try { initCTAForm(); } catch(e) { console.error('CTA error:', e); }
+    try { initModal(); } catch(e) { console.error('Modal error:', e); }
+    console.log('Init complete. SHOWCASE:', SHOWCASE.length, 'ROUTES:', ROUTES.length);
   }
 
   // --- Navigation ---
@@ -82,6 +83,13 @@
     addRouteMarkers();
   }
 
+  function getCoords(route) {
+    // Data uses starting_point: {lat, lng} — convert to [lat, lng] for Leaflet
+    var sp = route.starting_point;
+    if (sp && sp.lat && sp.lng) return [sp.lat, sp.lng];
+    return null;
+  }
+
   function addRouteMarkers() {
     if (!map) return;
 
@@ -90,9 +98,10 @@
     // Also add showcase routes if they have coordinates
     var showcaseIds = new Set();
     SHOWCASE.forEach(function (route) {
-      if (route.start_coords) {
+      var coords = getCoords(route);
+      if (coords) {
         showcaseIds.add(route.id);
-        var isPro = route.category === 'Pro';
+        var isPro = route.category === 'pro';
         var markerColor = isPro ? '#e94560' : '#53c28b';
 
         var icon = L.divIcon({
@@ -105,7 +114,7 @@
           iconAnchor: [7, 7],
         });
 
-        var marker = L.marker(route.start_coords, { icon: icon }).addTo(map);
+        var marker = L.marker(coords, { icon: icon }).addTo(map);
 
         var popupContent =
           '<div>' +
@@ -113,9 +122,9 @@
           escapeHTML(route.name) +
           '</div>' +
           '<div class="popup-meta">' +
-          (route.distance_km || '?') +
+          (route.total_distance_km || '?') +
           ' km &middot; ' +
-          (route.duration_hours || '?') +
+          (route.estimated_duration_hours || '?') +
           'h &middot; ' +
           (isPro ? 'Pro' : 'Aprendiz') +
           '</div>' +
@@ -131,9 +140,10 @@
     // Add non-showcase routes from ROUTES_DATA
     allRoutes.forEach(function (route) {
       if (showcaseIds.has(route.id)) return;
-      if (!route.start_coords) return;
+      var coords = getCoords(route);
+      if (!coords) return;
 
-      var isPro = route.category === 'Pro';
+      var isPro = route.category === 'pro';
       var markerColor = isPro ? '#e94560' : '#53c28b';
 
       var icon = L.divIcon({
@@ -146,7 +156,7 @@
         iconAnchor: [5, 5],
       });
 
-      var marker = L.marker(route.start_coords, { icon: icon }).addTo(map);
+      var marker = L.marker(coords, { icon: icon }).addTo(map);
 
       var popupContent =
         '<div>' +
@@ -154,9 +164,9 @@
         escapeHTML(route.name) +
         '</div>' +
         '<div class="popup-meta">' +
-        (route.distance_km || '?') +
+        (route.total_distance_km || '?') +
         ' km &middot; ' +
-        (route.duration_hours || '?') +
+        (route.estimated_duration_hours || '?') +
         'h &middot; ' +
         (isPro ? 'Pro' : 'Aprendiz') +
         '</div>' +
@@ -200,7 +210,7 @@
 
     var html = '';
     SHOWCASE.forEach(function (route, index) {
-      var isPro = route.category === 'Pro';
+      var isPro = route.category === 'pro';
       var badgeClass = isPro ? 'badge-pro' : 'badge-aprendiz';
       var badgeText = isPro ? 'PRO' : 'APRENDIZ';
       var stars = renderStars(route.difficulty || 3);
@@ -214,7 +224,7 @@
         '<div class="route-card-body">' +
         '<div class="route-card-header">' +
         '<span class="route-number">#' +
-        escapeHTML(route.route_number || route.id) +
+        escapeHTML(String(route.number || route.id)) +
         '</span>' +
         '<span class="badge ' +
         badgeClass +
@@ -230,14 +240,14 @@
         '</div>' +
         '<div class="route-card-stats">' +
         '<span>' +
-        (route.distance_km || '?') +
+        (route.total_distance_km || '?') +
         ' km</span>' +
         '<span>' +
-        (route.duration_hours || '?') +
+        (route.estimated_duration_hours || '?') +
         'h</span>' +
         '</div>' +
         '<div class="route-card-comarca">' +
-        escapeHTML(route.comarca || '') +
+        escapeHTML(route.comarca_principal || '') +
         '</div>' +
         '<p class="route-card-summary">' +
         escapeHTML(route.summary || '') +
@@ -264,17 +274,17 @@
     var filteredRoutes = combinedRoutes.filter(function (route) {
       var matchesCategory =
         activeFilter === 'all' ||
-        (activeFilter === 'pro' && route.category === 'Pro') ||
-        (activeFilter === 'aprendiz' && route.category === 'Aprendiz');
+        (activeFilter === 'pro' && route.category === 'pro') ||
+        (activeFilter === 'aprendiz' && route.category === 'aprendiz');
 
       var matchesSearch =
         searchQuery === '' ||
         route.name.toLowerCase().indexOf(searchQuery.toLowerCase()) !== -1 ||
-        (route.comarca &&
-          route.comarca.toLowerCase().indexOf(searchQuery.toLowerCase()) !==
+        (route.comarca_principal &&
+          route.comarca_principal.toLowerCase().indexOf(searchQuery.toLowerCase()) !==
             -1) ||
-        (route.hub &&
-          route.hub.toLowerCase().indexOf(searchQuery.toLowerCase()) !== -1);
+        (route.starting_hub &&
+          route.starting_hub.toLowerCase().indexOf(searchQuery.toLowerCase()) !== -1);
 
       return matchesCategory && matchesSearch;
     });
@@ -287,7 +297,7 @@
 
     var html = '';
     filteredRoutes.forEach(function (route) {
-      var isPro = route.category === 'Pro';
+      var isPro = route.category === 'pro';
       var badgeClass = isPro ? 'badge-pro' : 'badge-aprendiz';
       var badgeText = isPro ? 'PRO' : 'APRENDIZ';
       var isShowcase = isShowcaseRoute(route.id);
@@ -299,7 +309,7 @@
         isShowcase +
         '" role="button" tabindex="0">' +
         '<span class="route-index-num">' +
-        escapeHTML(String(route.route_number || route.id)) +
+        escapeHTML(String(route.number || route.id)) +
         '</span>' +
         '<div class="route-index-info">' +
         '<span class="route-index-name">' +
@@ -307,21 +317,21 @@
         '</span>' +
         '<div class="route-index-meta">' +
         '<span>' +
-        (route.distance_km || '?') +
+        (route.total_distance_km || '?') +
         ' km</span>' +
         '<span>' +
-        (route.duration_hours || '?') +
+        (route.estimated_duration_hours || '?') +
         'h</span>' +
-        (route.comarca
-          ? '<span>' + escapeHTML(route.comarca) + '</span>'
+        (route.comarca_principal
+          ? '<span>' + escapeHTML(route.comarca_principal) + '</span>'
           : '') +
         '</div>' +
         '</div>' +
         '<span class="route-index-meta-tablet">' +
-        (route.hub || '') +
+        (route.starting_hub || '') +
         '</span>' +
         '<span class="route-index-meta-tablet">' +
-        (route.comarca || '') +
+        (route.comarca_principal || '') +
         '</span>' +
         '<span class="route-index-meta-tablet">' +
         renderStars(route.difficulty || 3) +
@@ -379,8 +389,8 @@
 
     // Sort by route number
     routes.sort(function (a, b) {
-      var numA = parseInt(String(a.route_number || a.id).replace(/\D/g, ''), 10) || 0;
-      var numB = parseInt(String(b.route_number || b.id).replace(/\D/g, ''), 10) || 0;
+      var numA = parseInt(String(a.number || a.id).replace(/\D/g, ''), 10) || 0;
+      var numB = parseInt(String(b.number || b.id).replace(/\D/g, ''), 10) || 0;
       return numA - numB;
     });
 

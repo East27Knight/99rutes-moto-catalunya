@@ -72,7 +72,7 @@
 
     document.title = route.name + ' | 99 Rutes en Moto per Catalunya';
 
-    var isPro = route.category === 'Pro';
+    var isPro = route.category === 'pro';
     var badgeClass = isPro ? 'badge-pro' : 'badge-aprendiz';
     var badgeText = isPro ? 'PRO' : 'APRENDIZ';
     var stars = renderStars(route.difficulty || 3);
@@ -100,19 +100,19 @@
     // Stats bar
     html += '<div class="stats-bar">';
     html += renderStatItem(
-      route.distance_km ? route.distance_km + ' km' : '---',
+      route.total_distance_km ? route.total_distance_km + ' km' : '---',
       'Dist\u00e0ncia'
     );
     html += renderStatItem(
-      route.duration_hours ? route.duration_hours + 'h' : '---',
+      route.estimated_duration_hours ? route.estimated_duration_hours + 'h' : '---',
       'Durada'
     );
     html += renderStatItem(
-      route.elevation_gain ? route.elevation_gain + ' m' : '---',
+      route.elevation_gain_m ? route.elevation_gain_m + ' m' : '---',
       'Desnivell'
     );
     html += renderStatItem(
-      route.max_altitude ? route.max_altitude + ' m' : '---',
+      route.elevation_max_m ? route.elevation_max_m + ' m' : '---',
       'Altitud m\u00e0x.'
     );
     html += '</div>'; // stats-bar
@@ -132,7 +132,7 @@
     html += '</section>';
 
     // --- Roads Section ---
-    if (route.roads && route.roads.length > 0) {
+    if (route.roads_detail && route.roads_detail.length > 0) {
       html += '<section class="section roads-section">';
       html += '<div class="container">';
       html += '<h2 class="section-title">Carreteres</h2>';
@@ -149,7 +149,7 @@
       html += '</tr></thead>';
       html += '<tbody>';
 
-      route.roads.forEach(function (road) {
+      route.roads_detail.forEach(function (road) {
         html += '<tr>';
         html +=
           '<td class="road-highlight">' +
@@ -208,7 +208,7 @@
     }
 
     // --- Best Season ---
-    if (route.best_seasons && route.best_seasons.length > 0) {
+    if (route.best_season && route.best_season.length > 0) {
       html += '<section class="section" style="background:var(--bg-secondary);">';
       html += '<div class="container">';
       html += '<h2 class="section-title">Millor \u00e8poca</h2>';
@@ -217,18 +217,18 @@
       html += '<div class="season-badges" style="justify-content:center;">';
 
       var allSeasons = [
-        'Primavera',
-        'Estiu',
-        'Tardor',
-        'Hivern',
+        'primavera',
+        'estiu',
+        'tardor',
+        'hivern',
       ];
       allSeasons.forEach(function (season) {
-        var isRecommended = route.best_seasons.indexOf(season) !== -1;
+        var isRecommended = route.best_season.indexOf(season) !== -1;
         html +=
           '<span class="season-badge' +
           (isRecommended ? ' recommended' : '') +
           '">' +
-          escapeHTML(season) +
+          escapeHTML(season.charAt(0).toUpperCase() + season.slice(1)) +
           '</span>';
       });
 
@@ -329,8 +329,8 @@
       var latlngs = [];
 
       route.waypoints.forEach(function (wp, idx) {
-        if (!wp.coords) return;
-        var coords = wp.coords;
+        if (!wp.lat || !wp.lng) return;
+        var coords = [wp.lat, wp.lng];
         latlngs.push(coords);
         bounds.push(coords);
 
@@ -384,9 +384,10 @@
           dashArray: '8, 6',
         }).addTo(map);
       }
-    } else if (route.start_coords) {
+    } else if (route.starting_point && route.starting_point.lat && route.starting_point.lng) {
       // Fallback: just show start point
-      bounds.push(route.start_coords);
+      var startCoords = [route.starting_point.lat, route.starting_point.lng];
+      bounds.push(startCoords);
 
       var icon = L.divIcon({
         className: 'custom-marker',
@@ -396,23 +397,9 @@
         iconAnchor: [7, 7],
       });
 
-      L.marker(route.start_coords, { icon: icon })
+      L.marker(startCoords, { icon: icon })
         .addTo(map)
         .bindPopup('<div class="popup-title">Punt de sortida</div>');
-
-      if (route.end_coords) {
-        bounds.push(route.end_coords);
-        var endIcon = L.divIcon({
-          className: 'custom-marker',
-          html:
-            '<div style="width:14px;height:14px;border-radius:50%;background:#e94560;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.4);"></div>',
-          iconSize: [14, 14],
-          iconAnchor: [7, 7],
-        });
-        L.marker(route.end_coords, { icon: endIcon })
-          .addTo(map)
-          .bindPopup('<div class="popup-title">Punt d\'arribada</div>');
-      }
     }
 
     // Fit map to bounds
