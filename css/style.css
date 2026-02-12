@@ -180,12 +180,14 @@ img {
   padding: 8rem 1.5rem 5rem;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(
-    135deg,
-    var(--bg-primary) 0%,
-    var(--bg-secondary) 50%,
-    #0d1b3e 100%
-  );
+  background:
+    linear-gradient(
+      135deg,
+      rgba(26, 26, 46, 0.82) 0%,
+      rgba(22, 33, 62, 0.78) 50%,
+      rgba(13, 27, 62, 0.85) 100%
+    ),
+    url('../img/hero.jpg') center/cover no-repeat;
 }
 
 .hero::before {
@@ -484,7 +486,7 @@ img {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 1.5rem;
+  padding: 0;
   transition: all var(--transition);
   cursor: pointer;
   text-decoration: none;
@@ -492,6 +494,28 @@ img {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.route-card-img {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.route-card-img::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to top, var(--bg-card), transparent);
+}
+
+.route-card-body {
+  padding: 1.2rem 1.5rem 1.5rem;
 }
 
 .route-card:hover {

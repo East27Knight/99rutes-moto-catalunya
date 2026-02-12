@@ -170,6 +170,25 @@
   }
 
   // --- Showcase Cards ---
+  // Route images mapping
+  var ROUTE_IMAGES = {
+    'ruta-072': 'img/mountain.jpg',   // Pirineu - mountain
+    'ruta-039': 'img/coast.jpg',      // Costa Brava - coast
+    'ruta-001': 'img/mountain.jpg',   // Berguedà - mountain
+    'ruta-085': 'img/volcanic.jpg',   // Siurana - dramatic landscape
+    'ruta-041': 'img/volcanic.jpg',   // Garrotxa volcans
+    'ruta-016': 'img/forest.jpg',     // Montseny - forest
+    'ruta-011': 'img/rural.jpg',      // Montserrat - rural
+    'ruta-049': 'img/coast.jpg',      // Empordanet - coast
+    'ruta-083': 'img/rural.jpg',      // Balaguer - rural
+    'ruta-070': 'img/vineyard.jpg'    // Vinyes - vineyard
+  };
+  var DEFAULT_IMAGES = ['img/mountain.jpg', 'img/coast.jpg', 'img/forest.jpg', 'img/rural.jpg', 'img/volcanic.jpg', 'img/vineyard.jpg'];
+
+  function getRouteImage(routeId, index) {
+    return ROUTE_IMAGES[routeId] || DEFAULT_IMAGES[index % DEFAULT_IMAGES.length];
+  }
+
   function renderShowcaseCards() {
     if (!showcaseGrid) return;
 
@@ -180,16 +199,19 @@
     }
 
     var html = '';
-    SHOWCASE.forEach(function (route) {
+    SHOWCASE.forEach(function (route, index) {
       var isPro = route.category === 'Pro';
       var badgeClass = isPro ? 'badge-pro' : 'badge-aprendiz';
       var badgeText = isPro ? 'PRO' : 'APRENDIZ';
       var stars = renderStars(route.difficulty || 3);
+      var imgSrc = getRouteImage(route.id, index);
 
       html +=
         '<a href="route.html?id=' +
         encodeURIComponent(route.id) +
         '" class="route-card">' +
+        '<div class="route-card-img" style="background-image:url(\'' + imgSrc + '\')"></div>' +
+        '<div class="route-card-body">' +
         '<div class="route-card-header">' +
         '<span class="route-number">#' +
         escapeHTML(route.route_number || route.id) +
@@ -220,6 +242,7 @@
         '<p class="route-card-summary">' +
         escapeHTML(route.summary || '') +
         '</p>' +
+        '</div>' +
         '</a>';
     });
 
@@ -413,21 +436,33 @@
         return;
       }
 
-      // Redirect to Google Form with email pre-filled
-      var formUrl = 'https://forms.gle/36HradBoo5TEvzqP7';
-      window.open(formUrl, '_blank');
-
-      // Show confirmation
+      // Submit to Google Sheets via Google Form endpoint
       var btn = this.querySelector('button');
       var originalText = btn.textContent;
-      btn.textContent = 'Gr\u00e0cies!';
+      btn.textContent = 'Enviant...';
       btn.disabled = true;
-      emailInput.value = '';
 
-      setTimeout(function () {
-        btn.textContent = originalText;
-        btn.disabled = false;
-      }, 3000);
+      var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSeLwtNvyZK72YwZm0pxB7Snstlm5ECL72R4A2I603a1laYFLQ/formResponse';
+      fetch(formUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'entry.327226259=' + encodeURIComponent(email)
+      }).then(function () {
+        btn.textContent = 'Gr\u00e0cies! \u2714';
+        emailInput.value = '';
+        setTimeout(function () {
+          btn.textContent = originalText;
+          btn.disabled = false;
+        }, 4000);
+      }).catch(function () {
+        btn.textContent = 'Gr\u00e0cies! \u2714';
+        emailInput.value = '';
+        setTimeout(function () {
+          btn.textContent = originalText;
+          btn.disabled = false;
+        }, 4000);
+      });
     });
   }
 
