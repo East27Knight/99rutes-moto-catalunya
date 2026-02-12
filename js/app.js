@@ -414,7 +414,7 @@
       }
 
       // Redirect to Google Form with email pre-filled
-      var formUrl = 'https://forms.gle/PLACEHOLDER';
+      var formUrl = 'https://forms.gle/36HradBoo5TEvzqP7';
       window.open(formUrl, '_blank');
 
       // Show confirmation
