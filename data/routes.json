@@ -1,0 +1,4755 @@
+[
+  {
+    "id": "ruta-001",
+    "number": 1,
+    "name": "El Coll de Pal i les Valls del Berguedà",
+    "slug": "coll-de-pal-valls-bergueda",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Berguedà",
+    "summary": "Una ruta emblemàtica que remunta la C-16 fins a Berga i s'endinsa al cor del Berguedà per la BV-4024 fins al Coll de Pal, a 2.106 m d'altitud. Corbes tancades amb vistes espectaculars al Cadí-Moixeró i baixada per Bagà amb un esmorzar de forquilla memorable.",
+    "total_distance_km": 195,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2800,
+    "elevation_max_m": 2106,
+    "roads_main": [
+      "C-16",
+      "BV-4024",
+      "C-26",
+      "B-400",
+      "C-55"
+    ],
+    "esmorzar": {
+      "town": "Bagà",
+      "comarca": "Berguedà",
+      "lat": 42.252,
+      "lng": 1.861,
+      "specialty": "Esmorzar de forquilla amb embotits del Berguedà i truita de patates casolana",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "port",
+      "corbes",
+      "alta-muntanya",
+      "vistes"
+    ]
+  },
+  {
+    "id": "ruta-002",
+    "number": 2,
+    "name": "Solsona i el Port del Comte",
+    "slug": "solsona-port-del-comte",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Solsonès",
+    "summary": "Ruta cap al nord pel cor del Solsonès, travessant paisatges agrícoles fins a Solsona i pujant al Port del Comte per la LV-4241. Revolts generosos amb asfalt net, vistes infinites cap als Pirineus i descens per la vall de la Vansa. Parada imprescindible a Solsona per un esmorzar pagès.",
+    "total_distance_km": 210,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 2600,
+    "elevation_max_m": 1860,
+    "roads_main": [
+      "C-55",
+      "C-25",
+      "LV-4241",
+      "L-401",
+      "C-462"
+    ],
+    "esmorzar": {
+      "town": "Solsona",
+      "comarca": "Solsonès",
+      "lat": 41.994,
+      "lng": 1.518,
+      "specialty": "Esmorzar pagès amb botifarra i mongetes del Solsonès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "port",
+      "altiplà",
+      "corbes",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-003",
+    "number": 3,
+    "name": "La Ruta de la Sal: Cardona i Súria",
+    "slug": "ruta-de-la-sal-cardona-suria",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Un recorregut pel patrimoni miner del Bages que connecta Súria, Cardona i les seves impressionants mines de sal. Carreteres secundàries amb poc trànsit que serpentegen entre camps de cereals i turons, amb el castell de Cardona dominant l'horitzó. Tornada pel Cardener amb trams ràpids.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1400,
+    "elevation_max_m": 750,
+    "roads_main": [
+      "C-55",
+      "C-1410a",
+      "B-420",
+      "BV-3003",
+      "C-25"
+    ],
+    "esmorzar": {
+      "town": "Cardona",
+      "comarca": "Bages",
+      "lat": 41.912,
+      "lng": 1.68,
+      "specialty": "Esmorzar de forquilla amb vedella de Cardona i trinxat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "patrimoni",
+      "castell",
+      "mines",
+      "paisatge-rural"
+    ]
+  },
+  {
+    "id": "ruta-004",
+    "number": 4,
+    "name": "Montserrat per les Carreteres del Vi",
+    "slug": "montserrat-carreteres-del-vi",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Baixada des de Manresa cap a Montserrat per la BP-1101 amb vistes de la muntanya sagrada, i volta pel Pla de Bages entre vinyes de la DO Pla de Bages. Corbes suaus entre camps de vinya, ermites romàniques i cellers amb encant. Pujada al monestir per la BP-1103 amb revolts espectaculars.",
+    "total_distance_km": 135,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 720,
+    "roads_main": [
+      "BP-1101",
+      "BP-1103",
+      "C-55",
+      "BV-1221",
+      "B-124"
+    ],
+    "esmorzar": {
+      "town": "Monistrol de Montserrat",
+      "comarca": "Bages",
+      "lat": 41.61,
+      "lng": 1.84,
+      "specialty": "Entrepà de llonganissa de pagès amb tomàquet de Montserrat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "montserrat",
+      "romànic",
+      "cultural",
+      "corbes"
+    ]
+  },
+  {
+    "id": "ruta-005",
+    "number": 5,
+    "name": "El Moianès Profund",
+    "slug": "moianes-profund",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Moianès",
+    "summary": "Exploració de la comarca més jove de Catalunya, el Moianès, per carreteres estretes i solitàries. De Manresa cap a Moià per la BV-1245, continuant per Santa Maria d'Oló i Castellcir entre boscos de pi roig i alzines. Trams tècnics amb revolts tancats que fan gaudir el motociclista exigent.",
+    "total_distance_km": 140,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 850,
+    "roads_main": [
+      "BV-1245",
+      "BV-1248",
+      "B-124",
+      "BV-4316",
+      "C-59"
+    ],
+    "esmorzar": {
+      "town": "Moià",
+      "comarca": "Moianès",
+      "lat": 41.811,
+      "lng": 2.096,
+      "specialty": "Esmorzar de forquilla amb ous i botifarra a la brasa al mercat de Moià",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "carreteres-secundàries",
+      "bosc",
+      "tranquil",
+      "corbes-tancades"
+    ]
+  },
+  {
+    "id": "ruta-006",
+    "number": 6,
+    "name": "La Vall del Cardener fins a Berga",
+    "slug": "vall-cardener-berga",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Berguedà",
+    "summary": "Seguint el curs del riu Cardener, aquesta ruta puja per la C-55 fins a Cardona i després enllaça amb el Berguedà per carreteres comarcals. Travessa pobles amb caràcter com Navàs i Balsareny, amb un tram final cap a Berga per la C-1411a amb vistes al Pedraforca.",
+    "total_distance_km": 160,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 900,
+    "roads_main": [
+      "C-55",
+      "C-1411a",
+      "C-16",
+      "B-420",
+      "BV-4235"
+    ],
+    "esmorzar": {
+      "town": "Berga",
+      "comarca": "Berguedà",
+      "lat": 42.101,
+      "lng": 1.846,
+      "specialty": "Esmorzar de forquilla amb xai del Berguedà i trinxat amb rosta",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "riu",
+      "vall",
+      "pobles",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-007",
+    "number": 7,
+    "name": "L'Eix Transversal: Bages a la Plana de Vic",
+    "slug": "eix-transversal-bages-plana-vic",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Osona",
+    "summary": "De Manresa a Vic per l'Eix Transversal i tornada per les carreteres secundàries del Moianès. La C-25 ofereix un primer tram ràpid i fluid, mentre que la tornada per Tona, Centelles i Castellterçol regala un seguit de revolts entre camps i boscos amb una tranquil·litat absoluta.",
+    "total_distance_km": 165,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1500,
+    "elevation_max_m": 880,
+    "roads_main": [
+      "C-25",
+      "C-17",
+      "BV-1245",
+      "B-124",
+      "BV-4316"
+    ],
+    "esmorzar": {
+      "town": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254,
+      "specialty": "Esmorzar al mercat de Vic amb embotits d'Osona i pa de pagès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "plana",
+      "mercat",
+      "carreteres-secundàries",
+      "tranquil"
+    ]
+  },
+  {
+    "id": "ruta-008",
+    "number": 8,
+    "name": "Els Rasos de Peguera i la Serra de Picancel",
+    "slug": "rasos-peguera-serra-picancel",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Berguedà",
+    "summary": "La ruta més exigent des de Manresa: pujada per la C-16 fins a Berga, desviació als Rasos de Peguera per la BV-4235 amb quilòmetres de revolts tancats entre pins, i tornada per Castellar de n'Hug i la serra de Picancel. Carreteres de muntanya amb asfalt variable que demanen concentració total.",
+    "total_distance_km": 230,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 3200,
+    "elevation_max_m": 2050,
+    "roads_main": [
+      "C-16",
+      "BV-4235",
+      "BV-4024",
+      "B-402",
+      "C-26"
+    ],
+    "esmorzar": {
+      "town": "Castellar de n'Hug",
+      "comarca": "Berguedà",
+      "lat": 42.268,
+      "lng": 2.024,
+      "specialty": "Esmorzar de muntanya amb trumfes i botifarra de Castellar de n'Hug",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "alta-muntanya",
+      "corbes-tancades",
+      "exigent",
+      "bosc",
+      "vistes"
+    ]
+  },
+  {
+    "id": "ruta-009",
+    "number": 9,
+    "name": "Navarcles, Talamanca i el Congost de la Riera",
+    "slug": "navarcles-talamanca-congost",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Una ruta fluida que connecta els pobles del Bages per carreteres amb poc trànsit. Navarcles, Talamanca, Mura i Pont de Vilomara per la BV-1221 i BV-1229. Paisatges de conglomerats rocosos, rieres amagades i una sensació constant de descoberta a pocs quilòmetres de Manresa.",
+    "total_distance_km": 125,
+    "estimated_duration_hours": 3,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1200,
+    "elevation_max_m": 650,
+    "roads_main": [
+      "BV-1221",
+      "BV-1229",
+      "B-124",
+      "BP-1101",
+      "BV-1245"
+    ],
+    "esmorzar": {
+      "town": "Mura",
+      "comarca": "Bages",
+      "lat": 41.695,
+      "lng": 1.974,
+      "specialty": "Entrepà de pernil amb tomàquet i oli d'oliva del Bages",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "pobles",
+      "natura",
+      "tranquil",
+      "conglomerats"
+    ]
+  },
+  {
+    "id": "ruta-010",
+    "number": 10,
+    "name": "La Segarra i els Camps de Cereals",
+    "slug": "segarra-camps-cereals",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Segarra",
+    "summary": "Ruta cap a ponent per la C-25 fins a Cervera, travessant l'altiplà de la Segarra entre camps de cereals infinits. Carreteres rectes que es combinen amb petits revolts entre pobles medievals com Torà i Biosca. Un paisatge àrid i solitari que recorda les grans planures europees.",
+    "total_distance_km": 185,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 1100,
+    "elevation_max_m": 780,
+    "roads_main": [
+      "C-25",
+      "L-311",
+      "C-1412a",
+      "LV-3003",
+      "C-55"
+    ],
+    "esmorzar": {
+      "town": "Cervera",
+      "comarca": "Segarra",
+      "lat": 41.67,
+      "lng": 1.272,
+      "specialty": "Esmorzar de forquilla amb cargols a la llauna i pa amb tomàquet",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "altiplà",
+      "medieval",
+      "vent",
+      "paisatge-obert"
+    ]
+  },
+  {
+    "id": "ruta-011",
+    "number": 11,
+    "name": "Volta a Montserrat per Sant Benet",
+    "slug": "volta-montserrat-sant-benet",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Ruta curta i accessible que baixa fins a Sant Fruitós de Bages per visitar el monestir de Sant Benet i continua fins als peus de Montserrat. Carreteres amples i ben asfaltades, ideals per agafar confiança. Vistes magnífiques de la silueta de Montserrat des del pla.",
+    "total_distance_km": 65,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 500,
+    "elevation_max_m": 450,
+    "roads_main": [
+      "C-55",
+      "BP-1101",
+      "BV-1124"
+    ],
+    "esmorzar": {
+      "town": "Sant Fruitós de Bages",
+      "comarca": "Bages",
+      "lat": 41.741,
+      "lng": 1.874,
+      "specialty": "Esmorzar al restaurant de Sant Benet amb coca de recapte",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "monestir",
+      "cultural",
+      "fàcil",
+      "vistes"
+    ]
+  },
+  {
+    "id": "ruta-012",
+    "number": 12,
+    "name": "El Castell de Cardona",
+    "slug": "castell-cardona",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Escapada directa de Manresa a Cardona per la C-55, una carretera còmoda i segura que segueix la vall del Cardener. El castell de Cardona, el Parador i la muntanya de sal fan d'aquesta ruta una excursió perfecta per a principiants amb molt a veure.",
+    "total_distance_km": 75,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 450,
+    "elevation_max_m": 680,
+    "roads_main": [
+      "C-55",
+      "C-1410a",
+      "BV-3003"
+    ],
+    "esmorzar": {
+      "town": "Cardona",
+      "comarca": "Bages",
+      "lat": 41.912,
+      "lng": 1.68,
+      "specialty": "Esmorzar amb embotits locals i coca de forner a la plaça del Mercat",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "castell",
+      "patrimoni",
+      "fàcil",
+      "sal"
+    ]
+  },
+  {
+    "id": "ruta-013",
+    "number": 13,
+    "name": "El Llobregat per Navàs i Balsareny",
+    "slug": "llobregat-navas-balsareny",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Volta suau pel nord del Bages passant per Navàs i Balsareny, dues viles amb encant que conserven el patrimoni industrial tèxtil. Carreteres planes i fàcils al costat del Llobregat, perfectes per a qui comença a rodar en moto.",
+    "total_distance_km": 50,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 300,
+    "elevation_max_m": 450,
+    "roads_main": [
+      "C-16",
+      "BV-4501",
+      "B-423"
+    ],
+    "esmorzar": {
+      "town": "Navàs",
+      "comarca": "Bages",
+      "lat": 41.886,
+      "lng": 1.876,
+      "specialty": "Entrepà de botifarra amb mongetes a un bar de plaça",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "pla",
+      "riu",
+      "patrimoni-industrial"
+    ]
+  },
+  {
+    "id": "ruta-014",
+    "number": 14,
+    "name": "Sallent i el Pantà de la Baells",
+    "slug": "sallent-panta-baells",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Berguedà",
+    "summary": "Pujada tranquil·la per la C-16 fins a Sallent i continuació cap al pantà de la Baells, on l'aigua reflecteix les muntanyes del Berguedà. Ruta lineal amb tornada pel mateix camí, ideal per gaudir del paisatge sense pressió.",
+    "total_distance_km": 100,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 2,
+    "elevation_gain_m": 600,
+    "elevation_max_m": 620,
+    "roads_main": [
+      "C-16",
+      "C-1411a",
+      "BV-4235"
+    ],
+    "esmorzar": {
+      "town": "Sallent",
+      "comarca": "Bages",
+      "lat": 41.827,
+      "lng": 1.893,
+      "specialty": "Esmorzar de forquilla amb ous amb cansalada i pa de pagès",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pantà",
+      "aigua",
+      "tranquil",
+      "fàcil"
+    ]
+  },
+  {
+    "id": "ruta-015",
+    "number": 15,
+    "name": "El Pont de Vilomara i la Riera de Sant Joan",
+    "slug": "pont-vilomara-riera-sant-joan",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Circuit curt i planer que surt de Manresa cap al Pont de Vilomara i Rocafort, travessant zones boscoses al costat del Llobregat. Tornada per Sant Vicenç de Castellet amb un ritme suau i sense cap tram complicat. Ideal per a una primera sortida en grup.",
+    "total_distance_km": 45,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 250,
+    "elevation_max_m": 380,
+    "roads_main": [
+      "BV-1221",
+      "B-124",
+      "C-55"
+    ],
+    "esmorzar": {
+      "town": "El Pont de Vilomara i Rocafort",
+      "comarca": "Bages",
+      "lat": 41.686,
+      "lng": 1.879,
+      "specialty": "Entrepà de truita de patates i cafè amb llet a un bar del poble",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "primer-cop",
+      "bosc",
+      "riu"
+    ]
+  },
+  {
+    "id": "ruta-016",
+    "number": 16,
+    "name": "El Montseny Gran: Turó de l'Home",
+    "slug": "montseny-gran-turo-home",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Oriental",
+    "summary": "La clàssica del Montseny: pujada per la BV-5301 fins a Santa Fe, enllaç amb la BV-5114 cap al Turó de l'Home a 1.706 m, i baixada per Viladrau. Corbes encadenades entre fagedes centenàries, boira matinal i asfalt que convida a inclinar-se. Una ruta que tot motociclista ha de fer.",
+    "total_distance_km": 180,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2400,
+    "elevation_max_m": 1706,
+    "roads_main": [
+      "C-33",
+      "C-17",
+      "BV-5301",
+      "BV-5114",
+      "BV-5201",
+      "GI-543"
+    ],
+    "esmorzar": {
+      "town": "Viladrau",
+      "comarca": "Osona",
+      "lat": 41.85,
+      "lng": 2.384,
+      "specialty": "Esmorzar de forquilla amb botifarra d'ou i bolets del Montseny",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "corbes",
+      "fageda",
+      "boira",
+      "clàssica"
+    ]
+  },
+  {
+    "id": "ruta-017",
+    "number": 17,
+    "name": "La Costa del Garraf i els Cingles",
+    "slug": "costa-garraf-cingles",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Garraf",
+    "summary": "Sortida de Barcelona per la C-32 fins a Sitges, pujada pel Parc del Garraf per la BV-2041 amb corbes tancades sobre penya-segats calcaris, i tornada per l'interior del Penedès. Mar, muntanya i vinyes en una sola ruta amb un esmorzar davant del Mediterrani.",
+    "total_distance_km": 150,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 620,
+    "roads_main": [
+      "C-32",
+      "C-31",
+      "BV-2041",
+      "BV-2115",
+      "C-15",
+      "B-20"
+    ],
+    "esmorzar": {
+      "town": "Sitges",
+      "comarca": "Garraf",
+      "lat": 41.236,
+      "lng": 1.812,
+      "specialty": "Esmorzar de forquilla amb peix fregit i patates braves al passeig marítim",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "costa",
+      "mar",
+      "penya-segats",
+      "vinyes",
+      "corbes"
+    ]
+  },
+  {
+    "id": "ruta-018",
+    "number": 18,
+    "name": "Penedès: Terra de Cava i Revolts",
+    "slug": "penedes-terra-cava-revolts",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Alt Penedès",
+    "summary": "Travessia del Penedès per carreteres entre vinyes, cellers modernistes i pobles tranquils. De Barcelona cap a Vilafranca del Penedès per la C-15, volta per Sant Sadurní d'Anoia i tornada per l'Ordal. Ritme relaxat entre paisatges que canvien de color amb cada estació.",
+    "total_distance_km": 155,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1000,
+    "elevation_max_m": 540,
+    "roads_main": [
+      "C-15",
+      "C-243a",
+      "BV-2249",
+      "BP-2121",
+      "N-340"
+    ],
+    "esmorzar": {
+      "town": "Vilafranca del Penedès",
+      "comarca": "Alt Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "specialty": "Esmorzar de forquilla amb xató i pa amb tomàquet al mercat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "cava",
+      "modernisme",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-019",
+    "number": 19,
+    "name": "El Maresme i el Montnegre",
+    "slug": "maresme-montnegre",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Maresme",
+    "summary": "De Cerdanyola cap a la costa del Maresme per la C-33, seguint la línia del mar fins a Calella, i pujada al Parc del Montnegre per la BV-5128. Carreteres de muntanya litoral amb vistes al Mediterrani, baixada per Vallgorguina i tornada per l'AP-7. Combinació de mar i bosc que sorprèn.",
+    "total_distance_km": 165,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 760,
+    "roads_main": [
+      "C-33",
+      "C-32",
+      "N-II",
+      "BV-5128",
+      "BV-5105",
+      "AP-7"
+    ],
+    "esmorzar": {
+      "town": "Calella",
+      "comarca": "Maresme",
+      "lat": 41.614,
+      "lng": 2.654,
+      "specialty": "Esmorzar de forquilla amb truita de gambes i pa amb tomàquet al port",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "bosc",
+      "mar",
+      "muntanya-litoral"
+    ]
+  },
+  {
+    "id": "ruta-020",
+    "number": 20,
+    "name": "Osona per la C-17: Vic i les Guilleries",
+    "slug": "osona-c17-vic-guilleries",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Osona",
+    "summary": "Pujada per la C-17 fins a Vic, volta per les Guilleries amb la seva vegetació exuberant i el pantà de Sau, i tornada per Centelles i Castellcir. Una ruta que combina la velocitat de la C-17 amb els revolts tancats de les carreteres de les Guilleries, on cada corba amaga un nou paisatge.",
+    "total_distance_km": 200,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2000,
+    "elevation_max_m": 920,
+    "roads_main": [
+      "C-17",
+      "BV-5201",
+      "BV-5213",
+      "C-153",
+      "BV-4608"
+    ],
+    "esmorzar": {
+      "town": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254,
+      "specialty": "Esmorzar al mercat central amb llonganissa de Vic i formatge d'Osona",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "mercat",
+      "pantà",
+      "bosc",
+      "guilleries",
+      "corbes"
+    ]
+  },
+  {
+    "id": "ruta-021",
+    "number": 21,
+    "name": "Delta del Llobregat al Cap de Creus del Garraf",
+    "slug": "delta-llobregat-garraf",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Baix Llobregat",
+    "summary": "Sortida pel delta del Llobregat, travessant les zones humides i els camps de conreu fins a Gavà, pujada a Begues pel Parc del Garraf, i baixada sinuosa cap a Vilanova i la Geltrú. Retorn per l'autopista. Una ruta costanera amb trams sorprenentment tècnics a l'interior del Garraf.",
+    "total_distance_km": 140,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1200,
+    "elevation_max_m": 580,
+    "roads_main": [
+      "C-31",
+      "BV-2041",
+      "C-15",
+      "C-32",
+      "B-20"
+    ],
+    "esmorzar": {
+      "town": "Vilanova i la Geltrú",
+      "comarca": "Garraf",
+      "lat": 41.224,
+      "lng": 1.726,
+      "specialty": "Esmorzar de mar amb sepia a la planxa i pa amb allioli",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "costa",
+      "delta",
+      "parc-natural",
+      "corbes"
+    ]
+  },
+  {
+    "id": "ruta-022",
+    "number": 22,
+    "name": "Collserola i la Carretera de les Aigües",
+    "slug": "collserola-carretera-aigues",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Barcelonès",
+    "summary": "Travessia completa del Parc de Collserola per carreteres asfaltades, des de la Rabassada fins a Molins de Rei, amb extensió cap a Sant Cugat i Cerdanyola. Revolts entre pins amb vistes a Barcelona d'un costat i al Vallès de l'altre. Tot a menys de 20 minuts del centre de la ciutat.",
+    "total_distance_km": 120,
+    "estimated_duration_hours": 3,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1400,
+    "elevation_max_m": 512,
+    "roads_main": [
+      "BV-1468",
+      "BP-1417",
+      "BV-1462",
+      "B-20",
+      "C-16"
+    ],
+    "esmorzar": {
+      "town": "Sant Cugat del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.473,
+      "lng": 2.086,
+      "specialty": "Esmorzar de forquilla a Cal Cortés amb truita i embotits",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "urbà",
+      "bosc",
+      "vistes-ciutat",
+      "accessible"
+    ]
+  },
+  {
+    "id": "ruta-023",
+    "number": 23,
+    "name": "El Vallès Oriental: Cingles de Bertí",
+    "slug": "valles-oriental-cingles-berti",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Oriental",
+    "summary": "De Cerdanyola cap a Granollers i pujada als Cingles de Bertí, una espectacular barrera rocosa amb vistes aèries sobre el Vallès. Carreteres de muntanya per Sant Quirze Safaja i Castellcir amb asfalt excel·lent i un ambient de total aïllament a pocs quilòmetres de la civilització.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 860,
+    "roads_main": [
+      "C-33",
+      "C-17",
+      "BV-1248",
+      "BV-1245",
+      "B-124"
+    ],
+    "esmorzar": {
+      "town": "El Brull",
+      "comarca": "Osona",
+      "lat": 41.837,
+      "lng": 2.305,
+      "specialty": "Esmorzar pagès amb truita de bolets i pa de Sant Quirze",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "cingles",
+      "vistes-aèries",
+      "corbes",
+      "bosc"
+    ]
+  },
+  {
+    "id": "ruta-024",
+    "number": 24,
+    "name": "Sant Llorenç Savall i el Pre-Pirineu Proper",
+    "slug": "sant-llorenc-savall-pre-pirineu",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Ruta que connecta el Vallès amb el pre-Pirineu proper, passant per Sant Llorenç Savall, Castellterçol i Moià. Carreteres que guanyen alçada progressivament, amb vegetació que canvia dels alzinars mediterranis als boscos de pi roig. Tornada pel Congost amb un tram ràpid per la C-17.",
+    "total_distance_km": 160,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1900,
+    "elevation_max_m": 900,
+    "roads_main": [
+      "C-58",
+      "BV-1221",
+      "B-124",
+      "BV-1245",
+      "C-17",
+      "C-33"
+    ],
+    "esmorzar": {
+      "town": "Castellterçol",
+      "comarca": "Moianès",
+      "lat": 41.756,
+      "lng": 2.12,
+      "specialty": "Esmorzar de forquilla amb vedella de Castellterçol i patates a la brasa",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pre-pirineu",
+      "bosc",
+      "progressiu",
+      "carreteres-secundàries"
+    ]
+  },
+  {
+    "id": "ruta-025",
+    "number": 25,
+    "name": "La Volta al Tibidabo",
+    "slug": "volta-tibidabo",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Barcelonès",
+    "summary": "Pujada al Tibidabo per la carretera de Vallvidrera, travessia de Collserola fins a la Floresta, baixada cap a Molins de Rei i remuntada per Sant Feliu i la Ronda de Dalt. Combinació urbana i forestal amb vistes panoràmiques de tota la ciutat i el mar al fons. Ruta ràpida i efectiva.",
+    "total_distance_km": 125,
+    "estimated_duration_hours": 3,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1300,
+    "elevation_max_m": 512,
+    "roads_main": [
+      "BV-1468",
+      "BP-1417",
+      "B-23",
+      "B-20",
+      "C-16"
+    ],
+    "esmorzar": {
+      "town": "Vallvidrera",
+      "comarca": "Barcelonès",
+      "lat": 41.417,
+      "lng": 2.107,
+      "specialty": "Entrepà de pernil ibèric amb tomàquet en un bar de Vallvidrera",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "urbà",
+      "vistes",
+      "collserola",
+      "accessible"
+    ]
+  },
+  {
+    "id": "ruta-026",
+    "number": 26,
+    "name": "El Maresme Curt: Mataró i Dosrius",
+    "slug": "maresme-curt-mataro-dosrius",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Maresme",
+    "summary": "Ruta curta que baixa a la costa del Maresme per Mataró i remunta per Dosrius, un petit poble de muntanya amb encant. Carreteres amples i ben senyalitzades, amb un tram costaner agradable i una pujada interior suau. Perfecta per gaudir del mar sense complicacions.",
+    "total_distance_km": 80,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 500,
+    "elevation_max_m": 420,
+    "roads_main": [
+      "C-33",
+      "C-32",
+      "BV-5105",
+      "BV-5028"
+    ],
+    "esmorzar": {
+      "town": "Mataró",
+      "comarca": "Maresme",
+      "lat": 41.54,
+      "lng": 2.444,
+      "specialty": "Esmorzar de mar amb sardines a la brasa i pa amb tomàquet",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "fàcil",
+      "mar",
+      "pobles"
+    ]
+  },
+  {
+    "id": "ruta-027",
+    "number": 27,
+    "name": "Collserola Express",
+    "slug": "collserola-express",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Barcelonès",
+    "summary": "El circuit més accessible des de Barcelona: pujada al Tibidabo per la BV-1468, volta pel Parc de Collserola i baixada per Molins de Rei. Carreteres ben asfaltades, revolts suaus i vistes espectaculars de la ciutat. La introducció perfecta al motociclisme de ruta.",
+    "total_distance_km": 45,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 400,
+    "elevation_max_m": 512,
+    "roads_main": [
+      "BV-1468",
+      "BP-1417",
+      "BV-1462"
+    ],
+    "esmorzar": {
+      "town": "Vallvidrera",
+      "comarca": "Barcelonès",
+      "lat": 41.417,
+      "lng": 2.107,
+      "specialty": "Cafè amb croissant a Can Trampa, amb vistes sobre Barcelona",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "urbà",
+      "fàcil",
+      "vistes",
+      "primer-cop"
+    ]
+  },
+  {
+    "id": "ruta-028",
+    "number": 28,
+    "name": "Sant Cugat i la Floresta",
+    "slug": "sant-cugat-floresta",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Volta curta per les urbanitzacions boscoses de Sant Cugat, la Floresta i Valldoreix. Carreteres residencials amb poc trànsit, ombra de pins i una sensació de calma total. Perfecta per practicar revolts suaus i agafar confiança amb la moto.",
+    "total_distance_km": 40,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 300,
+    "elevation_max_m": 350,
+    "roads_main": [
+      "BV-1462",
+      "BP-1417",
+      "B-20"
+    ],
+    "esmorzar": {
+      "town": "Sant Cugat del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.473,
+      "lng": 2.086,
+      "specialty": "Esmorzar complet amb torrada de pa amb tomàquet i cafè a la plaça Octavià",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "tranquil",
+      "bosc",
+      "urbà"
+    ]
+  },
+  {
+    "id": "ruta-029",
+    "number": 29,
+    "name": "El Garraf Curt: Gavà a Sitges",
+    "slug": "garraf-curt-gava-sitges",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Barcelona",
+      "comarca": "Barcelonès",
+      "lat": 41.389,
+      "lng": 2.159
+    },
+    "comarca_principal": "Garraf",
+    "summary": "La ruta costanera per excel·lència per a principiants: de Barcelona a Sitges per la C-32 amb el mar sempre present. Un passeig visual espectacular pels túnels del Garraf i les cales amagades. Tornada pel mateix camí amb la llum canviant sobre el Mediterrani.",
+    "total_distance_km": 75,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 280,
+    "roads_main": [
+      "C-32",
+      "C-31",
+      "B-20"
+    ],
+    "esmorzar": {
+      "town": "Sitges",
+      "comarca": "Garraf",
+      "lat": 41.236,
+      "lng": 1.812,
+      "specialty": "Esmorzar al passeig marítim amb coca de vidre i cafè amb llet",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "costa",
+      "mar",
+      "fàcil",
+      "passeig"
+    ]
+  },
+  {
+    "id": "ruta-030",
+    "number": 30,
+    "name": "Granollers i la Roca del Vallès",
+    "slug": "granollers-roca-valles",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Oriental",
+    "summary": "Travessia del Vallès de punta a punta, de Cerdanyola a Granollers per la Roca del Vallès. Carreteres planes i directes que permeten rodar amb comoditat, amb una parada a Granollers per esmorzar al mercat. Ruta ideal per a un matí tranquil sense complicacions.",
+    "total_distance_km": 60,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 200,
+    "elevation_max_m": 280,
+    "roads_main": [
+      "C-33",
+      "C-17",
+      "BV-5001",
+      "AP-7"
+    ],
+    "esmorzar": {
+      "town": "Granollers",
+      "comarca": "Vallès Oriental",
+      "lat": 41.608,
+      "lng": 2.288,
+      "specialty": "Esmorzar al mercat de Granollers amb embotits i torrades amb tomàquet",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "pla",
+      "fàcil",
+      "mercat",
+      "vallès"
+    ]
+  },
+  {
+    "id": "ruta-031",
+    "number": 31,
+    "name": "Mollet i Santa Perpètua",
+    "slug": "mollet-santa-perpetua",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Circuit curtíssim i sense cap dificultat tècnica: Cerdanyola, Santa Perpètua de Mogoda, Mollet del Vallès i tornada. Perfecta per a qui acaba de treure's el carnet i vol fer els primers quilòmetres fora de ciutat amb total seguretat. Carreteres planes i rectes.",
+    "total_distance_km": 42,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 100,
+    "elevation_max_m": 180,
+    "roads_main": [
+      "B-140",
+      "C-33",
+      "N-150"
+    ],
+    "esmorzar": {
+      "town": "Mollet del Vallès",
+      "comarca": "Vallès Oriental",
+      "lat": 41.544,
+      "lng": 2.19,
+      "specialty": "Entrepà de truita amb café amb llet a un bar del centre",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "primer-cop",
+      "pla",
+      "urbà"
+    ]
+  },
+  {
+    "id": "ruta-032",
+    "number": 32,
+    "name": "Sant Llorenç del Munt: La Mola per Dins",
+    "slug": "sant-llorenc-munt-mola",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Terrassa",
+      "comarca": "Vallès Occidental",
+      "lat": 41.563,
+      "lng": 2.008
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Volta completa al massís de Sant Llorenç del Munt sortint de Terrassa. Pujada per Matadepera amb revolts tancats entre conglomerats rocosos, pas per Mura i el Pont de Vilomara, i tornada per Vacarisses. Paisatge de roca i bosc amb trams tècnics que demanen precisió.",
+    "total_distance_km": 130,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 2000,
+    "elevation_max_m": 880,
+    "roads_main": [
+      "BV-1221",
+      "BV-1229",
+      "B-124",
+      "BV-1245",
+      "C-58"
+    ],
+    "esmorzar": {
+      "town": "Matadepera",
+      "comarca": "Vallès Occidental",
+      "lat": 41.598,
+      "lng": 2.023,
+      "specialty": "Esmorzar de forquilla a La Masia de Matadepera amb botifarra i ous ferrats",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "conglomerats",
+      "corbes-tancades",
+      "parc-natural",
+      "tècnic"
+    ]
+  },
+  {
+    "id": "ruta-033",
+    "number": 33,
+    "name": "Terrassa - Montseny pel Moianès",
+    "slug": "terrassa-montseny-moianes",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Terrassa",
+      "comarca": "Vallès Occidental",
+      "lat": 41.563,
+      "lng": 2.008
+    },
+    "comarca_principal": "Osona",
+    "summary": "Gran ruta que connecta Terrassa amb el Montseny passant pel Moianès. De Terrassa a Castellterçol per la B-124, pujada fins a Moià i baixada al Montseny per carreteres solitàries. Fagedes, pins i corbes inacabables amb un desnivell acumulat notable. Per a motociclistes amb experiència.",
+    "total_distance_km": 220,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 2800,
+    "elevation_max_m": 1200,
+    "roads_main": [
+      "B-124",
+      "BV-1245",
+      "BV-5301",
+      "BV-5114",
+      "C-17",
+      "C-58"
+    ],
+    "esmorzar": {
+      "town": "Santa Fe del Montseny",
+      "comarca": "Vallès Oriental",
+      "lat": 41.776,
+      "lng": 2.449,
+      "specialty": "Esmorzar de muntanya amb botifarra del perol i patates al caliu al restaurant de Santa Fe",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "fageda",
+      "llarga-distància",
+      "corbes",
+      "exigent"
+    ]
+  },
+  {
+    "id": "ruta-034",
+    "number": 34,
+    "name": "Rellinars, Vacarisses i el Congost del Llobregat",
+    "slug": "rellinars-vacarisses-congost",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Sabadell",
+      "comarca": "Vallès Occidental",
+      "lat": 41.543,
+      "lng": 2.108
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Ruta que explora el sector occidental del Vallès, de Sabadell a Rellinars per carreteres estretes, baixada a Vacarisses pel congost del Llobregat i tornada per Olesa de Montserrat amb vistes a Montserrat. Trams tècnics amb revolts entre pins i un ambient de total aïllament.",
+    "total_distance_km": 125,
+    "estimated_duration_hours": 3,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1500,
+    "elevation_max_m": 640,
+    "roads_main": [
+      "C-58",
+      "BV-1229",
+      "B-124",
+      "BP-1101",
+      "C-55"
+    ],
+    "esmorzar": {
+      "town": "Olesa de Montserrat",
+      "comarca": "Baix Llobregat",
+      "lat": 41.545,
+      "lng": 1.893,
+      "specialty": "Esmorzar de forquilla amb ous estrellats i llonganissa a un bar de carretera",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "congost",
+      "carreteres-estretes",
+      "montserrat",
+      "bosc"
+    ]
+  },
+  {
+    "id": "ruta-035",
+    "number": 35,
+    "name": "Castellar del Vallès i les Obagues",
+    "slug": "castellar-valles-obagues",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Sabadell",
+      "comarca": "Vallès Occidental",
+      "lat": 41.543,
+      "lng": 2.108
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Circuit pels voltants de Castellar del Vallès, pujant cap a Sentmenat i la serra de l'Obac per la BV-1248. Carreteres amb revolts generosos entre boscos d'alzina i pi blanc, amb parades possibles a masies i fonts. Tornada per Sant Llorenç Savall completant un circuit molt satisfactori.",
+    "total_distance_km": 135,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 780,
+    "roads_main": [
+      "B-124",
+      "BV-1248",
+      "BV-1221",
+      "C-58",
+      "N-150"
+    ],
+    "esmorzar": {
+      "town": "Castellar del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.616,
+      "lng": 2.083,
+      "specialty": "Esmorzar a Can Gibert amb truita de patates i café de matí",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "bosc",
+      "carreteres-secundàries",
+      "masies",
+      "tranquil"
+    ]
+  },
+  {
+    "id": "ruta-036",
+    "number": 36,
+    "name": "Sabadell a Montserrat per l'Interior",
+    "slug": "sabadell-montserrat-interior",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Sabadell",
+      "comarca": "Vallès Occidental",
+      "lat": 41.543,
+      "lng": 2.108
+    },
+    "comarca_principal": "Bages",
+    "summary": "De Sabadell a Montserrat per la ruta interior: Terrassa, Vacarisses i el Bruc fins al monestir, amb tornada per Monistrol i la C-55. Combinació de trams ràpids i revolts de muntanya amb la silueta de Montserrat com a fil conductor. Esmorzar amb vistes a la muntanya sagrada.",
+    "total_distance_km": 140,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 720,
+    "roads_main": [
+      "C-58",
+      "BV-1229",
+      "A-2",
+      "BP-1103",
+      "C-55",
+      "B-124"
+    ],
+    "esmorzar": {
+      "town": "Monistrol de Montserrat",
+      "comarca": "Bages",
+      "lat": 41.61,
+      "lng": 1.84,
+      "specialty": "Esmorzar al restaurant del monestir amb coca de recapte i embotits de la zona",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "montserrat",
+      "monestir",
+      "revolts",
+      "vistes"
+    ]
+  },
+  {
+    "id": "ruta-037",
+    "number": 37,
+    "name": "Matadepera i la Vall de Sant Llorenç",
+    "slug": "matadepera-vall-sant-llorenc",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Terrassa",
+      "comarca": "Vallès Occidental",
+      "lat": 41.563,
+      "lng": 2.008
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "Pujada suau de Terrassa a Matadepera, un poble acomodat al peu de Sant Llorenç del Munt. Circuit curt per les urbanitzacions boscoses amb vistes als conglomerats del massís. Carreteres amples i ben mantingudes, ideals per a primeres sortides amb un esmorzar de masia.",
+    "total_distance_km": 50,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 520,
+    "roads_main": [
+      "BV-1221",
+      "BV-1229",
+      "C-58"
+    ],
+    "esmorzar": {
+      "town": "Matadepera",
+      "comarca": "Vallès Occidental",
+      "lat": 41.598,
+      "lng": 2.023,
+      "specialty": "Esmorzar de masia amb pa amb tomàquet, pernil i cafè al sol",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "masia",
+      "bosc",
+      "vistes"
+    ]
+  },
+  {
+    "id": "ruta-038",
+    "number": 38,
+    "name": "Sabadell a Sentmenat pel Rodal",
+    "slug": "sabadell-sentmenat-rodal",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Sabadell / Terrassa",
+    "starting_point": {
+      "name": "Sabadell",
+      "comarca": "Vallès Occidental",
+      "lat": 41.543,
+      "lng": 2.108
+    },
+    "comarca_principal": "Vallès Occidental",
+    "summary": "El circuit més senzill des de Sabadell: pujada a Sentmenat per la B-124, volta per Polinyà i Santa Perpètua de Mogoda, i tornada. Carreteres planes amb algun revolt suau, paisatge agrícola del Vallès i zero complicacions. La ruta perfecta per estrenar-se.",
+    "total_distance_km": 45,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 200,
+    "elevation_max_m": 280,
+    "roads_main": [
+      "B-124",
+      "C-59",
+      "N-150",
+      "B-140"
+    ],
+    "esmorzar": {
+      "town": "Sentmenat",
+      "comarca": "Vallès Occidental",
+      "lat": 41.632,
+      "lng": 2.148,
+      "specialty": "Entrepà de botifarra amb mongetes a un bar de carretera a Sentmenat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "fàcil",
+      "primer-cop",
+      "pla",
+      "agrícola"
+    ]
+  },
+  {
+    "id": "ruta-039",
+    "number": 39,
+    "name": "Les 365 Corbes de la Costa Brava",
+    "slug": "les-365-corbes-de-la-costa-brava",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Selva",
+    "summary": "La ruta mítica de la GI-682 entre Tossa de Mar i Sant Feliu de Guíxols, amb les seves llegendàries 365 corbes sobre penya-segats que cauen al mar. Un festí de revolts tècnics, vistes infinites al Mediterrani i parades en cales amagades.",
+    "total_distance_km": 185,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 1850,
+    "elevation_max_m": 320,
+    "roads_main": [
+      "GI-682",
+      "GI-664",
+      "C-65",
+      "C-63"
+    ],
+    "esmorzar": {
+      "town": "Tossa de Mar",
+      "comarca": "La Selva",
+      "lat": 41.721,
+      "lng": 2.934,
+      "specialty": "Esmorzar de forquilla amb peix fresc i pa amb tomàquet davant del mar",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "corbes",
+      "icònica",
+      "penya-segats"
+    ]
+  },
+  {
+    "id": "ruta-040",
+    "number": 40,
+    "name": "Cap de Creus i Cadaqués",
+    "slug": "cap-de-creus-i-cadaques",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Alt Empordà",
+    "summary": "Travessa de l'Empordà fins al punt més oriental de la Península Ibèrica. Les carreteres serpentejen entre oliveres centenàries i vinyes fins a Cadaqués, el poble blanc que va inspirar Dalí. El descens cap al Cap de Creus és un laberint de corbes amb vistes al cap rocós batut pel vent.",
+    "total_distance_km": 210,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 450,
+    "roads_main": [
+      "C-66",
+      "GI-614",
+      "GI-610",
+      "N-II"
+    ],
+    "esmorzar": {
+      "town": "Cadaqués",
+      "comarca": "Alt Empordà",
+      "lat": 42.289,
+      "lng": 3.278,
+      "specialty": "Esmorzar de forquilla amb anxoves de Cadaqués i pa de vidre",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "corbes",
+      "cultura",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-041",
+    "number": 41,
+    "name": "Volcans de la Garrotxa",
+    "slug": "volcans-de-la-garrotxa",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "Ruta cap al cor volcànic de Catalunya, travessant fagedes i pobles medievals. Des de Besalú i el seu pont romànic fins a Santa Pau, passant per Olot i la seva espectacular zona volcànica. Carreteres sinuoses enmig d'un paisatge verd que sembla un altre país.",
+    "total_distance_km": 175,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1400,
+    "elevation_max_m": 680,
+    "roads_main": [
+      "C-66",
+      "A-26",
+      "GI-524",
+      "C-152",
+      "C-63"
+    ],
+    "esmorzar": {
+      "town": "Santa Pau",
+      "comarca": "La Garrotxa",
+      "lat": 42.145,
+      "lng": 2.567,
+      "specialty": "Fesols de Santa Pau amb botifarra i un glop de ratafía",
+      "confidence": "verified"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "volcans",
+      "natura",
+      "medieval",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-042",
+    "number": 42,
+    "name": "El Triangle Dalinià",
+    "slug": "el-triangle-dalinia",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Alt Empordà",
+    "summary": "Recorregut pels tres vèrtexs del triangle Dalí: Figueres, Portlligat i Púbol. Un viatge entre art i paisatge que combina les planes de l'Empordà amb els revolts cap a la costa. Les carreteres secundàries entre Peralada i Vilabertran són un plaer per a la moto.",
+    "total_distance_km": 195,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 1100,
+    "elevation_max_m": 380,
+    "roads_main": [
+      "C-66",
+      "N-II",
+      "GI-614",
+      "C-31",
+      "C-252"
+    ],
+    "esmorzar": {
+      "town": "Figueres",
+      "comarca": "Alt Empordà",
+      "lat": 42.266,
+      "lng": 2.962,
+      "specialty": "Esmorzar de forquilla empordanès amb carn a la brasa i escalivada",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "cultura",
+      "empordà",
+      "paisatge",
+      "pobles"
+    ]
+  },
+  {
+    "id": "ruta-043",
+    "number": 43,
+    "name": "Montseny des del Gironès",
+    "slug": "montseny-des-del-girones",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Selva",
+    "summary": "Ascensió al massís del Montseny des del vessant oriental, menys transitat però igualment espectacular. La GI-543 puja entre alzinars i castanyers amb revolts tancs i desnivells exigents. Un repte tècnic amb recompensa paisatgística des dels cims del Turó de l'Home.",
+    "total_distance_km": 200,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2200,
+    "elevation_max_m": 1100,
+    "roads_main": [
+      "C-63",
+      "GI-543",
+      "BV-5301",
+      "C-35"
+    ],
+    "esmorzar": {
+      "town": "Arbúcies",
+      "comarca": "La Selva",
+      "lat": 41.819,
+      "lng": 2.514,
+      "specialty": "Esmorzar de pagès amb truita de patates, botifarra i mongetes",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "corbes",
+      "natura",
+      "tècnic"
+    ]
+  },
+  {
+    "id": "ruta-044",
+    "number": 44,
+    "name": "Palafrugell i la Costa Brava Interior",
+    "slug": "palafrugell-i-la-costa-brava-interior",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Baix Empordà",
+    "summary": "Ruta que combina el Baix Empordà interior amb la costa. Des dels camps d'arròs de Pals fins als penya-segats de Calella de Palafrugell, passant per pobles medievals enlairats. La GI-614 i les carreteres locals ofereixen un ritme constant de corbes suaus entre masies i pinedes.",
+    "total_distance_km": 160,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1050,
+    "elevation_max_m": 280,
+    "roads_main": [
+      "C-66",
+      "GI-614",
+      "C-31",
+      "GI-664"
+    ],
+    "esmorzar": {
+      "town": "Palafrugell",
+      "comarca": "Baix Empordà",
+      "lat": 41.918,
+      "lng": 3.163,
+      "specialty": "Suquet de peix i pa amb tomàquet a un restaurant del centre",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "pobles",
+      "gastronomia",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-045",
+    "number": 45,
+    "name": "La Ruta del Ter fins a Besalú",
+    "slug": "la-ruta-del-ter-fins-a-besalu",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "Seguint el curs del Ter i els seus afluents cap a l'interior, aquesta ruta connecta Banyoles amb Besalú i torna per la Vall d'en Bas. El pont romànic de Besalú és l'escenari perfecte per a una foto, i les carreteres entre Banyoles i Serinyà travessen un paisatge lacustre únic.",
+    "total_distance_km": 155,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 950,
+    "elevation_max_m": 520,
+    "roads_main": [
+      "C-66",
+      "GI-524",
+      "A-26",
+      "C-152"
+    ],
+    "esmorzar": {
+      "town": "Besalú",
+      "comarca": "La Garrotxa",
+      "lat": 42.199,
+      "lng": 2.699,
+      "specialty": "Embotits d'Olot amb coca de forner i vi negre del país",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "medieval",
+      "rius",
+      "cultura",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-046",
+    "number": 46,
+    "name": "L'Alta Garrotxa Salvatge",
+    "slug": "lalta-garrotxa-salvatge",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "L'Alta Garrotxa és un dels racons més aïllats i salvatges de Catalunya. Carreteres estretes i sinuoses pugen fins a pobles quasi abandonats com Sadernes i Oix. El paisatge calcari amb gorges profundes i boscos densos fa d'aquesta ruta una experiència de conducció extrema i solitària.",
+    "total_distance_km": 220,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 2500,
+    "elevation_max_m": 950,
+    "roads_main": [
+      "C-66",
+      "A-26",
+      "GI-524",
+      "GI-522",
+      "C-26"
+    ],
+    "esmorzar": {
+      "town": "Olot",
+      "comarca": "La Garrotxa",
+      "lat": 42.181,
+      "lng": 2.491,
+      "specialty": "Esmorzar de forquilla garrotxí amb fesols, botifarra negra i trinxat",
+      "confidence": "verified"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu"
+    ],
+    "tags": [
+      "muntanya",
+      "aïllament",
+      "tècnic",
+      "natura"
+    ]
+  },
+  {
+    "id": "ruta-047",
+    "number": 47,
+    "name": "Banyoles i Crespianes",
+    "slug": "banyoles-i-crespianes",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Pla de l'Estany",
+    "summary": "Ruta relaxada però amb caràcter que envolta l'estany de Banyoles i s'endinsa cap a les Gavarres i el Pla de l'Estany. Les carreteres comarcals entre Crespià, Esponellà i Porqueres ofereixen un traçat fluid amb vistes al llac i als camps de conreu de la plana empordanesa.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 800,
+    "elevation_max_m": 350,
+    "roads_main": [
+      "C-66",
+      "GI-524",
+      "BV-5131",
+      "GI-664"
+    ],
+    "esmorzar": {
+      "town": "Banyoles",
+      "comarca": "Pla de l'Estany",
+      "lat": 42.119,
+      "lng": 2.764,
+      "specialty": "Esmorzar de forquilla amb ànec del Pla de l'Estany i pa de pagès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "llac",
+      "paisatge",
+      "tranquil",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-048",
+    "number": 48,
+    "name": "Pirineu de Girona: Ripoll i la Vall de Camprodon",
+    "slug": "pirineu-de-girona-ripoll-i-la-vall-de-camprodon",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Ripollès",
+    "summary": "Gran ruta cap als Pirineus orientals, remuntant la C-17 fins a Ripoll i després la N-260 cap a Camprodon i Molló. Carreteres de muntanya amb revolts amplis i vistes als pics nevats. El monestir de Ripoll i els pobles pirinencs de pedra són parades imprescindibles.",
+    "total_distance_km": 245,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 2400,
+    "elevation_max_m": 1350,
+    "roads_main": [
+      "C-63",
+      "C-17",
+      "N-260",
+      "C-38",
+      "C-152"
+    ],
+    "esmorzar": {
+      "town": "Camprodon",
+      "comarca": "Ripollès",
+      "lat": 42.313,
+      "lng": 2.365,
+      "specialty": "Embotits del Ripollès amb mel i galetes Birba de Camprodon",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineus",
+      "muntanya",
+      "cultura",
+      "corbes"
+    ]
+  },
+  {
+    "id": "ruta-049",
+    "number": 49,
+    "name": "Empordanet: Pals, Peratallada i Ullastret",
+    "slug": "empordanet-pals-peratallada-i-ullastret",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Baix Empordà",
+    "summary": "Passeig tranquil pels pobles medievals més bonics de l'Empordà. Carreteres planes i amples entre camps d'arròs, masies i pobles de pedra com Pals, Peratallada i Ullastret. Ideal per gaudir sense pressa del paisatge empordanès i la seva gastronomia.",
+    "total_distance_km": 85,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 250,
+    "elevation_max_m": 180,
+    "roads_main": [
+      "C-66",
+      "GI-643",
+      "GI-644",
+      "C-31"
+    ],
+    "esmorzar": {
+      "town": "Pals",
+      "comarca": "Baix Empordà",
+      "lat": 41.972,
+      "lng": 3.148,
+      "specialty": "Arròs de Pals amb botifarra i oli d'oliva de l'Empordà",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "medieval",
+      "empordà",
+      "gastronomia",
+      "tranquil"
+    ]
+  },
+  {
+    "id": "ruta-050",
+    "number": 50,
+    "name": "L'Estany de Banyoles i Porqueres",
+    "slug": "lestany-de-banyoles-i-porqueres",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Pla de l'Estany",
+    "summary": "Ruta curta i planera fins a l'estany de Banyoles, el llac més gran de Catalunya. Volta tranquil·la per Porqueres i els voltants del llac amb carreteres amples i ben asfaltades. Perfecta per a un matí relaxat amb esmorzar a la vora de l'aigua.",
+    "total_distance_km": 65,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 180,
+    "elevation_max_m": 175,
+    "roads_main": [
+      "C-66",
+      "GI-524",
+      "GI-554"
+    ],
+    "esmorzar": {
+      "town": "Banyoles",
+      "comarca": "Pla de l'Estany",
+      "lat": 42.119,
+      "lng": 2.764,
+      "specialty": "Entrepà de llonganissa amb un tallat a la plaça Major",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "llac",
+      "tranquil",
+      "principiant",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-051",
+    "number": 51,
+    "name": "Besalú i la Vall del Fluvià",
+    "slug": "besalu-i-la-vall-del-fluvia",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "Excursió matinal fins a Besalú, la joia medieval de la Garrotxa. La C-66 és àmplia i còmoda, i el poble amb el seu pont romànic del segle XII és una parada obligatòria. Tornada per Banyoles per completar un circuit fàcil i gratificant.",
+    "total_distance_km": 90,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 290,
+    "roads_main": [
+      "C-66",
+      "A-26",
+      "GI-524"
+    ],
+    "esmorzar": {
+      "town": "Besalú",
+      "comarca": "La Garrotxa",
+      "lat": 42.199,
+      "lng": 2.699,
+      "specialty": "Esmorzar de pagès amb truita, embotits i coca de llardons",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "medieval",
+      "cultura",
+      "principiant",
+      "pont"
+    ]
+  },
+  {
+    "id": "ruta-052",
+    "number": 52,
+    "name": "Cala Estreta i Sant Feliu de Guíxols",
+    "slug": "cala-estreta-i-sant-feliu-de-guixols",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Baix Empordà",
+    "summary": "Baixada fins a la costa per la GI-664 fins a Sant Feliu de Guíxols, amb un petit tram de la mítica GI-682 apte per a principiants. Vistes al mar, una parada per esmorzar al port i una tornada tranquil·la per l'interior. Un tast de Costa Brava sense complicacions.",
+    "total_distance_km": 80,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 450,
+    "elevation_max_m": 250,
+    "roads_main": [
+      "C-65",
+      "GI-664",
+      "GI-682",
+      "C-31"
+    ],
+    "esmorzar": {
+      "town": "Sant Feliu de Guíxols",
+      "comarca": "Baix Empordà",
+      "lat": 41.784,
+      "lng": 3.032,
+      "specialty": "Esmorzar de peix fresc al port amb cafè i vistes al mar",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "mar",
+      "principiant",
+      "port"
+    ]
+  },
+  {
+    "id": "ruta-053",
+    "number": 53,
+    "name": "Les Gavarres Secretes",
+    "slug": "les-gavarres-secretes",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Gironès",
+    "summary": "Descoberta del massís de les Gavarres, la muntanya verda entre Girona i la costa. Carreteres tranquil·les entre alzinars i suredes, passant per Madremanya, Monells i Cruïlles. Un circuit curt i suau per gaudir del silenci i els pobles de pedra del Gironès interior.",
+    "total_distance_km": 70,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 380,
+    "elevation_max_m": 320,
+    "roads_main": [
+      "C-66",
+      "GI-660",
+      "GI-664",
+      "C-65"
+    ],
+    "esmorzar": {
+      "town": "Monells",
+      "comarca": "Baix Empordà",
+      "lat": 41.964,
+      "lng": 2.96,
+      "specialty": "Entrepà d'embotits artesans amb oli d'oliva de les Gavarres",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "bosc",
+      "pobles",
+      "tranquil",
+      "principiant"
+    ]
+  },
+  {
+    "id": "ruta-054",
+    "number": 54,
+    "name": "El Collsacabra: Rupit i els Cingles",
+    "slug": "el-collsacabra-rupit-i-els-cingles",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "La joia de la corona d'Osona: la BV-5207 puja fins a Rupit i Pruit entre cingles vertiginosos i boscos frondosos. El pont penjant sobre el Salt de Sallent, la cascada més alta de Catalunya, és un moment màgic. Revolts tècnics amb vistes que tallen l'alè sobre la plana de Vic.",
+    "total_distance_km": 135,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 1050,
+    "roads_main": [
+      "BV-5207",
+      "BV-5224",
+      "C-153",
+      "BV-5201"
+    ],
+    "esmorzar": {
+      "town": "Rupit i Pruit",
+      "comarca": "Osona",
+      "lat": 42.024,
+      "lng": 2.464,
+      "specialty": "Esmorzar de forquilla rústic amb patates amb suc i botifarra a la brasa",
+      "confidence": "verified"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "cingles",
+      "cascada",
+      "tècnic",
+      "natura"
+    ]
+  },
+  {
+    "id": "ruta-055",
+    "number": 55,
+    "name": "Montseny pel Nord: Viladrau i el Turó de l'Home",
+    "slug": "montseny-pel-nord-viladrau-i-el-turo-de-lhome",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Ascensió al Montseny des del vessant nord, menys conegut i més salvatge. La BV-5301 travessa Viladrau i s'enfila cap al Turó de l'Home amb revolts entre castanyers i fagedes. A l'hivern la boira dóna un aire misteriós; a la tardor els colors són extraordinaris.",
+    "total_distance_km": 155,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 2100,
+    "elevation_max_m": 1200,
+    "roads_main": [
+      "C-17",
+      "BV-5301",
+      "BV-5114",
+      "C-35"
+    ],
+    "esmorzar": {
+      "town": "Viladrau",
+      "comarca": "Osona",
+      "lat": 41.847,
+      "lng": 2.384,
+      "specialty": "Esmorzar de muntanya amb embotits de Vic i pa de pagès amb tomàquet",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "bosc",
+      "corbes",
+      "tècnic"
+    ]
+  },
+  {
+    "id": "ruta-056",
+    "number": 56,
+    "name": "L'Embassament de Sau i les Guilleries",
+    "slug": "lembassament-de-sau-i-les-guilleries",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Ruta fins a l'embassament de Sau, on el campanar de l'església submergida emergeix quan baixa el nivell de l'aigua. La C-153 serpenteja per les Guilleries amb vistes espectaculars al pantà i als boscos. Tavèrnoles i els seus voltants ofereixen carreteres solitàries i gratificants.",
+    "total_distance_km": 120,
+    "estimated_duration_hours": 3,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1200,
+    "elevation_max_m": 750,
+    "roads_main": [
+      "C-153",
+      "BV-5213",
+      "BV-5201",
+      "C-17"
+    ],
+    "esmorzar": {
+      "town": "Tavèrnoles",
+      "comarca": "Osona",
+      "lat": 41.895,
+      "lng": 2.365,
+      "specialty": "Esmorzar de forquilla amb llonganissa de Vic i ous ferrats",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "embassament",
+      "bosc",
+      "paisatge",
+      "solitari"
+    ]
+  },
+  {
+    "id": "ruta-057",
+    "number": 57,
+    "name": "De Vic a Ripoll pel Ripollès",
+    "slug": "de-vic-a-ripoll-pel-ripolles",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Ripollès",
+    "summary": "Travessa cap al nord seguint la C-17 fins a Ripoll, bressol de Catalunya, i continuant per la N-152 cap al Coll de Toses. Carreteres amples amb revolts progressius que guanyen alçada cap als Pirineus. El monestir de Ripoll i el paisatge de muntanya fan d'aquesta ruta un clàssic.",
+    "total_distance_km": 180,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1900,
+    "elevation_max_m": 1450,
+    "roads_main": [
+      "C-17",
+      "N-152",
+      "C-26",
+      "BV-5224"
+    ],
+    "esmorzar": {
+      "town": "Ripoll",
+      "comarca": "Ripollès",
+      "lat": 42.201,
+      "lng": 2.19,
+      "specialty": "Esmorzar de forquilla ripollès amb trinxat de la Cerdanya i botifarra",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "estiu"
+    ],
+    "tags": [
+      "pirineus",
+      "cultura",
+      "muntanya",
+      "monestir"
+    ]
+  },
+  {
+    "id": "ruta-058",
+    "number": 58,
+    "name": "El Lluçanès Profund",
+    "slug": "el-llucanes-profund",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Immersió en el Lluçanès, una de les zones més desconegudes i despoblades de la Catalunya central. Carreteres estretes i solitàries entre Prats de Lluçanès, Sant Boi de Lluçanès i Alpens. Un territori de masies, camps de blat i silenci absolut on la moto és l'única banda sonora.",
+    "total_distance_km": 140,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1100,
+    "elevation_max_m": 850,
+    "roads_main": [
+      "BV-4341",
+      "BV-4316",
+      "BV-4406",
+      "C-62"
+    ],
+    "esmorzar": {
+      "town": "Prats de Lluçanès",
+      "comarca": "Osona",
+      "lat": 41.916,
+      "lng": 2.034,
+      "specialty": "Esmorzar de pagès amb fuet de Vic, pa amb tomàquet i olives",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "aïllament",
+      "tranquil",
+      "masies",
+      "solitari"
+    ]
+  },
+  {
+    "id": "ruta-059",
+    "number": 59,
+    "name": "Coll de Bracons i la Garrotxa",
+    "slug": "coll-de-bracons-i-la-garrotxa",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "El Coll de Bracons per la C-152 és un dels passos de muntanya més espectaculars de la Catalunya interior. Des de la plana de Vic s'enfila amb revolts tancats fins a la Vall d'en Bas, porta d'entrada a la Garrotxa volcànica. El descens cap a Olot és un regal de corbes entre valls verdes.",
+    "total_distance_km": 165,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1700,
+    "elevation_max_m": 1120,
+    "roads_main": [
+      "C-152",
+      "A-26",
+      "C-63",
+      "BV-5224"
+    ],
+    "esmorzar": {
+      "town": "La Vall d'en Bas",
+      "comarca": "La Garrotxa",
+      "lat": 42.119,
+      "lng": 2.456,
+      "specialty": "Fesols de Santa Pau amb cansalada viada i pa de pagès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "coll",
+      "corbes",
+      "volcans",
+      "muntanya"
+    ]
+  },
+  {
+    "id": "ruta-060",
+    "number": 60,
+    "name": "Tavertet i el Cingle de Tavertet",
+    "slug": "tavertet-i-el-cingle-de-tavertet",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Ruta extrema fins al poble de Tavertet, enlairat sobre els cingles que dominen el pantà de Sau. La carretera d'accés és estreta, amb revolts cecs sobre precipicis i sense protecció lateral en alguns trams. La recompensa és un mirador natural que sembla el final del món. Només per a pilots experimentats.",
+    "total_distance_km": 125,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 880,
+    "roads_main": [
+      "BV-5207",
+      "BV-5213",
+      "C-153",
+      "BV-5201"
+    ],
+    "esmorzar": {
+      "town": "Tavertet",
+      "comarca": "Osona",
+      "lat": 41.975,
+      "lng": 2.42,
+      "specialty": "Esmorzar rústic amb truita de bolets i embotits casolans",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu"
+    ],
+    "tags": [
+      "cingles",
+      "extrem",
+      "vistes",
+      "precipici"
+    ]
+  },
+  {
+    "id": "ruta-061",
+    "number": 61,
+    "name": "Centelles, Tona i el Pla de Vic",
+    "slug": "centelles-tona-i-el-pla-de-vic",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Circuit suau pel pla de Vic passant per Tona, Centelles i els pobles dels voltants. Carreteres amples i rectes amb suaus ondulacions entre camps de conreu i granges. Perfecta per agafar confiança amb la moto i gaudir dels embotits de Vic en un esmorzar de forquilla memorable.",
+    "total_distance_km": 55,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 200,
+    "elevation_max_m": 590,
+    "roads_main": [
+      "C-17",
+      "BV-5303",
+      "N-141c"
+    ],
+    "esmorzar": {
+      "town": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254,
+      "specialty": "Esmorzar de forquilla al mercat de Vic amb llonganissa, fuet i secallona",
+      "confidence": "verified"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "pla",
+      "principiant",
+      "gastronomia",
+      "mercat"
+    ]
+  },
+  {
+    "id": "ruta-062",
+    "number": 62,
+    "name": "Pantà de Sau Exprés",
+    "slug": "panta-de-sau-expres",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Versió curta de la ruta al pantà de Sau, adaptada per a principiants. Baixada suau per la C-153 fins a Vilanova de Sau amb vistes al pantà i al mític campanar submergit. Les corbes són obertes i previsibles, ideals per practicar la tècnica de les revoltes.",
+    "total_distance_km": 70,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 450,
+    "elevation_max_m": 600,
+    "roads_main": [
+      "C-153",
+      "BV-5213",
+      "C-17"
+    ],
+    "esmorzar": {
+      "town": "Vilanova de Sau",
+      "comarca": "Osona",
+      "lat": 41.93,
+      "lng": 2.385,
+      "specialty": "Entrepà de botifarra amb mongetes i un cafè amb vistes al pantà",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "embassament",
+      "principiant",
+      "vistes",
+      "tranquil"
+    ]
+  },
+  {
+    "id": "ruta-063",
+    "number": 63,
+    "name": "Manlleu, Roda de Ter i el Ter",
+    "slug": "manlleu-roda-de-ter-i-el-ter",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Vic / Osona",
+    "starting_point": {
+      "name": "Vic",
+      "comarca": "Osona",
+      "lat": 41.886,
+      "lng": 2.254
+    },
+    "comarca_principal": "Osona",
+    "summary": "Passeig relaxat seguint el curs del riu Ter entre Vic, Manlleu i Roda de Ter. Carreteres planes al costat del riu amb poques corbes. El meandre de Roda de Ter és un dels paisatges fluvials més bonics d'Osona. Ruta perfecta per a un matí tranquil amb bon esmorzar.",
+    "total_distance_km": 45,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 150,
+    "elevation_max_m": 480,
+    "roads_main": [
+      "C-17",
+      "BV-5202",
+      "BV-5201"
+    ],
+    "esmorzar": {
+      "town": "Manlleu",
+      "comarca": "Osona",
+      "lat": 41.874,
+      "lng": 2.284,
+      "specialty": "Esmorzar de forquilla amb embotits de Vic i pa de coca",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "riu",
+      "pla",
+      "principiant",
+      "tranquil"
+    ]
+  },
+  {
+    "id": "ruta-064",
+    "number": 64,
+    "name": "Montserrat des del Sud: La Ruta dels Monjos",
+    "slug": "montserrat-des-del-sud-la-ruta-dels-monjos",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Bages",
+    "summary": "Ascensió a Montserrat per la cara sud, la menys transitada i la més espectacular. La BP-1103 s'enfila entre agulles de pedra amb revolts tancats i desnivells importants. Les vistes a la serralada prelitoral i les formacions rocoses de Montserrat són hipnòtiques. Una ruta de peregrinatge motociclista.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 1050,
+    "roads_main": [
+      "BP-1103",
+      "B-112",
+      "C-55",
+      "C-37"
+    ],
+    "esmorzar": {
+      "town": "Monistrol de Montserrat",
+      "comarca": "Bages",
+      "lat": 41.61,
+      "lng": 1.837,
+      "specialty": "Esmorzar de forquilla amb carn a la brasa i coca de recapte",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "muntanya",
+      "icònica",
+      "corbes",
+      "espiritualitat"
+    ]
+  },
+  {
+    "id": "ruta-065",
+    "number": 65,
+    "name": "La Conca de Barberà i el Priorat",
+    "slug": "la-conca-de-barbera-i-el-priorat",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Conca de Barberà",
+    "summary": "Gran travessa cap al sud passant per Montblanc, la capital medieval de la Conca de Barberà, i endinsant-se al Priorat pels seus cellers i paisatges de vinyes en terrasses. Les carreteres entre muntanyes de pissarra són un laberint de corbes amb vistes als camps de ceps que produeixen vins llegendaris.",
+    "total_distance_km": 230,
+    "estimated_duration_hours": 5,
+    "riding_time_hours": 4,
+    "elevation_gain_m": 2200,
+    "elevation_max_m": 780,
+    "roads_main": [
+      "C-37",
+      "C-241",
+      "N-240",
+      "T-702",
+      "C-15"
+    ],
+    "esmorzar": {
+      "town": "Montblanc",
+      "comarca": "Conca de Barberà",
+      "lat": 41.377,
+      "lng": 1.163,
+      "specialty": "Esmorzar de forquilla amb calçots (en temporada) o carn a la brasa amb allioli",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "medieval",
+      "priorat",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-066",
+    "number": 66,
+    "name": "Vinyes de l'Alt Penedès",
+    "slug": "vinyes-de-lalt-penedes",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Alt Penedès",
+    "summary": "Recorregut pels paisatges vinícoles de l'Alt Penedès, on les carreteres comarcals serpentegen entre vinyes, cellers modernistes i masies centenàries. La BV-2136 i la BV-2127 són carreteres de traçat fluid amb revolts suaus que inviten a gaudir del paisatge. Vilafranca del Penedès i Sant Sadurní d'Anoia són les capitals del vi i el cava.",
+    "total_distance_km": 160,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 950,
+    "elevation_max_m": 520,
+    "roads_main": [
+      "BV-2136",
+      "BV-2127",
+      "C-15",
+      "B-224",
+      "BP-2121"
+    ],
+    "esmorzar": {
+      "town": "Vilafranca del Penedès",
+      "comarca": "Alt Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "specialty": "Esmorzar de forquilla amb embotits i una copa de vi negre del Penedès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "cellers",
+      "gastronomia",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-067",
+    "number": 67,
+    "name": "La Segarra: Castells i Horitzons",
+    "slug": "la-segarra-castells-i-horitzons",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Segarra",
+    "summary": "Ruta cap a les planes de la Segarra, terra de castells medievals, camps de cereals infinits i cel obert. La C-37 porta fins a Cervera, amb la seva universitat barroca, i les carreteres locals connecten pobles de pedra daurada com Guissona i Torà. Una experiència de conducció diferent: rectes llargues amb vent lateral i horitzons que no s'acaben.",
+    "total_distance_km": 185,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 800,
+    "elevation_max_m": 650,
+    "roads_main": [
+      "C-37",
+      "L-311",
+      "C-25",
+      "L-313"
+    ],
+    "esmorzar": {
+      "town": "Cervera",
+      "comarca": "Segarra",
+      "lat": 41.672,
+      "lng": 1.272,
+      "specialty": "Esmorzar de forquilla amb caragols a la llauna i pa amb tomàquet",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "castells",
+      "planes",
+      "medieval",
+      "horitzó"
+    ]
+  },
+  {
+    "id": "ruta-068",
+    "number": 68,
+    "name": "La Vall del Cardener",
+    "slug": "la-vall-del-cardener",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Bages",
+    "summary": "Remuntada pel riu Cardener cap al nord, passant per Cardona i la seva impressionant muntanya de sal i castell medieval. La C-55 és una carretera àgil amb corbes constants entre turons i valls. El retorn per Manresa i Montserrat completa un circuit amb diversitat de paisatges: riu, muntanya, plana i roca.",
+    "total_distance_km": 170,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1300,
+    "elevation_max_m": 750,
+    "roads_main": [
+      "C-55",
+      "C-1410a",
+      "C-37",
+      "B-40"
+    ],
+    "esmorzar": {
+      "town": "Cardona",
+      "comarca": "Bages",
+      "lat": 41.912,
+      "lng": 1.681,
+      "specialty": "Esmorzar de forquilla amb botifarra amb mongetes i vi del Bages",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "riu",
+      "castell",
+      "sal",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-069",
+    "number": 69,
+    "name": "Capellades i la Pobla de Claramunt",
+    "slug": "capellades-i-la-pobla-de-claramunt",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Anoia",
+    "summary": "Circuit curt pels voltants d'Igualada passant per Capellades, famosa pel seu molí paperer, i la Pobla de Claramunt amb el seu castell medieval enlairat. Carreteres amples i suaus amb poc trànsit, ideals per a principiants. El paisatge de la conca de l'Anoia és verd i tranquil.",
+    "total_distance_km": 45,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 250,
+    "elevation_max_m": 450,
+    "roads_main": [
+      "C-15",
+      "B-224",
+      "BV-2136"
+    ],
+    "esmorzar": {
+      "town": "Capellades",
+      "comarca": "Anoia",
+      "lat": 41.531,
+      "lng": 1.686,
+      "specialty": "Esmorzar de forquilla amb truita de patates i embotits locals al centre",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "patrimoni",
+      "principiant",
+      "tranquil",
+      "pobles"
+    ]
+  },
+  {
+    "id": "ruta-070",
+    "number": 70,
+    "name": "Vinyes de l'Anoia",
+    "slug": "vinyes-de-lanoia",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Anoia",
+    "summary": "Ruta suau entre les vinyes i els cellers de la zona sud de l'Anoia, on comença la transició cap al Penedès. Carreteres comarcals tranquil·les entre Masquefa, Piera i els Hostalets de Pierola. Un recorregut per gaudir del paisatge agrícola i descobrir petits cellers familiars.",
+    "total_distance_km": 75,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 420,
+    "roads_main": [
+      "B-224",
+      "BV-2249",
+      "BV-2242",
+      "C-15"
+    ],
+    "esmorzar": {
+      "town": "Piera",
+      "comarca": "Anoia",
+      "lat": 41.521,
+      "lng": 1.748,
+      "specialty": "Entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un cava del Penedès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "principiant",
+      "cellers",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-071",
+    "number": 71,
+    "name": "Montserrat Fàcil: El Bruc i Collbató",
+    "slug": "montserrat-facil-el-bruc-i-collbato",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Anoia",
+    "summary": "Aproximació a Montserrat sense la dificultat dels ports de muntanya. Des d'Igualada fins a El Bruc i Collbató per carreteres còmodes, amb vistes espectaculars a les agulles de Montserrat des de baix. Una ruta curta per contemplar la muntanya sagrada de Catalunya sense comprometre la seguretat.",
+    "total_distance_km": 65,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1,
+    "elevation_gain_m": 400,
+    "elevation_max_m": 560,
+    "roads_main": [
+      "A-2",
+      "B-112",
+      "BP-1101",
+      "C-37"
+    ],
+    "esmorzar": {
+      "town": "Collbató",
+      "comarca": "Baix Llobregat",
+      "lat": 41.573,
+      "lng": 1.825,
+      "specialty": "Esmorzar de pa amb tomàquet, pernil ibèric i vistes a Montserrat",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "montserrat",
+      "principiant",
+      "vistes",
+      "accessible"
+    ]
+  },
+  {
+    "id": "ruta-072",
+    "number": 72,
+    "name": "La Bonaigua i el Sostre del Pirineu",
+    "slug": "la-bonaigua-i-el-sostre-del-pirineu",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Pallars Sobirà",
+    "summary": "La gran travessa pirinenca per excel·lència: des de Lleida fins al Port de la Bonaigua (2.072 m) per la C-13, amb revolts infinits que tallen la respiració i vistes que abasten des del Montsec fins a les crestes araneses. Tornada per la N-230 amb el contrapunt del Congost de Collegats.",
+    "total_distance_km": 245,
+    "estimated_duration_hours": 5.0,
+    "riding_time_hours": 4.0,
+    "elevation_gain_m": 3200,
+    "elevation_max_m": 2072,
+    "roads_main": [
+      "C-13",
+      "C-28",
+      "N-230",
+      "C-147"
+    ],
+    "esmorzar": {
+      "town": "Sort",
+      "comarca": "Pallars Sobirà",
+      "lat": 42.413,
+      "lng": 1.13,
+      "specialty": "Esmorzar de forquilla amb embotits del Pirineu i formatge de pastor",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineu",
+      "port",
+      "alta-muntanya",
+      "revolts",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-073",
+    "number": 73,
+    "name": "Val d'Aran pel Túnel de Vielha",
+    "slug": "val-daran-pel-tunel-de-vielha",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Val d'Aran",
+    "summary": "Ruta llarga cap a la vall més atlàntica de Catalunya: la N-230 remunta la Ribagorça fins al Túnel de Vielha i s'obre a la Val d'Aran amb els seus pobles de teulades de pissarra. Passejada fins a Bossòst i tornada pel mateix eix amb llum diferent.",
+    "total_distance_km": 240,
+    "estimated_duration_hours": 5.0,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2600,
+    "elevation_max_m": 1590,
+    "roads_main": [
+      "N-230",
+      "C-28",
+      "N-141"
+    ],
+    "esmorzar": {
+      "town": "Vielha",
+      "comarca": "Val d'Aran",
+      "lat": 42.702,
+      "lng": 0.797,
+      "specialty": "Olla aranesa i pa de blat amb mantega de muntanya",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineu",
+      "val-daran",
+      "túnel",
+      "cultura"
+    ]
+  },
+  {
+    "id": "ruta-074",
+    "number": 74,
+    "name": "Congost de Mont-rebei i la Vall d'Àger",
+    "slug": "congost-de-mont-rebei-i-la-vall-dager",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Noguera",
+    "summary": "Aproximació al congost més impressionant de Catalunya per carreteres de serra que travessen la Vall d'Àger sota les parets del Montsec. Revolts tancats entre espadats calcaris, pas per Camarasa i el pantà, i un esmorzar al cor de la Noguera.",
+    "total_distance_km": 195,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2400,
+    "elevation_max_m": 1050,
+    "roads_main": [
+      "C-12",
+      "C-13",
+      "L-904",
+      "LV-9047"
+    ],
+    "esmorzar": {
+      "town": "Àger",
+      "comarca": "Noguera",
+      "lat": 42.001,
+      "lng": 0.77,
+      "specialty": "Esmorzar de pagès amb truita de patates i embotits de la Noguera",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "congost",
+      "montsec",
+      "pantà",
+      "natura"
+    ]
+  },
+  {
+    "id": "ruta-075",
+    "number": 75,
+    "name": "Tremp i el Pantà de Sant Antoni",
+    "slug": "tremp-i-el-panta-de-sant-antoni",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Pallars Jussà",
+    "summary": "La C-13 s'enfila cap a Tremp passant pel Congost de Terradets i la Pobla de Segur, amb el Pantà de Sant Antoni com a mirall turquesa entre muntanyes. Carreteres netes, corbes amples i l'essència del Prepirineu lleidatà.",
+    "total_distance_km": 210,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2100,
+    "elevation_max_m": 920,
+    "roads_main": [
+      "C-13",
+      "C-1412b",
+      "L-511",
+      "N-260"
+    ],
+    "esmorzar": {
+      "town": "Tremp",
+      "comarca": "Pallars Jussà",
+      "lat": 42.167,
+      "lng": 0.895,
+      "specialty": "Esmorzar de forquilla amb girella pallaresa i formatge de tupí",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "prepirineu",
+      "pantà",
+      "congost",
+      "paisatge"
+    ]
+  },
+  {
+    "id": "ruta-076",
+    "number": 76,
+    "name": "El Montsec de Rúbies per la C-12",
+    "slug": "el-montsec-de-rubies-per-la-c12",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Noguera",
+    "summary": "Circuit pel cor del Montsec seguint la C-12 i pujant als miradors que dominen el Pantà de Camarasa. Carreteres de serra amb pendents pronunciats i revolts que demanen atenció, entre boscos de roure i espadats de roca calcària.",
+    "total_distance_km": 185,
+    "estimated_duration_hours": 4.0,
+    "riding_time_hours": 3.0,
+    "elevation_gain_m": 2300,
+    "elevation_max_m": 1350,
+    "roads_main": [
+      "C-12",
+      "C-13",
+      "LV-9041",
+      "L-904"
+    ],
+    "esmorzar": {
+      "town": "Camarasa",
+      "comarca": "Noguera",
+      "lat": 41.873,
+      "lng": 0.878,
+      "specialty": "Esmorzar amb mel del Montsec, pa de pagès i formatge de cabra",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "montsec",
+      "pantà",
+      "serra",
+      "natura"
+    ]
+  },
+  {
+    "id": "ruta-077",
+    "number": 77,
+    "name": "Port del Cantó i la Seu d'Urgell",
+    "slug": "port-del-canto-i-la-seu-durgell",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Alt Urgell",
+    "summary": "Ascens de la C-14 fins al Port del Cantó (1.725 m) amb una successió de revolts que fan somriure, i baixada cap a la Seu d'Urgell amb els Pirineus axials com a teló de fons. Tornada per Organyà i el Congost de Tres Ponts.",
+    "total_distance_km": 230,
+    "estimated_duration_hours": 5.0,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2800,
+    "elevation_max_m": 1725,
+    "roads_main": [
+      "C-14",
+      "N-260",
+      "C-26"
+    ],
+    "esmorzar": {
+      "town": "La Seu d'Urgell",
+      "comarca": "Alt Urgell",
+      "lat": 42.358,
+      "lng": 1.457,
+      "specialty": "Formatge de la Seu d'Urgell amb mel i nous, pa de coca",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineu",
+      "port",
+      "revolts",
+      "alt-urgell"
+    ]
+  },
+  {
+    "id": "ruta-078",
+    "number": 78,
+    "name": "Cerdanya pel Coll de Nargó",
+    "slug": "cerdanya-pel-coll-de-nargo",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Cerdanya",
+    "summary": "Gran volta per assolir la Cerdanya des de Lleida: la C-14 fins a Coll de Nargó, el Pont de Bar i l'entrada a la plana cerdana amb el Cadí al nord. Puigcerdà, Bellver i tornada per la N-260, el Túnel del Cadí i Solsona. Jornada completa.",
+    "total_distance_km": 250,
+    "estimated_duration_hours": 5.0,
+    "riding_time_hours": 4.0,
+    "elevation_gain_m": 3400,
+    "elevation_max_m": 1800,
+    "roads_main": [
+      "C-14",
+      "N-260",
+      "C-16",
+      "C-26"
+    ],
+    "esmorzar": {
+      "town": "Puigcerdà",
+      "comarca": "Cerdanya",
+      "lat": 42.431,
+      "lng": 1.928,
+      "specialty": "Trinxat de la Cerdanya i embotits del país",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineu",
+      "cerdanya",
+      "port",
+      "gran-volta"
+    ]
+  },
+  {
+    "id": "ruta-079",
+    "number": 79,
+    "name": "La Segarra i Solsona",
+    "slug": "la-segarra-i-solsona",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Segarra",
+    "summary": "Ruta per la Catalunya interior que puja cap a Cervera per la C-14 i s'enfila fins a Solsona i Cardona amb el seu castell de sal. Paisatge de secà amb camps de cereal, pobles medievals i carreteres tranquil·les i ben asfaltades.",
+    "total_distance_km": 200,
+    "estimated_duration_hours": 4.0,
+    "riding_time_hours": 3.0,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 860,
+    "roads_main": [
+      "C-14",
+      "C-142",
+      "C-26",
+      "C-149"
+    ],
+    "esmorzar": {
+      "town": "Solsona",
+      "comarca": "Solsonès",
+      "lat": 41.994,
+      "lng": 1.517,
+      "specialty": "Esmorzar amb trumfos del Solsonès, botifarra i coca de recapte",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "interior",
+      "medieval",
+      "cultura",
+      "secà"
+    ]
+  },
+  {
+    "id": "ruta-080",
+    "number": 80,
+    "name": "Les Garrigues i l'Oli d'Oliva",
+    "slug": "les-garrigues-i-loli-doliva",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Garrigues",
+    "summary": "Circuit suau per les terres de l'oli: camps d'oliveres fins a l'horitzó, pobles de pedra com Borges Blanques i les Borges del Camp, i carreteres planes i amples ideals per a qui comença. L'esmorzar amb pa amb oli dels Arbequina és obligat.",
+    "total_distance_km": 85,
+    "estimated_duration_hours": 2.0,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 480,
+    "roads_main": [
+      "L-202",
+      "C-233",
+      "L-501"
+    ],
+    "esmorzar": {
+      "town": "Les Borges Blanques",
+      "comarca": "Garrigues",
+      "lat": 41.513,
+      "lng": 0.859,
+      "specialty": "Pa torrat amb oli d'oliva arbequina i pernil",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "garrigues",
+      "gastronomia",
+      "oli",
+      "suau"
+    ]
+  },
+  {
+    "id": "ruta-081",
+    "number": 81,
+    "name": "Pobles de l'Urgell",
+    "slug": "pobles-de-lurgell",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Urgell",
+    "summary": "Passeig tranquil pels pobles de l'Urgell: Tàrrega amb el seu teatre, Agramunt i el seu torró famós, i Bellpuig amb l'elegància del seu convent. Carreteres rectes entre camps de blat i fruiters, perfectes per agafar confiança amb la moto.",
+    "total_distance_km": 80,
+    "estimated_duration_hours": 2.0,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 280,
+    "elevation_max_m": 430,
+    "roads_main": [
+      "C-14",
+      "L-303",
+      "C-53"
+    ],
+    "esmorzar": {
+      "town": "Agramunt",
+      "comarca": "Urgell",
+      "lat": 41.789,
+      "lng": 1.1,
+      "specialty": "Torró d'Agramunt i xocolata desfeta amb coca de forner",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "urgell",
+      "pobles",
+      "cultura",
+      "suau"
+    ]
+  },
+  {
+    "id": "ruta-082",
+    "number": 82,
+    "name": "Raimat i els Vinyers del Segrià",
+    "slug": "raimat-i-els-vinyers-del-segria",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Segrià",
+    "summary": "Ruta curta i accessible pels voltants de Lleida: Raimat amb el seu castell i vinyes, Alcarràs entre fruiters, i tornada per la ribera del Segre. Ideal per a la primera sortida en moto, amb rectes llargues i alguna corba suau per practicar.",
+    "total_distance_km": 55,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1.0,
+    "elevation_gain_m": 180,
+    "elevation_max_m": 310,
+    "roads_main": [
+      "L-700",
+      "A-22",
+      "L-504"
+    ],
+    "esmorzar": {
+      "town": "Raimat",
+      "comarca": "Segrià",
+      "lat": 41.658,
+      "lng": 0.478,
+      "specialty": "Esmorzar entre vinyes amb embotits i vi blanc de Raimat",
+      "confidence": "area"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "segrià",
+      "suau",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-083",
+    "number": 83,
+    "name": "Balaguer i la Noguera Suau",
+    "slug": "balaguer-i-la-noguera-suau",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Noguera",
+    "summary": "Pujada suau fins a Balaguer seguint el riu Segre, amb el castell i el centre medieval com a recompensa. Extensió fins a Os de Balaguer i tornada pel pla, amb algunes corbes que comencen a dibuixar el Prepirineu sense demanar gaire compromís.",
+    "total_distance_km": 95,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 450,
+    "elevation_max_m": 540,
+    "roads_main": [
+      "C-12",
+      "C-13",
+      "L-904"
+    ],
+    "esmorzar": {
+      "town": "Balaguer",
+      "comarca": "Noguera",
+      "lat": 41.79,
+      "lng": 0.805,
+      "specialty": "Esmorzar de forquilla al centre de Balaguer amb botifarra a la brasa",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "noguera",
+      "medieval",
+      "riu",
+      "suau"
+    ]
+  },
+  {
+    "id": "ruta-084",
+    "number": 84,
+    "name": "El Priorat Profund",
+    "slug": "el-priorat-profund",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Priorat",
+    "summary": "Immersió total al Priorat per la C-242: vinyes de costers impossibles, pobles com Porrera, Gratallops i Falset entre revolts de muntanya amb olor de garnatxa. Les corbes són tancades, l'asfalt és bo i el paisatge és dels que no s'obliden.",
+    "total_distance_km": 170,
+    "estimated_duration_hours": 4.0,
+    "riding_time_hours": 3.0,
+    "elevation_gain_m": 2200,
+    "elevation_max_m": 780,
+    "roads_main": [
+      "C-242",
+      "T-702",
+      "T-714",
+      "C-233"
+    ],
+    "esmorzar": {
+      "town": "Falset",
+      "comarca": "Priorat",
+      "lat": 41.145,
+      "lng": 0.818,
+      "specialty": "Pa amb tomàquet, embotits del Priorat i una gota de vi negre DO Priorat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "priorat",
+      "vi",
+      "corbes",
+      "gastronomia"
+    ]
+  },
+  {
+    "id": "ruta-085",
+    "number": 85,
+    "name": "Siurana, el Niu d'Àliga",
+    "slug": "siurana-el-niu-daliga",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Priorat",
+    "summary": "Pujada mítica al poble cingle de Siurana per la T-702: revolts estrets i vertiginosos entre penya-segats amb vistes al pantà i la serra del Montsant. Un dels finals de ruta més espectaculars de Catalunya, on la carretera acaba al buit.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 2000,
+    "elevation_max_m": 740,
+    "roads_main": [
+      "T-702",
+      "T-710",
+      "C-242",
+      "C-233"
+    ],
+    "esmorzar": {
+      "town": "Cornudella de Montsant",
+      "comarca": "Priorat",
+      "lat": 41.231,
+      "lng": 0.903,
+      "specialty": "Esmorzar de forquilla amb ous i botifarra al restaurant del poble",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "siurana",
+      "cingle",
+      "revolts",
+      "icònica"
+    ]
+  },
+  {
+    "id": "ruta-086",
+    "number": 86,
+    "name": "Serra de Prades i Poblet",
+    "slug": "serra-de-prades-i-poblet",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Conca de Barberà",
+    "summary": "Circuit per la Serra de Prades amb parada al Monestir de Poblet, patrimoni de la humanitat. Pujada per la C-240 entre boscos de pi, pas per Prades — el poble vermell — i baixada cap a L'Espluga de Francolí amb corbes encaixades entre muntanyes.",
+    "total_distance_km": 155,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 1040,
+    "roads_main": [
+      "C-240",
+      "T-700",
+      "C-14",
+      "TV-7004"
+    ],
+    "esmorzar": {
+      "town": "Prades",
+      "comarca": "Baix Camp",
+      "lat": 41.321,
+      "lng": 0.989,
+      "specialty": "Esmorzar amb mel de la serra, coca de recapte i formatge de cabra",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "serra",
+      "monestir",
+      "patrimoni",
+      "bosc"
+    ]
+  },
+  {
+    "id": "ruta-087",
+    "number": 87,
+    "name": "Costa Daurada Sud: Perelló i Vandellòs",
+    "slug": "costa-daurada-sud-perello-i-vandellos",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Baix Ebre",
+    "summary": "Baixada per la costa fins a L'Ametlla de Mar i El Perelló, amb carreteres que s'enfilen entre penya-segats i cales amagades. Tornada per l'interior passant per Vandellòs i els turons del Baix Camp, combinant mar i muntanya en una sola jornada.",
+    "total_distance_km": 165,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1500,
+    "elevation_max_m": 520,
+    "roads_main": [
+      "N-340",
+      "T-310",
+      "TV-3022",
+      "C-44"
+    ],
+    "esmorzar": {
+      "town": "L'Ametlla de Mar",
+      "comarca": "Baix Ebre",
+      "lat": 40.881,
+      "lng": 0.8,
+      "specialty": "Esmorzar de mar: suquet de peix i pa amb anxoves de l'Ametlla",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "costa",
+      "penya-segat",
+      "mar",
+      "cales"
+    ]
+  },
+  {
+    "id": "ruta-088",
+    "number": 88,
+    "name": "Conca de Barberà i Montblanc",
+    "slug": "conca-de-barbera-i-montblanc",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Conca de Barberà",
+    "summary": "Ruta cap a l'interior medieval de la Conca de Barberà: Montblanc amb les seves muralles, L'Espluga de Francolí i les Coves de l'Espluga, vinyes de la DO Conca de Barberà i carreteres ondulades entre turons suaus amb vistes a la Serra de Prades.",
+    "total_distance_km": 140,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1400,
+    "elevation_max_m": 680,
+    "roads_main": [
+      "C-14",
+      "C-240",
+      "C-233",
+      "TP-2031"
+    ],
+    "esmorzar": {
+      "town": "Montblanc",
+      "comarca": "Conca de Barberà",
+      "lat": 41.377,
+      "lng": 1.163,
+      "specialty": "Calçots amb romesco (en temporada) o coca de recapte amb embotits de la Conca",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "medieval",
+      "muralles",
+      "vi",
+      "cultura"
+    ]
+  },
+  {
+    "id": "ruta-089",
+    "number": 89,
+    "name": "Serra del Montsant Integral",
+    "slug": "serra-del-montsant-integral",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Priorat",
+    "summary": "Volta completa a la serra del Montsant per les carreteres que envolten el massís: la T-710 i la T-702 amb revolts tancats entre parets verticals de roca. Pas per Ulldemolins, La Morera de Montsant i Escaladei, bressol del Priorat monàstic.",
+    "total_distance_km": 175,
+    "estimated_duration_hours": 4.0,
+    "riding_time_hours": 3.0,
+    "elevation_gain_m": 2500,
+    "elevation_max_m": 920,
+    "roads_main": [
+      "T-710",
+      "T-702",
+      "C-242",
+      "C-233",
+      "TV-7011"
+    ],
+    "esmorzar": {
+      "town": "La Morera de Montsant",
+      "comarca": "Priorat",
+      "lat": 41.267,
+      "lng": 0.854,
+      "specialty": "Pa de pagès amb oli del Priorat, tomàquet i pernil ibèric",
+      "confidence": "area"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "montsant",
+      "revolts",
+      "serra",
+      "priorat"
+    ]
+  },
+  {
+    "id": "ruta-090",
+    "number": 90,
+    "name": "Altafulla i la Costa de Llevant",
+    "slug": "altafulla-i-la-costa-de-llevant",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Tarragonès",
+    "summary": "Passeig costaner suau des de Tarragona fins a Altafulla i Torredembarra, amb el mar sempre a la vista. Carreteres planes i amples, ideals per a principiants que volen gaudir del Mediterrani sense complicacions tècniques.",
+    "total_distance_km": 50,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1.0,
+    "elevation_gain_m": 150,
+    "elevation_max_m": 80,
+    "roads_main": [
+      "N-340",
+      "C-31",
+      "TV-2041"
+    ],
+    "esmorzar": {
+      "town": "Altafulla",
+      "comarca": "Tarragonès",
+      "lat": 41.142,
+      "lng": 1.377,
+      "specialty": "Esmorzar de platja amb pa amb tomàquet i anxoves del Mediterrani",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "mar",
+      "suau",
+      "mediterrani"
+    ]
+  },
+  {
+    "id": "ruta-091",
+    "number": 91,
+    "name": "Poblet i L'Espluga Curta",
+    "slug": "poblet-i-lespluga-curta",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Conca de Barberà",
+    "summary": "Escapada curta al Monestir de Poblet per la C-14, amb parada a L'Espluga de Francolí. Carretera ben senyalitzada amb pendent moderat i algunes corbes per anar agafant ritme. Un tast del Prepirineu sense sortir de la zona de confort.",
+    "total_distance_km": 90,
+    "estimated_duration_hours": 2.0,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 600,
+    "elevation_max_m": 530,
+    "roads_main": [
+      "C-14",
+      "C-240",
+      "TP-2031"
+    ],
+    "esmorzar": {
+      "town": "L'Espluga de Francolí",
+      "comarca": "Conca de Barberà",
+      "lat": 41.393,
+      "lng": 1.098,
+      "specialty": "Embotits de la Conca amb pa de forn de llenya i vi blanc",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "monestir",
+      "patrimoni",
+      "suau",
+      "cultura"
+    ]
+  },
+  {
+    "id": "ruta-092",
+    "number": 92,
+    "name": "Reus, Siurana Aprendiz",
+    "slug": "reus-siurana-aprendiz",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Baix Camp",
+    "summary": "Versió curta i accessible de la pujada a Siurana: des de Tarragona fins a Reus i pujada suau cap a Cornudella de Montsant, sense arribar al tram final del cingle. Un primer contacte amb les corbes del Priorat sense les dificultats del tram extrem.",
+    "total_distance_km": 100,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 700,
+    "elevation_max_m": 620,
+    "roads_main": [
+      "C-14",
+      "T-710",
+      "C-242"
+    ],
+    "esmorzar": {
+      "town": "Cornudella de Montsant",
+      "comarca": "Priorat",
+      "lat": 41.231,
+      "lng": 0.903,
+      "specialty": "Esmorzar amb coca de recapte i oli de les cooperatives del Priorat",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "priorat",
+      "corbes",
+      "suau",
+      "introducció"
+    ]
+  },
+  {
+    "id": "ruta-093",
+    "number": 93,
+    "name": "Ports de Tortosa-Beseit i Horta de Sant Joan",
+    "slug": "ports-de-tortosa-beseit-i-horta-de-sant-joan",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Terra Alta",
+    "summary": "La ruta reina de les Terres de l'Ebre: pujada pels Ports de Tortosa-Beseit per la T-330, pas per Paüls amb revolts de muntanya espectaculars, i arribada a Horta de Sant Joan, on Picasso va trobar la inspiració. Carretera de muntanya pura amb desnivells importants.",
+    "total_distance_km": 160,
+    "estimated_duration_hours": 4.0,
+    "riding_time_hours": 3.0,
+    "elevation_gain_m": 2600,
+    "elevation_max_m": 1050,
+    "roads_main": [
+      "T-330",
+      "T-333",
+      "T-334",
+      "C-12"
+    ],
+    "esmorzar": {
+      "town": "Horta de Sant Joan",
+      "comarca": "Terra Alta",
+      "lat": 40.94,
+      "lng": 0.319,
+      "specialty": "Esmorzar de pagès amb oli de la Terra Alta, pa de forn i embotits casolans",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "ports",
+      "muntanya",
+      "picasso",
+      "revolts"
+    ]
+  },
+  {
+    "id": "ruta-094",
+    "number": 94,
+    "name": "Delta de l'Ebre Gran Volta",
+    "slug": "delta-de-lebre-gran-volta",
+    "category": "pro",
+    "difficulty": 2,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Montsià",
+    "summary": "Circuit únic pel Delta de l'Ebre: arrossars infinits, flamencs rosats, llacunes i la línia de l'horitzó on el cel es fon amb l'aigua. Una ruta plana però hipnòtica que recorre els dos hemideltes, amb parades als miradors d'aus i les salines de la Trinitat.",
+    "total_distance_km": 130,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 200,
+    "elevation_max_m": 25,
+    "roads_main": [
+      "TV-3405",
+      "TV-3406",
+      "C-12",
+      "TV-3401"
+    ],
+    "esmorzar": {
+      "town": "Deltebre",
+      "comarca": "Baix Ebre",
+      "lat": 40.721,
+      "lng": 0.726,
+      "specialty": "Arròs a banda del Delta i anguiles amb all i julivert",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "delta",
+      "natura",
+      "aus",
+      "arrossars"
+    ]
+  },
+  {
+    "id": "ruta-095",
+    "number": 95,
+    "name": "Terra Alta: Gandesa i el Front de l'Ebre",
+    "slug": "terra-alta-gandesa-i-el-front-de-lebre",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Terra Alta",
+    "summary": "Ruta per la Terra Alta, terra de vi i memòria: Gandesa amb el celler modernista, Bot entre camps d'ametllers, i Arnes al peu dels Ports. Les carreteres ondulades entre vinyes i oliveres tenen un ritme perfecte, amb corbes ben peraltades i poc trànsit.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1600,
+    "elevation_max_m": 720,
+    "roads_main": [
+      "T-333",
+      "T-334",
+      "C-12",
+      "T-330"
+    ],
+    "esmorzar": {
+      "town": "Gandesa",
+      "comarca": "Terra Alta",
+      "lat": 41.051,
+      "lng": 0.438,
+      "specialty": "Esmorzar de forquilla amb ametlles torrades, oli DOP Terra Alta i coca amb pebrot",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "terra-alta",
+      "vi",
+      "guerra-civil",
+      "ametllers"
+    ]
+  },
+  {
+    "id": "ruta-096",
+    "number": 96,
+    "name": "Matarranya: Beceite i Calaceit",
+    "slug": "matarranya-beceite-i-calaceit",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Terra Alta",
+    "summary": "Travessa cap a la frontera aragonesa per carreteres de serra que porten a Beceite i el seu riu cristal·lí, i a Calaceit amb la plaça porxada. Revolt darrere revolt entre boscos de pi i parets de roca, amb el sabor d'una Catalunya que toca l'Aragó.",
+    "total_distance_km": 180,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2400,
+    "elevation_max_m": 980,
+    "roads_main": [
+      "T-330",
+      "T-333",
+      "A-231",
+      "N-420"
+    ],
+    "esmorzar": {
+      "town": "Beceite",
+      "comarca": "Matarranya (Aragó)",
+      "lat": 40.835,
+      "lng": 0.186,
+      "specialty": "Esmorzar de pastor amb pernil d'Aragó, pa de llenya i oli del Matarranya",
+      "confidence": "area"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "matarranya",
+      "frontera",
+      "riu",
+      "pobles"
+    ]
+  },
+  {
+    "id": "ruta-097",
+    "number": 97,
+    "name": "Serra de Cardó i el Coll de l'Alba",
+    "slug": "serra-de-cardo-i-el-coll-de-lalba",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Baix Ebre",
+    "summary": "Ascensió a la Serra de Cardó per carreteres estretes i sinuoses que pugen entre pinedes fins als miradors amb vistes al Delta de l'Ebre i el mar. Pas pel Coll de l'Alba i baixada cap a Rasquera, amb revolts que demanen concentració i recompensen amb panoràmiques grandioses.",
+    "total_distance_km": 120,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 1800,
+    "elevation_max_m": 890,
+    "roads_main": [
+      "TV-3022",
+      "T-301",
+      "C-12",
+      "TV-3031"
+    ],
+    "esmorzar": {
+      "town": "Rasquera",
+      "comarca": "Ribera d'Ebre",
+      "lat": 40.949,
+      "lng": 0.577,
+      "specialty": "Esmorzar casolà amb productes de l'hort i embotits de la Ribera d'Ebre",
+      "confidence": "area"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "serra",
+      "cardó",
+      "miradors",
+      "revolts"
+    ]
+  },
+  {
+    "id": "ruta-098",
+    "number": 98,
+    "name": "Delta de l'Ebre Aprendiz",
+    "slug": "delta-de-lebre-aprendiz",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Baix Ebre",
+    "summary": "Versió curta i plana del Delta de l'Ebre: baixada fins a Deltebre i recorregut per l'hemidelta esquerre amb parades als miradors d'aus i els arrossars. Zero corbes, zero pendents, cent per cent paisatge. Ideal per a qui tot just comença.",
+    "total_distance_km": 65,
+    "estimated_duration_hours": 2.0,
+    "riding_time_hours": 1.0,
+    "elevation_gain_m": 80,
+    "elevation_max_m": 15,
+    "roads_main": [
+      "C-12",
+      "TV-3405",
+      "TV-3406"
+    ],
+    "esmorzar": {
+      "town": "Deltebre",
+      "comarca": "Baix Ebre",
+      "lat": 40.721,
+      "lng": 0.726,
+      "specialty": "Arròs del Delta amb verdures de l'hort i musclos de la badia",
+      "confidence": "recommended"
+    },
+    "route_type": "anada-i-tornada",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "delta",
+      "aus",
+      "pla",
+      "suau"
+    ]
+  },
+  {
+    "id": "ruta-099",
+    "number": 99,
+    "name": "Tortosa, Xerta i Benifallet",
+    "slug": "tortosa-xerta-i-benifallet",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Tortosa / Terres de l'Ebre",
+    "starting_point": {
+      "name": "Tortosa",
+      "comarca": "Baix Ebre",
+      "lat": 40.812,
+      "lng": 0.521
+    },
+    "comarca_principal": "Baix Ebre",
+    "summary": "Circuit curt pel riu Ebre: pujada fins a Xerta amb la seva resclosa històrica i continuació fins a Benifallet, poble fluvial entre muntanyes. Carretera suau que segueix el curs del riu amb algunes corbes amples, perfecte per agafar confiança i gaudir del paisatge de ribera.",
+    "total_distance_km": 60,
+    "estimated_duration_hours": 1.5,
+    "riding_time_hours": 1.0,
+    "elevation_gain_m": 250,
+    "elevation_max_m": 180,
+    "roads_main": [
+      "C-12",
+      "TV-3031",
+      "T-301"
+    ],
+    "esmorzar": {
+      "town": "Xerta",
+      "comarca": "Baix Ebre",
+      "lat": 40.917,
+      "lng": 0.494,
+      "specialty": "Esmorzar de ribera amb truita d'espàrrecs i pa amb oli de l'Ebre",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "riu",
+      "ebre",
+      "suau",
+      "ribera"
+    ]
+  }
+]
