@@ -187,7 +187,7 @@ img {
       rgba(22, 33, 62, 0.78) 50%,
       rgba(13, 27, 62, 0.85) 100%
     ),
-    url('../img/hero.jpg') center/cover no-repeat;
+    url('../img/hero.jpg?v=3') center/cover no-repeat;
 }
 
 .hero::before {

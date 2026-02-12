@@ -170,20 +170,20 @@
   }
 
   // --- Showcase Cards ---
-  // Route images mapping
+  // Route images mapping (v=3 cache bust)
   var ROUTE_IMAGES = {
-    'ruta-072': 'img/mountain.jpg',   // Pirineu - mountain
-    'ruta-039': 'img/coast.jpg',      // Costa Brava - coast
-    'ruta-001': 'img/mountain.jpg',   // Berguedà - mountain
-    'ruta-085': 'img/volcanic.jpg',   // Siurana - dramatic landscape
-    'ruta-041': 'img/volcanic.jpg',   // Garrotxa volcans
-    'ruta-016': 'img/forest.jpg',     // Montseny - forest
-    'ruta-011': 'img/rural.jpg',      // Montserrat - rural
-    'ruta-049': 'img/coast.jpg',      // Empordanet - coast
-    'ruta-083': 'img/rural.jpg',      // Balaguer - rural
-    'ruta-070': 'img/vineyard.jpg'    // Vinyes - vineyard
+    'ruta-072': 'img/mountain.jpg?v=3',   // Pirineu - mountain
+    'ruta-039': 'img/coast.jpg?v=3',      // Costa Brava - coast
+    'ruta-001': 'img/mountain.jpg?v=3',   // Berguedà - mountain
+    'ruta-085': 'img/volcanic.jpg?v=3',   // Siurana - dramatic landscape
+    'ruta-041': 'img/volcanic.jpg?v=3',   // Garrotxa volcans
+    'ruta-016': 'img/forest.jpg?v=3',     // Montseny - forest
+    'ruta-011': 'img/rural.jpg?v=3',      // Montserrat - rural
+    'ruta-049': 'img/coast.jpg?v=3',      // Empordanet - coast
+    'ruta-083': 'img/rural.jpg?v=3',      // Balaguer - rural
+    'ruta-070': 'img/vineyard.jpg?v=3'    // Vinyes - vineyard
   };
-  var DEFAULT_IMAGES = ['img/mountain.jpg', 'img/coast.jpg', 'img/forest.jpg', 'img/rural.jpg', 'img/volcanic.jpg', 'img/vineyard.jpg'];
+  var DEFAULT_IMAGES = ['img/mountain.jpg?v=3', 'img/coast.jpg?v=3', 'img/forest.jpg?v=3', 'img/rural.jpg?v=3', 'img/volcanic.jpg?v=3', 'img/vineyard.jpg?v=3'];
 
   function getRouteImage(routeId, index) {
     return ROUTE_IMAGES[routeId] || DEFAULT_IMAGES[index % DEFAULT_IMAGES.length];
@@ -436,32 +436,42 @@
         return;
       }
 
-      // Submit to Google Sheets via Google Form endpoint
+      // Submit email via FormSubmit.co (sends to inbox + dashboard)
       var btn = this.querySelector('button');
       var originalText = btn.textContent;
       btn.textContent = 'Enviant...';
       btn.disabled = true;
 
-      var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSeLwtNvyZK72YwZm0pxB7Snstlm5ECL72R4A2I603a1laYFLQ/formResponse';
-      fetch(formUrl, {
+      fetch('https://formsubmit.co/ajax/estebangcr@gmail.com', {
         method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: 'entry.327226259=' + encodeURIComponent(email)
-      }).then(function () {
-        btn.textContent = 'Gr\u00e0cies! \u2714';
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          email: email,
+          _subject: '99 Rutes - Nou registre!',
+          _template: 'table'
+        })
+      }).then(function (response) {
+        return response.json();
+      }).then(function (data) {
+        if (data.success) {
+          btn.textContent = 'Registrat! \u2714';
+        } else {
+          btn.textContent = 'Gr\u00e0cies! \u2714';
+        }
         emailInput.value = '';
         setTimeout(function () {
           btn.textContent = originalText;
           btn.disabled = false;
         }, 4000);
       }).catch(function () {
-        btn.textContent = 'Gr\u00e0cies! \u2714';
-        emailInput.value = '';
+        btn.textContent = 'Error. Torna-ho a provar.';
+        btn.disabled = false;
         setTimeout(function () {
           btn.textContent = originalText;
-          btn.disabled = false;
-        }, 4000);
+        }, 3000);
       });
     });
   }
