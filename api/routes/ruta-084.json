@@ -118,5 +118,6 @@
     "duration_diff_pct": 0.05,
     "plausible": true,
     "notes": "The route closely follows the specified roads and includes scenic views typical of the Priorat region. The estimated distance and duration are slightly higher than claimed, likely due to winding roads and elevation changes."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-084%3A%20El%20Priorat%20Profund"
 }

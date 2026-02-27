@@ -105,5 +105,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely and matches the claimed distance and duration. The waypoints are chosen at key intersections and the breakfast stop."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-031%3A%20Mollet%20i%20Santa%20Perp%C3%A8tua"
 }

@@ -111,5 +111,6 @@
     "Vehicles agrícoles freqüents a les carreteres locals. Mantingues la distància de seguretat.",
     "A l'estiu les temperatures poden superar els 40°C al pla de Lleida. Porta aigua i fes parades freqüents."
   ],
-  "fuel_note": "Gasolineres disponibles a Lleida i Balaguer. Amb 95 km de recorregut total, el combustible no és una preocupació."
+  "fuel_note": "Gasolineres disponibles a Lleida i Balaguer. Amb 95 km de recorregut total, el combustible no és una preocupació.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-083%3A%20Balaguer%20i%20la%20Noguera%20Suau"
 }

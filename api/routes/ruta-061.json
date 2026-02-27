@@ -105,5 +105,6 @@
     "duration_diff_pct": 0.25,
     "plausible": true,
     "notes": "The route follows the specified roads and is plausible within the claimed distance and duration. The waypoints are accurately placed along the C-17, BV-5303, and N-141c roads."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-061%3A%20Centelles%2C%20Tona%20i%20el%20Pla%20de%20Vic"
 }

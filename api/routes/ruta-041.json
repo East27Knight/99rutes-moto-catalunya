@@ -146,5 +146,6 @@
     "Trànsit de vehicles agrícoles a les carreteres secundàries. Paciència i distància de seguretat.",
     "La boira matinal és habitual a les valls de la Garrotxa, especialment a la tardor. Redueix la velocitat fins que s'aixequi."
   ],
-  "fuel_note": "Gasolineres disponibles a Besalú i Olot. No hi ha serveis de combustible entre Olot i Santa Pau. Repostatge recomanat a Olot si el dipòsit és per sota de la meitat."
+  "fuel_note": "Gasolineres disponibles a Besalú i Olot. No hi ha serveis de combustible entre Olot i Santa Pau. Repostatge recomanat a Olot si el dipòsit és per sota de la meitat.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-041%3A%20Volcans%20de%20la%20Garrotxa"
 }

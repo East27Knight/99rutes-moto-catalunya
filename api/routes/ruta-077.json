@@ -125,5 +125,6 @@
     "duration_diff_pct": 0.04,
     "plausible": true,
     "notes": "The route closely follows the specified roads with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly less than claimed but align with typical travel times for this region."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-077%3A%20Port%20del%20Cant%C3%B3%20i%20la%20Seu%20d%27Urgell"
 }

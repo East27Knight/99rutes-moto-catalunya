@@ -114,5 +114,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely and includes the breakfast stop in Cardona. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-003%3A%20La%20Ruta%20de%20la%20Sal%3A%20Cardona%20i%20S%C3%BAria"
 }

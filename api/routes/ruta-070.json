@@ -116,5 +116,6 @@
     "Les carreteres locals poden tenir clapes de fang o restes vegetals. Precaució als revolts.",
     "El sol pot enlluerar a primera hora i al capvespre a les rectes orientades est-oest. Porta visera neta."
   ],
-  "fuel_note": "Gasolineres disponibles a Igualada i Masquefa. Amb 75 km totals, el combustible no és cap problema per a cap moto."
+  "fuel_note": "Gasolineres disponibles a Igualada i Masquefa. Amb 75 km totals, el combustible no és cap problema per a cap moto.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-070%3A%20Vinyes%20de%20l%27Anoia"
 }

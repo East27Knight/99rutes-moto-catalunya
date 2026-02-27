@@ -111,5 +111,6 @@
     "duration_diff_pct": 0.04,
     "plausible": true,
     "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on actual road conditions and typical driving speeds."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-078%3A%20Cerdanya%20pel%20Coll%20de%20Narg%C3%B3"
 }

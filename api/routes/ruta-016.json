@@ -128,5 +128,6 @@
     "Les temperatures al cim poden ser 10-15°C menys que a Barcelona. Porta capes tèrmiques.",
     "Atenció als senglars, especialment a primera hora del matí i al capvespre."
   ],
-  "fuel_note": "Repostatge recomanat a Sant Celoni abans de començar la pujada. No hi ha gasolineres dins del Parc Natural del Montseny. A Viladrau també hi ha gasolinera per la tornada."
+  "fuel_note": "Repostatge recomanat a Sant Celoni abans de començar la pujada. No hi ha gasolineres dins del Parc Natural del Montseny. A Viladrau també hi ha gasolinera per la tornada.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-016%3A%20El%20Montseny%20Gran%3A%20Tur%C3%B3%20de%20l%27Home"
 }

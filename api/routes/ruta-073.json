@@ -124,5 +124,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the N-230 closely and includes a stop in Vielha for breakfast. The estimated distance and duration match the claimed values, suggesting the route's plausibility."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-073%3A%20Val%20d%27Aran%20pel%20T%C3%BAnel%20de%20Vielha"
 }

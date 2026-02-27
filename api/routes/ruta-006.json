@@ -127,5 +127,6 @@
     "duration_diff_pct": 0.12,
     "plausible": true,
     "notes": "The route covers scenic areas with a mix of main roads and smaller roads. The estimated distance and duration are slightly higher than claimed, likely due to the winding nature of some roads."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-006%3A%20La%20Vall%20del%20Cardener%20fins%20a%20Berga"
 }

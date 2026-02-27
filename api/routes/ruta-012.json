@@ -119,5 +119,6 @@
     "duration_diff_pct": 0.25,
     "plausible": true,
     "notes": "The route follows the specified roads closely, and the estimated distance and duration are slightly less than claimed, likely due to direct routing and current road conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-012%3A%20El%20Castell%20de%20Cardona"
 }

@@ -127,5 +127,6 @@
     "El vent pot ser molt fort al cim del Coll de Pal. Vigila les ràfegues laterals.",
     "Atenció a la fauna: és habitual veure isards i cabirols prop de la carretera."
   ],
-  "fuel_note": "Repostatge a Berga (km 60 aprox.) abans de començar la pujada. No hi ha gasolineres entre Berga i Guardiola de Berguedà. Surt de Manresa amb el dipòsit ple per tenir marge."
+  "fuel_note": "Repostatge a Berga (km 60 aprox.) abans de començar la pujada. No hi ha gasolineres entre Berga i Guardiola de Berguedà. Surt de Manresa amb el dipòsit ple per tenir marge.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-001%3A%20El%20Coll%20de%20Pal%20i%20les%20Valls%20del%20Bergued%C3%A0"
 }

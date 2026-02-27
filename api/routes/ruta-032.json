@@ -119,5 +119,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads and includes scenic mountain passes. The claimed distance and duration are slightly underestimated; actual travel might be longer due to winding roads."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-032%3A%20Sant%20Lloren%C3%A7%20del%20Munt%3A%20La%20Mola%20per%20Dins"
 }

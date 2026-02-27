@@ -112,5 +112,6 @@
     "duration_diff_pct": 0.05,
     "plausible": true,
     "notes": "The route follows the specified roads closely, with a slight increase in distance due to road conditions and detours. The estimated duration accounts for typical traffic and road conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-018%3A%20Pened%C3%A8s%3A%20Terra%20de%20Cava%20i%20Revolts"
 }

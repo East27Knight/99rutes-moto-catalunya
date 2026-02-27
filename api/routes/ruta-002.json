@@ -128,5 +128,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely and the estimated distance and duration align with the claimed values."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-002%3A%20Solsona%20i%20el%20Port%20del%20Comte"
 }

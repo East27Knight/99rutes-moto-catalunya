@@ -99,5 +99,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads and matches the claimed distance and duration."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-038%3A%20Sabadell%20a%20Sentmenat%20pel%20Rodal"
 }

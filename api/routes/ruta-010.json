@@ -112,5 +112,6 @@
     "duration_diff_pct": 0.05,
     "plausible": true,
     "notes": "The route follows the specified roads closely and the estimated distance and duration are slightly higher due to road conditions and typical traffic."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-010%3A%20La%20Segarra%20i%20els%20Camps%20de%20Cereals"
 }

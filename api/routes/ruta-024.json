@@ -114,5 +114,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route covers a scenic path through the Pre-Pyrenees with a slightly longer distance than claimed, but within the expected duration."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-024%3A%20Sant%20Lloren%C3%A7%20Savall%20i%20el%20Pre-Pirineu%20Proper"
 }

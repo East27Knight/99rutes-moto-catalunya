@@ -117,5 +117,6 @@
     "A l'estiu, el trànsit turístic als pobles pot ser intens. Evita les hores centrals del dia.",
     "Atenció als tractors i vehicles agrícoles a les carreteres secundàries entre pobles."
   ],
-  "fuel_note": "Gasolineres a Girona i La Bisbal d'Empordà. Amb 85 km totals, no cal preocupar-se pel combustible."
+  "fuel_note": "Gasolineres a Girona i La Bisbal d'Empordà. Amb 85 km totals, no cal preocupar-se pel combustible.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-049%3A%20Empordanet%3A%20Pals%2C%20Peratallada%20i%20Ullastret"
 }

@@ -111,5 +111,6 @@
     "duration_diff_pct": 0.05,
     "plausible": true,
     "notes": "The route follows the specified roads closely, with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly higher than claimed due to real-world conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-067%3A%20La%20Segarra%3A%20Castells%20i%20Horitzons"
 }

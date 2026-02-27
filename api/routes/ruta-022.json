@@ -113,5 +113,6 @@
     "duration_diff_pct": 0.33,
     "plausible": true,
     "notes": "The actual route is shorter than claimed, covering approximately 65 km. The duration is around 2 hours due to the winding nature of the roads in Collserola."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-022%3A%20Collserola%20i%20la%20Carretera%20de%20les%20Aig%C3%BCes"
 }

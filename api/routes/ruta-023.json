@@ -106,5 +106,6 @@
     "duration_diff_pct": 0.09,
     "plausible": true,
     "notes": "The route follows the specified roads closely with minor deviations for scenic detours. The estimated distance and duration are slightly higher due to road conditions and traffic."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-023%3A%20El%20Vall%C3%A8s%20Oriental%3A%20Cingles%20de%20Bert%C3%AD"
 }

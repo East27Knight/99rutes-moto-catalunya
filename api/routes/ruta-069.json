@@ -98,5 +98,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route closely follows the specified roads and includes the breakfast stop at Capellades. The estimated distance is slightly higher than claimed, but the duration aligns with the expected travel time."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-069%3A%20Capellades%20i%20la%20Pobla%20de%20Claramunt"
 }

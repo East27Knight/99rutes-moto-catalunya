@@ -113,5 +113,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely, but the claimed distance of 140 km is slightly underestimated. The real distance is closer to 150 km."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-021%3A%20Delta%20del%20Llobregat%20al%20Cap%20de%20Creus%20del%20Garraf"
 }

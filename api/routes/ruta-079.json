@@ -118,5 +118,6 @@
     "duration_diff_pct": 0.12,
     "plausible": true,
     "notes": "The route closely follows the specified roads and includes a scenic detour through Sant Llorenç de Morunys. The estimated distance is slightly longer than claimed, but the duration is consistent with a leisurely motorcycle ride."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-079%3A%20La%20Segarra%20i%20Solsona"
 }

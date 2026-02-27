@@ -64,6 +64,7 @@
     "by_difficulty": "/api/difficulty/{1-5}.json",
     "showcase": "/api/showcase.json"
   },
-  "generated": "2026-02-27T17:05:19.568097+00:00",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md",
+  "generated": "2026-02-27T17:13:48.378644+00:00",
   "source": "https://github.com/East27Knight/99rutes-moto-catalunya"
 }

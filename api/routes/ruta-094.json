@@ -112,5 +112,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-094%3A%20Delta%20de%20l%27Ebre%20Gran%20Volta"
 }

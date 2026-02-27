@@ -118,5 +118,6 @@
     "duration_diff_pct": 0.25,
     "plausible": true,
     "notes": "The route follows the main roads C-32 and C-31 with a breakfast stop in Sitges. The estimated distance and duration are slightly less than claimed, likely due to the direct nature of the roads."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-029%3A%20El%20Garraf%20Curt%3A%20Gav%C3%A0%20a%20Sitges"
 }

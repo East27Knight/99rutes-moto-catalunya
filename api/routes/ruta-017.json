@@ -115,5 +115,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely. The estimated distance and duration are slightly adjusted for realistic travel times and road conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-017%3A%20La%20Costa%20del%20Garraf%20i%20els%20Cingles"
 }

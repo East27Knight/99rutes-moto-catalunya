@@ -124,5 +124,6 @@
     "El vent pot ser molt fort al cim de Siurana, especialment la tramuntana. Vigila l'estabilitat de la moto.",
     "A Siurana no hi ha gasolinera ni serveis d'emergència immediats. Porta tot el que necessitis."
   ],
-  "fuel_note": "Última gasolinera a Cornudella de Montsant o a la sortida de Reus. Assegura't de tenir almenys mig dipòsit abans de començar la pujada a Siurana."
+  "fuel_note": "Última gasolinera a Cornudella de Montsant o a la sortida de Reus. Assegura't de tenir almenys mig dipòsit abans de començar la pujada a Siurana.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-085%3A%20Siurana%2C%20el%20Niu%20d%27%C3%80liga"
 }

@@ -117,5 +117,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows scenic secondary roads as specified, with a slight adjustment to include Olot for a more complete circuit."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-051%3A%20Besal%C3%BA%20i%20la%20Vall%20del%20Fluvi%C3%A0"
 }

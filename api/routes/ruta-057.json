@@ -118,5 +118,6 @@
     "duration_diff_pct": 0.05,
     "plausible": true,
     "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and typical speeds."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-057%3A%20De%20Vic%20a%20Ripoll%20pel%20Ripoll%C3%A8s"
 }

@@ -113,5 +113,6 @@
     "duration_diff_pct": 0.33,
     "plausible": false,
     "notes": "The claimed distance and duration seem exaggerated for the roads specified. The real route is shorter and quicker."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-025%3A%20La%20Volta%20al%20Tibidabo"
 }

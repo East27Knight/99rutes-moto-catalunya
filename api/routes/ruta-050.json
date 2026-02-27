@@ -118,5 +118,6 @@
     "duration_diff_pct": 0.1,
     "plausible": true,
     "notes": "The route is slightly longer than claimed, likely due to additional curves and elevation changes. The estimated duration accounts for typical traffic and road conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-050%3A%20L%27Estany%20de%20Banyoles%20i%20Porqueres"
 }

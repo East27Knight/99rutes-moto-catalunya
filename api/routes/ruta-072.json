@@ -125,5 +125,6 @@
     "Atenció als ramats de bestiar que poden creuar la carretera a les zones d'alta muntanya.",
     "El tram N-230 pot tenir trànsit pesat de camions, especialment entre setmana."
   ],
-  "fuel_note": "Repostatge recomanat a Tremp (km 80 aprox.) o Sort (km 120 aprox.). A partir de Sort no hi ha gasolineres fins a Vielha (80 km). Assegura't de sortir de Sort amb el dipòsit ple."
+  "fuel_note": "Repostatge recomanat a Tremp (km 80 aprox.) o Sort (km 120 aprox.). A partir de Sort no hi ha gasolineres fins a Vielha (80 km). Assegura't de sortir de Sort amb el dipòsit ple.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-072%3A%20La%20Bonaigua%20i%20el%20Sostre%20del%20Pirineu"
 }

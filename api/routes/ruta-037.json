@@ -112,5 +112,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-037%3A%20Matadepera%20i%20la%20Vall%20de%20Sant%20Lloren%C3%A7"
 }

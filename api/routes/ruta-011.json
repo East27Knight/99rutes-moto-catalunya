@@ -111,5 +111,6 @@
     "A l'hivern el sol és baix i pot enlluerar en alguns trams orientats al sud. Porta visera neta.",
     "Atenció als tractors i maquinària agrícola a les carreteres secundàries, especialment en època de collita."
   ],
-  "fuel_note": "Gasolineres disponibles a Manresa i Sant Fruitós de Bages. Amb 65 km de recorregut, qualsevol moto fa la ruta sense necessitat de repostar."
+  "fuel_note": "Gasolineres disponibles a Manresa i Sant Fruitós de Bages. Amb 65 km de recorregut, qualsevol moto fa la ruta sense necessitat de repostar.",
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-011%3A%20Volta%20a%20Montserrat%20per%20Sant%20Benet"
 }

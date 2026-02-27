@@ -120,5 +120,6 @@
     "duration_diff_pct": 0.1,
     "plausible": true,
     "notes": "The route is plausible and follows the specified roads closely. The estimated distance is slightly less than claimed, but the duration aligns well with typical travel times for this type of terrain."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-008%3A%20Els%20Rasos%20de%20Peguera%20i%20la%20Serra%20de%20Picancel"
 }

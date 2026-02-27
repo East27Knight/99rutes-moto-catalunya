@@ -119,5 +119,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route closely follows the specified roads and includes key waypoints. The estimated distance and duration are slightly adjusted for accuracy."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-064%3A%20Montserrat%20des%20del%20Sud%3A%20La%20Ruta%20dels%20Monjos"
 }

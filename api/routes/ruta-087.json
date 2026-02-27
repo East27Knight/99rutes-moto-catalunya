@@ -105,5 +105,6 @@
     "duration_diff_pct": 0.07,
     "plausible": true,
     "notes": "The route follows the specified roads closely. The estimated distance and duration are slightly higher than claimed due to road conditions and potential traffic."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-087%3A%20Costa%20Daurada%20Sud%3A%20Perell%C3%B3%20i%20Vandell%C3%B2s"
 }

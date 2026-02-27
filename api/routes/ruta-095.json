@@ -111,5 +111,6 @@
     "duration_diff_pct": 0.0,
     "plausible": true,
     "notes": "The route follows the specified roads and includes all necessary waypoints. The estimated distance and duration are slightly higher than claimed but within a reasonable range."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-095%3A%20Terra%20Alta%3A%20Gandesa%20i%20el%20Front%20de%20l%27Ebre"
 }

@@ -120,5 +120,6 @@
     "duration_diff_pct": 0.17,
     "plausible": true,
     "notes": "The route is plausible with a slight increase in estimated distance and duration due to the winding nature of the roads and potential traffic conditions."
-  }
+  },
+  "feedback_url": "https://github.com/East27Knight/99rutes-moto-catalunya/issues/new?template=route-feedback.md&title=%5BFeedback%5D%20ruta-009%3A%20Navarcles%2C%20Talamanca%20i%20el%20Congost%20de%20la%20Riera"
 }
