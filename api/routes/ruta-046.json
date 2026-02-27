@@ -1,0 +1,122 @@
+{
+  "id": "ruta-046",
+  "number": 46,
+  "name": "L'Alta Garrotxa Salvatge",
+  "slug": "lalta-garrotxa-salvatge",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Garrotxa",
+  "summary": "L'Alta Garrotxa és un dels racons més aïllats i salvatges de Catalunya. Carreteres estretes i sinuoses pugen fins a pobles quasi abandonats com Sadernes i Oix. El paisatge calcari amb gorges profundes i boscos densos fa d'aquesta ruta una experiència de conducció extrema i solitària.",
+  "total_distance_km": 220,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 2500,
+  "elevation_max_m": 950,
+  "roads_main": [
+    "C-66",
+    "GI-524",
+    "GI-522",
+    "C-26"
+  ],
+  "esmorzar": {
+    "town": "Olot",
+    "comarca": "La Garrotxa",
+    "lat": 42.181,
+    "lng": 2.491,
+    "specialty": "Esmorzar de forquilla garrotxí amb fesols, botifarra negra i trinxat",
+    "confidence": "verified"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu"
+  ],
+  "tags": [
+    "muntanya",
+    "aïllament",
+    "tècnic",
+    "natura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.699/42.181,2.491/42.217,2.515/42.172,2.365/42.201,2.19/42.233,2.368/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.199,
+      "lng": 2.699,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.181,
+      "lng": 2.491,
+      "type": "esmorzar",
+      "road": "GI-524"
+    },
+    {
+      "name": "Sant Joan les Fonts",
+      "lat": 42.217,
+      "lng": 2.515,
+      "type": "waypoint",
+      "road": "GI-522"
+    },
+    {
+      "name": "Vallfogona de Ripollès",
+      "lat": 42.172,
+      "lng": 2.365,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Ripoll",
+      "lat": 42.201,
+      "lng": 2.19,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Sant Pau de Segúries",
+      "lat": 42.233,
+      "lng": 2.368,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-66"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 5,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows scenic secondary roads and includes a breakfast stop in Olot. The estimated distance and duration are close to the claimed values, making the route plausible."
+  }
+}

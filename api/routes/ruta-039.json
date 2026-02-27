@@ -1,0 +1,129 @@
+{
+  "id": "ruta-039",
+  "number": 39,
+  "name": "Les 365 Corbes de la Costa Brava",
+  "slug": "les-365-corbes-de-la-costa-brava",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Selva",
+  "summary": "La ruta mítica de la GI-682 entre Tossa de Mar i Sant Feliu de Guíxols, amb les seves llegendàries 365 corbes sobre penya-segats que cauen al mar. Un festí de revolts tècnics, vistes infinites al Mediterrani i parades en cales amagades.",
+  "total_distance_km": 185,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 1850,
+  "elevation_max_m": 320,
+  "roads_main": [
+    "GI-682",
+    "GI-664",
+    "C-65",
+    "C-63"
+  ],
+  "esmorzar": {
+    "town": "Tossa de Mar",
+    "comarca": "La Selva",
+    "lat": 41.721,
+    "lng": 2.934,
+    "specialty": "Esmorzar de forquilla amb peix fresc i pa amb tomàquet davant del mar",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "corbes",
+    "icònica",
+    "penya-segats"
+  ],
+  "waypoints": [
+    {
+      "name": "Girona (sortida)",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start"
+    },
+    {
+      "name": "Llagostera",
+      "lat": 41.828,
+      "lng": 2.893,
+      "type": "waypoint"
+    },
+    {
+      "name": "Tossa de Mar",
+      "lat": 41.721,
+      "lng": 2.934,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Mirador de la GI-682",
+      "lat": 41.753,
+      "lng": 2.965,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Cala Giverola",
+      "lat": 41.744,
+      "lng": 2.945,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Sant Feliu de Guíxols",
+      "lat": 41.784,
+      "lng": 3.032,
+      "type": "waypoint"
+    },
+    {
+      "name": "Girona (arribada)",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.828,2.893/41.721,2.934/41.753,2.965/41.744,2.945/41.784,3.032/41.983,2.824",
+  "description_long": "Hi ha carreteres que defineixen una comarca, i la GI-682 és l'ànima de la Costa Brava. Sortint de Girona cap al sud-est, la C-65 et porta fins a Llagostera, on les primeres pinedes anuncien la proximitat del mar. Però és en girar cap a Tossa de Mar quan comença la màgia: la carretera s'estreny, l'asfalt es fa més íntim, i d'un revolt a l'altre apareixen flaixos de blau mediterrani que et roben la mirada.\n\nEntre Tossa de Mar i Sant Feliu de Guíxols, la GI-682 desplega les seves llegendàries 365 corbes — una per cada dia de l'any, diuen. Són revolts tancats, canvis de rasant, pujades i baixades entre penya-segats coberts de pins que cauen verticalment al mar. L'olor de pi i sal marina es barreja amb l'asfalt calent. Cada revolt és un petit repte tècnic: entrada, àpex, sortida, i de seguida el següent. No hi ha descans, i no en vols. Les cales amagades apareixen entre els arbres com promeses: Cala Giverola, Cala Bona, i desenes més sense nom que només es veuen des de la moto.\n\nA Sant Feliu de Guíxols, la recompensa és un cafè al port mentre contemples els vaixells i deixes que les mans deixin de vibrar. La tornada per l'interior, per la GI-664 i la C-65, és un contrapunt suau entre camps i masies que permet digerir el festí de corbes que acabes de viure. Aquesta és la ruta que tot motociclista hauria de fer almenys un cop a la vida.",
+  "what_makes_it_special": "La GI-682 és la carretera de corbes més famosa de Catalunya: 365 revolts sobre penya-segats amb vistes al Mediterrani que combinen tècnica de conducció amb una bellesa paisatgística que fa perdre l'alè.",
+  "roads_detail": [
+    {
+      "name": "C-65",
+      "segment": "Girona - Llagostera",
+      "type": "carretera comarcal",
+      "notes": "Tram de connexió ràpid i còmode. Algunes rotondes a la sortida de Girona."
+    },
+    {
+      "name": "C-63 / GI-681",
+      "segment": "Llagostera - Tossa de Mar",
+      "type": "carretera comarcal",
+      "notes": "Descens progressiu cap a la costa. Les corbes comencen a aparèixer."
+    },
+    {
+      "name": "GI-682",
+      "segment": "Tossa de Mar - Sant Feliu de Guíxols",
+      "type": "carretera de cornisa",
+      "notes": "El tram mític: 365 corbes sobre penya-segats. Asfalt irregular en alguns trams. Ciclistes els caps de setmana."
+    },
+    {
+      "name": "GI-664 / C-65",
+      "segment": "Sant Feliu de Guíxols - Girona",
+      "type": "carretera comarcal",
+      "notes": "Tornada per l'interior. Tram més relaxat amb corbes suaus entre camps."
+    }
+  ],
+  "warnings": [
+    "La GI-682 és molt freqüentada per ciclistes els caps de setmana. Extrema la precaució als revolts sense visibilitat.",
+    "L'asfalt de la GI-682 pot ser irregular i tenir graveta als marges. No t'obris massa a les sortides de corba.",
+    "A l'estiu el trànsit turístic pot ser intens, especialment a les entrades de Tossa i Sant Feliu. Evita les hores punta.",
+    "Les barreres de protecció són mínimes en molts trams. Condueix dins dels teus límits.",
+    "Atenció a la humitat matinal als trams ombrejats entre pins."
+  ],
+  "fuel_note": "Repostatge disponible a Llagostera abans d'enfilar cap a la costa. A Tossa de Mar també hi ha gasolinera. Recomanem sortir de Girona amb el dipòsit ple per no haver de buscar gasolinera durant el tram de la GI-682."
+}

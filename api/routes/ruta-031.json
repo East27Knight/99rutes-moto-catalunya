@@ -1,0 +1,109 @@
+{
+  "id": "ruta-031",
+  "number": 31,
+  "name": "Mollet i Santa Perpètua",
+  "slug": "mollet-santa-perpetua",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Circuit curtíssim i sense cap dificultat tècnica: Cerdanyola, Santa Perpètua de Mogoda, Mollet del Vallès i tornada. Perfecta per a qui acaba de treure's el carnet i vol fer els primers quilòmetres fora de ciutat amb total seguretat. Carreteres planes i rectes.",
+  "total_distance_km": 42,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 100,
+  "elevation_max_m": 180,
+  "roads_main": [
+    "B-140",
+    "C-33",
+    "N-150"
+  ],
+  "esmorzar": {
+    "town": "Mollet del Vallès",
+    "comarca": "Vallès Oriental",
+    "lat": 41.544,
+    "lng": 2.19,
+    "specialty": "Entrepà de truita amb café amb llet a un bar del centre",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "fàcil",
+    "primer-cop",
+    "pla",
+    "urbà"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.546,2.133/41.544,2.19/41.548,2.203/41.531,2.154/41.516,2.122/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "N-150"
+    },
+    {
+      "name": "Intersection B-140 with C-58",
+      "lat": 41.546,
+      "lng": 2.133,
+      "type": "waypoint",
+      "road": "B-140"
+    },
+    {
+      "name": "Mollet del Vallès",
+      "lat": 41.544,
+      "lng": 2.19,
+      "type": "esmorzar",
+      "road": "B-140"
+    },
+    {
+      "name": "C-33 Entrance near Mollet",
+      "lat": 41.548,
+      "lng": 2.203,
+      "type": "waypoint",
+      "road": "C-33"
+    },
+    {
+      "name": "Intersection C-33 with N-150",
+      "lat": 41.531,
+      "lng": 2.154,
+      "type": "waypoint",
+      "road": "C-33"
+    },
+    {
+      "name": "Intersection N-150 with B-140",
+      "lat": 41.516,
+      "lng": 2.122,
+      "type": "waypoint",
+      "road": "N-150"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "N-150"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 42,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and matches the claimed distance and duration. The waypoints are chosen at key intersections and the breakfast stop."
+  }
+}

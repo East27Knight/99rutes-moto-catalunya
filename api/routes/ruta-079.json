@@ -1,0 +1,122 @@
+{
+  "id": "ruta-079",
+  "number": 79,
+  "name": "La Segarra i Solsona",
+  "slug": "la-segarra-i-solsona",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Segarra",
+  "summary": "Ruta per la Catalunya interior que puja cap a Cervera per la C-14 i s'enfila fins a Solsona i Cardona amb el seu castell de sal. Paisatge de secà amb camps de cereal, pobles medievals i carreteres tranquil·les i ben asfaltades.",
+  "total_distance_km": 200,
+  "estimated_duration_hours": 4.0,
+  "riding_time_hours": 3.0,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 860,
+  "roads_main": [
+    "C-14",
+    "C-142",
+    "C-26",
+    "C-149"
+  ],
+  "esmorzar": {
+    "town": "Solsona",
+    "comarca": "Solsonès",
+    "lat": 41.994,
+    "lng": 1.517,
+    "specialty": "Esmorzar amb trumfos del Solsonès, botifarra i coca de recapte",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "interior",
+    "medieval",
+    "cultura",
+    "secà"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.916,1.184/41.994,1.517/42.134,1.583/42.103,1.55/41.914,1.681/41.674,1.272/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-14"
+    },
+    {
+      "name": "Tàrrega",
+      "lat": 41.647,
+      "lng": 1.139,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Ponts",
+      "lat": 41.916,
+      "lng": 1.184,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Solsona",
+      "lat": 41.994,
+      "lng": 1.517,
+      "type": "esmorzar",
+      "road": "C-26"
+    },
+    {
+      "name": "Sant Llorenç de Morunys",
+      "lat": 42.134,
+      "lng": 1.583,
+      "type": "waypoint",
+      "road": "C-142"
+    },
+    {
+      "name": "Coll de Jou",
+      "lat": 42.103,
+      "lng": 1.55,
+      "type": "summit",
+      "road": "C-149"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.914,
+      "lng": 1.681,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Cervera",
+      "lat": 41.674,
+      "lng": 1.272,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-14"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.12,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes a scenic detour through Sant Llorenç de Morunys. The estimated distance is slightly longer than claimed, but the duration is consistent with a leisurely motorcycle ride."
+  }
+}

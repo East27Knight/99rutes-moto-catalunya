@@ -1,0 +1,116 @@
+{
+  "id": "ruta-035",
+  "number": 35,
+  "name": "Castellar del Vallès i les Obagues",
+  "slug": "castellar-valles-obagues",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Sabadell / Terrassa",
+  "starting_point": {
+    "name": "Sabadell",
+    "comarca": "Vallès Occidental",
+    "lat": 41.543,
+    "lng": 2.108
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Circuit pels voltants de Castellar del Vallès, pujant cap a Sentmenat i la serra de l'Obac per la BV-1248. Carreteres amb revolts generosos entre boscos d'alzina i pi blanc, amb parades possibles a masies i fonts. Tornada per Sant Llorenç Savall completant un circuit molt satisfactori.",
+  "total_distance_km": 135,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 780,
+  "roads_main": [
+    "B-124",
+    "BV-1248",
+    "BV-1221",
+    "C-58",
+    "N-150"
+  ],
+  "esmorzar": {
+    "town": "Castellar del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.616,
+    "lng": 2.083,
+    "specialty": "Esmorzar a Can Gibert amb truita de patates i café de matí",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "bosc",
+    "carreteres-secundàries",
+    "masies",
+    "tranquil"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.616,2.083/41.686,2.062/41.682,1.977/41.684,1.931/41.563,2.008/41.496,2.157/41.543,2.108",
+  "waypoints": [
+    {
+      "name": "Sabadell",
+      "lat": 41.543,
+      "lng": 2.108,
+      "type": "start",
+      "road": "N-150"
+    },
+    {
+      "name": "Castellar del Vallès",
+      "lat": 41.616,
+      "lng": 2.083,
+      "type": "esmorzar",
+      "road": "B-124"
+    },
+    {
+      "name": "Sant Llorenç Savall",
+      "lat": 41.686,
+      "lng": 2.062,
+      "type": "waypoint",
+      "road": "BV-1248"
+    },
+    {
+      "name": "Coll d'Estenalles",
+      "lat": 41.682,
+      "lng": 1.977,
+      "type": "summit",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Mura",
+      "lat": 41.684,
+      "lng": 1.931,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "waypoint",
+      "road": "C-58"
+    },
+    {
+      "name": "Ripollet",
+      "lat": 41.496,
+      "lng": 2.157,
+      "type": "waypoint",
+      "road": "N-150"
+    },
+    {
+      "name": "Sabadell",
+      "lat": 41.543,
+      "lng": 2.108,
+      "type": "end",
+      "road": "N-150"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 140,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight adjustment in the estimated distance and duration to reflect actual road conditions and speeds."
+  }
+}

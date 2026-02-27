@@ -1,0 +1,117 @@
+{
+  "id": "ruta-034",
+  "number": 34,
+  "name": "Rellinars, Vacarisses i el Congost del Llobregat",
+  "slug": "rellinars-vacarisses-congost",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Sabadell / Terrassa",
+  "starting_point": {
+    "name": "Sabadell",
+    "comarca": "Vallès Occidental",
+    "lat": 41.543,
+    "lng": 2.108
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Ruta que explora el sector occidental del Vallès, de Sabadell a Rellinars per carreteres estretes, baixada a Vacarisses pel congost del Llobregat i tornada per Olesa de Montserrat amb vistes a Montserrat. Trams tècnics amb revolts entre pins i un ambient de total aïllament.",
+  "total_distance_km": 125,
+  "estimated_duration_hours": 3,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1500,
+  "elevation_max_m": 640,
+  "roads_main": [
+    "C-58",
+    "BV-1229",
+    "B-124",
+    "BP-1101",
+    "C-55"
+  ],
+  "esmorzar": {
+    "town": "Olesa de Montserrat",
+    "comarca": "Baix Llobregat",
+    "lat": 41.545,
+    "lng": 1.893,
+    "specialty": "Esmorzar de forquilla amb ous estrellats i llonganissa a un bar de carretera",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "congost",
+    "carreteres-estretes",
+    "montserrat",
+    "bosc"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.563,2.008/41.633,1.911/41.545,1.893/41.61,1.835/41.578,1.832/41.592,1.912/41.543,2.108",
+  "waypoints": [
+    {
+      "name": "Sabadell",
+      "lat": 41.543,
+      "lng": 2.108,
+      "type": "start",
+      "road": "C-58"
+    },
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "waypoint",
+      "road": "C-58"
+    },
+    {
+      "name": "Rellinars",
+      "lat": 41.633,
+      "lng": 1.911,
+      "type": "waypoint",
+      "road": "BV-1229"
+    },
+    {
+      "name": "Olesa de Montserrat",
+      "lat": 41.545,
+      "lng": 1.893,
+      "type": "esmorzar",
+      "road": "C-55"
+    },
+    {
+      "name": "Monistrol de Montserrat",
+      "lat": 41.61,
+      "lng": 1.835,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Collbató",
+      "lat": 41.578,
+      "lng": 1.832,
+      "type": "waypoint",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Vacarisses",
+      "lat": 41.592,
+      "lng": 1.912,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Sabadell",
+      "lat": 41.543,
+      "lng": 2.108,
+      "type": "end",
+      "road": "C-58"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 130,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.17,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to real road conditions and traffic."
+  }
+}

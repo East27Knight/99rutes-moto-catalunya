@@ -1,0 +1,129 @@
+{
+  "id": "ruta-077",
+  "number": 77,
+  "name": "Port del Cantó i la Seu d'Urgell",
+  "slug": "port-del-canto-i-la-seu-durgell",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Alt Urgell",
+  "summary": "Ascens de la C-14 fins al Port del Cantó (1.725 m) amb una successió de revolts que fan somriure, i baixada cap a la Seu d'Urgell amb els Pirineus axials com a teló de fons. Tornada per Organyà i el Congost de Tres Ponts.",
+  "total_distance_km": 230,
+  "estimated_duration_hours": 5.0,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2800,
+  "elevation_max_m": 1725,
+  "roads_main": [
+    "C-14",
+    "N-260",
+    "C-26"
+  ],
+  "esmorzar": {
+    "town": "La Seu d'Urgell",
+    "comarca": "Alt Urgell",
+    "lat": 42.358,
+    "lng": 1.457,
+    "specialty": "Formatge de la Seu d'Urgell amb mel i nous, pa de coca",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pirineu",
+    "port",
+    "revolts",
+    "alt-urgell"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.917,1.183/42.158,1.321/42.35,1.383/42.358,1.457/42.217,1.317/41.9,1.05/41.791,0.809/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-14"
+    },
+    {
+      "name": "Tàrrega",
+      "lat": 41.647,
+      "lng": 1.139,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Ponts",
+      "lat": 41.917,
+      "lng": 1.183,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Coll de Nargó",
+      "lat": 42.158,
+      "lng": 1.321,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Port del Cantó",
+      "lat": 42.35,
+      "lng": 1.383,
+      "type": "summit",
+      "road": "N-260"
+    },
+    {
+      "name": "La Seu d'Urgell",
+      "lat": 42.358,
+      "lng": 1.457,
+      "type": "esmorzar",
+      "road": "N-260"
+    },
+    {
+      "name": "Organyà",
+      "lat": 42.217,
+      "lng": 1.317,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Artesa de Segre",
+      "lat": 41.9,
+      "lng": 1.05,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Balaguer",
+      "lat": 41.791,
+      "lng": 0.809,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-14"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 220,
+    "gpt_duration_hours": 4.8,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.04,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly less than claimed but align with typical travel times for this region."
+  }
+}

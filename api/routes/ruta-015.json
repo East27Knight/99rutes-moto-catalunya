@@ -1,0 +1,102 @@
+{
+  "id": "ruta-015",
+  "number": 15,
+  "name": "El Pont de Vilomara i la Riera de Sant Joan",
+  "slug": "pont-vilomara-riera-sant-joan",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Circuit curt i planer que surt de Manresa cap al Pont de Vilomara i Rocafort, travessant zones boscoses al costat del Llobregat. Tornada per Sant Vicenç de Castellet amb un ritme suau i sense cap tram complicat. Ideal per a una primera sortida en grup.",
+  "total_distance_km": 45,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 250,
+  "elevation_max_m": 380,
+  "roads_main": [
+    "BV-1221",
+    "B-124",
+    "C-55"
+  ],
+  "esmorzar": {
+    "town": "El Pont de Vilomara i Rocafort",
+    "comarca": "Bages",
+    "lat": 41.686,
+    "lng": 1.879,
+    "specialty": "Entrepà de truita de patates i cafè amb llet a un bar del poble",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "fàcil",
+    "primer-cop",
+    "bosc",
+    "riu"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.686,1.879/41.693,1.898/41.665,1.87/41.783,1.807/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-55"
+    },
+    {
+      "name": "Pont de Vilomara i Rocafort",
+      "lat": 41.686,
+      "lng": 1.879,
+      "type": "esmorzar",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Intersection BV-1221 and B-124",
+      "lat": 41.693,
+      "lng": 1.898,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Sant Vicenç de Castellet",
+      "lat": 41.665,
+      "lng": 1.87,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Callús",
+      "lat": 41.783,
+      "lng": 1.807,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-55"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 50,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.11,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance is slightly more than claimed due to the actual road layout."
+  }
+}

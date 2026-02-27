@@ -1,0 +1,150 @@
+{
+  "id": "ruta-041",
+  "number": 41,
+  "name": "Volcans de la Garrotxa",
+  "slug": "volcans-de-la-garrotxa",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Garrotxa",
+  "summary": "Ruta cap al cor volcànic de Catalunya, travessant fagedes i pobles medievals. Des de Besalú i el seu pont romànic fins a Santa Pau, passant per Olot i la seva espectacular zona volcànica. Carreteres sinuoses enmig d'un paisatge verd que sembla un altre país.",
+  "total_distance_km": 175,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1400,
+  "elevation_max_m": 680,
+  "roads_main": [
+    "C-66",
+    "GI-524",
+    "C-152",
+    "C-63"
+  ],
+  "esmorzar": {
+    "town": "Santa Pau",
+    "comarca": "La Garrotxa",
+    "lat": 42.145,
+    "lng": 2.567,
+    "specialty": "Fesols de Santa Pau amb botifarra i un glop de ratafía",
+    "confidence": "verified"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "volcans",
+    "natura",
+    "medieval",
+    "gastronomia"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.2,2.698/42.145,2.567/42.182,2.488/42.097,2.435/41.953,2.635/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.2,
+      "lng": 2.698,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Santa Pau",
+      "lat": 42.145,
+      "lng": 2.567,
+      "type": "esmorzar",
+      "road": "GI-524"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.182,
+      "lng": 2.488,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Sant Esteve d'en Bas",
+      "lat": 42.097,
+      "lng": 2.435,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Anglès",
+      "lat": 41.953,
+      "lng": 2.635,
+      "type": "waypoint",
+      "road": "C-63"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-63"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 180,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes scenic areas in La Garrotxa. The estimated distance and duration are slightly adjusted for accuracy."
+  },
+  "description_long": "La Garrotxa és el secret millor guardat de Catalunya. Quan deixes enrere la plana gironina per la C-66, el paisatge comença a ondular-se suaument, els camps es fan més verds i els boscos més densos. Besalú apareix com una visió medieval: el pont romànic del segle XII, amb els seus arcs de pedra reflectits al riu Fluvià, és la primera parada obligatòria. Aparca la moto, treu el casc i passeja pel poble. Necessites sentir la pedra sota els peus per entendre la profunditat d'aquest territori.\n\nDes de Besalú, la ruta s'endinsa cap a Olot per la C-66 i l'A-26, i el verd es fa gairebé irreal. La Garrotxa és terra volcànica: quaranta volcans adormits coberts de vegetació exuberant que donen al paisatge un aire subtropical inesperat. Les carreteres serpentejen entre colades de lava convertides en prats, cràters que ara són boscos de faig, i camps de conreu que aprofiten la riquesa del sòl volcànic. L'aire té una humitat suau que acaricia la pell, i l'olor és de terra fèrtil, molsa i faig.\n\nSanta Pau és la joia de la corona: un poble medieval perfecte, amb una plaça porxada que sembla aturada al temps, on els fesols de Santa Pau — petits, blancs i mantegosos — es cuinen amb botifarra i un raig d'oli de les oliveres centenàries de la comarca. Acompanyats d'un glop de ratafía, l'herbal garrotxí per excel·lència, és un dels millors esmorzars motociclistes de Catalunya. La tornada per la C-63 cap a Girona es fa amb un somriure que no se't despenja de la cara.",
+  "what_makes_it_special": "L'únic paisatge volcànic actiu de la Península Ibèrica combinat amb un dels conjunts medievals més ben conservats de Catalunya — una ruta que alimenta tant els sentits del motociclista com la seva ànima.",
+  "roads_detail": [
+    {
+      "name": "C-66",
+      "segment": "Girona - Besalú",
+      "type": "carretera comarcal",
+      "notes": "Tram fluid i còmode que segueix el Fluvià. Trànsit moderat, alguna zona d'obres puntual."
+    },
+    {
+      "name": "C-66 / A-26",
+      "segment": "Besalú - Olot",
+      "type": "autovia / carretera comarcal",
+      "notes": "Tram ràpid amb desdoblament parcial. El paisatge comença a ser espectacular."
+    },
+    {
+      "name": "GI-524",
+      "segment": "Olot - Santa Pau",
+      "type": "carretera local",
+      "notes": "Carretera estreta entre volcans i fagedes. Corbes suaus i ritme pausat. El tram més bonic de la ruta."
+    },
+    {
+      "name": "C-152 / C-63",
+      "segment": "Santa Pau - Girona",
+      "type": "carretera comarcal",
+      "notes": "Tornada per l'interior amb bones corbes i paisatge de transició. Pas per Anglès amb algunes zones urbanes."
+    }
+  ],
+  "warnings": [
+    "La Garrotxa és una de les comarques més plujoses de Catalunya. Consulta la previsió meteorològica i porta impermeable.",
+    "Les carreteres locals entre Olot i Santa Pau poden ser lliscoses per la humitat i les fulles. Precaució a la tardor.",
+    "Trànsit de vehicles agrícoles a les carreteres secundàries. Paciència i distància de seguretat.",
+    "La boira matinal és habitual a les valls de la Garrotxa, especialment a la tardor. Redueix la velocitat fins que s'aixequi."
+  ],
+  "fuel_note": "Gasolineres disponibles a Besalú i Olot. No hi ha serveis de combustible entre Olot i Santa Pau. Repostatge recomanat a Olot si el dipòsit és per sota de la meitat."
+}

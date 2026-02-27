@@ -1,0 +1,122 @@
+{
+  "id": "ruta-029",
+  "number": 29,
+  "name": "El Garraf Curt: Gavà a Sitges",
+  "slug": "garraf-curt-gava-sitges",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Garraf",
+  "summary": "La ruta costanera per excel·lència per a principiants: de Barcelona a Sitges per la C-32 amb el mar sempre present. Un passeig visual espectacular pels túnels del Garraf i les cales amagades. Tornada pel mateix camí amb la llum canviant sobre el Mediterrani.",
+  "total_distance_km": 75,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 350,
+  "elevation_max_m": 280,
+  "roads_main": [
+    "C-32",
+    "C-31",
+    "B-20"
+  ],
+  "esmorzar": {
+    "town": "Sitges",
+    "comarca": "Garraf",
+    "lat": 41.236,
+    "lng": 1.812,
+    "specialty": "Esmorzar al passeig marítim amb coca de vidre i cafè amb llet",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "costa",
+    "mar",
+    "fàcil",
+    "passeig"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.314,2.016/41.277,1.981/41.244,1.887/41.236,1.812/41.244,1.887/41.277,1.981/41.314,2.016/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "B-20"
+    },
+    {
+      "name": "Viladecans",
+      "lat": 41.314,
+      "lng": 2.016,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Castelldefels",
+      "lat": 41.277,
+      "lng": 1.981,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Garraf",
+      "lat": 41.244,
+      "lng": 1.887,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Sitges",
+      "lat": 41.236,
+      "lng": 1.812,
+      "type": "esmorzar",
+      "road": "C-31"
+    },
+    {
+      "name": "Garraf",
+      "lat": 41.244,
+      "lng": 1.887,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Castelldefels",
+      "lat": 41.277,
+      "lng": 1.981,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Viladecans",
+      "lat": 41.314,
+      "lng": 2.016,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "B-20"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 80,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.25,
+    "plausible": true,
+    "notes": "The route follows the main roads C-32 and C-31 with a breakfast stop in Sitges. The estimated distance and duration are slightly less than claimed, likely due to the direct nature of the roads."
+  }
+}

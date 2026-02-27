@@ -1,0 +1,115 @@
+{
+  "id": "ruta-090",
+  "number": 90,
+  "name": "Altafulla i la Costa de Llevant",
+  "slug": "altafulla-i-la-costa-de-llevant",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Tarragonès",
+  "summary": "Passeig costaner suau des de Tarragona fins a Altafulla i Torredembarra, amb el mar sempre a la vista. Carreteres planes i amples, ideals per a principiants que volen gaudir del Mediterrani sense complicacions tècniques.",
+  "total_distance_km": 50,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1.0,
+  "elevation_gain_m": 150,
+  "elevation_max_m": 80,
+  "roads_main": [
+    "N-340",
+    "C-31",
+    "TV-2041"
+  ],
+  "esmorzar": {
+    "town": "Altafulla",
+    "comarca": "Tarragonès",
+    "lat": 41.142,
+    "lng": 1.377,
+    "specialty": "Esmorzar de platja amb pa amb tomàquet i anxoves del Mediterrani",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "mar",
+    "suau",
+    "mediterrani"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.134,1.307/41.142,1.377/41.146,1.396/41.172,1.454/41.188,1.475/41.142,1.377/41.119,1.245",
+  "waypoints": [
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start",
+      "road": "N-340"
+    },
+    {
+      "name": "La Mora",
+      "lat": 41.134,
+      "lng": 1.307,
+      "type": "waypoint",
+      "road": "N-340"
+    },
+    {
+      "name": "Altafulla",
+      "lat": 41.142,
+      "lng": 1.377,
+      "type": "esmorzar",
+      "road": "N-340"
+    },
+    {
+      "name": "Torredembarra",
+      "lat": 41.146,
+      "lng": 1.396,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Creixell",
+      "lat": 41.172,
+      "lng": 1.454,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Roda de Berà",
+      "lat": 41.188,
+      "lng": 1.475,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Altafulla",
+      "lat": 41.142,
+      "lng": 1.377,
+      "type": "waypoint",
+      "road": "N-340"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end",
+      "road": "N-340"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 45,
+    "gpt_duration_hours": 1.2,
+    "distance_diff_pct": 0.1,
+    "duration_diff_pct": 0.2,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and matches the claimed distance and duration. The out-and-back nature of the route ensures a return to Tarragona."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "ruta-017",
+  "number": 17,
+  "name": "La Costa del Garraf i els Cingles",
+  "slug": "costa-garraf-cingles",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Garraf",
+  "summary": "Sortida de Barcelona per la C-32 fins a Sitges, pujada pel Parc del Garraf per la BV-2041 amb corbes tancades sobre penya-segats calcaris, i tornada per l'interior del Penedès. Mar, muntanya i vinyes en una sola ruta amb un esmorzar davant del Mediterrani.",
+  "total_distance_km": 150,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1800,
+  "elevation_max_m": 620,
+  "roads_main": [
+    "C-32",
+    "C-31",
+    "BV-2041",
+    "BV-2115",
+    "C-15",
+    "B-20"
+  ],
+  "esmorzar": {
+    "town": "Sitges",
+    "comarca": "Garraf",
+    "lat": 41.236,
+    "lng": 1.812,
+    "specialty": "Esmorzar de forquilla amb peix fregit i patates braves al passeig marítim",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "costa",
+    "mar",
+    "penya-segats",
+    "vinyes",
+    "corbes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.236,1.812/41.263,1.757/41.299,1.748/41.346,1.697/41.425,1.787/41.416,2.016/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "C-32"
+    },
+    {
+      "name": "Sitges",
+      "lat": 41.236,
+      "lng": 1.812,
+      "type": "esmorzar",
+      "road": "C-31"
+    },
+    {
+      "name": "Sant Pere de Ribes",
+      "lat": 41.263,
+      "lng": 1.757,
+      "type": "waypoint",
+      "road": "BV-2041"
+    },
+    {
+      "name": "Olivella",
+      "lat": 41.299,
+      "lng": 1.748,
+      "type": "waypoint",
+      "road": "BV-2115"
+    },
+    {
+      "name": "Vilafranca del Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Sant Sadurní d'Anoia",
+      "lat": 41.425,
+      "lng": 1.787,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Molins de Rei",
+      "lat": 41.416,
+      "lng": 2.016,
+      "type": "waypoint",
+      "road": "B-20"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "B-20"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 160,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely. The estimated distance and duration are slightly adjusted for realistic travel times and road conditions."
+  }
+}

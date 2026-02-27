@@ -1,0 +1,115 @@
+{
+  "id": "ruta-099",
+  "number": 99,
+  "name": "Tortosa, Xerta i Benifallet",
+  "slug": "tortosa-xerta-i-benifallet",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Tortosa / Terres de l'Ebre",
+  "starting_point": {
+    "name": "Tortosa",
+    "comarca": "Baix Ebre",
+    "lat": 40.812,
+    "lng": 0.521
+  },
+  "comarca_principal": "Baix Ebre",
+  "summary": "Circuit curt pel riu Ebre: pujada fins a Xerta amb la seva resclosa històrica i continuació fins a Benifallet, poble fluvial entre muntanyes. Carretera suau que segueix el curs del riu amb algunes corbes amples, perfecte per agafar confiança i gaudir del paisatge de ribera.",
+  "total_distance_km": 60,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1.0,
+  "elevation_gain_m": 250,
+  "elevation_max_m": 180,
+  "roads_main": [
+    "C-12",
+    "TV-3031",
+    "T-301"
+  ],
+  "esmorzar": {
+    "town": "Xerta",
+    "comarca": "Baix Ebre",
+    "lat": 40.917,
+    "lng": 0.494,
+    "specialty": "Esmorzar de ribera amb truita d'espàrrecs i pa amb oli de l'Ebre",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "riu",
+    "ebre",
+    "suau",
+    "ribera"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.917,0.494/40.923,0.491/40.95,0.468/40.975,0.464/40.969,0.509/40.965,0.514/40.812,0.521",
+  "waypoints": [
+    {
+      "name": "Tortosa",
+      "lat": 40.812,
+      "lng": 0.521,
+      "type": "start",
+      "road": "C-12"
+    },
+    {
+      "name": "Xerta",
+      "lat": 40.917,
+      "lng": 0.494,
+      "type": "esmorzar",
+      "road": "C-12"
+    },
+    {
+      "name": "Intersection C-12 and TV-3031",
+      "lat": 40.923,
+      "lng": 0.491,
+      "type": "waypoint",
+      "road": "TV-3031"
+    },
+    {
+      "name": "Paüls",
+      "lat": 40.95,
+      "lng": 0.468,
+      "type": "waypoint",
+      "road": "TV-3031"
+    },
+    {
+      "name": "Intersection TV-3031 and T-301",
+      "lat": 40.975,
+      "lng": 0.464,
+      "type": "waypoint",
+      "road": "T-301"
+    },
+    {
+      "name": "Benifallet",
+      "lat": 40.969,
+      "lng": 0.509,
+      "type": "waypoint",
+      "road": "T-301"
+    },
+    {
+      "name": "Intersection T-301 and C-12",
+      "lat": 40.965,
+      "lng": 0.514,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Tortosa",
+      "lat": 40.812,
+      "lng": 0.521,
+      "type": "end",
+      "road": "C-12"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 65,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.08,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads and includes notable intersections and towns. The estimated distance and duration are slightly adjusted to account for actual road conditions."
+  }
+}

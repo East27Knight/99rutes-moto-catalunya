@@ -1,0 +1,117 @@
+{
+  "id": "ruta-021",
+  "number": 21,
+  "name": "Delta del Llobregat al Cap de Creus del Garraf",
+  "slug": "delta-llobregat-garraf",
+  "category": "pro",
+  "difficulty": 2,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Baix Llobregat",
+  "summary": "Sortida pel delta del Llobregat, travessant les zones humides i els camps de conreu fins a Gavà, pujada a Begues pel Parc del Garraf, i baixada sinuosa cap a Vilanova i la Geltrú. Retorn per l'autopista. Una ruta costanera amb trams sorprenentment tècnics a l'interior del Garraf.",
+  "total_distance_km": 140,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1200,
+  "elevation_max_m": 580,
+  "roads_main": [
+    "C-31",
+    "BV-2041",
+    "C-15",
+    "C-32",
+    "B-20"
+  ],
+  "esmorzar": {
+    "town": "Vilanova i la Geltrú",
+    "comarca": "Garraf",
+    "lat": 41.224,
+    "lng": 1.726,
+    "specialty": "Esmorzar de mar amb sepia a la planxa i pa amb allioli",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "costa",
+    "delta",
+    "parc-natural",
+    "corbes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.277,1.97/41.224,1.726/41.346,1.697/41.235,1.811/41.256,1.774/41.359,2.099/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "C-31"
+    },
+    {
+      "name": "Castelldefels",
+      "lat": 41.277,
+      "lng": 1.97,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Vilanova i la Geltrú",
+      "lat": 41.224,
+      "lng": 1.726,
+      "type": "esmorzar",
+      "road": "C-31"
+    },
+    {
+      "name": "Vilafranca del Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Sitges",
+      "lat": 41.235,
+      "lng": 1.811,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Sant Pere de Ribes",
+      "lat": 41.256,
+      "lng": 1.774,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "L'Hospitalet de Llobregat",
+      "lat": 41.359,
+      "lng": 2.099,
+      "type": "waypoint",
+      "road": "B-20"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "B-20"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 150,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, but the claimed distance of 140 km is slightly underestimated. The real distance is closer to 150 km."
+  }
+}

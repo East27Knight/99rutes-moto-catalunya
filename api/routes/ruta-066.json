@@ -1,0 +1,117 @@
+{
+  "id": "ruta-066",
+  "number": 66,
+  "name": "Vinyes de l'Alt Penedès",
+  "slug": "vinyes-de-lalt-penedes",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Alt Penedès",
+  "summary": "Recorregut pels paisatges vinícoles de l'Alt Penedès, on les carreteres comarcals serpentegen entre vinyes, cellers modernistes i masies centenàries. La BV-2136 i la BV-2127 són carreteres de traçat fluid amb revolts suaus que inviten a gaudir del paisatge. Vilafranca del Penedès i Sant Sadurní d'Anoia són les capitals del vi i el cava.",
+  "total_distance_km": 160,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 950,
+  "elevation_max_m": 520,
+  "roads_main": [
+    "BV-2136",
+    "BV-2127",
+    "C-15",
+    "B-224",
+    "BP-2121"
+  ],
+  "esmorzar": {
+    "town": "Vilafranca del Penedès",
+    "comarca": "Alt Penedès",
+    "lat": 41.346,
+    "lng": 1.697,
+    "specialty": "Esmorzar de forquilla amb embotits i una copa de vi negre del Penedès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "vinyes",
+    "cellers",
+    "gastronomia",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.517,1.545/41.462,1.535/41.433,1.643/41.346,1.697/41.429,1.785/41.462,1.657/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "BV-2136"
+    },
+    {
+      "name": "Sant Martí de Tous",
+      "lat": 41.517,
+      "lng": 1.545,
+      "type": "waypoint",
+      "road": "BV-2136"
+    },
+    {
+      "name": "La Llacuna",
+      "lat": 41.462,
+      "lng": 1.535,
+      "type": "waypoint",
+      "road": "BV-2127"
+    },
+    {
+      "name": "Sant Pere Sacarrera",
+      "lat": 41.433,
+      "lng": 1.643,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Vilafranca del Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "type": "esmorzar",
+      "road": "C-15"
+    },
+    {
+      "name": "Sant Sadurní d'Anoia",
+      "lat": 41.429,
+      "lng": 1.785,
+      "type": "waypoint",
+      "road": "B-224"
+    },
+    {
+      "name": "Sant Quintí de Mediona",
+      "lat": 41.462,
+      "lng": 1.657,
+      "type": "waypoint",
+      "road": "BP-2121"
+    },
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "BP-2121"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 165,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with slight adjustments for realistic navigation. The estimated distance and duration are slightly higher than claimed due to road conditions and speed limits."
+  }
+}

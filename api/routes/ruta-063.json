@@ -1,0 +1,109 @@
+{
+  "id": "ruta-063",
+  "number": 63,
+  "name": "Manlleu, Roda de Ter i el Ter",
+  "slug": "manlleu-roda-de-ter-i-el-ter",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "Passeig relaxat seguint el curs del riu Ter entre Vic, Manlleu i Roda de Ter. Carreteres planes al costat del riu amb poques corbes. El meandre de Roda de Ter és un dels paisatges fluvials més bonics d'Osona. Ruta perfecta per a un matí tranquil amb bon esmorzar.",
+  "total_distance_km": 45,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 150,
+  "elevation_max_m": 480,
+  "roads_main": [
+    "C-17",
+    "BV-5202",
+    "BV-5201"
+  ],
+  "esmorzar": {
+    "town": "Manlleu",
+    "comarca": "Osona",
+    "lat": 41.874,
+    "lng": 2.284,
+    "specialty": "Esmorzar de forquilla amb embotits de Vic i pa de coca",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "riu",
+    "pla",
+    "principiant",
+    "tranquil"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.845,2.228/41.874,2.284/41.973,2.312/42.015,2.377/41.976,2.328/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "C-17"
+    },
+    {
+      "name": "Tona",
+      "lat": 41.845,
+      "lng": 2.228,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Manlleu",
+      "lat": 41.874,
+      "lng": 2.284,
+      "type": "esmorzar",
+      "road": "BV-5202"
+    },
+    {
+      "name": "Roda de Ter",
+      "lat": 41.973,
+      "lng": 2.312,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "L'Esquirol",
+      "lat": 42.015,
+      "lng": 2.377,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Sant Martí Sescorts",
+      "lat": 41.976,
+      "lng": 2.328,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "BV-5201"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 50,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.11,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and speed limits."
+  }
+}

@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "ruta-072",
+    "number": 72,
+    "name": "La Bonaigua i el Sostre del Pirineu",
+    "slug": "la-bonaigua-i-el-sostre-del-pirineu",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Pallars Sobirà",
+    "summary": "La gran travessa pirinenca per excel·lència: des de Lleida fins al Port de la Bonaigua (2.072 m) per la C-13, amb revolts infinits que tallen la respiració i vistes que abasten des del Montsec fins a les crestes araneses. Tornada per la N-230 amb el contrapunt del Congost de Collegats.",
+    "total_distance_km": 245,
+    "estimated_duration_hours": 5.0,
+    "riding_time_hours": 4.0,
+    "elevation_gain_m": 3200,
+    "elevation_max_m": 2072,
+    "roads_main": [
+      "C-13",
+      "C-28",
+      "N-230",
+      "C-147"
+    ],
+    "esmorzar": {
+      "town": "Sort",
+      "comarca": "Pallars Sobirà",
+      "lat": 42.413,
+      "lng": 1.13,
+      "specialty": "Esmorzar de forquilla amb embotits del Pirineu i formatge de pastor",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "pirineu",
+      "port",
+      "alta-muntanya",
+      "revolts",
+      "paisatge"
+    ],
+    "description_long": "Sortir de Lleida a primera hora del matí, amb la boira del Segre encara aferrada als camps, és el preludi d'una de les grans aventures motociclistes de Catalunya. La C-13 s'enfila amb determinació cap al nord, deixant enrere la plana lleidatana i entrant al Pallars Jussà, on les muntanyes comencen a tancar-se al teu voltant. El Congost de Collegats t'empassa entre parets verticals de roca calcària mentre el Noguera Pallaresa brama al teu costat — aquí la carretera és estreta, l'asfalt honest, i cada revolt demana respecte.\n\nPassat Sort, el paisatge es transforma: prats d'alta muntanya, vaqueries amb bestiar pasturant i l'aire que es refresca a cada metre de desnivell. La pujada al Port de la Bonaigua és un exercici de concentració i plaer a parts iguals. Els revolts s'encadenen amb un ritme hipnòtic, les vistes s'obren cap a la Vall d'Aran i les crestes nevades del Pirineu central. Arribar als 2.072 metres és tocar el sostre del món sobre dues rodes: l'aire prim, el silenci immens, i la satisfacció d'haver conquistat un dels grans ports del Pirineu català.\n\nLa tornada per la N-230 ofereix un contrapunt magnífic: una carretera més oberta, amb corbes amples i ràpides que baixen pel Pont de Suert fins a retrobar el pla. Quan el sol de la tarda daura els camps de Lleida, saps que has viscut una jornada que difícilment oblidaràs. Aquesta és la ruta que et farà entendre per què els motociclistes tornem sempre al Pirineu.",
+    "what_makes_it_special": "El Port de la Bonaigua és el pas asfaltat més alt dels Pirineus catalans, i la combinació del Congost de Collegats amb l'ascensió final crea una experiència de conducció que posa la pell de gallina a qualsevol motociclista.",
+    "roads_detail": [
+      {
+        "name": "C-13",
+        "segment": "Lleida - Tremp - Sort",
+        "type": "carretera comarcal",
+        "notes": "Tram llarg amb trànsit variable. El Congost de Collegats (km 120-135) és el tram més espectacular i estret."
+      },
+      {
+        "name": "C-13 / C-28",
+        "segment": "Sort - Port de la Bonaigua",
+        "type": "port de muntanya",
+        "notes": "Revolts tancats i encadenats, desnivell sostingut. Asfalt bo però atenció a la grava als marges. Tancat per neu a l'hivern."
+      },
+      {
+        "name": "C-28",
+        "segment": "Port de la Bonaigua - Vielha",
+        "type": "descens de muntanya",
+        "notes": "Descens ràpid cap a la Vall d'Aran. Corbes àmplies amb bon asfalt."
+      },
+      {
+        "name": "N-230",
+        "segment": "Vielha - El Pont de Suert - Lleida",
+        "type": "carretera nacional",
+        "notes": "Carretera àmplia i ràpida. Trànsit de camions en hores punta. Trams amb peralts generosos."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Lleida (sortida)",
+        "lat": 41.617,
+        "lng": 0.62,
+        "type": "start"
+      },
+      {
+        "name": "Congost de Collegats",
+        "lat": 42.314,
+        "lng": 0.949,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Sort",
+        "lat": 42.413,
+        "lng": 1.13,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Port de la Bonaigua (2.072 m)",
+        "lat": 42.669,
+        "lng": 0.988,
+        "type": "summit"
+      },
+      {
+        "name": "Vielha (Vall d'Aran)",
+        "lat": 42.702,
+        "lng": 0.796,
+        "type": "waypoint"
+      },
+      {
+        "name": "El Pont de Suert",
+        "lat": 42.401,
+        "lng": 0.743,
+        "type": "waypoint"
+      },
+      {
+        "name": "Lleida (arribada)",
+        "lat": 41.617,
+        "lng": 0.62,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "El Port de la Bonaigua pot estar tancat per neu des de novembre fins a maig. Consulta sempre l'estat de les carreteres abans de sortir.",
+      "El Congost de Collegats és estret i amb visibilitat limitada en algunes corbes. Precaució amb el trànsit en sentit contrari.",
+      "A partir de 1.800 m la temperatura baixa significativament, fins i tot a l'estiu. Porta roba tèrmica.",
+      "Atenció als ramats de bestiar que poden creuar la carretera a les zones d'alta muntanya.",
+      "El tram N-230 pot tenir trànsit pesat de camions, especialment entre setmana."
+    ],
+    "fuel_note": "Repostatge recomanat a Tremp (km 80 aprox.) o Sort (km 120 aprox.). A partir de Sort no hi ha gasolineres fins a Vielha (80 km). Assegura't de sortir de Sort amb el dipòsit ple.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/42.314,0.949/42.413,1.13/42.669,0.988/42.702,0.796/42.401,0.743/41.617,0.62"
+  },
+  {
+    "id": "ruta-039",
+    "number": 39,
+    "name": "Les 365 Corbes de la Costa Brava",
+    "slug": "les-365-corbes-de-la-costa-brava",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Selva",
+    "summary": "La ruta mítica de la GI-682 entre Tossa de Mar i Sant Feliu de Guíxols, amb les seves llegendàries 365 corbes sobre penya-segats que cauen al mar. Un festí de revolts tècnics, vistes infinites al Mediterrani i parades en cales amagades.",
+    "total_distance_km": 185,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 1850,
+    "elevation_max_m": 320,
+    "roads_main": [
+      "GI-682",
+      "GI-664",
+      "C-65",
+      "C-63"
+    ],
+    "esmorzar": {
+      "town": "Tossa de Mar",
+      "comarca": "La Selva",
+      "lat": 41.721,
+      "lng": 2.934,
+      "specialty": "Esmorzar de forquilla amb peix fresc i pa amb tomàquet davant del mar",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "costa",
+      "corbes",
+      "icònica",
+      "penya-segats"
+    ],
+    "description_long": "Hi ha carreteres que defineixen una comarca, i la GI-682 és l'ànima de la Costa Brava. Sortint de Girona cap al sud-est, la C-65 et porta fins a Llagostera, on les primeres pinedes anuncien la proximitat del mar. Però és en girar cap a Tossa de Mar quan comença la màgia: la carretera s'estreny, l'asfalt es fa més íntim, i d'un revolt a l'altre apareixen flaixos de blau mediterrani que et roben la mirada.\n\nEntre Tossa de Mar i Sant Feliu de Guíxols, la GI-682 desplega les seves llegendàries 365 corbes — una per cada dia de l'any, diuen. Són revolts tancats, canvis de rasant, pujades i baixades entre penya-segats coberts de pins que cauen verticalment al mar. L'olor de pi i sal marina es barreja amb l'asfalt calent. Cada revolt és un petit repte tècnic: entrada, àpex, sortida, i de seguida el següent. No hi ha descans, i no en vols. Les cales amagades apareixen entre els arbres com promeses: Cala Giverola, Cala Bona, i desenes més sense nom que només es veuen des de la moto.\n\nA Sant Feliu de Guíxols, la recompensa és un cafè al port mentre contemples els vaixells i deixes que les mans deixin de vibrar. La tornada per l'interior, per la GI-664 i la C-65, és un contrapunt suau entre camps i masies que permet digerir el festí de corbes que acabes de viure. Aquesta és la ruta que tot motociclista hauria de fer almenys un cop a la vida.",
+    "what_makes_it_special": "La GI-682 és la carretera de corbes més famosa de Catalunya: 365 revolts sobre penya-segats amb vistes al Mediterrani que combinen tècnica de conducció amb una bellesa paisatgística que fa perdre l'alè.",
+    "roads_detail": [
+      {
+        "name": "C-65",
+        "segment": "Girona - Llagostera",
+        "type": "carretera comarcal",
+        "notes": "Tram de connexió ràpid i còmode. Algunes rotondes a la sortida de Girona."
+      },
+      {
+        "name": "C-63 / GI-681",
+        "segment": "Llagostera - Tossa de Mar",
+        "type": "carretera comarcal",
+        "notes": "Descens progressiu cap a la costa. Les corbes comencen a aparèixer."
+      },
+      {
+        "name": "GI-682",
+        "segment": "Tossa de Mar - Sant Feliu de Guíxols",
+        "type": "carretera de cornisa",
+        "notes": "El tram mític: 365 corbes sobre penya-segats. Asfalt irregular en alguns trams. Ciclistes els caps de setmana."
+      },
+      {
+        "name": "GI-664 / C-65",
+        "segment": "Sant Feliu de Guíxols - Girona",
+        "type": "carretera comarcal",
+        "notes": "Tornada per l'interior. Tram més relaxat amb corbes suaus entre camps."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Girona (sortida)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "start"
+      },
+      {
+        "name": "Llagostera",
+        "lat": 41.828,
+        "lng": 2.893,
+        "type": "waypoint"
+      },
+      {
+        "name": "Tossa de Mar",
+        "lat": 41.721,
+        "lng": 2.934,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Mirador de la GI-682",
+        "lat": 41.753,
+        "lng": 2.965,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Cala Giverola",
+        "lat": 41.744,
+        "lng": 2.945,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Sant Feliu de Guíxols",
+        "lat": 41.784,
+        "lng": 3.032,
+        "type": "waypoint"
+      },
+      {
+        "name": "Girona (arribada)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La GI-682 és molt freqüentada per ciclistes els caps de setmana. Extrema la precaució als revolts sense visibilitat.",
+      "L'asfalt de la GI-682 pot ser irregular i tenir graveta als marges. No t'obris massa a les sortides de corba.",
+      "A l'estiu el trànsit turístic pot ser intens, especialment a les entrades de Tossa i Sant Feliu. Evita les hores punta.",
+      "Les barreres de protecció són mínimes en molts trams. Condueix dins dels teus límits.",
+      "Atenció a la humitat matinal als trams ombrejats entre pins."
+    ],
+    "fuel_note": "Repostatge disponible a Llagostera abans d'enfilar cap a la costa. A Tossa de Mar també hi ha gasolinera. Recomanem sortir de Girona amb el dipòsit ple per no haver de buscar gasolinera durant el tram de la GI-682.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.828,2.893/41.721,2.934/41.753,2.965/41.744,2.945/41.784,3.032/41.983,2.824"
+  },
+  {
+    "id": "ruta-001",
+    "number": 1,
+    "name": "El Coll de Pal i les Valls del Berguedà",
+    "slug": "coll-de-pal-valls-bergueda",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Berguedà",
+    "summary": "Una ruta emblemàtica que remunta la C-16 fins a Berga i s'endinsa al cor del Berguedà per la BV-4024 fins al Coll de Pal, a 2.106 m d'altitud. Corbes tancades amb vistes espectaculars al Cadí-Moixeró i baixada per Bagà amb un esmorzar de forquilla memorable.",
+    "total_distance_km": 195,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2800,
+    "elevation_max_m": 2106,
+    "roads_main": [
+      "C-16",
+      "BV-4024",
+      "C-26",
+      "B-400",
+      "C-55"
+    ],
+    "esmorzar": {
+      "town": "Bagà",
+      "comarca": "Berguedà",
+      "lat": 42.252,
+      "lng": 1.861,
+      "specialty": "Esmorzar de forquilla amb embotits del Berguedà i truita de patates casolana",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "port",
+      "corbes",
+      "alta-muntanya",
+      "vistes"
+    ],
+    "description_long": "El Berguedà és terra de motociclistes, i el Coll de Pal n'és la catedral. La ruta comença a Manresa, seguint la C-16 cap al nord amb el Llobregat com a company fidel. Berga apareix al fons de la vall, acollidora i industrial alhora, però no és aquí on ens aturem. La BV-4024 surt de Bagà com un llarg pregunta retòrica dirigida al cel: s'enfila amb determinació entre boscos de pi negre i prats alpins, amb revolts cada vegada més tancats i l'aire cada vegada més fi.\n\nA mesura que puges, el paisatge es transforma de manera gairebé teatral. Les fagedes donen pas als prats d'alta muntanya, i de sobte, a un revolt qualsevol, apareix la serra del Cadí-Moixeró en tota la seva majestat: una muralla calcària que talla l'horitzó de punta a punta. Als 2.106 metres, el Coll de Pal t'espera amb un silenci que només trenquen el vent i el tic-tic del motor refredant-se. Les vistes abasten fins al Pedraforca, aquella muntanya de dues puntes que sembla un somriure de pedra. Respires fons i saps que aquest és un d'aquells moments que recordaràs sempre.\n\nLa baixada per Bagà és un regal: corbes encadenades amb bon asfalt que et porten fins al centre del poble medieval, on un esmorzar de forquilla amb embotits del país i truita de patates casolana et retorna a la terra. La tornada cap a Manresa per la C-26 i la C-55 travessa el Berguedà interior, amb turons suaus i camps que canvien de color segons l'estació. Arribes a casa amb les mans formiguejant i la certesa d'haver conquistat un dels grans ports de Catalunya.",
+    "what_makes_it_special": "El Coll de Pal és un dels ports més alts accessibles en moto a Catalunya (2.106 m), amb unes vistes de la serra del Cadí-Moixeró que et deixen sense paraules i una carretera de revolts tancats que és pura essència de conducció de muntanya.",
+    "roads_detail": [
+      {
+        "name": "C-16",
+        "segment": "Manresa - Berga - Bagà",
+        "type": "via ràpida / carretera comarcal",
+        "notes": "Tram ràpid fins a Berga (autovia). De Berga a Bagà, carretera convencional amb trànsit moderat."
+      },
+      {
+        "name": "BV-4024",
+        "segment": "Bagà - Coll de Pal",
+        "type": "port de muntanya",
+        "notes": "El tram estrella: 20 km de pujada amb revolts tancats i desnivell constant. Asfalt bo però estret. Atenció als ciclistes."
+      },
+      {
+        "name": "BV-4024 / C-26",
+        "segment": "Coll de Pal - Guardiola de Berguedà",
+        "type": "descens de muntanya",
+        "notes": "Baixada tècnica amb corbes tancades. Canvi de rasant freqüent."
+      },
+      {
+        "name": "C-26 / B-400 / C-55",
+        "segment": "Guardiola de Berguedà - Manresa",
+        "type": "carretera comarcal",
+        "notes": "Tornada per l'interior. Carreteres àmplies amb trams rectes i corbes suaus."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Manresa (sortida)",
+        "lat": 41.725,
+        "lng": 1.826,
+        "type": "start"
+      },
+      {
+        "name": "Berga",
+        "lat": 42.101,
+        "lng": 1.847,
+        "type": "waypoint"
+      },
+      {
+        "name": "Bagà",
+        "lat": 42.252,
+        "lng": 1.861,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Coll de Pal (2.106 m)",
+        "lat": 42.268,
+        "lng": 1.888,
+        "type": "summit"
+      },
+      {
+        "name": "Mirador del Pedraforca",
+        "lat": 42.241,
+        "lng": 1.782,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Guardiola de Berguedà",
+        "lat": 42.234,
+        "lng": 1.783,
+        "type": "waypoint"
+      },
+      {
+        "name": "Manresa (arribada)",
+        "lat": 41.725,
+        "lng": 1.826,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La BV-4024 és estreta i sense barreres en molts trams. Condueix dins dels teus límits, especialment al descens.",
+      "A l'hivern i principis de primavera pot haver-hi gel o neu al Coll de Pal. Consulta l'estat de la carretera.",
+      "Ciclistes freqüents a la pujada, especialment els caps de setmana. Precaució als revolts cecs.",
+      "El vent pot ser molt fort al cim del Coll de Pal. Vigila les ràfegues laterals.",
+      "Atenció a la fauna: és habitual veure isards i cabirols prop de la carretera."
+    ],
+    "fuel_note": "Repostatge a Berga (km 60 aprox.) abans de començar la pujada. No hi ha gasolineres entre Berga i Guardiola de Berguedà. Surt de Manresa amb el dipòsit ple per tenir marge.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/42.101,1.847/42.252,1.861/42.268,1.888/42.241,1.782/42.234,1.783/41.725,1.826"
+  },
+  {
+    "id": "ruta-085",
+    "number": 85,
+    "name": "Siurana, el Niu d'Àliga",
+    "slug": "siurana-el-niu-daliga",
+    "category": "pro",
+    "difficulty": 5,
+    "starting_hub": "Tarragona / Camp",
+    "starting_point": {
+      "name": "Tarragona",
+      "comarca": "Tarragonès",
+      "lat": 41.119,
+      "lng": 1.245
+    },
+    "comarca_principal": "Priorat",
+    "summary": "Pujada mítica al poble cingle de Siurana per la T-702: revolts estrets i vertiginosos entre penya-segats amb vistes al pantà i la serra del Montsant. Un dels finals de ruta més espectaculars de Catalunya, on la carretera acaba al buit.",
+    "total_distance_km": 145,
+    "estimated_duration_hours": 3.5,
+    "riding_time_hours": 2.5,
+    "elevation_gain_m": 2000,
+    "elevation_max_m": 740,
+    "roads_main": [
+      "T-702",
+      "T-710",
+      "C-242",
+      "C-233"
+    ],
+    "esmorzar": {
+      "town": "Cornudella de Montsant",
+      "comarca": "Priorat",
+      "lat": 41.231,
+      "lng": 0.903,
+      "specialty": "Esmorzar de forquilla amb ous i botifarra al restaurant del poble",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "siurana",
+      "cingle",
+      "revolts",
+      "icònica"
+    ],
+    "description_long": "Siurana és un d'aquells llocs que no haurien d'existir. Un poble sencer plantat al cim d'un penya-segat de 300 metres, amb les cases penjades sobre el buit i una carretera que s'hi enfila desafiant la gravetat. La ruta comença a Tarragona, deixant enrere la costa romana i endinsant-se cap a l'interior per la C-242. El paisatge canvia ràpidament: dels ametllers i garrofers del Camp de Tarragona als boscos de pi blanc i les vinyes de costers del Priorat, on la terra de llicorella dóna personalitat als vins més cotitzats de Catalunya.\n\nA Cornudella de Montsant, una parada per esmorzar és gairebé obligatòria. El poble, a l'ombra de la serra del Montsant, és la porta d'entrada al que ve. I el que ve és la T-702: una carretera que puja a Siurana amb revolts estrets i vertiginosos que demanen tota la teva atenció. L'asfalt s'estreny, els penya-segats apareixen a banda i banda, i el pantà de Siurana brilla avall com un mirall turquesa. L'olor és de romaní i farigola, i la llum del Priorat, aquella llum daurada i neta, ho banya tot amb una intensitat que gairebé fa mal als ulls.\n\nQuan arribes a Siurana, la carretera simplement s'acaba. No hi ha res més enllà: només el buit, el vent, i una de les vistes més impressionants que veuràs mai des del seient d'una moto. El poble medieval, amb les seves cases de pedra i l'església romànica de Santa Maria, sembla suspès entre el cel i la terra. La tornada, baixant els mateixos revolts amb el pantà al davant, és un exercici de contenció i respecte per la muntanya que acabes de pujar.",
+    "what_makes_it_special": "Siurana és el final de carretera més espectacular de Catalunya: un poble cingle sobre un precipici de 300 metres on la moto i el buit es miren de cara, amb el pantà turquesa als peus i la serra del Montsant vigilant-ho tot.",
+    "roads_detail": [
+      {
+        "name": "C-242 / C-233",
+        "segment": "Tarragona - Reus - Cornudella de Montsant",
+        "type": "carretera comarcal",
+        "notes": "Tram de connexió amb trànsit moderat. El tram de Reus a Cornudella comença a tenir corbes interessants."
+      },
+      {
+        "name": "T-710",
+        "segment": "Cornudella de Montsant - Entroncament T-702",
+        "type": "carretera comarcal",
+        "notes": "Carretera de muntanya amb bones corbes entre boscos. Asfalt correcte."
+      },
+      {
+        "name": "T-702",
+        "segment": "Entroncament - Siurana",
+        "type": "carretera de muntanya extrema",
+        "notes": "El tram definitiu: revolts molt tancats, carretera estreta, precipicis sense barreres. Dificultat màxima."
+      },
+      {
+        "name": "T-702 / C-242",
+        "segment": "Siurana - Tarragona (tornada)",
+        "type": "tornada pel mateix camí + comarcal",
+        "notes": "Baixada tècnica per la T-702 i retorn relaxat per la C-242."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Tarragona (sortida)",
+        "lat": 41.119,
+        "lng": 1.245,
+        "type": "start"
+      },
+      {
+        "name": "Reus",
+        "lat": 41.155,
+        "lng": 1.106,
+        "type": "waypoint"
+      },
+      {
+        "name": "Cornudella de Montsant",
+        "lat": 41.231,
+        "lng": 0.903,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Mirador del Pantà de Siurana",
+        "lat": 41.256,
+        "lng": 0.923,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Siurana (poble cingle)",
+        "lat": 41.257,
+        "lng": 0.935,
+        "type": "summit"
+      },
+      {
+        "name": "Serra del Montsant (vista)",
+        "lat": 41.265,
+        "lng": 0.875,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Tarragona (arribada)",
+        "lat": 41.119,
+        "lng": 1.245,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La T-702 és una carretera extrema: estreta, sense barreres i amb precipicis de centenars de metres. No apte per a principiants.",
+      "No intentis avançar vehicles a la pujada de Siurana. La carretera no ho permet amb seguretat.",
+      "A la tardor i hivern, la carretera pot tenir fulles mullades i superfície relliscosa. Redueix la velocitat.",
+      "El vent pot ser molt fort al cim de Siurana, especialment la tramuntana. Vigila l'estabilitat de la moto.",
+      "A Siurana no hi ha gasolinera ni serveis d'emergència immediats. Porta tot el que necessitis."
+    ],
+    "fuel_note": "Última gasolinera a Cornudella de Montsant o a la sortida de Reus. Assegura't de tenir almenys mig dipòsit abans de començar la pujada a Siurana.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.155,1.106/41.231,0.903/41.256,0.923/41.257,0.935/41.265,0.875/41.119,1.245"
+  },
+  {
+    "id": "ruta-041",
+    "number": 41,
+    "name": "Volcans de la Garrotxa",
+    "slug": "volcans-de-la-garrotxa",
+    "category": "pro",
+    "difficulty": 3,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "La Garrotxa",
+    "summary": "Ruta cap al cor volcànic de Catalunya, travessant fagedes i pobles medievals. Des de Besalú i el seu pont romànic fins a Santa Pau, passant per Olot i la seva espectacular zona volcànica. Carreteres sinuoses enmig d'un paisatge verd que sembla un altre país.",
+    "total_distance_km": 175,
+    "estimated_duration_hours": 4,
+    "riding_time_hours": 3,
+    "elevation_gain_m": 1400,
+    "elevation_max_m": 680,
+    "roads_main": [
+      "C-66",
+      "A-26",
+      "GI-524",
+      "C-152",
+      "C-63"
+    ],
+    "esmorzar": {
+      "town": "Santa Pau",
+      "comarca": "La Garrotxa",
+      "lat": 42.145,
+      "lng": 2.567,
+      "specialty": "Fesols de Santa Pau amb botifarra i un glop de ratafía",
+      "confidence": "verified"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "volcans",
+      "natura",
+      "medieval",
+      "gastronomia"
+    ],
+    "description_long": "La Garrotxa és el secret millor guardat de Catalunya. Quan deixes enrere la plana gironina per la C-66, el paisatge comença a ondular-se suaument, els camps es fan més verds i els boscos més densos. Besalú apareix com una visió medieval: el pont romànic del segle XII, amb els seus arcs de pedra reflectits al riu Fluvià, és la primera parada obligatòria. Aparca la moto, treu el casc i passeja pel poble. Necessites sentir la pedra sota els peus per entendre la profunditat d'aquest territori.\n\nDes de Besalú, la ruta s'endinsa cap a Olot per la C-66 i l'A-26, i el verd es fa gairebé irreal. La Garrotxa és terra volcànica: quaranta volcans adormits coberts de vegetació exuberant que donen al paisatge un aire subtropical inesperat. Les carreteres serpentejen entre colades de lava convertides en prats, cràters que ara són boscos de faig, i camps de conreu que aprofiten la riquesa del sòl volcànic. L'aire té una humitat suau que acaricia la pell, i l'olor és de terra fèrtil, molsa i faig.\n\nSanta Pau és la joia de la corona: un poble medieval perfecte, amb una plaça porxada que sembla aturada al temps, on els fesols de Santa Pau — petits, blancs i mantegosos — es cuinen amb botifarra i un raig d'oli de les oliveres centenàries de la comarca. Acompanyats d'un glop de ratafía, l'herbal garrotxí per excel·lència, és un dels millors esmorzars motociclistes de Catalunya. La tornada per la C-63 cap a Girona es fa amb un somriure que no se't despenja de la cara.",
+    "what_makes_it_special": "L'únic paisatge volcànic actiu de la Península Ibèrica combinat amb un dels conjunts medievals més ben conservats de Catalunya — una ruta que alimenta tant els sentits del motociclista com la seva ànima.",
+    "roads_detail": [
+      {
+        "name": "C-66",
+        "segment": "Girona - Besalú",
+        "type": "carretera comarcal",
+        "notes": "Tram fluid i còmode que segueix el Fluvià. Trànsit moderat, alguna zona d'obres puntual."
+      },
+      {
+        "name": "C-66 / A-26",
+        "segment": "Besalú - Olot",
+        "type": "autovia / carretera comarcal",
+        "notes": "Tram ràpid amb desdoblament parcial. El paisatge comença a ser espectacular."
+      },
+      {
+        "name": "GI-524",
+        "segment": "Olot - Santa Pau",
+        "type": "carretera local",
+        "notes": "Carretera estreta entre volcans i fagedes. Corbes suaus i ritme pausat. El tram més bonic de la ruta."
+      },
+      {
+        "name": "C-152 / C-63",
+        "segment": "Santa Pau - Girona",
+        "type": "carretera comarcal",
+        "notes": "Tornada per l'interior amb bones corbes i paisatge de transició. Pas per Anglès amb algunes zones urbanes."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Girona (sortida)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "start"
+      },
+      {
+        "name": "Besalú (pont romànic)",
+        "lat": 42.199,
+        "lng": 2.699,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Olot",
+        "lat": 42.181,
+        "lng": 2.491,
+        "type": "waypoint"
+      },
+      {
+        "name": "Volcà Croscat",
+        "lat": 42.153,
+        "lng": 2.528,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Fageda d'en Jordà",
+        "lat": 42.146,
+        "lng": 2.538,
+        "type": "waypoint"
+      },
+      {
+        "name": "Santa Pau",
+        "lat": 42.145,
+        "lng": 2.567,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Girona (arribada)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La Garrotxa és una de les comarques més plujoses de Catalunya. Consulta la previsió meteorològica i porta impermeable.",
+      "Les carreteres locals entre Olot i Santa Pau poden ser lliscoses per la humitat i les fulles. Precaució a la tardor.",
+      "Trànsit de vehicles agrícoles a les carreteres secundàries. Paciència i distància de seguretat.",
+      "La boira matinal és habitual a les valls de la Garrotxa, especialment a la tardor. Redueix la velocitat fins que s'aixequi."
+    ],
+    "fuel_note": "Gasolineres disponibles a Besalú i Olot. No hi ha serveis de combustible entre Olot i Santa Pau. Repostatge recomanat a Olot si el dipòsit és per sota de la meitat.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.199,2.699/42.181,2.491/42.153,2.528/42.146,2.538/42.145,2.567/41.983,2.824"
+  },
+  {
+    "id": "ruta-016",
+    "number": 16,
+    "name": "El Montseny Gran: Turó de l'Home",
+    "slug": "montseny-gran-turo-home",
+    "category": "pro",
+    "difficulty": 4,
+    "starting_hub": "Barcelona / Vallès",
+    "starting_point": {
+      "name": "Cerdanyola del Vallès",
+      "comarca": "Vallès Occidental",
+      "lat": 41.549,
+      "lng": 2.107
+    },
+    "comarca_principal": "Vallès Oriental",
+    "summary": "La clàssica del Montseny: pujada per la BV-5301 fins a Santa Fe, enllaç amb la BV-5114 cap al Turó de l'Home a 1.706 m, i baixada per Viladrau. Corbes encadenades entre fagedes centenàries, boira matinal i asfalt que convida a inclinar-se. Una ruta que tot motociclista ha de fer.",
+    "total_distance_km": 180,
+    "estimated_duration_hours": 4.5,
+    "riding_time_hours": 3.5,
+    "elevation_gain_m": 2400,
+    "elevation_max_m": 1706,
+    "roads_main": [
+      "C-33",
+      "C-17",
+      "BV-5301",
+      "BV-5114",
+      "BV-5201",
+      "GI-543"
+    ],
+    "esmorzar": {
+      "town": "Viladrau",
+      "comarca": "Osona",
+      "lat": 41.85,
+      "lng": 2.384,
+      "specialty": "Esmorzar de forquilla amb botifarra d'ou i bolets del Montseny",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "muntanya",
+      "corbes",
+      "fageda",
+      "boira",
+      "clàssica"
+    ],
+    "description_long": "El Montseny és la muntanya dels barcelonins, però a sobre d'una moto es transforma en un territori completament diferent. La sortida per la C-33 i la C-17 és el pròleg necessari: trànsit, rotondes, civilització. Però en agafar la BV-5301 a Sant Celoni, el món canvia. La carretera s'estreny, els plàtans donen pas als castanyers i, a mesura que puges, les fagedes centenàries tanquen el cel com una catedral de branques. L'asfalt és suau, les corbes són netes i progressives, i el cos troba un ritme natural d'inclinació que sembla una dansa.\n\nSanta Fe del Montseny és un parèntesi de calma: la font, l'ermita, i aquella llum filtrada entre fulles que sembla d'un altre segle. Però el millor encara ha de venir. La BV-5114 puja cap al Turó de l'Home amb revolts més tancats, el desnivell es fa sentir al motor, i l'aire es refresca a cada metre. Als 1.706 metres, el cim del Montseny ofereix una panoràmica que arriba des del Pirineu fins al mar: en un dia clar, pots veure les Illes Medes al nord i la silueta de Mallorca al sud-est. L'olor és de terra humida, faig i boira — la boira del Montseny, aquella que puja de les valls com un ésser viu i ho embolcalla tot amb un silenci espès.\n\nLa baixada per Viladrau és el contrapunt perfecte: corbes àmplies entre pins i avets, amb un asfalt que convida a accelerar amb suavitat. A Viladrau, un esmorzar de forquilla amb botifarra d'ou i bolets del Montseny és el punt i final d'una matinada perfecta. Tornes a Barcelona sabent que, per molt que la ciutat et consumeixi, el Montseny sempre serà allà dalt, esperant-te.",
+    "what_makes_it_special": "El Montseny és la clàssica indiscutible dels motociclistes de Barcelona: fagedes centenàries, boira que et fa sentir dins d'un somni, i unes corbes tan ben traçades que semblen dissenyades per a una moto.",
+    "roads_detail": [
+      {
+        "name": "C-33 / C-17",
+        "segment": "Cerdanyola del Vallès - Sant Celoni",
+        "type": "autovia / via ràpida",
+        "notes": "Tram d'accés. Trànsit dens a primera hora del matí els caps de setmana. Paciència."
+      },
+      {
+        "name": "BV-5301",
+        "segment": "Sant Celoni - Santa Fe del Montseny",
+        "type": "carretera de muntanya",
+        "notes": "El primer tram de plaer: corbes progressives entre castanyers i fagedes. Asfalt excel·lent."
+      },
+      {
+        "name": "BV-5114",
+        "segment": "Santa Fe - Turó de l'Home",
+        "type": "port de muntanya",
+        "notes": "Revolts tancats amb desnivell constant. Pot haver-hi gel al matí a la tardor i hivern. Carretera estreta."
+      },
+      {
+        "name": "BV-5201 / GI-543",
+        "segment": "Turó de l'Home - Viladrau - Sant Celoni",
+        "type": "descens de muntanya",
+        "notes": "Baixada fluida amb corbes àmplies. Pas per Viladrau per l'esmorzar."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Cerdanyola del Vallès (sortida)",
+        "lat": 41.549,
+        "lng": 2.107,
+        "type": "start"
+      },
+      {
+        "name": "Sant Celoni",
+        "lat": 41.69,
+        "lng": 2.49,
+        "type": "waypoint"
+      },
+      {
+        "name": "Santa Fe del Montseny",
+        "lat": 41.776,
+        "lng": 2.449,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Turó de l'Home (1.706 m)",
+        "lat": 41.777,
+        "lng": 2.439,
+        "type": "summit"
+      },
+      {
+        "name": "Font de Passavets",
+        "lat": 41.792,
+        "lng": 2.415,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Viladrau",
+        "lat": 41.85,
+        "lng": 2.384,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Cerdanyola del Vallès (arribada)",
+        "lat": 41.549,
+        "lng": 2.107,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La boira del Montseny pot aparèixer de forma sobtada i reduir la visibilitat a pocs metres. Porta llums de boira i redueix la velocitat.",
+      "Les fagedes poden deixar la carretera molt lliscosa a la tardor per les fulles humides. Extrema la precaució.",
+      "Ruta molt popular entre motociclistes. Respecta els límits i no facis curses. Controls policials freqüents.",
+      "Les temperatures al cim poden ser 10-15°C menys que a Barcelona. Porta capes tèrmiques.",
+      "Atenció als senglars, especialment a primera hora del matí i al capvespre."
+    ],
+    "fuel_note": "Repostatge recomanat a Sant Celoni abans de començar la pujada. No hi ha gasolineres dins del Parc Natural del Montseny. A Viladrau també hi ha gasolinera per la tornada.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.69,2.49/41.776,2.449/41.777,2.439/41.792,2.415/41.85,2.384/41.549,2.107"
+  },
+  {
+    "id": "ruta-011",
+    "number": 11,
+    "name": "Volta a Montserrat per Sant Benet",
+    "slug": "volta-montserrat-sant-benet",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Manresa / Bages",
+    "starting_point": {
+      "name": "Manresa",
+      "comarca": "Bages",
+      "lat": 41.725,
+      "lng": 1.826
+    },
+    "comarca_principal": "Bages",
+    "summary": "Ruta curta i accessible que baixa fins a Sant Fruitós de Bages per visitar el monestir de Sant Benet i continua fins als peus de Montserrat. Carreteres amples i ben asfaltades, ideals per agafar confiança. Vistes magnífiques de la silueta de Montserrat des del pla.",
+    "total_distance_km": 65,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 500,
+    "elevation_max_m": 450,
+    "roads_main": [
+      "C-55",
+      "BP-1101",
+      "BV-1124"
+    ],
+    "esmorzar": {
+      "town": "Sant Fruitós de Bages",
+      "comarca": "Bages",
+      "lat": 41.741,
+      "lng": 1.874,
+      "specialty": "Esmorzar al restaurant de Sant Benet amb coca de recapte",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "monestir",
+      "cultural",
+      "fàcil",
+      "vistes"
+    ],
+    "description_long": "Aquesta ruta és un abraçada. És la mà amiga que et diu: 'Vine, que anar en moto és meravellós.' Sortint de Manresa per la C-55, la carretera és àmplia, el trànsit previsible i l'asfalt impecable. En pocs quilòmetres arribes a Sant Fruitós de Bages i al monestir de Sant Benet, un conjunt monàstic del segle X que ha estat restaurat amb cura exquisida. El claustre romànic, les pintures murals i els jardins conventuals són un recordatori que la bellesa existeix en la calma.\n\nDes de Sant Benet, la BP-1101 s'obre cap al sud amb un paisatge que és pura Catalunya Central: vinyes del Pla de Bages, camps de cereals daurats, masies de pedra amb els teulats de teula àrab. I al fons, sempre al fons, Montserrat. La muntanya sagrada apareix com una aparició de pedra serrada que creix a mesura que t'hi acostes. Les seves agulles, torres i canals dibuixen una silueta que no es confon amb cap altra muntanya del món. Des de la moto, la perspectiva és privilegiada: el pla obert al teu voltant, Montserrat omplint l'horitzó, i la sensació de llibertat que només dona una carretera recta amb bona visibilitat.\n\nLa tornada per la BV-1124 cap a Manresa és igualment plaent: alguna corba suau entre camps, un parell de pobles petits amb les seves esglésies de campanar quadrat, i la satisfacció d'haver completat la teva primera ruta en moto amb un somriure. Perquè d'això es tracta: de gaudir del camí, de sentir el sol a l'esquena, i de tornar a casa amb ganes de repetir.",
+    "what_makes_it_special": "La combinació perfecta per a un motociclista novell: carreteres fàcils i segures, un monestir mil·lenari amb jardins on passejar, i la vista majestuosa de Montserrat com a teló de fons permanent.",
+    "roads_detail": [
+      {
+        "name": "C-55",
+        "segment": "Manresa - Sant Fruitós de Bages",
+        "type": "carretera comarcal",
+        "notes": "Carretera àmplia i ben senyalitzada. Trànsit moderat. Algunes rotondes a la sortida de Manresa."
+      },
+      {
+        "name": "BP-1101",
+        "segment": "Sant Fruitós de Bages - El Pont de Vilomara",
+        "type": "carretera local",
+        "notes": "Carretera plana entre camps. Poc trànsit. Alguna corba suau. Vistes de Montserrat al davant."
+      },
+      {
+        "name": "BV-1124",
+        "segment": "El Pont de Vilomara - Manresa",
+        "type": "carretera local",
+        "notes": "Tornada per l'interior. Carretera còmoda sense dificultats tècniques."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Manresa (sortida)",
+        "lat": 41.725,
+        "lng": 1.826,
+        "type": "start"
+      },
+      {
+        "name": "Sant Fruitós de Bages (Monestir de Sant Benet)",
+        "lat": 41.741,
+        "lng": 1.874,
+        "type": "esmorzar"
+      },
+      {
+        "name": "El Pont de Vilomara",
+        "lat": 41.668,
+        "lng": 1.877,
+        "type": "waypoint"
+      },
+      {
+        "name": "Mirador de Montserrat (des del pla)",
+        "lat": 41.635,
+        "lng": 1.855,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Castellbell i el Vilar",
+        "lat": 41.627,
+        "lng": 1.862,
+        "type": "waypoint"
+      },
+      {
+        "name": "Manresa (arribada)",
+        "lat": 41.725,
+        "lng": 1.826,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "Ruta ideal per a principiants, però no descuidis la concentració. Vigila les rotondes a la sortida de Manresa.",
+      "A l'hivern el sol és baix i pot enlluerar en alguns trams orientats al sud. Porta visera neta.",
+      "Atenció als tractors i maquinària agrícola a les carreteres secundàries, especialment en època de collita."
+    ],
+    "fuel_note": "Gasolineres disponibles a Manresa i Sant Fruitós de Bages. Amb 65 km de recorregut, qualsevol moto fa la ruta sense necessitat de repostar.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.741,1.874/41.668,1.877/41.635,1.855/41.627,1.862/41.725,1.826"
+  },
+  {
+    "id": "ruta-049",
+    "number": 49,
+    "name": "Empordanet: Pals, Peratallada i Ullastret",
+    "slug": "empordanet-pals-peratallada-i-ullastret",
+    "category": "aprendiz",
+    "difficulty": 1,
+    "starting_hub": "Girona / Empordà",
+    "starting_point": {
+      "name": "Girona",
+      "comarca": "Gironès",
+      "lat": 41.983,
+      "lng": 2.824
+    },
+    "comarca_principal": "Baix Empordà",
+    "summary": "Passeig tranquil pels pobles medievals més bonics de l'Empordà. Carreteres planes i amples entre camps d'arròs, masies i pobles de pedra com Pals, Peratallada i Ullastret. Ideal per gaudir sense pressa del paisatge empordanès i la seva gastronomia.",
+    "total_distance_km": 85,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 250,
+    "elevation_max_m": 180,
+    "roads_main": [
+      "C-66",
+      "GI-643",
+      "GI-644",
+      "C-31"
+    ],
+    "esmorzar": {
+      "town": "Pals",
+      "comarca": "Baix Empordà",
+      "lat": 41.972,
+      "lng": 3.148,
+      "specialty": "Arròs de Pals amb botifarra i oli d'oliva de l'Empordà",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "estiu",
+      "tardor"
+    ],
+    "tags": [
+      "medieval",
+      "empordà",
+      "gastronomia",
+      "tranquil"
+    ],
+    "description_long": "L'Empordanet és aquella Catalunya que sembla sortida d'un conte. Carreteres rectes entre camps d'arròs on la tramuntana pentina les espigues, masies de pedra amb teulades de quatre aigües, i pobles medievals que no han canviat gaire des del segle XII. Aquesta ruta és un poema lent, pensat per ser recitat amb calma sobre dues rodes, sense presses ni exigències tècniques.\n\nDes de Girona, la C-66 porta cap al cor del Baix Empordà amb eficàcia. A Pals, el nucli antic puja per un turó fins a la Torre de les Hores, des d'on les vistes s'estenen fins al mar i les Illes Medes. Els carrers empedrats, les arcades gòtiques i l'olor de pa acabat de fer conviden a deixar la moto aparcada i passejar. Però el millor encara ha de venir: la GI-644 cap a Peratallada és una carretera plana entre oliveres centenàries i camps que canvien de color amb les estacions. Peratallada és, sense exagerar, un dels pobles més bonics de la Mediterrània: les muralles intactes, els fossats secs, la plaça amb els seus restaurants i aquella llum empordanesa que ho daura tot.\n\nUllastret, amb el seu jaciment ibèric del segle VI aC, tanca el triangle medieval. Les restes dels indiketes, el poble ibèric que va habitar aquesta terra fa 2.500 anys, ens recorden que les bones carreteres sempre han connectat llocs que val la pena visitar. La tornada per la C-31 cap a Girona és suau com una cançó de bressol: camps oberts, cel ample i la satisfacció de saber que has tastat l'Empordà autèntic.",
+    "what_makes_it_special": "Tres dels pobles medievals més bonics de Catalunya connectats per carreteres planes i sense dificultat, amb la gastronomia empordanesa com a fil conductor — arròs de Pals, oli d'oliva i tramuntana.",
+    "roads_detail": [
+      {
+        "name": "C-66",
+        "segment": "Girona - La Bisbal d'Empordà",
+        "type": "carretera comarcal",
+        "notes": "Carretera àmplia i ràpida. Trànsit moderat. Bon punt de partida cap al Baix Empordà."
+      },
+      {
+        "name": "GI-643",
+        "segment": "La Bisbal d'Empordà - Pals",
+        "type": "carretera local",
+        "notes": "Carretera plana entre camps d'arròs. Poc trànsit. Vistes obertes cap al mar."
+      },
+      {
+        "name": "GI-644",
+        "segment": "Pals - Peratallada - Ullastret",
+        "type": "carretera local",
+        "notes": "El tram més bonic: carretera entre oliveres i masies. Sense dificultat tècnica."
+      },
+      {
+        "name": "C-31 / C-66",
+        "segment": "Ullastret - Girona",
+        "type": "carretera comarcal",
+        "notes": "Tornada directa per carretera àmplia. Pas per La Bisbal d'Empordà, capital de la ceràmica."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Girona (sortida)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "start"
+      },
+      {
+        "name": "La Bisbal d'Empordà",
+        "lat": 41.959,
+        "lng": 3.045,
+        "type": "waypoint"
+      },
+      {
+        "name": "Pals (nucli antic)",
+        "lat": 41.972,
+        "lng": 3.148,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Peratallada",
+        "lat": 41.978,
+        "lng": 3.094,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Ullastret (jaciment ibèric)",
+        "lat": 41.966,
+        "lng": 3.071,
+        "type": "waypoint"
+      },
+      {
+        "name": "Girona (arribada)",
+        "lat": 41.983,
+        "lng": 2.824,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La tramuntana pot bufar amb molta força a l'Empordà, especialment a les zones obertes entre camps. Vigila l'estabilitat de la moto.",
+      "A l'estiu, el trànsit turístic als pobles pot ser intens. Evita les hores centrals del dia.",
+      "Atenció als tractors i vehicles agrícoles a les carreteres secundàries entre pobles."
+    ],
+    "fuel_note": "Gasolineres a Girona i La Bisbal d'Empordà. Amb 85 km totals, no cal preocupar-se pel combustible.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.959,3.045/41.972,3.148/41.978,3.094/41.966,3.071/41.983,2.824"
+  },
+  {
+    "id": "ruta-083",
+    "number": 83,
+    "name": "Balaguer i la Noguera Suau",
+    "slug": "balaguer-i-la-noguera-suau",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Lleida / Segrià",
+    "starting_point": {
+      "name": "Lleida",
+      "comarca": "Segrià",
+      "lat": 41.617,
+      "lng": 0.62
+    },
+    "comarca_principal": "Noguera",
+    "summary": "Pujada suau fins a Balaguer seguint el riu Segre, amb el castell i el centre medieval com a recompensa. Extensió fins a Os de Balaguer i tornada pel pla, amb algunes corbes que comencen a dibuixar el Prepirineu sense demanar gaire compromís.",
+    "total_distance_km": 95,
+    "estimated_duration_hours": 2.5,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 450,
+    "elevation_max_m": 540,
+    "roads_main": [
+      "C-12",
+      "C-13",
+      "L-904"
+    ],
+    "esmorzar": {
+      "town": "Balaguer",
+      "comarca": "Noguera",
+      "lat": 41.79,
+      "lng": 0.805,
+      "specialty": "Esmorzar de forquilla al centre de Balaguer amb botifarra a la brasa",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor",
+      "hivern"
+    ],
+    "tags": [
+      "noguera",
+      "medieval",
+      "riu",
+      "suau"
+    ],
+    "description_long": "Les terres de Lleida tenen una bellesa austera que no s'imposa: es guanya. Aquesta ruta és perfecta per descobrir-la sense exigències. Sortint de Lleida cap al nord per la C-12, la carretera segueix el Segre amb la fidelitat d'un company de viatge. Els camps de fruiters — presseguers, pereres, pomeres — van desfilant als costats, i a la primavera la floració és un espectacle de blancs i roses que perfuma l'aire i fa que el casc amb la visera oberta sigui una decisió intel·ligent.\n\nBalaguer apareix al cap de quaranta quilòmetres com una recompensa merescuda. La ciutat, amb el seu castell comtal dominant el turó i el centre medieval vora el Segre, és d'aquelles que guanyen quan t'hi acostes. El barri antic, amb els seus carrers estrets i la Plaça del Mercadal, és perfecte per aparcar la moto i fer una passejada. L'esmorzar de forquilla amb botifarra a la brasa al centre és un dels plaers senzills que fan gran una ruta.\n\nDes de Balaguer, la L-904 s'endinsa cap a Os de Balaguer, on el paisatge comença a ondular-se suaument anunciant el Prepirineu. Les primeres corbes apareixen sense intimidar, els turons de calcària es cobreixen de carrascars i l'horitzó es tanca una mica, oferint una primera mostra del que espera als motociclistes que vulguin continuar cap al nord. La tornada pel pla, amb el sol de la tarda daurant els camps, és una lliçó de serenitat sobre dues rodes.",
+    "what_makes_it_special": "La porta d'entrada al Prepirineu lleidatà per a principiants: carreteres còmodes que segueixen el Segre fins a la ciutat medieval de Balaguer, amb les primeres corbes de muntanya com a aperitiu del que vindrà.",
+    "roads_detail": [
+      {
+        "name": "C-12",
+        "segment": "Lleida - Balaguer",
+        "type": "carretera comarcal",
+        "notes": "Carretera àmplia que segueix el Segre. Trànsit moderat. Recta amb algunes corbes molt suaus."
+      },
+      {
+        "name": "L-904",
+        "segment": "Balaguer - Os de Balaguer",
+        "type": "carretera local",
+        "notes": "Primeres corbes de la ruta. Desnivell suau. Carretera més estreta però còmoda."
+      },
+      {
+        "name": "C-13 / C-12",
+        "segment": "Os de Balaguer - Lleida",
+        "type": "carretera comarcal",
+        "notes": "Tornada pel pla. Carretera ràpida i sense complicacions."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Lleida (sortida)",
+        "lat": 41.617,
+        "lng": 0.62,
+        "type": "start"
+      },
+      {
+        "name": "Térmens",
+        "lat": 41.718,
+        "lng": 0.724,
+        "type": "waypoint"
+      },
+      {
+        "name": "Balaguer (centre medieval)",
+        "lat": 41.79,
+        "lng": 0.805,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Castell de Balaguer (mirador)",
+        "lat": 41.792,
+        "lng": 0.808,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Os de Balaguer",
+        "lat": 41.867,
+        "lng": 0.729,
+        "type": "waypoint"
+      },
+      {
+        "name": "Lleida (arribada)",
+        "lat": 41.617,
+        "lng": 0.62,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "La boira al pla de Lleida pot ser molt densa a l'hivern i primavera. Si no hi ha visibilitat, espera que s'aixequi.",
+      "Atenció al vent lateral a les zones obertes entre camps, especialment al Segrià.",
+      "Vehicles agrícoles freqüents a les carreteres locals. Mantingues la distància de seguretat.",
+      "A l'estiu les temperatures poden superar els 40°C al pla de Lleida. Porta aigua i fes parades freqüents."
+    ],
+    "fuel_note": "Gasolineres disponibles a Lleida i Balaguer. Amb 95 km de recorregut total, el combustible no és una preocupació.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.718,0.724/41.79,0.805/41.792,0.808/41.867,0.729/41.617,0.62"
+  },
+  {
+    "id": "ruta-070",
+    "number": 70,
+    "name": "Vinyes de l'Anoia",
+    "slug": "vinyes-de-lanoia",
+    "category": "aprendiz",
+    "difficulty": 2,
+    "starting_hub": "Igualada / Anoia",
+    "starting_point": {
+      "name": "Igualada",
+      "comarca": "Anoia",
+      "lat": 41.579,
+      "lng": 1.617
+    },
+    "comarca_principal": "Anoia",
+    "summary": "Ruta suau entre les vinyes i els cellers de la zona sud de l'Anoia, on comença la transició cap al Penedès. Carreteres comarcals tranquil·les entre Masquefa, Piera i els Hostalets de Pierola. Un recorregut per gaudir del paisatge agrícola i descobrir petits cellers familiars.",
+    "total_distance_km": 75,
+    "estimated_duration_hours": 2,
+    "riding_time_hours": 1.5,
+    "elevation_gain_m": 350,
+    "elevation_max_m": 420,
+    "roads_main": [
+      "B-224",
+      "BV-2249",
+      "BV-2242",
+      "C-15"
+    ],
+    "esmorzar": {
+      "town": "Piera",
+      "comarca": "Anoia",
+      "lat": 41.521,
+      "lng": 1.748,
+      "specialty": "Entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un cava del Penedès",
+      "confidence": "recommended"
+    },
+    "route_type": "circular",
+    "best_season": [
+      "primavera",
+      "tardor"
+    ],
+    "tags": [
+      "vinyes",
+      "principiant",
+      "cellers",
+      "paisatge"
+    ],
+    "description_long": "Hi ha rutes que es mesuren en adrenalina i n'hi ha que es mesuren en plaer. Aquesta és de les segones. L'Anoia sud és una terra de transició: no és encara el Penedès, però les vinyes ja dominen el paisatge, i l'aire ja porta aquella olor dolça de raïm madur i terra calcària que anuncia les grans DO del sud. Des d'Igualada, la B-224 baixa suaument cap al sud, travessant un paisatge de turons coberts de vinyes i petits boscos de pi blanc.\n\nLes carreteres comarcals BV-2249 i BV-2242 són l'essència d'aquesta ruta: asfalt net, poc trànsit, corbes amples i progressives que ensenyen a inclinar la moto amb confiança. Entre Masquefa, Piera i els Hostalets de Pierola, el paisatge desfila amb calma: masies amb les seves vinyes al voltant, cellers familiars on el cava reposa en caves fosques i fresques, i camps on les estacions pinten una paleta diferent cada mes. A la primavera, els sarments broten amb un verd tendre; a la tardor, les fulles de la vinya es tornen daurades i vermelles com si la terra s'incendiés lentament.\n\nA Piera, l'esmorzar és un ritual senzill i perfecte: un entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un tast de cava de les caves locals. L'efervescència del cava fa joc amb la sensació que et deixa aquesta ruta: lleugera, alegre i amb ganes de repetir. La tornada cap a Igualada per la C-15 és directa i sense complicacions, deixant-te temps per pensar en la propera sortida.",
+    "what_makes_it_special": "El paisatge vinícola de la frontera entre l'Anoia i el Penedès és un dels secrets més ben guardats de la Catalunya interior, amb carreteres perfectes per a principiants i la cultura del cava i el vi com a excusa perfecta per aturar-se.",
+    "roads_detail": [
+      {
+        "name": "B-224",
+        "segment": "Igualada - Masquefa",
+        "type": "carretera comarcal",
+        "notes": "Baixada suau cap al sud. Carretera àmplia amb bon asfalt. Poc trànsit fora de les hores punta."
+      },
+      {
+        "name": "BV-2249",
+        "segment": "Masquefa - Piera",
+        "type": "carretera local",
+        "notes": "Carretera entre vinyes amb corbes amples i progressives. El tram més bonic."
+      },
+      {
+        "name": "BV-2242",
+        "segment": "Piera - Hostalets de Pierola",
+        "type": "carretera local",
+        "notes": "Carretera tranquil·la entre cellers i masies. Sense dificultat tècnica."
+      },
+      {
+        "name": "C-15",
+        "segment": "Hostalets de Pierola - Igualada",
+        "type": "carretera comarcal",
+        "notes": "Tornada directa. Carretera ben senyalitzada amb trànsit moderat."
+      }
+    ],
+    "waypoints": [
+      {
+        "name": "Igualada (sortida)",
+        "lat": 41.579,
+        "lng": 1.617,
+        "type": "start"
+      },
+      {
+        "name": "Masquefa",
+        "lat": 41.503,
+        "lng": 1.813,
+        "type": "waypoint"
+      },
+      {
+        "name": "Piera (centre)",
+        "lat": 41.521,
+        "lng": 1.748,
+        "type": "esmorzar"
+      },
+      {
+        "name": "Mirador de les vinyes (BV-2242)",
+        "lat": 41.535,
+        "lng": 1.722,
+        "type": "viewpoint"
+      },
+      {
+        "name": "Hostalets de Pierola",
+        "lat": 41.532,
+        "lng": 1.801,
+        "type": "waypoint"
+      },
+      {
+        "name": "Igualada (arribada)",
+        "lat": 41.579,
+        "lng": 1.617,
+        "type": "end"
+      }
+    ],
+    "warnings": [
+      "Atenció als tractors i remolcs durant l'època de verema (setembre-octubre). Poden aparèixer de forma sobtada als encreuaments.",
+      "Les carreteres locals poden tenir clapes de fang o restes vegetals. Precaució als revolts.",
+      "El sol pot enlluerar a primera hora i al capvespre a les rectes orientades est-oest. Porta visera neta."
+    ],
+    "fuel_note": "Gasolineres disponibles a Igualada i Masquefa. Amb 75 km totals, el combustible no és cap problema per a cap moto.",
+    "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.503,1.813/41.521,1.748/41.535,1.722/41.532,1.801/41.579,1.617"
+  }
+]

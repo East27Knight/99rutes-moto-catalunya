@@ -1,0 +1,1177 @@
+{
+  "hub": "Vic / Osona",
+  "slug": "vic-osona",
+  "total": 10,
+  "pro": 7,
+  "aprendiz": 3,
+  "routes": [
+    {
+      "id": "ruta-054",
+      "number": 54,
+      "name": "El Collsacabra: Rupit i els Cingles",
+      "slug": "el-collsacabra-rupit-i-els-cingles",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "La joia de la corona d'Osona: la BV-5207 puja fins a Rupit i Pruit entre cingles vertiginosos i boscos frondosos. El pont penjant sobre el Salt de Sallent, la cascada més alta de Catalunya, és un moment màgic. Revolts tècnics amb vistes que tallen l'alè sobre la plana de Vic.",
+      "total_distance_km": 135,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1800,
+      "elevation_max_m": 1050,
+      "roads_main": [
+        "BV-5207",
+        "BV-5224",
+        "C-153",
+        "BV-5201"
+      ],
+      "esmorzar": {
+        "town": "Rupit i Pruit",
+        "comarca": "Osona",
+        "lat": 42.024,
+        "lng": 2.464,
+        "specialty": "Esmorzar de forquilla rústic amb patates amb suc i botifarra a la brasa",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "cingles",
+        "cascada",
+        "tècnic",
+        "natura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.947,2.345/42.007,2.388/42.024,2.464/42.081,2.426/42.055,2.435/41.994,2.406/41.979,2.316/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Tavèrnoles",
+          "lat": 41.947,
+          "lng": 2.345,
+          "type": "waypoint",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Sant Julià de Cabrera",
+          "lat": 42.007,
+          "lng": 2.388,
+          "type": "waypoint",
+          "road": "BV-5224"
+        },
+        {
+          "name": "Rupit i Pruit",
+          "lat": 42.024,
+          "lng": 2.464,
+          "type": "esmorzar",
+          "road": "C-153"
+        },
+        {
+          "name": "Sant Esteve d'en Bas",
+          "lat": 42.081,
+          "lng": 2.426,
+          "type": "waypoint",
+          "road": "C-153"
+        },
+        {
+          "name": "Coll de Condreu",
+          "lat": 42.055,
+          "lng": 2.435,
+          "type": "summit",
+          "road": "C-153"
+        },
+        {
+          "name": "Tavertet",
+          "lat": 41.994,
+          "lng": 2.406,
+          "type": "viewpoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Roda de Ter",
+          "lat": 41.979,
+          "lng": 2.316,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "BV-5207"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 140,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted for accuracy based on real road conditions."
+      }
+    },
+    {
+      "id": "ruta-055",
+      "number": 55,
+      "name": "Montseny pel Nord: Viladrau i el Turó de l'Home",
+      "slug": "montseny-pel-nord-viladrau-i-el-turo-de-lhome",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Ascensió al Montseny des del vessant nord, menys conegut i més salvatge. La BV-5301 travessa Viladrau i s'enfila cap al Turó de l'Home amb revolts entre castanyers i fagedes. A l'hivern la boira dóna un aire misteriós; a la tardor els colors són extraordinaris.",
+      "total_distance_km": 155,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 2100,
+      "elevation_max_m": 1200,
+      "roads_main": [
+        "C-17",
+        "BV-5301",
+        "BV-5114",
+        "C-35"
+      ],
+      "esmorzar": {
+        "town": "Viladrau",
+        "comarca": "Osona",
+        "lat": 41.847,
+        "lng": 2.384,
+        "specialty": "Esmorzar de muntanya amb embotits de Vic i pa de pagès amb tomàquet",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "muntanya",
+        "bosc",
+        "corbes",
+        "tècnic"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.847,2.223/41.841,2.292/41.847,2.384/41.823,2.421/41.686,2.489/41.746,2.631/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.847,
+          "lng": 2.223,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Seva",
+          "lat": 41.841,
+          "lng": 2.292,
+          "type": "waypoint",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Viladrau",
+          "lat": 41.847,
+          "lng": 2.384,
+          "type": "esmorzar",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Coll de Bordoriol",
+          "lat": 41.823,
+          "lng": 2.421,
+          "type": "summit",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Sant Celoni",
+          "lat": 41.686,
+          "lng": 2.489,
+          "type": "waypoint",
+          "road": "BV-5114"
+        },
+        {
+          "name": "Hostalric",
+          "lat": 41.746,
+          "lng": 2.631,
+          "type": "waypoint",
+          "road": "C-35"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-17"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 160,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight adjustment in estimated distance and duration based on road conditions and typical traffic."
+      }
+    },
+    {
+      "id": "ruta-056",
+      "number": 56,
+      "name": "L'Embassament de Sau i les Guilleries",
+      "slug": "lembassament-de-sau-i-les-guilleries",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Ruta fins a l'embassament de Sau, on el campanar de l'església submergida emergeix quan baixa el nivell de l'aigua. La C-153 serpenteja per les Guilleries amb vistes espectaculars al pantà i als boscos. Tavèrnoles i els seus voltants ofereixen carreteres solitàries i gratificants.",
+      "total_distance_km": 120,
+      "estimated_duration_hours": 3,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1200,
+      "elevation_max_m": 750,
+      "roads_main": [
+        "C-153",
+        "BV-5213",
+        "BV-5201",
+        "C-17"
+      ],
+      "esmorzar": {
+        "town": "Tavèrnoles",
+        "comarca": "Osona",
+        "lat": 41.895,
+        "lng": 2.365,
+        "specialty": "Esmorzar de forquilla amb llonganissa de Vic i ous ferrats",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "embassament",
+        "bosc",
+        "paisatge",
+        "solitari"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.895,2.365/41.933,2.399/41.951,2.396/41.878,2.51/41.812,2.515/41.746,2.634/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-153"
+        },
+        {
+          "name": "Tavèrnoles",
+          "lat": 41.895,
+          "lng": 2.365,
+          "type": "esmorzar",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Vilanova de Sau",
+          "lat": 41.933,
+          "lng": 2.399,
+          "type": "waypoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Pantà de Sau",
+          "lat": 41.951,
+          "lng": 2.396,
+          "type": "viewpoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Sant Hilari Sacalm",
+          "lat": 41.878,
+          "lng": 2.51,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Arbúcies",
+          "lat": 41.812,
+          "lng": 2.515,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Hostalric",
+          "lat": 41.746,
+          "lng": 2.634,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-17"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 130,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.17,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes scenic points like Pantà de Sau. The estimated distance and duration are slightly higher than claimed due to road conditions and typical travel speeds."
+      }
+    },
+    {
+      "id": "ruta-057",
+      "number": 57,
+      "name": "De Vic a Ripoll pel Ripollès",
+      "slug": "de-vic-a-ripoll-pel-ripolles",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Ripollès",
+      "summary": "Travessa cap al nord seguint la C-17 fins a Ripoll, bressol de Catalunya, i continuant per la N-152 cap al Coll de Toses. Carreteres amples amb revolts progressius que guanyen alçada cap als Pirineus. El monestir de Ripoll i el paisatge de muntanya fan d'aquesta ruta un clàssic.",
+      "total_distance_km": 180,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1900,
+      "elevation_max_m": 1450,
+      "roads_main": [
+        "C-17",
+        "N-152",
+        "C-26",
+        "BV-5224"
+      ],
+      "esmorzar": {
+        "town": "Ripoll",
+        "comarca": "Ripollès",
+        "lat": 42.201,
+        "lng": 2.19,
+        "specialty": "Esmorzar de forquilla ripollès amb trinxat de la Cerdanya i botifarra",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "estiu"
+      ],
+      "tags": [
+        "pirineus",
+        "cultura",
+        "muntanya",
+        "monestir"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.847,2.227/42.108,2.225/42.201,2.19/42.15,2.168/42.157,2.048/42.201,2.19/42.108,2.225/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.847,
+          "lng": 2.227,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Sant Quirze de Besora",
+          "lat": 42.108,
+          "lng": 2.225,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.201,
+          "lng": 2.19,
+          "type": "esmorzar",
+          "road": "N-152"
+        },
+        {
+          "name": "Les Llosses",
+          "lat": 42.15,
+          "lng": 2.168,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Sant Jaume de Frontanyà",
+          "lat": 42.157,
+          "lng": 2.048,
+          "type": "waypoint",
+          "road": "BV-5224"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.201,
+          "lng": 2.19,
+          "type": "waypoint",
+          "road": "N-152"
+        },
+        {
+          "name": "Sant Quirze de Besora",
+          "lat": 42.108,
+          "lng": 2.225,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-17"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 185,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and typical speeds."
+      }
+    },
+    {
+      "id": "ruta-058",
+      "number": 58,
+      "name": "El Lluçanès Profund",
+      "slug": "el-llucanes-profund",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Immersió en el Lluçanès, una de les zones més desconegudes i despoblades de la Catalunya central. Carreteres estretes i solitàries entre Prats de Lluçanès, Sant Boi de Lluçanès i Alpens. Un territori de masies, camps de blat i silenci absolut on la moto és l'única banda sonora.",
+      "total_distance_km": 140,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1100,
+      "elevation_max_m": 850,
+      "roads_main": [
+        "BV-4341",
+        "BV-4316",
+        "BV-4406",
+        "C-62"
+      ],
+      "esmorzar": {
+        "town": "Prats de Lluçanès",
+        "comarca": "Osona",
+        "lat": 41.916,
+        "lng": 2.034,
+        "specialty": "Esmorzar de pagès amb fuet de Vic, pa amb tomàquet i olives",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "aïllament",
+        "tranquil",
+        "masies",
+        "solitari"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.933,2.143/41.916,2.034/41.938,2.012/41.933,2.067/41.933,1.976/41.947,2.029/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "BV-4341"
+        },
+        {
+          "name": "Sant Bartomeu del Grau",
+          "lat": 41.933,
+          "lng": 2.143,
+          "type": "waypoint",
+          "road": "BV-4341"
+        },
+        {
+          "name": "Prats de Lluçanès",
+          "lat": 41.916,
+          "lng": 2.034,
+          "type": "esmorzar",
+          "road": "BV-4406"
+        },
+        {
+          "name": "Intersection BV-4406 & BV-4316",
+          "lat": 41.938,
+          "lng": 2.012,
+          "type": "waypoint",
+          "road": "BV-4316"
+        },
+        {
+          "name": "Olost",
+          "lat": 41.933,
+          "lng": 2.067,
+          "type": "waypoint",
+          "road": "BV-4316"
+        },
+        {
+          "name": "Sant Feliu Sasserra",
+          "lat": 41.933,
+          "lng": 1.976,
+          "type": "waypoint",
+          "road": "BV-4406"
+        },
+        {
+          "name": "Intersection BV-4406 & C-62",
+          "lat": 41.947,
+          "lng": 2.029,
+          "type": "waypoint",
+          "road": "C-62"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-62"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 145,
+        "gpt_duration_hours": 3.7,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.06,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-059",
+      "number": 59,
+      "name": "Coll de Bracons i la Garrotxa",
+      "slug": "coll-de-bracons-i-la-garrotxa",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "El Coll de Bracons per la C-152 és un dels passos de muntanya més espectaculars de la Catalunya interior. Des de la plana de Vic s'enfila amb revolts tancats fins a la Vall d'en Bas, porta d'entrada a la Garrotxa volcànica. El descens cap a Olot és un regal de corbes entre valls verdes.",
+      "total_distance_km": 165,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1700,
+      "elevation_max_m": 1120,
+      "roads_main": [
+        "C-152",
+        "C-63",
+        "BV-5224"
+      ],
+      "esmorzar": {
+        "town": "La Vall d'en Bas",
+        "comarca": "La Garrotxa",
+        "lat": 42.119,
+        "lng": 2.456,
+        "specialty": "Fesols de Santa Pau amb cansalada viada i pa de pagès",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "coll",
+        "corbes",
+        "volcans",
+        "muntanya"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.946,2.34/42.1,2.372/42.127,2.443/42.119,2.456/42.116,2.462/42.143,2.47/42.183,2.488/42.0,2.283/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-152"
+        },
+        {
+          "name": "Tavèrnoles",
+          "lat": 41.946,
+          "lng": 2.34,
+          "type": "waypoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Coll de Bracons",
+          "lat": 42.1,
+          "lng": 2.372,
+          "type": "summit",
+          "road": "BV-5224"
+        },
+        {
+          "name": "Joanetes",
+          "lat": 42.127,
+          "lng": 2.443,
+          "type": "waypoint",
+          "road": "BV-5224"
+        },
+        {
+          "name": "La Vall d'en Bas",
+          "lat": 42.119,
+          "lng": 2.456,
+          "type": "esmorzar",
+          "road": "C-63"
+        },
+        {
+          "name": "Sant Esteve d'en Bas",
+          "lat": 42.116,
+          "lng": 2.462,
+          "type": "waypoint",
+          "road": "C-63"
+        },
+        {
+          "name": "Les Preses",
+          "lat": 42.143,
+          "lng": 2.47,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.183,
+          "lng": 2.488,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Manlleu",
+          "lat": 42.0,
+          "lng": 2.283,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-152"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 175,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads with scenic views, including the Coll de Bracons summit. The estimated distance and duration are slightly adjusted for realistic travel conditions."
+      }
+    },
+    {
+      "id": "ruta-060",
+      "number": 60,
+      "name": "Tavertet i el Cingle de Tavertet",
+      "slug": "tavertet-i-el-cingle-de-tavertet",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Ruta extrema fins al poble de Tavertet, enlairat sobre els cingles que dominen el pantà de Sau. La carretera d'accés és estreta, amb revolts cecs sobre precipicis i sense protecció lateral en alguns trams. La recompensa és un mirador natural que sembla el final del món. Només per a pilots experimentats.",
+      "total_distance_km": 125,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 880,
+      "roads_main": [
+        "BV-5207",
+        "BV-5213",
+        "C-153",
+        "BV-5201"
+      ],
+      "esmorzar": {
+        "town": "Tavertet",
+        "comarca": "Osona",
+        "lat": 41.975,
+        "lng": 2.42,
+        "specialty": "Esmorzar rústic amb truita de bolets i embotits casolans",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu"
+      ],
+      "tags": [
+        "cingles",
+        "extrem",
+        "vistes",
+        "precipici"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.973,2.305/41.989,2.367/41.975,2.42/42.016,2.398/41.995,2.315/41.899,2.364/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Roda de Ter",
+          "lat": 41.973,
+          "lng": 2.305,
+          "type": "waypoint",
+          "road": "C-153"
+        },
+        {
+          "name": "L'Esquirol",
+          "lat": 41.989,
+          "lng": 2.367,
+          "type": "waypoint",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Tavertet",
+          "lat": 41.975,
+          "lng": 2.42,
+          "type": "esmorzar",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Sant Julià de Cabrera",
+          "lat": 42.016,
+          "lng": 2.398,
+          "type": "waypoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Collsacabra",
+          "lat": 41.995,
+          "lng": 2.315,
+          "type": "summit",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Sant Sadurní d'Osormort",
+          "lat": 41.899,
+          "lng": 2.364,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "BV-5201"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 130,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-061",
+      "number": 61,
+      "name": "Centelles, Tona i el Pla de Vic",
+      "slug": "centelles-tona-i-el-pla-de-vic",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Circuit suau pel pla de Vic passant per Tona, Centelles i els pobles dels voltants. Carreteres amples i rectes amb suaus ondulacions entre camps de conreu i granges. Perfecta per agafar confiança amb la moto i gaudir dels embotits de Vic en un esmorzar de forquilla memorable.",
+      "total_distance_km": 55,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 590,
+      "roads_main": [
+        "C-17",
+        "BV-5303",
+        "N-141c"
+      ],
+      "esmorzar": {
+        "town": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254,
+        "specialty": "Esmorzar de forquilla al mercat de Vic amb llonganissa, fuet i secallona",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "pla",
+        "principiant",
+        "gastronomia",
+        "mercat"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.886,2.254/41.847,2.227/41.798,2.217/41.828,2.232/41.891,2.274/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Breakfast Stop Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "esmorzar",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.847,
+          "lng": 2.227,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Centelles",
+          "lat": 41.798,
+          "lng": 2.217,
+          "type": "waypoint",
+          "road": "BV-5303"
+        },
+        {
+          "name": "Sant Miquel de Balenyà",
+          "lat": 41.828,
+          "lng": 2.232,
+          "type": "waypoint",
+          "road": "N-141c"
+        },
+        {
+          "name": "El Pla de Vic",
+          "lat": 41.891,
+          "lng": 2.274,
+          "type": "waypoint",
+          "road": "N-141c"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "N-141c"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.25,
+        "plausible": true,
+        "notes": "The route follows the specified roads and is plausible within the claimed distance and duration. The waypoints are accurately placed along the C-17, BV-5303, and N-141c roads."
+      }
+    },
+    {
+      "id": "ruta-062",
+      "number": 62,
+      "name": "Pantà de Sau Exprés",
+      "slug": "panta-de-sau-expres",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Versió curta de la ruta al pantà de Sau, adaptada per a principiants. Baixada suau per la C-153 fins a Vilanova de Sau amb vistes al pantà i al mític campanar submergit. Les corbes són obertes i previsibles, ideals per practicar la tècnica de les revoltes.",
+      "total_distance_km": 70,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 450,
+      "elevation_max_m": 600,
+      "roads_main": [
+        "C-153",
+        "BV-5213",
+        "C-17"
+      ],
+      "esmorzar": {
+        "town": "Vilanova de Sau",
+        "comarca": "Osona",
+        "lat": 41.93,
+        "lng": 2.385,
+        "specialty": "Entrepà de botifarra amb mongetes i un cafè amb vistes al pantà",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "embassament",
+        "principiant",
+        "vistes",
+        "tranquil"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.93,2.261/41.933,2.321/41.93,2.385/41.953,2.393/41.905,2.333/41.85,2.223/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-153"
+        },
+        {
+          "name": "Gurb",
+          "lat": 41.93,
+          "lng": 2.261,
+          "type": "waypoint",
+          "road": "C-153"
+        },
+        {
+          "name": "Tavèrnoles",
+          "lat": 41.933,
+          "lng": 2.321,
+          "type": "waypoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Vilanova de Sau",
+          "lat": 41.93,
+          "lng": 2.385,
+          "type": "esmorzar",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Pantà de Sau",
+          "lat": 41.953,
+          "lng": 2.393,
+          "type": "viewpoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Sant Julià de Vilatorta",
+          "lat": 41.905,
+          "lng": 2.333,
+          "type": "waypoint",
+          "road": "C-153"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.85,
+          "lng": 2.223,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "C-17"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 72,
+        "gpt_duration_hours": 2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and matches the claimed distance and duration. The path includes scenic views near Pantà de Sau."
+      }
+    },
+    {
+      "id": "ruta-063",
+      "number": 63,
+      "name": "Manlleu, Roda de Ter i el Ter",
+      "slug": "manlleu-roda-de-ter-i-el-ter",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Passeig relaxat seguint el curs del riu Ter entre Vic, Manlleu i Roda de Ter. Carreteres planes al costat del riu amb poques corbes. El meandre de Roda de Ter és un dels paisatges fluvials més bonics d'Osona. Ruta perfecta per a un matí tranquil amb bon esmorzar.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 150,
+      "elevation_max_m": 480,
+      "roads_main": [
+        "C-17",
+        "BV-5202",
+        "BV-5201"
+      ],
+      "esmorzar": {
+        "town": "Manlleu",
+        "comarca": "Osona",
+        "lat": 41.874,
+        "lng": 2.284,
+        "specialty": "Esmorzar de forquilla amb embotits de Vic i pa de coca",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "riu",
+        "pla",
+        "principiant",
+        "tranquil"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.845,2.228/41.874,2.284/41.973,2.312/42.015,2.377/41.976,2.328/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.845,
+          "lng": 2.228,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Manlleu",
+          "lat": 41.874,
+          "lng": 2.284,
+          "type": "esmorzar",
+          "road": "BV-5202"
+        },
+        {
+          "name": "Roda de Ter",
+          "lat": 41.973,
+          "lng": 2.312,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "L'Esquirol",
+          "lat": 42.015,
+          "lng": 2.377,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Sant Martí Sescorts",
+          "lat": 41.976,
+          "lng": 2.328,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "BV-5201"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 50,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.11,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and speed limits."
+      }
+    }
+  ]
+}

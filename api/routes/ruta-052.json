@@ -1,0 +1,116 @@
+{
+  "id": "ruta-052",
+  "number": 52,
+  "name": "Cala Estreta i Sant Feliu de Guíxols",
+  "slug": "cala-estreta-i-sant-feliu-de-guixols",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Baix Empordà",
+  "summary": "Baixada fins a la costa per la GI-664 fins a Sant Feliu de Guíxols, amb un petit tram de la mítica GI-682 apte per a principiants. Vistes al mar, una parada per esmorzar al port i una tornada tranquil·la per l'interior. Un tast de Costa Brava sense complicacions.",
+  "total_distance_km": 80,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 450,
+  "elevation_max_m": 250,
+  "roads_main": [
+    "C-65",
+    "GI-664",
+    "GI-682",
+    "C-31"
+  ],
+  "esmorzar": {
+    "town": "Sant Feliu de Guíxols",
+    "comarca": "Baix Empordà",
+    "lat": 41.784,
+    "lng": 3.032,
+    "specialty": "Esmorzar de peix fresc al port amb cafè i vistes al mar",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "mar",
+    "principiant",
+    "port"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.933,2.85/41.825,2.892/41.784,3.032/41.718,2.933/41.825,2.892/41.877,2.874/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-65"
+    },
+    {
+      "name": "Quart",
+      "lat": 41.933,
+      "lng": 2.85,
+      "type": "waypoint",
+      "road": "C-65"
+    },
+    {
+      "name": "Llagostera",
+      "lat": 41.825,
+      "lng": 2.892,
+      "type": "waypoint",
+      "road": "C-65"
+    },
+    {
+      "name": "Sant Feliu de Guíxols",
+      "lat": 41.784,
+      "lng": 3.032,
+      "type": "esmorzar",
+      "road": "GI-682"
+    },
+    {
+      "name": "Tossa de Mar",
+      "lat": 41.718,
+      "lng": 2.933,
+      "type": "waypoint",
+      "road": "GI-682"
+    },
+    {
+      "name": "Llagostera",
+      "lat": 41.825,
+      "lng": 2.892,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "Cassà de la Selva",
+      "lat": 41.877,
+      "lng": 2.874,
+      "type": "waypoint",
+      "road": "C-65"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-65"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 85,
+    "gpt_duration_hours": 2.5,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.25,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to the winding nature of the GI-682 road."
+  }
+}

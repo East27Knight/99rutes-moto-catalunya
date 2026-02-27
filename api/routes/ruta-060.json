@@ -1,0 +1,115 @@
+{
+  "id": "ruta-060",
+  "number": 60,
+  "name": "Tavertet i el Cingle de Tavertet",
+  "slug": "tavertet-i-el-cingle-de-tavertet",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "Ruta extrema fins al poble de Tavertet, enlairat sobre els cingles que dominen el pantà de Sau. La carretera d'accés és estreta, amb revolts cecs sobre precipicis i sense protecció lateral en alguns trams. La recompensa és un mirador natural que sembla el final del món. Només per a pilots experimentats.",
+  "total_distance_km": 125,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 880,
+  "roads_main": [
+    "BV-5207",
+    "BV-5213",
+    "C-153",
+    "BV-5201"
+  ],
+  "esmorzar": {
+    "town": "Tavertet",
+    "comarca": "Osona",
+    "lat": 41.975,
+    "lng": 2.42,
+    "specialty": "Esmorzar rústic amb truita de bolets i embotits casolans",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu"
+  ],
+  "tags": [
+    "cingles",
+    "extrem",
+    "vistes",
+    "precipici"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.973,2.305/41.989,2.367/41.975,2.42/42.016,2.398/41.995,2.315/41.899,2.364/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "BV-5207"
+    },
+    {
+      "name": "Roda de Ter",
+      "lat": 41.973,
+      "lng": 2.305,
+      "type": "waypoint",
+      "road": "C-153"
+    },
+    {
+      "name": "L'Esquirol",
+      "lat": 41.989,
+      "lng": 2.367,
+      "type": "waypoint",
+      "road": "BV-5207"
+    },
+    {
+      "name": "Tavertet",
+      "lat": 41.975,
+      "lng": 2.42,
+      "type": "esmorzar",
+      "road": "BV-5207"
+    },
+    {
+      "name": "Sant Julià de Cabrera",
+      "lat": 42.016,
+      "lng": 2.398,
+      "type": "waypoint",
+      "road": "BV-5213"
+    },
+    {
+      "name": "Collsacabra",
+      "lat": 41.995,
+      "lng": 2.315,
+      "type": "summit",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Sant Sadurní d'Osormort",
+      "lat": 41.899,
+      "lng": 2.364,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "BV-5201"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 130,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "ruta-018",
+  "number": 18,
+  "name": "Penedès: Terra de Cava i Revolts",
+  "slug": "penedes-terra-cava-revolts",
+  "category": "pro",
+  "difficulty": 2,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Alt Penedès",
+  "summary": "Travessia del Penedès per carreteres entre vinyes, cellers modernistes i pobles tranquils. De Barcelona cap a Vilafranca del Penedès per la C-15, volta per Sant Sadurní d'Anoia i tornada per l'Ordal. Ritme relaxat entre paisatges que canvien de color amb cada estació.",
+  "total_distance_km": 155,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1000,
+  "elevation_max_m": 540,
+  "roads_main": [
+    "C-15",
+    "C-243a",
+    "BV-2249",
+    "BP-2121",
+    "N-340"
+  ],
+  "esmorzar": {
+    "town": "Vilafranca del Penedès",
+    "comarca": "Alt Penedès",
+    "lat": 41.346,
+    "lng": 1.697,
+    "specialty": "Esmorzar de forquilla amb xató i pa amb tomàquet al mercat",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "vinyes",
+    "cava",
+    "modernisme",
+    "gastronomia"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.425,1.784/41.346,1.697/41.456,1.701/41.472,1.666/41.472,1.529/41.315,1.661/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "N-340"
+    },
+    {
+      "name": "Sant Sadurní d'Anoia",
+      "lat": 41.425,
+      "lng": 1.784,
+      "type": "waypoint",
+      "road": "C-243a"
+    },
+    {
+      "name": "Vilafranca del Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "type": "esmorzar",
+      "road": "C-15"
+    },
+    {
+      "name": "Sant Pere de Riudebitlles",
+      "lat": 41.456,
+      "lng": 1.701,
+      "type": "waypoint",
+      "road": "BV-2249"
+    },
+    {
+      "name": "Sant Quintí de Mediona",
+      "lat": 41.472,
+      "lng": 1.666,
+      "type": "waypoint",
+      "road": "BP-2121"
+    },
+    {
+      "name": "La Llacuna",
+      "lat": 41.472,
+      "lng": 1.529,
+      "type": "waypoint",
+      "road": "BP-2121"
+    },
+    {
+      "name": "Santa Margarida i els Monjos",
+      "lat": 41.315,
+      "lng": 1.661,
+      "type": "waypoint",
+      "road": "N-340"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "N-340"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 160,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in distance due to road conditions and detours. The estimated duration accounts for typical traffic and road conditions."
+  }
+}

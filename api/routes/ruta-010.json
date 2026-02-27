@@ -1,0 +1,116 @@
+{
+  "id": "ruta-010",
+  "number": 10,
+  "name": "La Segarra i els Camps de Cereals",
+  "slug": "segarra-camps-cereals",
+  "category": "pro",
+  "difficulty": 2,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Segarra",
+  "summary": "Ruta cap a ponent per la C-25 fins a Cervera, travessant l'altiplà de la Segarra entre camps de cereals infinits. Carreteres rectes que es combinen amb petits revolts entre pobles medievals com Torà i Biosca. Un paisatge àrid i solitari que recorda les grans planures europees.",
+  "total_distance_km": 185,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 1100,
+  "elevation_max_m": 780,
+  "roads_main": [
+    "C-25",
+    "L-311",
+    "C-1412a",
+    "LV-3003",
+    "C-55"
+  ],
+  "esmorzar": {
+    "town": "Cervera",
+    "comarca": "Segarra",
+    "lat": 41.67,
+    "lng": 1.272,
+    "specialty": "Esmorzar de forquilla amb cargols a la llauna i pa amb tomàquet",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "altiplà",
+    "medieval",
+    "vent",
+    "paisatge-obert"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.71,1.515/41.827,1.394/41.67,1.272/41.683,1.384/41.914,1.682/41.798,1.785/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-25"
+    },
+    {
+      "name": "Interchange C-25/L-311",
+      "lat": 41.71,
+      "lng": 1.515,
+      "type": "waypoint",
+      "road": "C-25"
+    },
+    {
+      "name": "Torà",
+      "lat": 41.827,
+      "lng": 1.394,
+      "type": "waypoint",
+      "road": "L-311"
+    },
+    {
+      "name": "Cervera",
+      "lat": 41.67,
+      "lng": 1.272,
+      "type": "esmorzar",
+      "road": "C-1412a"
+    },
+    {
+      "name": "Sant Ramon",
+      "lat": 41.683,
+      "lng": 1.384,
+      "type": "waypoint",
+      "road": "LV-3003"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.914,
+      "lng": 1.682,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Interchange C-55/C-25",
+      "lat": 41.798,
+      "lng": 1.785,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-55"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 190,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and the estimated distance and duration are slightly higher due to road conditions and typical traffic."
+  }
+}

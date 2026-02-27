@@ -1,0 +1,131 @@
+{
+  "id": "ruta-019",
+  "number": 19,
+  "name": "El Maresme i el Montnegre",
+  "slug": "maresme-montnegre",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Maresme",
+  "summary": "De Cerdanyola cap a la costa del Maresme per la C-33, seguint la línia del mar fins a Calella, i pujada al Parc del Montnegre per la BV-5128. Carreteres de muntanya litoral amb vistes al Mediterrani, baixada per Vallgorguina i tornada per l'AP-7. Combinació de mar i bosc que sorprèn.",
+  "total_distance_km": 165,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 760,
+  "roads_main": [
+    "C-33",
+    "C-32",
+    "N-II",
+    "BV-5128",
+    "BV-5105"
+  ],
+  "esmorzar": {
+    "town": "Calella",
+    "comarca": "Maresme",
+    "lat": 41.614,
+    "lng": 2.654,
+    "specialty": "Esmorzar de forquilla amb truita de gambes i pa amb tomàquet al port",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "bosc",
+    "mar",
+    "muntanya-litoral"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.496,2.188/41.45,2.247/41.54,2.444/41.614,2.654/41.623,2.621/41.636,2.573/41.686,2.49/41.584,2.324/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-33"
+    },
+    {
+      "name": "Montcada i Reixac",
+      "lat": 41.496,
+      "lng": 2.188,
+      "type": "waypoint",
+      "road": "C-33"
+    },
+    {
+      "name": "Badalona",
+      "lat": 41.45,
+      "lng": 2.247,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Mataró",
+      "lat": 41.54,
+      "lng": 2.444,
+      "type": "waypoint",
+      "road": "N-II"
+    },
+    {
+      "name": "Calella",
+      "lat": 41.614,
+      "lng": 2.654,
+      "type": "esmorzar",
+      "road": "N-II"
+    },
+    {
+      "name": "Sant Cebrià de Vallalta",
+      "lat": 41.623,
+      "lng": 2.621,
+      "type": "waypoint",
+      "road": "BV-5128"
+    },
+    {
+      "name": "Sant Iscle de Vallalta",
+      "lat": 41.636,
+      "lng": 2.573,
+      "type": "waypoint",
+      "road": "BV-5128"
+    },
+    {
+      "name": "Sant Celoni",
+      "lat": 41.686,
+      "lng": 2.49,
+      "type": "waypoint",
+      "road": "BV-5105"
+    },
+    {
+      "name": "La Roca del Vallès",
+      "lat": 41.584,
+      "lng": 2.324,
+      "type": "waypoint",
+      "road": "BV-5105"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "C-33"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 175,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows scenic secondary roads and avoids highways, providing an enjoyable ride through El Maresme and El Montnegre regions."
+  }
+}

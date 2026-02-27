@@ -1,0 +1,115 @@
+{
+  "id": "ruta-078",
+  "number": 78,
+  "name": "Cerdanya pel Coll de Nargó",
+  "slug": "cerdanya-pel-coll-de-nargo",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Cerdanya",
+  "summary": "Gran volta per assolir la Cerdanya des de Lleida: la C-14 fins a Coll de Nargó, el Pont de Bar i l'entrada a la plana cerdana amb el Cadí al nord. Puigcerdà, Bellver i tornada per la N-260, el Túnel del Cadí i Solsona. Jornada completa.",
+  "total_distance_km": 250,
+  "estimated_duration_hours": 5.0,
+  "riding_time_hours": 4.0,
+  "elevation_gain_m": 3400,
+  "elevation_max_m": 1800,
+  "roads_main": [
+    "C-14",
+    "N-260",
+    "C-16",
+    "C-26"
+  ],
+  "esmorzar": {
+    "town": "Puigcerdà",
+    "comarca": "Cerdanya",
+    "lat": 42.431,
+    "lng": 1.928,
+    "specialty": "Trinxat de la Cerdanya i embotits del país",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pirineu",
+    "cerdanya",
+    "port",
+    "gran-volta"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.916,1.184/42.152,1.317/42.357,1.463/42.431,1.928/42.104,1.846/41.993,1.518/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-14"
+    },
+    {
+      "name": "Ponts",
+      "lat": 41.916,
+      "lng": 1.184,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Coll de Nargó",
+      "lat": 42.152,
+      "lng": 1.317,
+      "type": "summit",
+      "road": "C-14"
+    },
+    {
+      "name": "La Seu d'Urgell",
+      "lat": 42.357,
+      "lng": 1.463,
+      "type": "waypoint",
+      "road": "N-260"
+    },
+    {
+      "name": "Puigcerdà",
+      "lat": 42.431,
+      "lng": 1.928,
+      "type": "esmorzar",
+      "road": "N-260"
+    },
+    {
+      "name": "Berga",
+      "lat": 42.104,
+      "lng": 1.846,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Solsona",
+      "lat": 41.993,
+      "lng": 1.518,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-26"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 230,
+    "gpt_duration_hours": 4.8,
+    "distance_diff_pct": 0.08,
+    "duration_diff_pct": 0.04,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on actual road conditions and typical driving speeds."
+  }
+}

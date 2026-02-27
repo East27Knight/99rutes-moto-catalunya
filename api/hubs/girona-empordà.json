@@ -1,0 +1,1739 @@
+{
+  "hub": "Girona / Empordà",
+  "slug": "girona-empordà",
+  "total": 15,
+  "pro": 10,
+  "aprendiz": 5,
+  "routes": [
+    {
+      "id": "ruta-039",
+      "number": 39,
+      "name": "Les 365 Corbes de la Costa Brava",
+      "slug": "les-365-corbes-de-la-costa-brava",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Selva",
+      "summary": "La ruta mítica de la GI-682 entre Tossa de Mar i Sant Feliu de Guíxols, amb les seves llegendàries 365 corbes sobre penya-segats que cauen al mar. Un festí de revolts tècnics, vistes infinites al Mediterrani i parades en cales amagades.",
+      "total_distance_km": 185,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 1850,
+      "elevation_max_m": 320,
+      "roads_main": [
+        "GI-682",
+        "GI-664",
+        "C-65",
+        "C-63"
+      ],
+      "esmorzar": {
+        "town": "Tossa de Mar",
+        "comarca": "La Selva",
+        "lat": 41.721,
+        "lng": 2.934,
+        "specialty": "Esmorzar de forquilla amb peix fresc i pa amb tomàquet davant del mar",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "corbes",
+        "icònica",
+        "penya-segats"
+      ],
+      "waypoints": [
+        {
+          "name": "Girona (sortida)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start"
+        },
+        {
+          "name": "Llagostera",
+          "lat": 41.828,
+          "lng": 2.893,
+          "type": "waypoint"
+        },
+        {
+          "name": "Tossa de Mar",
+          "lat": 41.721,
+          "lng": 2.934,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Mirador de la GI-682",
+          "lat": 41.753,
+          "lng": 2.965,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Cala Giverola",
+          "lat": 41.744,
+          "lng": 2.945,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Sant Feliu de Guíxols",
+          "lat": 41.784,
+          "lng": 3.032,
+          "type": "waypoint"
+        },
+        {
+          "name": "Girona (arribada)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.828,2.893/41.721,2.934/41.753,2.965/41.744,2.945/41.784,3.032/41.983,2.824"
+    },
+    {
+      "id": "ruta-040",
+      "number": 40,
+      "name": "Cap de Creus i Cadaqués",
+      "slug": "cap-de-creus-i-cadaques",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Alt Empordà",
+      "summary": "Travessa de l'Empordà fins al punt més oriental de la Península Ibèrica. Les carreteres serpentejen entre oliveres centenàries i vinyes fins a Cadaqués, el poble blanc que va inspirar Dalí. El descens cap al Cap de Creus és un laberint de corbes amb vistes al cap rocós batut pel vent.",
+      "total_distance_km": 210,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 450,
+      "roads_main": [
+        "C-66",
+        "GI-614",
+        "GI-610",
+        "N-II"
+      ],
+      "esmorzar": {
+        "town": "Cadaqués",
+        "comarca": "Alt Empordà",
+        "lat": 42.289,
+        "lng": 3.278,
+        "specialty": "Esmorzar de forquilla amb anxoves de Cadaqués i pa de vidre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "corbes",
+        "cultura",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.698/42.261,3.176/42.289,3.278/42.343,3.203/42.267,2.961/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.698,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Roses",
+          "lat": 42.261,
+          "lng": 3.176,
+          "type": "waypoint",
+          "road": "GI-614"
+        },
+        {
+          "name": "Cadaqués",
+          "lat": 42.289,
+          "lng": 3.278,
+          "type": "esmorzar",
+          "road": "GI-614"
+        },
+        {
+          "name": "Port de la Selva",
+          "lat": 42.343,
+          "lng": 3.203,
+          "type": "waypoint",
+          "road": "GI-610"
+        },
+        {
+          "name": "Figueres",
+          "lat": 42.267,
+          "lng": 2.961,
+          "type": "waypoint",
+          "road": "N-II"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "N-II"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance and duration match the claimed values closely, considering typical road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-041",
+      "number": 41,
+      "name": "Volcans de la Garrotxa",
+      "slug": "volcans-de-la-garrotxa",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "Ruta cap al cor volcànic de Catalunya, travessant fagedes i pobles medievals. Des de Besalú i el seu pont romànic fins a Santa Pau, passant per Olot i la seva espectacular zona volcànica. Carreteres sinuoses enmig d'un paisatge verd que sembla un altre país.",
+      "total_distance_km": 175,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1400,
+      "elevation_max_m": 680,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "C-152",
+        "C-63"
+      ],
+      "esmorzar": {
+        "town": "Santa Pau",
+        "comarca": "La Garrotxa",
+        "lat": 42.145,
+        "lng": 2.567,
+        "specialty": "Fesols de Santa Pau amb botifarra i un glop de ratafía",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "volcans",
+        "natura",
+        "medieval",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.2,2.698/42.145,2.567/42.182,2.488/42.097,2.435/41.953,2.635/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.2,
+          "lng": 2.698,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Santa Pau",
+          "lat": 42.145,
+          "lng": 2.567,
+          "type": "esmorzar",
+          "road": "GI-524"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.182,
+          "lng": 2.488,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Sant Esteve d'en Bas",
+          "lat": 42.097,
+          "lng": 2.435,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Anglès",
+          "lat": 41.953,
+          "lng": 2.635,
+          "type": "waypoint",
+          "road": "C-63"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-63"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 180,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes scenic areas in La Garrotxa. The estimated distance and duration are slightly adjusted for accuracy."
+      }
+    },
+    {
+      "id": "ruta-042",
+      "number": 42,
+      "name": "El Triangle Dalinià",
+      "slug": "el-triangle-dalinia",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Alt Empordà",
+      "summary": "Recorregut pels tres vèrtexs del triangle Dalí: Figueres, Portlligat i Púbol. Un viatge entre art i paisatge que combina les planes de l'Empordà amb els revolts cap a la costa. Les carreteres secundàries entre Peralada i Vilabertran són un plaer per a la moto.",
+      "total_distance_km": 195,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 1100,
+      "elevation_max_m": 380,
+      "roads_main": [
+        "C-66",
+        "N-II",
+        "GI-614",
+        "C-31",
+        "C-252"
+      ],
+      "esmorzar": {
+        "town": "Figueres",
+        "comarca": "Alt Empordà",
+        "lat": 42.266,
+        "lng": 2.962,
+        "specialty": "Esmorzar de forquilla empordanès amb carn a la brasa i escalivada",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "cultura",
+        "empordà",
+        "paisatge",
+        "pobles"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.698/42.266,2.962/42.288,3.278/42.261,3.176/42.26,3.075/42.308,3.011/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.698,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Figueres",
+          "lat": 42.266,
+          "lng": 2.962,
+          "type": "esmorzar",
+          "road": "N-II"
+        },
+        {
+          "name": "Cadaqués",
+          "lat": 42.288,
+          "lng": 3.278,
+          "type": "waypoint",
+          "road": "GI-614"
+        },
+        {
+          "name": "Roses",
+          "lat": 42.261,
+          "lng": 3.176,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Castelló d'Empúries",
+          "lat": 42.26,
+          "lng": 3.075,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Peralada",
+          "lat": 42.308,
+          "lng": 3.011,
+          "type": "waypoint",
+          "road": "C-252"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-66"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 195,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes key towns and points of interest. The estimated distance and duration match the claimed values, making the route plausible. Note that actual travel time may vary based on traffic and road conditions."
+      }
+    },
+    {
+      "id": "ruta-043",
+      "number": 43,
+      "name": "Montseny des del Gironès",
+      "slug": "montseny-des-del-girones",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Selva",
+      "summary": "Ascensió al massís del Montseny des del vessant oriental, menys transitat però igualment espectacular. La GI-543 puja entre alzinars i castanyers amb revolts tancs i desnivells exigents. Un repte tècnic amb recompensa paisatgística des dels cims del Turó de l'Home.",
+      "total_distance_km": 200,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2200,
+      "elevation_max_m": 1100,
+      "roads_main": [
+        "C-63",
+        "GI-543",
+        "BV-5301",
+        "C-35"
+      ],
+      "esmorzar": {
+        "town": "Arbúcies",
+        "comarca": "La Selva",
+        "lat": 41.819,
+        "lng": 2.514,
+        "specialty": "Esmorzar de pagès amb truita de patates, botifarra i mongetes",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "muntanya",
+        "corbes",
+        "natura",
+        "tècnic"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.847,2.663/41.819,2.514/41.841,2.395/41.705,2.449/41.686,2.492/41.746,2.635/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-63"
+        },
+        {
+          "name": "Santa Coloma de Farners",
+          "lat": 41.847,
+          "lng": 2.663,
+          "type": "waypoint",
+          "road": "C-63"
+        },
+        {
+          "name": "Arbúcies",
+          "lat": 41.819,
+          "lng": 2.514,
+          "type": "esmorzar",
+          "road": "GI-543"
+        },
+        {
+          "name": "Coll de Revell",
+          "lat": 41.841,
+          "lng": 2.395,
+          "type": "summit",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Sant Esteve de Palautordera",
+          "lat": 41.705,
+          "lng": 2.449,
+          "type": "waypoint",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Sant Celoni",
+          "lat": 41.686,
+          "lng": 2.492,
+          "type": "waypoint",
+          "road": "C-35"
+        },
+        {
+          "name": "Hostalric",
+          "lat": 41.746,
+          "lng": 2.635,
+          "type": "waypoint",
+          "road": "C-35"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-63"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 190,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.07,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and provides a scenic ride through the Montseny area. The distance and duration estimates are slightly less than claimed, but the route remains plausible and enjoyable."
+      }
+    },
+    {
+      "id": "ruta-044",
+      "number": 44,
+      "name": "Palafrugell i la Costa Brava Interior",
+      "slug": "palafrugell-i-la-costa-brava-interior",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Baix Empordà",
+      "summary": "Ruta que combina el Baix Empordà interior amb la costa. Des dels camps d'arròs de Pals fins als penya-segats de Calella de Palafrugell, passant per pobles medievals enlairats. La GI-614 i les carreteres locals ofereixen un ritme constant de corbes suaus entre masies i pinedes.",
+      "total_distance_km": 160,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1050,
+      "elevation_max_m": 280,
+      "roads_main": [
+        "C-66",
+        "GI-614",
+        "C-31",
+        "GI-664"
+      ],
+      "esmorzar": {
+        "town": "Palafrugell",
+        "comarca": "Baix Empordà",
+        "lat": 41.918,
+        "lng": 3.163,
+        "specialty": "Suquet de peix i pa amb tomàquet a un restaurant del centre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "pobles",
+        "gastronomia",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.016,2.878/41.957,3.038/41.918,3.163/41.953,3.208/41.857,3.081/41.783,3.029/41.831,2.892/41.889,2.874/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Celrà",
+          "lat": 42.016,
+          "lng": 2.878,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "La Bisbal d'Empordà",
+          "lat": 41.957,
+          "lng": 3.038,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Palafrugell",
+          "lat": 41.918,
+          "lng": 3.163,
+          "type": "esmorzar",
+          "road": "C-31"
+        },
+        {
+          "name": "Begur",
+          "lat": 41.953,
+          "lng": 3.208,
+          "type": "waypoint",
+          "road": "GI-614"
+        },
+        {
+          "name": "Calonge",
+          "lat": 41.857,
+          "lng": 3.081,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Sant Feliu de Guíxols",
+          "lat": 41.783,
+          "lng": 3.029,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Llagostera",
+          "lat": 41.831,
+          "lng": 2.892,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "Cassà de la Selva",
+          "lat": 41.889,
+          "lng": 2.874,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "GI-664"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 165,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely with minor deviations for scenic detours. The estimated distance and duration are slightly higher than claimed due to additional waypoints for scenic views."
+      }
+    },
+    {
+      "id": "ruta-045",
+      "number": 45,
+      "name": "La Ruta del Ter fins a Besalú",
+      "slug": "la-ruta-del-ter-fins-a-besalu",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "Seguint el curs del Ter i els seus afluents cap a l'interior, aquesta ruta connecta Banyoles amb Besalú i torna per la Vall d'en Bas. El pont romànic de Besalú és l'escenari perfecte per a una foto, i les carreteres entre Banyoles i Serinyà travessen un paisatge lacustre únic.",
+      "total_distance_km": 155,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 950,
+      "elevation_max_m": 520,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "C-152"
+      ],
+      "esmorzar": {
+        "town": "Besalú",
+        "comarca": "La Garrotxa",
+        "lat": 42.199,
+        "lng": 2.699,
+        "specialty": "Embotits d'Olot amb coca de forner i vi negre del país",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "medieval",
+        "rius",
+        "cultura",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.045,2.85/42.116,2.765/42.199,2.699/42.182,2.488/42.148,2.573/41.953,2.635/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Sant Julià de Ramis",
+          "lat": 42.045,
+          "lng": 2.85,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.699,
+          "type": "esmorzar",
+          "road": "C-66"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.182,
+          "lng": 2.488,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Santa Pau",
+          "lat": 42.148,
+          "lng": 2.573,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Anglès",
+          "lat": 41.953,
+          "lng": 2.635,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-66"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 160,
+        "gpt_duration_hours": 3.8,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.09,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads and includes a breakfast stop in Besalú. The estimated distance and duration are slightly adjusted for realistic travel conditions."
+      }
+    },
+    {
+      "id": "ruta-046",
+      "number": 46,
+      "name": "L'Alta Garrotxa Salvatge",
+      "slug": "lalta-garrotxa-salvatge",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "L'Alta Garrotxa és un dels racons més aïllats i salvatges de Catalunya. Carreteres estretes i sinuoses pugen fins a pobles quasi abandonats com Sadernes i Oix. El paisatge calcari amb gorges profundes i boscos densos fa d'aquesta ruta una experiència de conducció extrema i solitària.",
+      "total_distance_km": 220,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 2500,
+      "elevation_max_m": 950,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "GI-522",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "Olot",
+        "comarca": "La Garrotxa",
+        "lat": 42.181,
+        "lng": 2.491,
+        "specialty": "Esmorzar de forquilla garrotxí amb fesols, botifarra negra i trinxat",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu"
+      ],
+      "tags": [
+        "muntanya",
+        "aïllament",
+        "tècnic",
+        "natura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.699/42.181,2.491/42.217,2.515/42.172,2.365/42.201,2.19/42.233,2.368/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.699,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.181,
+          "lng": 2.491,
+          "type": "esmorzar",
+          "road": "GI-524"
+        },
+        {
+          "name": "Sant Joan les Fonts",
+          "lat": 42.217,
+          "lng": 2.515,
+          "type": "waypoint",
+          "road": "GI-522"
+        },
+        {
+          "name": "Vallfogona de Ripollès",
+          "lat": 42.172,
+          "lng": 2.365,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.201,
+          "lng": 2.19,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Sant Pau de Segúries",
+          "lat": 42.233,
+          "lng": 2.368,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-66"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 5,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads and includes a breakfast stop in Olot. The estimated distance and duration are close to the claimed values, making the route plausible."
+      }
+    },
+    {
+      "id": "ruta-047",
+      "number": 47,
+      "name": "Banyoles i Crespianes",
+      "slug": "banyoles-i-crespianes",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Pla de l'Estany",
+      "summary": "Ruta relaxada però amb caràcter que envolta l'estany de Banyoles i s'endinsa cap a les Gavarres i el Pla de l'Estany. Les carreteres comarcals entre Crespià, Esponellà i Porqueres ofereixen un traçat fluid amb vistes al llac i als camps de conreu de la plana empordanesa.",
+      "total_distance_km": 145,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 800,
+      "elevation_max_m": 350,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "BV-5131",
+        "GI-664"
+      ],
+      "esmorzar": {
+        "town": "Banyoles",
+        "comarca": "Pla de l'Estany",
+        "lat": 42.119,
+        "lng": 2.764,
+        "specialty": "Esmorzar de forquilla amb ànec del Pla de l'Estany i pa de pagès",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "llac",
+        "paisatge",
+        "tranquil",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.119,2.764/42.197,2.804/42.183,2.798/42.135,2.61/42.048,2.675/41.997,2.768/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.119,
+          "lng": 2.764,
+          "type": "esmorzar",
+          "road": "C-66"
+        },
+        {
+          "name": "Crespià",
+          "lat": 42.197,
+          "lng": 2.804,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Esponellà",
+          "lat": 42.183,
+          "lng": 2.798,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Mieres",
+          "lat": 42.135,
+          "lng": 2.61,
+          "type": "waypoint",
+          "road": "BV-5131"
+        },
+        {
+          "name": "Sant Esteve de Llémena",
+          "lat": 42.048,
+          "lng": 2.675,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "Sant Gregori",
+          "lat": 41.997,
+          "lng": 2.768,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "GI-664"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 150,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight increase in estimated distance due to road curvature and elevation changes."
+      }
+    },
+    {
+      "id": "ruta-048",
+      "number": 48,
+      "name": "Pirineu de Girona: Ripoll i la Vall de Camprodon",
+      "slug": "pirineu-de-girona-ripoll-i-la-vall-de-camprodon",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Ripollès",
+      "summary": "Gran ruta cap als Pirineus orientals, remuntant la C-17 fins a Ripoll i després la N-260 cap a Camprodon i Molló. Carreteres de muntanya amb revolts amplis i vistes als pics nevats. El monestir de Ripoll i els pobles pirinencs de pedra són parades imprescindibles.",
+      "total_distance_km": 245,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 2400,
+      "elevation_max_m": 1350,
+      "roads_main": [
+        "C-63",
+        "C-17",
+        "N-260",
+        "C-38",
+        "C-152"
+      ],
+      "esmorzar": {
+        "town": "Camprodon",
+        "comarca": "Ripollès",
+        "lat": 42.313,
+        "lng": 2.365,
+        "specialty": "Embotits del Ripollès amb mel i galetes Birba de Camprodon",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineus",
+        "muntanya",
+        "cultura",
+        "corbes"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.953,2.635/42.108,2.233/42.201,2.19/42.313,2.365/42.23,2.288/42.182,2.488/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-63"
+        },
+        {
+          "name": "Anglès",
+          "lat": 41.953,
+          "lng": 2.635,
+          "type": "waypoint",
+          "road": "C-63"
+        },
+        {
+          "name": "Sant Quirze de Besora",
+          "lat": 42.108,
+          "lng": 2.233,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.201,
+          "lng": 2.19,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "Camprodon",
+          "lat": 42.313,
+          "lng": 2.365,
+          "type": "esmorzar",
+          "road": "C-38"
+        },
+        {
+          "name": "Sant Joan de les Abadesses",
+          "lat": 42.23,
+          "lng": 2.288,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.182,
+          "lng": 2.488,
+          "type": "waypoint",
+          "road": "C-152"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-63"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 230,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with minor deviations for practical navigation. The estimated distance and duration are slightly less than claimed, likely due to more direct routing."
+      }
+    },
+    {
+      "id": "ruta-049",
+      "number": 49,
+      "name": "Empordanet: Pals, Peratallada i Ullastret",
+      "slug": "empordanet-pals-peratallada-i-ullastret",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Baix Empordà",
+      "summary": "Passeig tranquil pels pobles medievals més bonics de l'Empordà. Carreteres planes i amples entre camps d'arròs, masies i pobles de pedra com Pals, Peratallada i Ullastret. Ideal per gaudir sense pressa del paisatge empordanès i la seva gastronomia.",
+      "total_distance_km": 85,
+      "estimated_duration_hours": 2.5,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 180,
+      "roads_main": [
+        "C-66",
+        "GI-643",
+        "GI-644",
+        "C-31"
+      ],
+      "esmorzar": {
+        "town": "Pals",
+        "comarca": "Baix Empordà",
+        "lat": 41.972,
+        "lng": 3.148,
+        "specialty": "Arròs de Pals amb botifarra i oli d'oliva de l'Empordà",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "medieval",
+        "empordà",
+        "gastronomia",
+        "tranquil"
+      ],
+      "waypoints": [
+        {
+          "name": "Girona (sortida)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start"
+        },
+        {
+          "name": "La Bisbal d'Empordà",
+          "lat": 41.959,
+          "lng": 3.045,
+          "type": "waypoint"
+        },
+        {
+          "name": "Pals (nucli antic)",
+          "lat": 41.972,
+          "lng": 3.148,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Peratallada",
+          "lat": 41.978,
+          "lng": 3.094,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Ullastret (jaciment ibèric)",
+          "lat": 41.966,
+          "lng": 3.071,
+          "type": "waypoint"
+        },
+        {
+          "name": "Girona (arribada)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.959,3.045/41.972,3.148/41.978,3.094/41.966,3.071/41.983,2.824"
+    },
+    {
+      "id": "ruta-050",
+      "number": 50,
+      "name": "L'Estany de Banyoles i Porqueres",
+      "slug": "lestany-de-banyoles-i-porqueres",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Pla de l'Estany",
+      "summary": "Ruta curta i planera fins a l'estany de Banyoles, el llac més gran de Catalunya. Volta tranquil·la per Porqueres i els voltants del llac amb carreteres amples i ben asfaltades. Perfecta per a un matí relaxat amb esmorzar a la vora de l'aigua.",
+      "total_distance_km": 65,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 180,
+      "elevation_max_m": 175,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "GI-554"
+      ],
+      "esmorzar": {
+        "town": "Banyoles",
+        "comarca": "Pla de l'Estany",
+        "lat": 42.119,
+        "lng": 2.764,
+        "specialty": "Entrepà de llonganissa amb un tallat a la plaça Major",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "llac",
+        "tranquil",
+        "principiant",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.981,2.734/41.999,2.739/42.119,2.764/42.116,2.756/42.136,2.609/42.148,2.572/42.051,2.74/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Bescanó",
+          "lat": 41.981,
+          "lng": 2.734,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Sant Gregori",
+          "lat": 41.999,
+          "lng": 2.739,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.119,
+          "lng": 2.764,
+          "type": "esmorzar",
+          "road": "GI-524"
+        },
+        {
+          "name": "Porqueres",
+          "lat": 42.116,
+          "lng": 2.756,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Mieres",
+          "lat": 42.136,
+          "lng": 2.609,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Santa Pau",
+          "lat": 42.148,
+          "lng": 2.572,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Canet d'Adri",
+          "lat": 42.051,
+          "lng": 2.74,
+          "type": "waypoint",
+          "road": "GI-554"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "GI-554"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 70,
+        "gpt_duration_hours": 2.2,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route is slightly longer than claimed, likely due to additional curves and elevation changes. The estimated duration accounts for typical traffic and road conditions."
+      }
+    },
+    {
+      "id": "ruta-051",
+      "number": 51,
+      "name": "Besalú i la Vall del Fluvià",
+      "slug": "besalu-i-la-vall-del-fluvia",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "Excursió matinal fins a Besalú, la joia medieval de la Garrotxa. La C-66 és àmplia i còmoda, i el poble amb el seu pont romànic del segle XII és una parada obligatòria. Tornada per Banyoles per completar un circuit fàcil i gratificant.",
+      "total_distance_km": 90,
+      "estimated_duration_hours": 2.5,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 350,
+      "elevation_max_m": 290,
+      "roads_main": [
+        "C-66",
+        "GI-524"
+      ],
+      "esmorzar": {
+        "town": "Besalú",
+        "comarca": "La Garrotxa",
+        "lat": 42.199,
+        "lng": 2.699,
+        "specialty": "Esmorzar de pagès amb truita, embotits i coca de llardons",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "medieval",
+        "cultura",
+        "principiant",
+        "pont"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.993,2.763/42.116,2.765/42.199,2.699/42.201,2.682/42.141,2.601/42.144,2.573/42.182,2.488/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Sant Gregori",
+          "lat": 41.993,
+          "lng": 2.763,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.699,
+          "type": "esmorzar",
+          "road": "C-66"
+        },
+        {
+          "name": "Sant Ferriol",
+          "lat": 42.201,
+          "lng": 2.682,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Mieres",
+          "lat": 42.141,
+          "lng": 2.601,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Santa Pau",
+          "lat": 42.144,
+          "lng": 2.573,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.182,
+          "lng": 2.488,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-66"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 95,
+        "gpt_duration_hours": 2.5,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads as specified, with a slight adjustment to include Olot for a more complete circuit."
+      }
+    },
+    {
+      "id": "ruta-052",
+      "number": 52,
+      "name": "Cala Estreta i Sant Feliu de Guíxols",
+      "slug": "cala-estreta-i-sant-feliu-de-guixols",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Baix Empordà",
+      "summary": "Baixada fins a la costa per la GI-664 fins a Sant Feliu de Guíxols, amb un petit tram de la mítica GI-682 apte per a principiants. Vistes al mar, una parada per esmorzar al port i una tornada tranquil·la per l'interior. Un tast de Costa Brava sense complicacions.",
+      "total_distance_km": 80,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 450,
+      "elevation_max_m": 250,
+      "roads_main": [
+        "C-65",
+        "GI-664",
+        "GI-682",
+        "C-31"
+      ],
+      "esmorzar": {
+        "town": "Sant Feliu de Guíxols",
+        "comarca": "Baix Empordà",
+        "lat": 41.784,
+        "lng": 3.032,
+        "specialty": "Esmorzar de peix fresc al port amb cafè i vistes al mar",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "mar",
+        "principiant",
+        "port"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.933,2.85/41.825,2.892/41.784,3.032/41.718,2.933/41.825,2.892/41.877,2.874/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-65"
+        },
+        {
+          "name": "Quart",
+          "lat": 41.933,
+          "lng": 2.85,
+          "type": "waypoint",
+          "road": "C-65"
+        },
+        {
+          "name": "Llagostera",
+          "lat": 41.825,
+          "lng": 2.892,
+          "type": "waypoint",
+          "road": "C-65"
+        },
+        {
+          "name": "Sant Feliu de Guíxols",
+          "lat": 41.784,
+          "lng": 3.032,
+          "type": "esmorzar",
+          "road": "GI-682"
+        },
+        {
+          "name": "Tossa de Mar",
+          "lat": 41.718,
+          "lng": 2.933,
+          "type": "waypoint",
+          "road": "GI-682"
+        },
+        {
+          "name": "Llagostera",
+          "lat": 41.825,
+          "lng": 2.892,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "Cassà de la Selva",
+          "lat": 41.877,
+          "lng": 2.874,
+          "type": "waypoint",
+          "road": "C-65"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-65"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 85,
+        "gpt_duration_hours": 2.5,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.25,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to the winding nature of the GI-682 road."
+      }
+    },
+    {
+      "id": "ruta-053",
+      "number": 53,
+      "name": "Les Gavarres Secretes",
+      "slug": "les-gavarres-secretes",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Gironès",
+      "summary": "Descoberta del massís de les Gavarres, la muntanya verda entre Girona i la costa. Carreteres tranquil·les entre alzinars i suredes, passant per Madremanya, Monells i Cruïlles. Un circuit curt i suau per gaudir del silenci i els pobles de pedra del Gironès interior.",
+      "total_distance_km": 70,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 380,
+      "elevation_max_m": 320,
+      "roads_main": [
+        "C-66",
+        "GI-660",
+        "GI-664",
+        "C-65"
+      ],
+      "esmorzar": {
+        "town": "Monells",
+        "comarca": "Baix Empordà",
+        "lat": 41.964,
+        "lng": 2.96,
+        "specialty": "Entrepà d'embotits artesans amb oli d'oliva de les Gavarres",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "bosc",
+        "pobles",
+        "tranquil",
+        "principiant"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.009,2.878/41.997,2.946/41.964,2.96/41.953,2.975/41.958,3.038/41.881,2.872/41.831,2.888/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Celrà",
+          "lat": 42.009,
+          "lng": 2.878,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Madremanya",
+          "lat": 41.997,
+          "lng": 2.946,
+          "type": "waypoint",
+          "road": "GI-660"
+        },
+        {
+          "name": "Monells",
+          "lat": 41.964,
+          "lng": 2.96,
+          "type": "esmorzar",
+          "road": "GI-660"
+        },
+        {
+          "name": "Sant Sadurní de l'Heura",
+          "lat": 41.953,
+          "lng": 2.975,
+          "type": "waypoint",
+          "road": "GI-664"
+        },
+        {
+          "name": "La Bisbal d'Empordà",
+          "lat": 41.958,
+          "lng": 3.038,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Cassà de la Selva",
+          "lat": 41.881,
+          "lng": 2.872,
+          "type": "waypoint",
+          "road": "C-65"
+        },
+        {
+          "name": "Llagostera",
+          "lat": 41.831,
+          "lng": 2.888,
+          "type": "waypoint",
+          "road": "C-65"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-65"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 78,
+        "gpt_duration_hours": 2.2,
+        "distance_diff_pct": 0.11,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes a scenic detour through Les Gavarres. The estimated distance and duration are slightly higher than claimed, likely due to the winding nature of the roads."
+      }
+    }
+  ]
+}

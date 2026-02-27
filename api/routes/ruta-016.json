@@ -1,0 +1,132 @@
+{
+  "id": "ruta-016",
+  "number": 16,
+  "name": "El Montseny Gran: Turó de l'Home",
+  "slug": "montseny-gran-turo-home",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Oriental",
+  "summary": "La clàssica del Montseny: pujada per la BV-5301 fins a Santa Fe, enllaç amb la BV-5114 cap al Turó de l'Home a 1.706 m, i baixada per Viladrau. Corbes encadenades entre fagedes centenàries, boira matinal i asfalt que convida a inclinar-se. Una ruta que tot motociclista ha de fer.",
+  "total_distance_km": 180,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2400,
+  "elevation_max_m": 1706,
+  "roads_main": [
+    "C-33",
+    "C-17",
+    "BV-5301",
+    "BV-5114",
+    "BV-5201",
+    "GI-543"
+  ],
+  "esmorzar": {
+    "town": "Viladrau",
+    "comarca": "Osona",
+    "lat": 41.85,
+    "lng": 2.384,
+    "specialty": "Esmorzar de forquilla amb botifarra d'ou i bolets del Montseny",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "corbes",
+    "fageda",
+    "boira",
+    "clàssica"
+  ],
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès (sortida)",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start"
+    },
+    {
+      "name": "Sant Celoni",
+      "lat": 41.69,
+      "lng": 2.49,
+      "type": "waypoint"
+    },
+    {
+      "name": "Santa Fe del Montseny",
+      "lat": 41.776,
+      "lng": 2.449,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Turó de l'Home (1.706 m)",
+      "lat": 41.777,
+      "lng": 2.439,
+      "type": "summit"
+    },
+    {
+      "name": "Font de Passavets",
+      "lat": 41.792,
+      "lng": 2.415,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Viladrau",
+      "lat": 41.85,
+      "lng": 2.384,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Cerdanyola del Vallès (arribada)",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.69,2.49/41.776,2.449/41.777,2.439/41.792,2.415/41.85,2.384/41.549,2.107",
+  "description_long": "El Montseny és la muntanya dels barcelonins, però a sobre d'una moto es transforma en un territori completament diferent. La sortida per la C-33 i la C-17 és el pròleg necessari: trànsit, rotondes, civilització. Però en agafar la BV-5301 a Sant Celoni, el món canvia. La carretera s'estreny, els plàtans donen pas als castanyers i, a mesura que puges, les fagedes centenàries tanquen el cel com una catedral de branques. L'asfalt és suau, les corbes són netes i progressives, i el cos troba un ritme natural d'inclinació que sembla una dansa.\n\nSanta Fe del Montseny és un parèntesi de calma: la font, l'ermita, i aquella llum filtrada entre fulles que sembla d'un altre segle. Però el millor encara ha de venir. La BV-5114 puja cap al Turó de l'Home amb revolts més tancats, el desnivell es fa sentir al motor, i l'aire es refresca a cada metre. Als 1.706 metres, el cim del Montseny ofereix una panoràmica que arriba des del Pirineu fins al mar: en un dia clar, pots veure les Illes Medes al nord i la silueta de Mallorca al sud-est. L'olor és de terra humida, faig i boira — la boira del Montseny, aquella que puja de les valls com un ésser viu i ho embolcalla tot amb un silenci espès.\n\nLa baixada per Viladrau és el contrapunt perfecte: corbes àmplies entre pins i avets, amb un asfalt que convida a accelerar amb suavitat. A Viladrau, un esmorzar de forquilla amb botifarra d'ou i bolets del Montseny és el punt i final d'una matinada perfecta. Tornes a Barcelona sabent que, per molt que la ciutat et consumeixi, el Montseny sempre serà allà dalt, esperant-te.",
+  "what_makes_it_special": "El Montseny és la clàssica indiscutible dels motociclistes de Barcelona: fagedes centenàries, boira que et fa sentir dins d'un somni, i unes corbes tan ben traçades que semblen dissenyades per a una moto.",
+  "roads_detail": [
+    {
+      "name": "C-33 / C-17",
+      "segment": "Cerdanyola del Vallès - Sant Celoni",
+      "type": "autovia / via ràpida",
+      "notes": "Tram d'accés. Trànsit dens a primera hora del matí els caps de setmana. Paciència."
+    },
+    {
+      "name": "BV-5301",
+      "segment": "Sant Celoni - Santa Fe del Montseny",
+      "type": "carretera de muntanya",
+      "notes": "El primer tram de plaer: corbes progressives entre castanyers i fagedes. Asfalt excel·lent."
+    },
+    {
+      "name": "BV-5114",
+      "segment": "Santa Fe - Turó de l'Home",
+      "type": "port de muntanya",
+      "notes": "Revolts tancats amb desnivell constant. Pot haver-hi gel al matí a la tardor i hivern. Carretera estreta."
+    },
+    {
+      "name": "BV-5201 / GI-543",
+      "segment": "Turó de l'Home - Viladrau - Sant Celoni",
+      "type": "descens de muntanya",
+      "notes": "Baixada fluida amb corbes àmplies. Pas per Viladrau per l'esmorzar."
+    }
+  ],
+  "warnings": [
+    "La boira del Montseny pot aparèixer de forma sobtada i reduir la visibilitat a pocs metres. Porta llums de boira i redueix la velocitat.",
+    "Les fagedes poden deixar la carretera molt lliscosa a la tardor per les fulles humides. Extrema la precaució.",
+    "Ruta molt popular entre motociclistes. Respecta els límits i no facis curses. Controls policials freqüents.",
+    "Les temperatures al cim poden ser 10-15°C menys que a Barcelona. Porta capes tèrmiques.",
+    "Atenció als senglars, especialment a primera hora del matí i al capvespre."
+  ],
+  "fuel_note": "Repostatge recomanat a Sant Celoni abans de començar la pujada. No hi ha gasolineres dins del Parc Natural del Montseny. A Viladrau també hi ha gasolinera per la tornada."
+}

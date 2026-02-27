@@ -1,0 +1,124 @@
+{
+  "id": "ruta-005",
+  "number": 5,
+  "name": "El Moianès Profund",
+  "slug": "moianes-profund",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Moianès",
+  "summary": "Exploració de la comarca més jove de Catalunya, el Moianès, per carreteres estretes i solitàries. De Manresa cap a Moià per la BV-1245, continuant per Santa Maria d'Oló i Castellcir entre boscos de pi roig i alzines. Trams tècnics amb revolts tancats que fan gaudir el motociclista exigent.",
+  "total_distance_km": 140,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1800,
+  "elevation_max_m": 850,
+  "roads_main": [
+    "BV-1245",
+    "BV-1248",
+    "B-124",
+    "BV-4316",
+    "C-59"
+  ],
+  "esmorzar": {
+    "town": "Moià",
+    "comarca": "Moianès",
+    "lat": 41.811,
+    "lng": 2.096,
+    "specialty": "Esmorzar de forquilla amb ous i botifarra a la brasa al mercat de Moià",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "carreteres-secundàries",
+    "bosc",
+    "tranquil",
+    "corbes-tancades"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.796,1.977/41.811,2.096/41.871,2.096/41.842,2.175/41.75,2.12/41.684,2.155/41.811,2.096/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Calders",
+      "lat": 41.796,
+      "lng": 1.977,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.811,
+      "lng": 2.096,
+      "type": "esmorzar",
+      "road": "BV-1245"
+    },
+    {
+      "name": "L'Estany",
+      "lat": 41.871,
+      "lng": 2.096,
+      "type": "waypoint",
+      "road": "BV-4316"
+    },
+    {
+      "name": "Collsuspina",
+      "lat": 41.842,
+      "lng": 2.175,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Castellterçol",
+      "lat": 41.75,
+      "lng": 2.12,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Sant Feliu de Codines",
+      "lat": 41.684,
+      "lng": 2.155,
+      "type": "waypoint",
+      "road": "C-59"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.811,
+      "lng": 2.096,
+      "type": "waypoint",
+      "road": "C-59"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-59"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 145,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and the estimated distance and time align with the claimed values."
+  }
+}

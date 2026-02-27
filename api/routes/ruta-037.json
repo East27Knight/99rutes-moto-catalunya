@@ -1,0 +1,116 @@
+{
+  "id": "ruta-037",
+  "number": 37,
+  "name": "Matadepera i la Vall de Sant Llorenç",
+  "slug": "matadepera-vall-sant-llorenc",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Sabadell / Terrassa",
+  "starting_point": {
+    "name": "Terrassa",
+    "comarca": "Vallès Occidental",
+    "lat": 41.563,
+    "lng": 2.008
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Pujada suau de Terrassa a Matadepera, un poble acomodat al peu de Sant Llorenç del Munt. Circuit curt per les urbanitzacions boscoses amb vistes als conglomerats del massís. Carreteres amples i ben mantingudes, ideals per a primeres sortides amb un esmorzar de masia.",
+  "total_distance_km": 50,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 350,
+  "elevation_max_m": 520,
+  "roads_main": [
+    "BV-1221",
+    "BV-1229",
+    "C-58"
+  ],
+  "esmorzar": {
+    "town": "Matadepera",
+    "comarca": "Vallès Occidental",
+    "lat": 41.598,
+    "lng": 2.023,
+    "specialty": "Esmorzar de masia amb pa amb tomàquet, pernil i cafè al sol",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "fàcil",
+    "masia",
+    "bosc",
+    "vistes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.563,2.008/41.598,2.023/41.683,2.082/41.703,2.059/41.716,2.123/41.616,2.086/41.548,2.107/41.563,2.008",
+  "waypoints": [
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "start",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Matadepera",
+      "lat": 41.598,
+      "lng": 2.023,
+      "type": "esmorzar",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Sant Llorenç Savall",
+      "lat": 41.683,
+      "lng": 2.082,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Intersection BV-1221 and BV-1229",
+      "lat": 41.703,
+      "lng": 2.059,
+      "type": "waypoint",
+      "road": "BV-1229"
+    },
+    {
+      "name": "Gallifa",
+      "lat": 41.716,
+      "lng": 2.123,
+      "type": "waypoint",
+      "road": "BV-1229"
+    },
+    {
+      "name": "Castellar del Vallès",
+      "lat": 41.616,
+      "lng": 2.086,
+      "type": "waypoint",
+      "road": "BV-1229"
+    },
+    {
+      "name": "Sabadell",
+      "lat": 41.548,
+      "lng": 2.107,
+      "type": "waypoint",
+      "road": "C-58"
+    },
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "end",
+      "road": "C-58"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 55,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.1,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values."
+  }
+}

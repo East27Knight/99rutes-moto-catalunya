@@ -1,0 +1,115 @@
+{
+  "id": "ruta-055",
+  "number": 55,
+  "name": "Montseny pel Nord: Viladrau i el Turó de l'Home",
+  "slug": "montseny-pel-nord-viladrau-i-el-turo-de-lhome",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "Ascensió al Montseny des del vessant nord, menys conegut i més salvatge. La BV-5301 travessa Viladrau i s'enfila cap al Turó de l'Home amb revolts entre castanyers i fagedes. A l'hivern la boira dóna un aire misteriós; a la tardor els colors són extraordinaris.",
+  "total_distance_km": 155,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 2100,
+  "elevation_max_m": 1200,
+  "roads_main": [
+    "C-17",
+    "BV-5301",
+    "BV-5114",
+    "C-35"
+  ],
+  "esmorzar": {
+    "town": "Viladrau",
+    "comarca": "Osona",
+    "lat": 41.847,
+    "lng": 2.384,
+    "specialty": "Esmorzar de muntanya amb embotits de Vic i pa de pagès amb tomàquet",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "bosc",
+    "corbes",
+    "tècnic"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.847,2.223/41.841,2.292/41.847,2.384/41.823,2.421/41.686,2.489/41.746,2.631/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "C-17"
+    },
+    {
+      "name": "Tona",
+      "lat": 41.847,
+      "lng": 2.223,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Seva",
+      "lat": 41.841,
+      "lng": 2.292,
+      "type": "waypoint",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Viladrau",
+      "lat": 41.847,
+      "lng": 2.384,
+      "type": "esmorzar",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Coll de Bordoriol",
+      "lat": 41.823,
+      "lng": 2.421,
+      "type": "summit",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Sant Celoni",
+      "lat": 41.686,
+      "lng": 2.489,
+      "type": "waypoint",
+      "road": "BV-5114"
+    },
+    {
+      "name": "Hostalric",
+      "lat": 41.746,
+      "lng": 2.631,
+      "type": "waypoint",
+      "road": "C-35"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "C-17"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 160,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight adjustment in estimated distance and duration based on road conditions and typical traffic."
+  }
+}

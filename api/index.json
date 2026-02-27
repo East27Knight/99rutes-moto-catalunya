@@ -1,0 +1,69 @@
+{
+  "name": "99 Rutes en Moto per Catalunya",
+  "description": "Curated motorcycle routes across Catalonia with breakfast stops, GPS waypoints, and seasonal guidance.",
+  "version": "1.0.0",
+  "total_routes": 99,
+  "categories": [
+    "aprendiz",
+    "pro"
+  ],
+  "hubs": [
+    {
+      "name": "Barcelona / Vallès",
+      "slug": "barcelona-vallès"
+    },
+    {
+      "name": "Girona / Empordà",
+      "slug": "girona-empordà"
+    },
+    {
+      "name": "Igualada / Anoia",
+      "slug": "igualada-anoia"
+    },
+    {
+      "name": "Lleida / Segrià",
+      "slug": "lleida-segrià"
+    },
+    {
+      "name": "Manresa / Bages",
+      "slug": "manresa-bages"
+    },
+    {
+      "name": "Sabadell / Terrassa",
+      "slug": "sabadell-terrassa"
+    },
+    {
+      "name": "Tarragona / Camp",
+      "slug": "tarragona-camp"
+    },
+    {
+      "name": "Tortosa / Terres de l'Ebre",
+      "slug": "tortosa-terres-de-lebre"
+    },
+    {
+      "name": "Vic / Osona",
+      "slug": "vic-osona"
+    }
+  ],
+  "seasons": [
+    "estiu",
+    "hivern",
+    "primavera",
+    "tardor"
+  ],
+  "difficulty_range": {
+    "min": 1,
+    "max": 5
+  },
+  "endpoints": {
+    "all_routes": "/api/routes.json",
+    "single_route": "/api/routes/{route-id}.json",
+    "by_hub": "/api/hubs/{hub-slug}.json",
+    "by_category": "/api/categories/{category}.json",
+    "by_season": "/api/seasons/{season}.json",
+    "by_difficulty": "/api/difficulty/{1-5}.json",
+    "showcase": "/api/showcase.json"
+  },
+  "generated": "2026-02-27T17:05:19.568097+00:00",
+  "source": "https://github.com/East27Knight/99rutes-moto-catalunya"
+}

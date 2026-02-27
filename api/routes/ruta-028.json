@@ -1,0 +1,102 @@
+{
+  "id": "ruta-028",
+  "number": 28,
+  "name": "Sant Cugat i la Floresta",
+  "slug": "sant-cugat-floresta",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Volta curta per les urbanitzacions boscoses de Sant Cugat, la Floresta i Valldoreix. Carreteres residencials amb poc trànsit, ombra de pins i una sensació de calma total. Perfecta per practicar revolts suaus i agafar confiança amb la moto.",
+  "total_distance_km": 40,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 300,
+  "elevation_max_m": 350,
+  "roads_main": [
+    "BV-1462",
+    "BP-1417",
+    "B-20"
+  ],
+  "esmorzar": {
+    "town": "Sant Cugat del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.473,
+    "lng": 2.086,
+    "specialty": "Esmorzar complet amb torrada de pa amb tomàquet i cafè a la plaça Octavià",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "fàcil",
+    "tranquil",
+    "bosc",
+    "urbà"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.51,2.088/41.473,2.086/41.448,2.068/41.441,2.058/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "BV-1462"
+    },
+    {
+      "name": "Intersection BV-1462 & BP-1417",
+      "lat": 41.51,
+      "lng": 2.088,
+      "type": "waypoint",
+      "road": "BP-1417"
+    },
+    {
+      "name": "Sant Cugat del Vallès",
+      "lat": 41.473,
+      "lng": 2.086,
+      "type": "esmorzar",
+      "road": "BP-1417"
+    },
+    {
+      "name": "La Floresta",
+      "lat": 41.448,
+      "lng": 2.068,
+      "type": "waypoint",
+      "road": "BP-1417"
+    },
+    {
+      "name": "Intersection BP-1417 & B-20",
+      "lat": 41.441,
+      "lng": 2.058,
+      "type": "waypoint",
+      "road": "B-20"
+    },
+    {
+      "name": "Return to Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "BV-1462"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 42,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and returns to the starting point, matching the circular route description. Estimated distance and duration are slightly adjusted for accuracy."
+  }
+}

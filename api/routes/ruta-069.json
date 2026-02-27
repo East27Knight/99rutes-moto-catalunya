@@ -1,0 +1,102 @@
+{
+  "id": "ruta-069",
+  "number": 69,
+  "name": "Capellades i la Pobla de Claramunt",
+  "slug": "capellades-i-la-pobla-de-claramunt",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Anoia",
+  "summary": "Circuit curt pels voltants d'Igualada passant per Capellades, famosa pel seu molí paperer, i la Pobla de Claramunt amb el seu castell medieval enlairat. Carreteres amples i suaus amb poc trànsit, ideals per a principiants. El paisatge de la conca de l'Anoia és verd i tranquil.",
+  "total_distance_km": 45,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 250,
+  "elevation_max_m": 450,
+  "roads_main": [
+    "C-15",
+    "B-224",
+    "BV-2136"
+  ],
+  "esmorzar": {
+    "town": "Capellades",
+    "comarca": "Anoia",
+    "lat": 41.531,
+    "lng": 1.686,
+    "specialty": "Esmorzar de forquilla amb truita de patates i embotits locals al centre",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "patrimoni",
+    "principiant",
+    "tranquil",
+    "pobles"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.553,1.647/41.531,1.686/41.548,1.698/41.558,1.68/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "C-15"
+    },
+    {
+      "name": "Intersection C-15 and B-224",
+      "lat": 41.553,
+      "lng": 1.647,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Capellades",
+      "lat": 41.531,
+      "lng": 1.686,
+      "type": "esmorzar",
+      "road": "B-224"
+    },
+    {
+      "name": "Intersection B-224 and BV-2136",
+      "lat": 41.548,
+      "lng": 1.698,
+      "type": "waypoint",
+      "road": "B-224"
+    },
+    {
+      "name": "La Pobla de Claramunt",
+      "lat": 41.558,
+      "lng": 1.68,
+      "type": "waypoint",
+      "road": "BV-2136"
+    },
+    {
+      "name": "Return to Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "BV-2136"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 48,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes the breakfast stop at Capellades. The estimated distance is slightly higher than claimed, but the duration aligns with the expected travel time."
+  }
+}

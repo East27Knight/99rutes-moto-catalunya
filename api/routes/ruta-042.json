@@ -1,0 +1,124 @@
+{
+  "id": "ruta-042",
+  "number": 42,
+  "name": "El Triangle Dalinià",
+  "slug": "el-triangle-dalinia",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Alt Empordà",
+  "summary": "Recorregut pels tres vèrtexs del triangle Dalí: Figueres, Portlligat i Púbol. Un viatge entre art i paisatge que combina les planes de l'Empordà amb els revolts cap a la costa. Les carreteres secundàries entre Peralada i Vilabertran són un plaer per a la moto.",
+  "total_distance_km": 195,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 1100,
+  "elevation_max_m": 380,
+  "roads_main": [
+    "C-66",
+    "N-II",
+    "GI-614",
+    "C-31",
+    "C-252"
+  ],
+  "esmorzar": {
+    "town": "Figueres",
+    "comarca": "Alt Empordà",
+    "lat": 42.266,
+    "lng": 2.962,
+    "specialty": "Esmorzar de forquilla empordanès amb carn a la brasa i escalivada",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "cultura",
+    "empordà",
+    "paisatge",
+    "pobles"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.698/42.266,2.962/42.288,3.278/42.261,3.176/42.26,3.075/42.308,3.011/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.199,
+      "lng": 2.698,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Figueres",
+      "lat": 42.266,
+      "lng": 2.962,
+      "type": "esmorzar",
+      "road": "N-II"
+    },
+    {
+      "name": "Cadaqués",
+      "lat": 42.288,
+      "lng": 3.278,
+      "type": "waypoint",
+      "road": "GI-614"
+    },
+    {
+      "name": "Roses",
+      "lat": 42.261,
+      "lng": 3.176,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Castelló d'Empúries",
+      "lat": 42.26,
+      "lng": 3.075,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Peralada",
+      "lat": 42.308,
+      "lng": 3.011,
+      "type": "waypoint",
+      "road": "C-252"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-66"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 195,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads and includes key towns and points of interest. The estimated distance and duration match the claimed values, making the route plausible. Note that actual travel time may vary based on traffic and road conditions."
+  }
+}

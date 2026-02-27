@@ -1,0 +1,123 @@
+{
+  "id": "ruta-030",
+  "number": 30,
+  "name": "Granollers i la Roca del Vallès",
+  "slug": "granollers-roca-valles",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Oriental",
+  "summary": "Travessia del Vallès de punta a punta, de Cerdanyola a Granollers per la Roca del Vallès. Carreteres planes i directes que permeten rodar amb comoditat, amb una parada a Granollers per esmorzar al mercat. Ruta ideal per a un matí tranquil sense complicacions.",
+  "total_distance_km": 60,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 200,
+  "elevation_max_m": 280,
+  "roads_main": [
+    "C-33",
+    "C-17",
+    "BV-5001"
+  ],
+  "esmorzar": {
+    "town": "Granollers",
+    "comarca": "Vallès Oriental",
+    "lat": 41.608,
+    "lng": 2.288,
+    "specialty": "Esmorzar al mercat de Granollers amb embotits i torrades amb tomàquet",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "pla",
+    "fàcil",
+    "mercat",
+    "vallès"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.498,2.188/41.54,2.211/41.574,2.232/41.608,2.288/41.584,2.326/41.531,2.25/41.558,2.267/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-33"
+    },
+    {
+      "name": "Montcada i Reixac",
+      "lat": 41.498,
+      "lng": 2.188,
+      "type": "waypoint",
+      "road": "C-33"
+    },
+    {
+      "name": "Mollet del Vallès",
+      "lat": 41.54,
+      "lng": 2.211,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Parets del Vallès",
+      "lat": 41.574,
+      "lng": 2.232,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Granollers",
+      "lat": 41.608,
+      "lng": 2.288,
+      "type": "esmorzar",
+      "road": "C-17"
+    },
+    {
+      "name": "La Roca del Vallès",
+      "lat": 41.584,
+      "lng": 2.326,
+      "type": "waypoint",
+      "road": "BV-5001"
+    },
+    {
+      "name": "Santa Maria de Martorelles",
+      "lat": 41.531,
+      "lng": 2.25,
+      "type": "waypoint",
+      "road": "BV-5001"
+    },
+    {
+      "name": "Montornès del Vallès",
+      "lat": 41.558,
+      "lng": 2.267,
+      "type": "waypoint",
+      "road": "BV-5001"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "BV-5001"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 65,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.08,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads and includes a scenic loop through Vallès Oriental. The estimated distance and duration are consistent with the claimed values."
+  }
+}

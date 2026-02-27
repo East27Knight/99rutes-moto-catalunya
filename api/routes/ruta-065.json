@@ -1,0 +1,123 @@
+{
+  "id": "ruta-065",
+  "number": 65,
+  "name": "La Conca de Barberà i el Priorat",
+  "slug": "la-conca-de-barbera-i-el-priorat",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Conca de Barberà",
+  "summary": "Gran travessa cap al sud passant per Montblanc, la capital medieval de la Conca de Barberà, i endinsant-se al Priorat pels seus cellers i paisatges de vinyes en terrasses. Les carreteres entre muntanyes de pissarra són un laberint de corbes amb vistes als camps de ceps que produeixen vins llegendaris.",
+  "total_distance_km": 230,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 2200,
+  "elevation_max_m": 780,
+  "roads_main": [
+    "C-37",
+    "C-241",
+    "N-240",
+    "T-702",
+    "C-15"
+  ],
+  "esmorzar": {
+    "town": "Montblanc",
+    "comarca": "Conca de Barberà",
+    "lat": 41.377,
+    "lng": 1.163,
+    "specialty": "Esmorzar de forquilla amb calçots (en temporada) o carn a la brasa amb allioli",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "vinyes",
+    "medieval",
+    "priorat",
+    "gastronomia"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.286,1.249/41.377,1.163/41.303,1.006/41.145,0.822/41.224,0.783/41.118,1.245/41.346,1.697/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "C-37"
+    },
+    {
+      "name": "Valls",
+      "lat": 41.286,
+      "lng": 1.249,
+      "type": "waypoint",
+      "road": "C-241"
+    },
+    {
+      "name": "Montblanc",
+      "lat": 41.377,
+      "lng": 1.163,
+      "type": "esmorzar",
+      "road": "N-240"
+    },
+    {
+      "name": "Prades",
+      "lat": 41.303,
+      "lng": 1.006,
+      "type": "waypoint",
+      "road": "T-702"
+    },
+    {
+      "name": "Falset",
+      "lat": 41.145,
+      "lng": 0.822,
+      "type": "waypoint",
+      "road": "T-702"
+    },
+    {
+      "name": "La Vilella Baixa",
+      "lat": 41.224,
+      "lng": 0.783,
+      "type": "waypoint",
+      "road": "T-702"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.118,
+      "lng": 1.245,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Vilafranca del Penedès",
+      "lat": 41.346,
+      "lng": 1.697,
+      "type": "waypoint",
+      "road": "C-15"
+    },
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "C-15"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 220,
+    "gpt_duration_hours": 5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values. Some variations in distance can occur depending on exact road conditions and traffic."
+  }
+}

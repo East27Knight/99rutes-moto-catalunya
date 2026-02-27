@@ -1,0 +1,122 @@
+{
+  "id": "ruta-014",
+  "number": 14,
+  "name": "Sallent i el Pantà de la Baells",
+  "slug": "sallent-panta-baells",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Berguedà",
+  "summary": "Pujada tranquil·la per la C-16 fins a Sallent i continuació cap al pantà de la Baells, on l'aigua reflecteix les muntanyes del Berguedà. Ruta lineal amb tornada pel mateix camí, ideal per gaudir del paisatge sense pressió.",
+  "total_distance_km": 100,
+  "estimated_duration_hours": 2.5,
+  "riding_time_hours": 2,
+  "elevation_gain_m": 600,
+  "elevation_max_m": 620,
+  "roads_main": [
+    "C-16",
+    "C-1411a",
+    "BV-4235"
+  ],
+  "esmorzar": {
+    "town": "Sallent",
+    "comarca": "Bages",
+    "lat": 41.827,
+    "lng": 1.893,
+    "specialty": "Esmorzar de forquilla amb ous amb cansalada i pa de pagès",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pantà",
+    "aigua",
+    "tranquil",
+    "fàcil"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.827,1.893/41.866,1.9/41.9,1.88/41.973,1.879/42.05,1.88/42.1,1.9/41.827,1.893/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-16"
+    },
+    {
+      "name": "Sallent",
+      "lat": 41.827,
+      "lng": 1.893,
+      "type": "esmorzar",
+      "road": "C-16"
+    },
+    {
+      "name": "Interchange C-16 and C-1411a",
+      "lat": 41.866,
+      "lng": 1.9,
+      "type": "waypoint",
+      "road": "C-1411a"
+    },
+    {
+      "name": "Navàs",
+      "lat": 41.9,
+      "lng": 1.88,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Puig-reig",
+      "lat": 41.973,
+      "lng": 1.879,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Girona Bridge",
+      "lat": 42.05,
+      "lng": 1.88,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Pantà de la Baells",
+      "lat": 42.1,
+      "lng": 1.9,
+      "type": "viewpoint",
+      "road": "BV-4235"
+    },
+    {
+      "name": "Return to Sallent",
+      "lat": 41.827,
+      "lng": 1.893,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Return to Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-16"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 110,
+    "gpt_duration_hours": 2.5,
+    "distance_diff_pct": 0.1,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and waypoints are chosen at key intersections and points of interest. The estimated distance and duration are slightly adjusted to reflect actual travel conditions."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ruta-084",
+  "number": 84,
+  "name": "El Priorat Profund",
+  "slug": "el-priorat-profund",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Priorat",
+  "summary": "Immersió total al Priorat per la C-242: vinyes de costers impossibles, pobles com Porrera, Gratallops i Falset entre revolts de muntanya amb olor de garnatxa. Les corbes són tancades, l'asfalt és bo i el paisatge és dels que no s'obliden.",
+  "total_distance_km": 170,
+  "estimated_duration_hours": 4.0,
+  "riding_time_hours": 3.0,
+  "elevation_gain_m": 2200,
+  "elevation_max_m": 780,
+  "roads_main": [
+    "C-242",
+    "T-702",
+    "T-714",
+    "C-233"
+  ],
+  "esmorzar": {
+    "town": "Falset",
+    "comarca": "Priorat",
+    "lat": 41.145,
+    "lng": 0.818,
+    "specialty": "Pa amb tomàquet, embotits del Priorat i una gota de vi negre DO Priorat",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "priorat",
+    "vi",
+    "corbes",
+    "gastronomia"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.225,1.113/41.213,1.019/41.256,0.899/41.145,0.818/41.193,0.785/41.225,0.776/41.182,0.855/41.119,1.245",
+  "waypoints": [
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start",
+      "road": "C-242"
+    },
+    {
+      "name": "La Selva del Camp",
+      "lat": 41.225,
+      "lng": 1.113,
+      "type": "waypoint",
+      "road": "C-242"
+    },
+    {
+      "name": "Alforja",
+      "lat": 41.213,
+      "lng": 1.019,
+      "type": "waypoint",
+      "road": "C-242"
+    },
+    {
+      "name": "Cornudella de Montsant",
+      "lat": 41.256,
+      "lng": 0.899,
+      "type": "waypoint",
+      "road": "C-242"
+    },
+    {
+      "name": "Falset",
+      "lat": 41.145,
+      "lng": 0.818,
+      "type": "esmorzar",
+      "road": "T-702"
+    },
+    {
+      "name": "Gratallops",
+      "lat": 41.193,
+      "lng": 0.785,
+      "type": "waypoint",
+      "road": "T-702"
+    },
+    {
+      "name": "La Vilella Baixa",
+      "lat": 41.225,
+      "lng": 0.776,
+      "type": "waypoint",
+      "road": "T-714"
+    },
+    {
+      "name": "Porrera",
+      "lat": 41.182,
+      "lng": 0.855,
+      "type": "waypoint",
+      "road": "C-233"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end",
+      "road": "C-233"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 180,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes scenic views typical of the Priorat region. The estimated distance and duration are slightly higher than claimed, likely due to winding roads and elevation changes."
+  }
+}

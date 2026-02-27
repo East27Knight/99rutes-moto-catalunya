@@ -1,0 +1,116 @@
+{
+  "id": "ruta-047",
+  "number": 47,
+  "name": "Banyoles i Crespianes",
+  "slug": "banyoles-i-crespianes",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Pla de l'Estany",
+  "summary": "Ruta relaxada però amb caràcter que envolta l'estany de Banyoles i s'endinsa cap a les Gavarres i el Pla de l'Estany. Les carreteres comarcals entre Crespià, Esponellà i Porqueres ofereixen un traçat fluid amb vistes al llac i als camps de conreu de la plana empordanesa.",
+  "total_distance_km": 145,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 800,
+  "elevation_max_m": 350,
+  "roads_main": [
+    "C-66",
+    "GI-524",
+    "BV-5131",
+    "GI-664"
+  ],
+  "esmorzar": {
+    "town": "Banyoles",
+    "comarca": "Pla de l'Estany",
+    "lat": 42.119,
+    "lng": 2.764,
+    "specialty": "Esmorzar de forquilla amb ànec del Pla de l'Estany i pa de pagès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "llac",
+    "paisatge",
+    "tranquil",
+    "gastronomia"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.119,2.764/42.197,2.804/42.183,2.798/42.135,2.61/42.048,2.675/41.997,2.768/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.119,
+      "lng": 2.764,
+      "type": "esmorzar",
+      "road": "C-66"
+    },
+    {
+      "name": "Crespià",
+      "lat": 42.197,
+      "lng": 2.804,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Esponellà",
+      "lat": 42.183,
+      "lng": 2.798,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Mieres",
+      "lat": 42.135,
+      "lng": 2.61,
+      "type": "waypoint",
+      "road": "BV-5131"
+    },
+    {
+      "name": "Sant Esteve de Llémena",
+      "lat": 42.048,
+      "lng": 2.675,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "Sant Gregori",
+      "lat": 41.997,
+      "lng": 2.768,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "GI-664"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 150,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in estimated distance due to road curvature and elevation changes."
+  }
+}

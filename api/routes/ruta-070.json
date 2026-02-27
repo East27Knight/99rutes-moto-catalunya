@@ -1,0 +1,120 @@
+{
+  "id": "ruta-070",
+  "number": 70,
+  "name": "Vinyes de l'Anoia",
+  "slug": "vinyes-de-lanoia",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Anoia",
+  "summary": "Ruta suau entre les vinyes i els cellers de la zona sud de l'Anoia, on comença la transició cap al Penedès. Carreteres comarcals tranquil·les entre Masquefa, Piera i els Hostalets de Pierola. Un recorregut per gaudir del paisatge agrícola i descobrir petits cellers familiars.",
+  "total_distance_km": 75,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 350,
+  "elevation_max_m": 420,
+  "roads_main": [
+    "B-224",
+    "BV-2249",
+    "BV-2242",
+    "C-15"
+  ],
+  "esmorzar": {
+    "town": "Piera",
+    "comarca": "Anoia",
+    "lat": 41.521,
+    "lng": 1.748,
+    "specialty": "Entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un cava del Penedès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "vinyes",
+    "principiant",
+    "cellers",
+    "paisatge"
+  ],
+  "waypoints": [
+    {
+      "name": "Igualada (sortida)",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start"
+    },
+    {
+      "name": "Masquefa",
+      "lat": 41.503,
+      "lng": 1.813,
+      "type": "waypoint"
+    },
+    {
+      "name": "Piera (centre)",
+      "lat": 41.521,
+      "lng": 1.748,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Mirador de les vinyes (BV-2242)",
+      "lat": 41.535,
+      "lng": 1.722,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Hostalets de Pierola",
+      "lat": 41.532,
+      "lng": 1.801,
+      "type": "waypoint"
+    },
+    {
+      "name": "Igualada (arribada)",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.503,1.813/41.521,1.748/41.535,1.722/41.532,1.801/41.579,1.617",
+  "description_long": "Hi ha rutes que es mesuren en adrenalina i n'hi ha que es mesuren en plaer. Aquesta és de les segones. L'Anoia sud és una terra de transició: no és encara el Penedès, però les vinyes ja dominen el paisatge, i l'aire ja porta aquella olor dolça de raïm madur i terra calcària que anuncia les grans DO del sud. Des d'Igualada, la B-224 baixa suaument cap al sud, travessant un paisatge de turons coberts de vinyes i petits boscos de pi blanc.\n\nLes carreteres comarcals BV-2249 i BV-2242 són l'essència d'aquesta ruta: asfalt net, poc trànsit, corbes amples i progressives que ensenyen a inclinar la moto amb confiança. Entre Masquefa, Piera i els Hostalets de Pierola, el paisatge desfila amb calma: masies amb les seves vinyes al voltant, cellers familiars on el cava reposa en caves fosques i fresques, i camps on les estacions pinten una paleta diferent cada mes. A la primavera, els sarments broten amb un verd tendre; a la tardor, les fulles de la vinya es tornen daurades i vermelles com si la terra s'incendiés lentament.\n\nA Piera, l'esmorzar és un ritual senzill i perfecte: un entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un tast de cava de les caves locals. L'efervescència del cava fa joc amb la sensació que et deixa aquesta ruta: lleugera, alegre i amb ganes de repetir. La tornada cap a Igualada per la C-15 és directa i sense complicacions, deixant-te temps per pensar en la propera sortida.",
+  "what_makes_it_special": "El paisatge vinícola de la frontera entre l'Anoia i el Penedès és un dels secrets més ben guardats de la Catalunya interior, amb carreteres perfectes per a principiants i la cultura del cava i el vi com a excusa perfecta per aturar-se.",
+  "roads_detail": [
+    {
+      "name": "B-224",
+      "segment": "Igualada - Masquefa",
+      "type": "carretera comarcal",
+      "notes": "Baixada suau cap al sud. Carretera àmplia amb bon asfalt. Poc trànsit fora de les hores punta."
+    },
+    {
+      "name": "BV-2249",
+      "segment": "Masquefa - Piera",
+      "type": "carretera local",
+      "notes": "Carretera entre vinyes amb corbes amples i progressives. El tram més bonic."
+    },
+    {
+      "name": "BV-2242",
+      "segment": "Piera - Hostalets de Pierola",
+      "type": "carretera local",
+      "notes": "Carretera tranquil·la entre cellers i masies. Sense dificultat tècnica."
+    },
+    {
+      "name": "C-15",
+      "segment": "Hostalets de Pierola - Igualada",
+      "type": "carretera comarcal",
+      "notes": "Tornada directa. Carretera ben senyalitzada amb trànsit moderat."
+    }
+  ],
+  "warnings": [
+    "Atenció als tractors i remolcs durant l'època de verema (setembre-octubre). Poden aparèixer de forma sobtada als encreuaments.",
+    "Les carreteres locals poden tenir clapes de fang o restes vegetals. Precaució als revolts.",
+    "El sol pot enlluerar a primera hora i al capvespre a les rectes orientades est-oest. Porta visera neta."
+  ],
+  "fuel_note": "Gasolineres disponibles a Igualada i Masquefa. Amb 75 km totals, el combustible no és cap problema per a cap moto."
+}

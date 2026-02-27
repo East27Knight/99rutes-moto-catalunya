@@ -1,0 +1,129 @@
+{
+  "id": "ruta-072",
+  "number": 72,
+  "name": "La Bonaigua i el Sostre del Pirineu",
+  "slug": "la-bonaigua-i-el-sostre-del-pirineu",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Pallars Sobirà",
+  "summary": "La gran travessa pirinenca per excel·lència: des de Lleida fins al Port de la Bonaigua (2.072 m) per la C-13, amb revolts infinits que tallen la respiració i vistes que abasten des del Montsec fins a les crestes araneses. Tornada per la N-230 amb el contrapunt del Congost de Collegats.",
+  "total_distance_km": 245,
+  "estimated_duration_hours": 5.0,
+  "riding_time_hours": 4.0,
+  "elevation_gain_m": 3200,
+  "elevation_max_m": 2072,
+  "roads_main": [
+    "C-13",
+    "C-28",
+    "N-230",
+    "C-147"
+  ],
+  "esmorzar": {
+    "town": "Sort",
+    "comarca": "Pallars Sobirà",
+    "lat": 42.413,
+    "lng": 1.13,
+    "specialty": "Esmorzar de forquilla amb embotits del Pirineu i formatge de pastor",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pirineu",
+    "port",
+    "alta-muntanya",
+    "revolts",
+    "paisatge"
+  ],
+  "waypoints": [
+    {
+      "name": "Lleida (sortida)",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start"
+    },
+    {
+      "name": "Congost de Collegats",
+      "lat": 42.314,
+      "lng": 0.949,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Sort",
+      "lat": 42.413,
+      "lng": 1.13,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Port de la Bonaigua (2.072 m)",
+      "lat": 42.669,
+      "lng": 0.988,
+      "type": "summit"
+    },
+    {
+      "name": "Vielha (Vall d'Aran)",
+      "lat": 42.702,
+      "lng": 0.796,
+      "type": "waypoint"
+    },
+    {
+      "name": "El Pont de Suert",
+      "lat": 42.401,
+      "lng": 0.743,
+      "type": "waypoint"
+    },
+    {
+      "name": "Lleida (arribada)",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/42.314,0.949/42.413,1.13/42.669,0.988/42.702,0.796/42.401,0.743/41.617,0.62",
+  "description_long": "Sortir de Lleida a primera hora del matí, amb la boira del Segre encara aferrada als camps, és el preludi d'una de les grans aventures motociclistes de Catalunya. La C-13 s'enfila amb determinació cap al nord, deixant enrere la plana lleidatana i entrant al Pallars Jussà, on les muntanyes comencen a tancar-se al teu voltant. El Congost de Collegats t'empassa entre parets verticals de roca calcària mentre el Noguera Pallaresa brama al teu costat — aquí la carretera és estreta, l'asfalt honest, i cada revolt demana respecte.\n\nPassat Sort, el paisatge es transforma: prats d'alta muntanya, vaqueries amb bestiar pasturant i l'aire que es refresca a cada metre de desnivell. La pujada al Port de la Bonaigua és un exercici de concentració i plaer a parts iguals. Els revolts s'encadenen amb un ritme hipnòtic, les vistes s'obren cap a la Vall d'Aran i les crestes nevades del Pirineu central. Arribar als 2.072 metres és tocar el sostre del món sobre dues rodes: l'aire prim, el silenci immens, i la satisfacció d'haver conquistat un dels grans ports del Pirineu català.\n\nLa tornada per la N-230 ofereix un contrapunt magnífic: una carretera més oberta, amb corbes amples i ràpides que baixen pel Pont de Suert fins a retrobar el pla. Quan el sol de la tarda daura els camps de Lleida, saps que has viscut una jornada que difícilment oblidaràs. Aquesta és la ruta que et farà entendre per què els motociclistes tornem sempre al Pirineu.",
+  "what_makes_it_special": "El Port de la Bonaigua és el pas asfaltat més alt dels Pirineus catalans, i la combinació del Congost de Collegats amb l'ascensió final crea una experiència de conducció que posa la pell de gallina a qualsevol motociclista.",
+  "roads_detail": [
+    {
+      "name": "C-13",
+      "segment": "Lleida - Tremp - Sort",
+      "type": "carretera comarcal",
+      "notes": "Tram llarg amb trànsit variable. El Congost de Collegats (km 120-135) és el tram més espectacular i estret."
+    },
+    {
+      "name": "C-13 / C-28",
+      "segment": "Sort - Port de la Bonaigua",
+      "type": "port de muntanya",
+      "notes": "Revolts tancats i encadenats, desnivell sostingut. Asfalt bo però atenció a la grava als marges. Tancat per neu a l'hivern."
+    },
+    {
+      "name": "C-28",
+      "segment": "Port de la Bonaigua - Vielha",
+      "type": "descens de muntanya",
+      "notes": "Descens ràpid cap a la Vall d'Aran. Corbes àmplies amb bon asfalt."
+    },
+    {
+      "name": "N-230",
+      "segment": "Vielha - El Pont de Suert - Lleida",
+      "type": "carretera nacional",
+      "notes": "Carretera àmplia i ràpida. Trànsit de camions en hores punta. Trams amb peralts generosos."
+    }
+  ],
+  "warnings": [
+    "El Port de la Bonaigua pot estar tancat per neu des de novembre fins a maig. Consulta sempre l'estat de les carreteres abans de sortir.",
+    "El Congost de Collegats és estret i amb visibilitat limitada en algunes corbes. Precaució amb el trànsit en sentit contrari.",
+    "A partir de 1.800 m la temperatura baixa significativament, fins i tot a l'estiu. Porta roba tèrmica.",
+    "Atenció als ramats de bestiar que poden creuar la carretera a les zones d'alta muntanya.",
+    "El tram N-230 pot tenir trànsit pesat de camions, especialment entre setmana."
+  ],
+  "fuel_note": "Repostatge recomanat a Tremp (km 80 aprox.) o Sort (km 120 aprox.). A partir de Sort no hi ha gasolineres fins a Vielha (80 km). Assegura't de sortir de Sort amb el dipòsit ple."
+}

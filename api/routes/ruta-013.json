@@ -1,0 +1,109 @@
+{
+  "id": "ruta-013",
+  "number": 13,
+  "name": "El Llobregat per Navàs i Balsareny",
+  "slug": "llobregat-navas-balsareny",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Volta suau pel nord del Bages passant per Navàs i Balsareny, dues viles amb encant que conserven el patrimoni industrial tèxtil. Carreteres planes i fàcils al costat del Llobregat, perfectes per a qui comença a rodar en moto.",
+  "total_distance_km": 50,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 300,
+  "elevation_max_m": 450,
+  "roads_main": [
+    "C-16",
+    "BV-4501",
+    "B-423"
+  ],
+  "esmorzar": {
+    "town": "Navàs",
+    "comarca": "Bages",
+    "lat": 41.886,
+    "lng": 1.876,
+    "specialty": "Entrepà de botifarra amb mongetes a un bar de plaça",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "fàcil",
+    "pla",
+    "riu",
+    "patrimoni-industrial"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.824,1.873/41.886,1.876/41.873,1.874/41.973,1.878/41.833,1.75/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-16"
+    },
+    {
+      "name": "Sallent",
+      "lat": 41.824,
+      "lng": 1.873,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Navàs",
+      "lat": 41.886,
+      "lng": 1.876,
+      "type": "esmorzar",
+      "road": "C-16"
+    },
+    {
+      "name": "Balsareny",
+      "lat": 41.873,
+      "lng": 1.874,
+      "type": "waypoint",
+      "road": "BV-4501"
+    },
+    {
+      "name": "Puig-reig",
+      "lat": 41.973,
+      "lng": 1.878,
+      "type": "waypoint",
+      "road": "B-423"
+    },
+    {
+      "name": "Súria",
+      "lat": 41.833,
+      "lng": 1.75,
+      "type": "waypoint",
+      "road": "B-423"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-16"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 55,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.1,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted for accuracy."
+  }
+}

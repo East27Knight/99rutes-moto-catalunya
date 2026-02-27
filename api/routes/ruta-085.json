@@ -1,0 +1,128 @@
+{
+  "id": "ruta-085",
+  "number": 85,
+  "name": "Siurana, el Niu d'Àliga",
+  "slug": "siurana-el-niu-daliga",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Priorat",
+  "summary": "Pujada mítica al poble cingle de Siurana per la T-702: revolts estrets i vertiginosos entre penya-segats amb vistes al pantà i la serra del Montsant. Un dels finals de ruta més espectaculars de Catalunya, on la carretera acaba al buit.",
+  "total_distance_km": 145,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 2000,
+  "elevation_max_m": 740,
+  "roads_main": [
+    "T-702",
+    "T-710",
+    "C-242",
+    "C-233"
+  ],
+  "esmorzar": {
+    "town": "Cornudella de Montsant",
+    "comarca": "Priorat",
+    "lat": 41.231,
+    "lng": 0.903,
+    "specialty": "Esmorzar de forquilla amb ous i botifarra al restaurant del poble",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "siurana",
+    "cingle",
+    "revolts",
+    "icònica"
+  ],
+  "waypoints": [
+    {
+      "name": "Tarragona (sortida)",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start"
+    },
+    {
+      "name": "Reus",
+      "lat": 41.155,
+      "lng": 1.106,
+      "type": "waypoint"
+    },
+    {
+      "name": "Cornudella de Montsant",
+      "lat": 41.231,
+      "lng": 0.903,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Mirador del Pantà de Siurana",
+      "lat": 41.256,
+      "lng": 0.923,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Siurana (poble cingle)",
+      "lat": 41.257,
+      "lng": 0.935,
+      "type": "summit"
+    },
+    {
+      "name": "Serra del Montsant (vista)",
+      "lat": 41.265,
+      "lng": 0.875,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Tarragona (arribada)",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.155,1.106/41.231,0.903/41.256,0.923/41.257,0.935/41.265,0.875/41.119,1.245",
+  "description_long": "Siurana és un d'aquells llocs que no haurien d'existir. Un poble sencer plantat al cim d'un penya-segat de 300 metres, amb les cases penjades sobre el buit i una carretera que s'hi enfila desafiant la gravetat. La ruta comença a Tarragona, deixant enrere la costa romana i endinsant-se cap a l'interior per la C-242. El paisatge canvia ràpidament: dels ametllers i garrofers del Camp de Tarragona als boscos de pi blanc i les vinyes de costers del Priorat, on la terra de llicorella dóna personalitat als vins més cotitzats de Catalunya.\n\nA Cornudella de Montsant, una parada per esmorzar és gairebé obligatòria. El poble, a l'ombra de la serra del Montsant, és la porta d'entrada al que ve. I el que ve és la T-702: una carretera que puja a Siurana amb revolts estrets i vertiginosos que demanen tota la teva atenció. L'asfalt s'estreny, els penya-segats apareixen a banda i banda, i el pantà de Siurana brilla avall com un mirall turquesa. L'olor és de romaní i farigola, i la llum del Priorat, aquella llum daurada i neta, ho banya tot amb una intensitat que gairebé fa mal als ulls.\n\nQuan arribes a Siurana, la carretera simplement s'acaba. No hi ha res més enllà: només el buit, el vent, i una de les vistes més impressionants que veuràs mai des del seient d'una moto. El poble medieval, amb les seves cases de pedra i l'església romànica de Santa Maria, sembla suspès entre el cel i la terra. La tornada, baixant els mateixos revolts amb el pantà al davant, és un exercici de contenció i respecte per la muntanya que acabes de pujar.",
+  "what_makes_it_special": "Siurana és el final de carretera més espectacular de Catalunya: un poble cingle sobre un precipici de 300 metres on la moto i el buit es miren de cara, amb el pantà turquesa als peus i la serra del Montsant vigilant-ho tot.",
+  "roads_detail": [
+    {
+      "name": "C-242 / C-233",
+      "segment": "Tarragona - Reus - Cornudella de Montsant",
+      "type": "carretera comarcal",
+      "notes": "Tram de connexió amb trànsit moderat. El tram de Reus a Cornudella comença a tenir corbes interessants."
+    },
+    {
+      "name": "T-710",
+      "segment": "Cornudella de Montsant - Entroncament T-702",
+      "type": "carretera comarcal",
+      "notes": "Carretera de muntanya amb bones corbes entre boscos. Asfalt correcte."
+    },
+    {
+      "name": "T-702",
+      "segment": "Entroncament - Siurana",
+      "type": "carretera de muntanya extrema",
+      "notes": "El tram definitiu: revolts molt tancats, carretera estreta, precipicis sense barreres. Dificultat màxima."
+    },
+    {
+      "name": "T-702 / C-242",
+      "segment": "Siurana - Tarragona (tornada)",
+      "type": "tornada pel mateix camí + comarcal",
+      "notes": "Baixada tècnica per la T-702 i retorn relaxat per la C-242."
+    }
+  ],
+  "warnings": [
+    "La T-702 és una carretera extrema: estreta, sense barreres i amb precipicis de centenars de metres. No apte per a principiants.",
+    "No intentis avançar vehicles a la pujada de Siurana. La carretera no ho permet amb seguretat.",
+    "A la tardor i hivern, la carretera pot tenir fulles mullades i superfície relliscosa. Redueix la velocitat.",
+    "El vent pot ser molt fort al cim de Siurana, especialment la tramuntana. Vigila l'estabilitat de la moto.",
+    "A Siurana no hi ha gasolinera ni serveis d'emergència immediats. Porta tot el que necessitis."
+  ],
+  "fuel_note": "Última gasolinera a Cornudella de Montsant o a la sortida de Reus. Assegura't de tenir almenys mig dipòsit abans de començar la pujada a Siurana."
+}

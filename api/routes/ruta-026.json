@@ -1,0 +1,102 @@
+{
+  "id": "ruta-026",
+  "number": 26,
+  "name": "El Maresme Curt: Mataró i Dosrius",
+  "slug": "maresme-curt-mataro-dosrius",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Maresme",
+  "summary": "Ruta curta que baixa a la costa del Maresme per Mataró i remunta per Dosrius, un petit poble de muntanya amb encant. Carreteres amples i ben senyalitzades, amb un tram costaner agradable i una pujada interior suau. Perfecta per gaudir del mar sense complicacions.",
+  "total_distance_km": 80,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 500,
+  "elevation_max_m": 420,
+  "roads_main": [
+    "C-33",
+    "C-32",
+    "BV-5105",
+    "BV-5028"
+  ],
+  "esmorzar": {
+    "town": "Mataró",
+    "comarca": "Maresme",
+    "lat": 41.54,
+    "lng": 2.444,
+    "specialty": "Esmorzar de mar amb sardines a la brasa i pa amb tomàquet",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "fàcil",
+    "mar",
+    "pobles"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.511,2.217/41.54,2.444/41.59,2.406/41.596,2.365/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-33"
+    },
+    {
+      "name": "Interchange C-33 to C-32",
+      "lat": 41.511,
+      "lng": 2.217,
+      "type": "waypoint",
+      "road": "C-32"
+    },
+    {
+      "name": "Mataró",
+      "lat": 41.54,
+      "lng": 2.444,
+      "type": "esmorzar",
+      "road": "C-32"
+    },
+    {
+      "name": "Dosrius",
+      "lat": 41.59,
+      "lng": 2.406,
+      "type": "waypoint",
+      "road": "BV-5105"
+    },
+    {
+      "name": "Intersection BV-5105 and BV-5028",
+      "lat": 41.596,
+      "lng": 2.365,
+      "type": "waypoint",
+      "road": "BV-5028"
+    },
+    {
+      "name": "Return to Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "BV-5028"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 85,
+    "gpt_duration_hours": 2.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.1,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly higher than claimed, likely due to road conditions and traffic."
+  }
+}

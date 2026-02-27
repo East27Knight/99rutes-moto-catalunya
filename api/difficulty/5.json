@@ -1,0 +1,919 @@
+{
+  "difficulty": 5,
+  "total": 8,
+  "routes": [
+    {
+      "id": "ruta-008",
+      "number": 8,
+      "name": "Els Rasos de Peguera i la Serra de Picancel",
+      "slug": "rasos-peguera-serra-picancel",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Manresa / Bages",
+      "starting_point": {
+        "name": "Manresa",
+        "comarca": "Bages",
+        "lat": 41.725,
+        "lng": 1.826
+      },
+      "comarca_principal": "Berguedà",
+      "summary": "La ruta més exigent des de Manresa: pujada per la C-16 fins a Berga, desviació als Rasos de Peguera per la BV-4235 amb quilòmetres de revolts tancats entre pins, i tornada per Castellar de n'Hug i la serra de Picancel. Carreteres de muntanya amb asfalt variable que demanen concentració total.",
+      "total_distance_km": 230,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 3200,
+      "elevation_max_m": 2050,
+      "roads_main": [
+        "C-16",
+        "BV-4235",
+        "BV-4024",
+        "B-402",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "Castellar de n'Hug",
+        "comarca": "Berguedà",
+        "lat": 42.268,
+        "lng": 2.024,
+        "specialty": "Esmorzar de muntanya amb trumfes i botifarra de Castellar de n'Hug",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "alta-muntanya",
+        "corbes-tancades",
+        "exigent",
+        "bosc",
+        "vistes"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/42.104,1.846/42.052,1.88/42.238,1.97/42.268,2.024/42.307,2.053/42.192,2.024/42.145,1.987/41.725,1.826",
+      "waypoints": [
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "start",
+          "road": "C-16"
+        },
+        {
+          "name": "Berga",
+          "lat": 42.104,
+          "lng": 1.846,
+          "type": "waypoint",
+          "road": "C-16"
+        },
+        {
+          "name": "Gironella",
+          "lat": 42.052,
+          "lng": 1.88,
+          "type": "waypoint",
+          "road": "C-16"
+        },
+        {
+          "name": "La Pobla de Lillet",
+          "lat": 42.238,
+          "lng": 1.97,
+          "type": "waypoint",
+          "road": "BV-4024"
+        },
+        {
+          "name": "Castellar de n'Hug",
+          "lat": 42.268,
+          "lng": 2.024,
+          "type": "esmorzar",
+          "road": "BV-4024"
+        },
+        {
+          "name": "Coll de la Creueta",
+          "lat": 42.307,
+          "lng": 2.053,
+          "type": "summit",
+          "road": "BV-4024"
+        },
+        {
+          "name": "Sant Jaume de Frontanyà",
+          "lat": 42.192,
+          "lng": 2.024,
+          "type": "waypoint",
+          "road": "B-402"
+        },
+        {
+          "name": "Borredà",
+          "lat": 42.145,
+          "lng": 1.987,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "end",
+          "road": "C-16"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.09,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance is slightly less than claimed, but the duration aligns well with typical travel times for this type of terrain."
+      }
+    },
+    {
+      "id": "ruta-046",
+      "number": 46,
+      "name": "L'Alta Garrotxa Salvatge",
+      "slug": "lalta-garrotxa-salvatge",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "La Garrotxa",
+      "summary": "L'Alta Garrotxa és un dels racons més aïllats i salvatges de Catalunya. Carreteres estretes i sinuoses pugen fins a pobles quasi abandonats com Sadernes i Oix. El paisatge calcari amb gorges profundes i boscos densos fa d'aquesta ruta una experiència de conducció extrema i solitària.",
+      "total_distance_km": 220,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 2500,
+      "elevation_max_m": 950,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "GI-522",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "Olot",
+        "comarca": "La Garrotxa",
+        "lat": 42.181,
+        "lng": 2.491,
+        "specialty": "Esmorzar de forquilla garrotxí amb fesols, botifarra negra i trinxat",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu"
+      ],
+      "tags": [
+        "muntanya",
+        "aïllament",
+        "tècnic",
+        "natura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.699/42.181,2.491/42.217,2.515/42.172,2.365/42.201,2.19/42.233,2.368/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.116,
+          "lng": 2.765,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Besalú",
+          "lat": 42.199,
+          "lng": 2.699,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Olot",
+          "lat": 42.181,
+          "lng": 2.491,
+          "type": "esmorzar",
+          "road": "GI-524"
+        },
+        {
+          "name": "Sant Joan les Fonts",
+          "lat": 42.217,
+          "lng": 2.515,
+          "type": "waypoint",
+          "road": "GI-522"
+        },
+        {
+          "name": "Vallfogona de Ripollès",
+          "lat": 42.172,
+          "lng": 2.365,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.201,
+          "lng": 2.19,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Sant Pau de Segúries",
+          "lat": 42.233,
+          "lng": 2.368,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "C-66"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 5,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads and includes a breakfast stop in Olot. The estimated distance and duration are close to the claimed values, making the route plausible."
+      }
+    },
+    {
+      "id": "ruta-060",
+      "number": 60,
+      "name": "Tavertet i el Cingle de Tavertet",
+      "slug": "tavertet-i-el-cingle-de-tavertet",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Ruta extrema fins al poble de Tavertet, enlairat sobre els cingles que dominen el pantà de Sau. La carretera d'accés és estreta, amb revolts cecs sobre precipicis i sense protecció lateral en alguns trams. La recompensa és un mirador natural que sembla el final del món. Només per a pilots experimentats.",
+      "total_distance_km": 125,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 880,
+      "roads_main": [
+        "BV-5207",
+        "BV-5213",
+        "C-153",
+        "BV-5201"
+      ],
+      "esmorzar": {
+        "town": "Tavertet",
+        "comarca": "Osona",
+        "lat": 41.975,
+        "lng": 2.42,
+        "specialty": "Esmorzar rústic amb truita de bolets i embotits casolans",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu"
+      ],
+      "tags": [
+        "cingles",
+        "extrem",
+        "vistes",
+        "precipici"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.973,2.305/41.989,2.367/41.975,2.42/42.016,2.398/41.995,2.315/41.899,2.364/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Roda de Ter",
+          "lat": 41.973,
+          "lng": 2.305,
+          "type": "waypoint",
+          "road": "C-153"
+        },
+        {
+          "name": "L'Esquirol",
+          "lat": 41.989,
+          "lng": 2.367,
+          "type": "waypoint",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Tavertet",
+          "lat": 41.975,
+          "lng": 2.42,
+          "type": "esmorzar",
+          "road": "BV-5207"
+        },
+        {
+          "name": "Sant Julià de Cabrera",
+          "lat": 42.016,
+          "lng": 2.398,
+          "type": "waypoint",
+          "road": "BV-5213"
+        },
+        {
+          "name": "Collsacabra",
+          "lat": 41.995,
+          "lng": 2.315,
+          "type": "summit",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Sant Sadurní d'Osormort",
+          "lat": 41.899,
+          "lng": 2.364,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "BV-5201"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 130,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-072",
+      "number": 72,
+      "name": "La Bonaigua i el Sostre del Pirineu",
+      "slug": "la-bonaigua-i-el-sostre-del-pirineu",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Pallars Sobirà",
+      "summary": "La gran travessa pirinenca per excel·lència: des de Lleida fins al Port de la Bonaigua (2.072 m) per la C-13, amb revolts infinits que tallen la respiració i vistes que abasten des del Montsec fins a les crestes araneses. Tornada per la N-230 amb el contrapunt del Congost de Collegats.",
+      "total_distance_km": 245,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 4.0,
+      "elevation_gain_m": 3200,
+      "elevation_max_m": 2072,
+      "roads_main": [
+        "C-13",
+        "C-28",
+        "N-230",
+        "C-147"
+      ],
+      "esmorzar": {
+        "town": "Sort",
+        "comarca": "Pallars Sobirà",
+        "lat": 42.413,
+        "lng": 1.13,
+        "specialty": "Esmorzar de forquilla amb embotits del Pirineu i formatge de pastor",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "port",
+        "alta-muntanya",
+        "revolts",
+        "paisatge"
+      ],
+      "waypoints": [
+        {
+          "name": "Lleida (sortida)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start"
+        },
+        {
+          "name": "Congost de Collegats",
+          "lat": 42.314,
+          "lng": 0.949,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Sort",
+          "lat": 42.413,
+          "lng": 1.13,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Port de la Bonaigua (2.072 m)",
+          "lat": 42.669,
+          "lng": 0.988,
+          "type": "summit"
+        },
+        {
+          "name": "Vielha (Vall d'Aran)",
+          "lat": 42.702,
+          "lng": 0.796,
+          "type": "waypoint"
+        },
+        {
+          "name": "El Pont de Suert",
+          "lat": 42.401,
+          "lng": 0.743,
+          "type": "waypoint"
+        },
+        {
+          "name": "Lleida (arribada)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/42.314,0.949/42.413,1.13/42.669,0.988/42.702,0.796/42.401,0.743/41.617,0.62"
+    },
+    {
+      "id": "ruta-078",
+      "number": 78,
+      "name": "Cerdanya pel Coll de Nargó",
+      "slug": "cerdanya-pel-coll-de-nargo",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Cerdanya",
+      "summary": "Gran volta per assolir la Cerdanya des de Lleida: la C-14 fins a Coll de Nargó, el Pont de Bar i l'entrada a la plana cerdana amb el Cadí al nord. Puigcerdà, Bellver i tornada per la N-260, el Túnel del Cadí i Solsona. Jornada completa.",
+      "total_distance_km": 250,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 4.0,
+      "elevation_gain_m": 3400,
+      "elevation_max_m": 1800,
+      "roads_main": [
+        "C-14",
+        "N-260",
+        "C-16",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "Puigcerdà",
+        "comarca": "Cerdanya",
+        "lat": 42.431,
+        "lng": 1.928,
+        "specialty": "Trinxat de la Cerdanya i embotits del país",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "cerdanya",
+        "port",
+        "gran-volta"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.916,1.184/42.152,1.317/42.357,1.463/42.431,1.928/42.104,1.846/41.993,1.518/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.916,
+          "lng": 1.184,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Coll de Nargó",
+          "lat": 42.152,
+          "lng": 1.317,
+          "type": "summit",
+          "road": "C-14"
+        },
+        {
+          "name": "La Seu d'Urgell",
+          "lat": 42.357,
+          "lng": 1.463,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "Puigcerdà",
+          "lat": 42.431,
+          "lng": 1.928,
+          "type": "esmorzar",
+          "road": "N-260"
+        },
+        {
+          "name": "Berga",
+          "lat": 42.104,
+          "lng": 1.846,
+          "type": "waypoint",
+          "road": "C-16"
+        },
+        {
+          "name": "Solsona",
+          "lat": 41.993,
+          "lng": 1.518,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-26"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 230,
+        "gpt_duration_hours": 4.8,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.04,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on actual road conditions and typical driving speeds."
+      }
+    },
+    {
+      "id": "ruta-085",
+      "number": 85,
+      "name": "Siurana, el Niu d'Àliga",
+      "slug": "siurana-el-niu-daliga",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Priorat",
+      "summary": "Pujada mítica al poble cingle de Siurana per la T-702: revolts estrets i vertiginosos entre penya-segats amb vistes al pantà i la serra del Montsant. Un dels finals de ruta més espectaculars de Catalunya, on la carretera acaba al buit.",
+      "total_distance_km": 145,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 2000,
+      "elevation_max_m": 740,
+      "roads_main": [
+        "T-702",
+        "T-710",
+        "C-242",
+        "C-233"
+      ],
+      "esmorzar": {
+        "town": "Cornudella de Montsant",
+        "comarca": "Priorat",
+        "lat": 41.231,
+        "lng": 0.903,
+        "specialty": "Esmorzar de forquilla amb ous i botifarra al restaurant del poble",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "siurana",
+        "cingle",
+        "revolts",
+        "icònica"
+      ],
+      "waypoints": [
+        {
+          "name": "Tarragona (sortida)",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start"
+        },
+        {
+          "name": "Reus",
+          "lat": 41.155,
+          "lng": 1.106,
+          "type": "waypoint"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.231,
+          "lng": 0.903,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Mirador del Pantà de Siurana",
+          "lat": 41.256,
+          "lng": 0.923,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Siurana (poble cingle)",
+          "lat": 41.257,
+          "lng": 0.935,
+          "type": "summit"
+        },
+        {
+          "name": "Serra del Montsant (vista)",
+          "lat": 41.265,
+          "lng": 0.875,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Tarragona (arribada)",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.155,1.106/41.231,0.903/41.256,0.923/41.257,0.935/41.265,0.875/41.119,1.245"
+    },
+    {
+      "id": "ruta-089",
+      "number": 89,
+      "name": "Serra del Montsant Integral",
+      "slug": "serra-del-montsant-integral",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Priorat",
+      "summary": "Volta completa a la serra del Montsant per les carreteres que envolten el massís: la T-710 i la T-702 amb revolts tancats entre parets verticals de roca. Pas per Ulldemolins, La Morera de Montsant i Escaladei, bressol del Priorat monàstic.",
+      "total_distance_km": 175,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2500,
+      "elevation_max_m": 920,
+      "roads_main": [
+        "T-710",
+        "T-702",
+        "C-242",
+        "C-233",
+        "TV-7011"
+      ],
+      "esmorzar": {
+        "town": "La Morera de Montsant",
+        "comarca": "Priorat",
+        "lat": 41.267,
+        "lng": 0.854,
+        "specialty": "Pa de pagès amb oli del Priorat, tomàquet i pernil ibèric",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "montsant",
+        "revolts",
+        "serra",
+        "priorat"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.202,1.204/41.267,0.854/41.265,0.905/41.315,0.848/41.342,0.92/41.3,0.988/41.283,1.071/41.309,1.157/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "T-710"
+        },
+        {
+          "name": "El Morell",
+          "lat": 41.202,
+          "lng": 1.204,
+          "type": "waypoint",
+          "road": "T-710"
+        },
+        {
+          "name": "La Morera de Montsant",
+          "lat": 41.267,
+          "lng": 0.854,
+          "type": "esmorzar",
+          "road": "T-702"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.265,
+          "lng": 0.905,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Ulldemolins",
+          "lat": 41.315,
+          "lng": 0.848,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Vilanova de Prades",
+          "lat": 41.342,
+          "lng": 0.92,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Prades",
+          "lat": 41.3,
+          "lng": 0.988,
+          "type": "waypoint",
+          "road": "TV-7011"
+        },
+        {
+          "name": "Mont-ral",
+          "lat": 41.283,
+          "lng": 1.071,
+          "type": "waypoint",
+          "road": "TV-7011"
+        },
+        {
+          "name": "La Riba",
+          "lat": 41.309,
+          "lng": 1.157,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "T-710"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 180,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes scenic mountain areas. The estimated distance and duration are slightly adjusted based on road conditions and typical travel speeds."
+      }
+    },
+    {
+      "id": "ruta-093",
+      "number": 93,
+      "name": "Ports de Tortosa-Beseit i Horta de Sant Joan",
+      "slug": "ports-de-tortosa-beseit-i-horta-de-sant-joan",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Terra Alta",
+      "summary": "La ruta reina de les Terres de l'Ebre: pujada pels Ports de Tortosa-Beseit per la T-330, pas per Paüls amb revolts de muntanya espectaculars, i arribada a Horta de Sant Joan, on Picasso va trobar la inspiració. Carretera de muntanya pura amb desnivells importants.",
+      "total_distance_km": 160,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2600,
+      "elevation_max_m": 1050,
+      "roads_main": [
+        "T-330",
+        "T-333",
+        "T-334",
+        "C-12"
+      ],
+      "esmorzar": {
+        "town": "Horta de Sant Joan",
+        "comarca": "Terra Alta",
+        "lat": 40.94,
+        "lng": 0.319,
+        "specialty": "Esmorzar de pagès amb oli de la Terra Alta, pa de forn i embotits casolans",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "ports",
+        "muntanya",
+        "picasso",
+        "revolts"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.822,0.503/40.864,0.396/40.94,0.319/40.945,0.268/40.935,0.398/40.977,0.509/40.916,0.501/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Roquetes",
+          "lat": 40.822,
+          "lng": 0.503,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Alfara de Carles",
+          "lat": 40.864,
+          "lng": 0.396,
+          "type": "waypoint",
+          "road": "T-330"
+        },
+        {
+          "name": "Horta de Sant Joan",
+          "lat": 40.94,
+          "lng": 0.319,
+          "type": "esmorzar",
+          "road": "T-334"
+        },
+        {
+          "name": "Arnes",
+          "lat": 40.945,
+          "lng": 0.268,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Prat de Comte",
+          "lat": 40.935,
+          "lng": 0.398,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Benifallet",
+          "lat": 40.977,
+          "lng": 0.509,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Xerta",
+          "lat": 40.916,
+          "lng": 0.501,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 165,
+        "gpt_duration_hours": 3.8,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+      }
+    }
+  ]
+}

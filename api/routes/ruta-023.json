@@ -1,0 +1,110 @@
+{
+  "id": "ruta-023",
+  "number": 23,
+  "name": "El Vallès Oriental: Cingles de Bertí",
+  "slug": "valles-oriental-cingles-berti",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Oriental",
+  "summary": "De Cerdanyola cap a Granollers i pujada als Cingles de Bertí, una espectacular barrera rocosa amb vistes aèries sobre el Vallès. Carreteres de muntanya per Sant Quirze Safaja i Castellcir amb asfalt excel·lent i un ambient de total aïllament a pocs quilòmetres de la civilització.",
+  "total_distance_km": 145,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1800,
+  "elevation_max_m": 860,
+  "roads_main": [
+    "C-33",
+    "C-17",
+    "BV-1248",
+    "BV-1245",
+    "B-124"
+  ],
+  "esmorzar": {
+    "town": "El Brull",
+    "comarca": "Osona",
+    "lat": 41.837,
+    "lng": 2.305,
+    "specialty": "Esmorzar pagès amb truita de bolets i pa de Sant Quirze",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "cingles",
+    "vistes-aèries",
+    "corbes",
+    "bosc"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.574,2.233/41.747,2.285/41.837,2.305/41.683,2.223/41.633,2.164/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-33"
+    },
+    {
+      "name": "Parets del Vallès",
+      "lat": 41.574,
+      "lng": 2.233,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Tagamanent",
+      "lat": 41.747,
+      "lng": 2.285,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "El Brull",
+      "lat": 41.837,
+      "lng": 2.305,
+      "type": "esmorzar",
+      "road": "BV-1248"
+    },
+    {
+      "name": "Sant Miquel del Fai",
+      "lat": 41.683,
+      "lng": 2.223,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Caldes de Montbui",
+      "lat": 41.633,
+      "lng": 2.164,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "B-124"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 155,
+    "gpt_duration_hours": 3.8,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.09,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely with minor deviations for scenic detours. The estimated distance and duration are slightly higher due to road conditions and traffic."
+  }
+}

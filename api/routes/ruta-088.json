@@ -1,0 +1,123 @@
+{
+  "id": "ruta-088",
+  "number": 88,
+  "name": "Conca de Barberà i Montblanc",
+  "slug": "conca-de-barbera-i-montblanc",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Conca de Barberà",
+  "summary": "Ruta cap a l'interior medieval de la Conca de Barberà: Montblanc amb les seves muralles, L'Espluga de Francolí i les Coves de l'Espluga, vinyes de la DO Conca de Barberà i carreteres ondulades entre turons suaus amb vistes a la Serra de Prades.",
+  "total_distance_km": 140,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1400,
+  "elevation_max_m": 680,
+  "roads_main": [
+    "C-14",
+    "C-240",
+    "C-233",
+    "TP-2031"
+  ],
+  "esmorzar": {
+    "town": "Montblanc",
+    "comarca": "Conca de Barberà",
+    "lat": 41.377,
+    "lng": 1.163,
+    "specialty": "Calçots amb romesco (en temporada) o coca de recapte amb embotits de la Conca",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "medieval",
+    "muralles",
+    "vi",
+    "cultura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.326,1.168/41.377,1.163/41.405,1.101/41.409,1.049/41.484,1.276/41.459,1.248/41.284,1.166/41.119,1.245",
+  "waypoints": [
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start",
+      "road": "C-14"
+    },
+    {
+      "name": "La Riba",
+      "lat": 41.326,
+      "lng": 1.168,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Montblanc",
+      "lat": 41.377,
+      "lng": 1.163,
+      "type": "esmorzar",
+      "road": "C-14"
+    },
+    {
+      "name": "Espluga de Francolí",
+      "lat": 41.405,
+      "lng": 1.101,
+      "type": "waypoint",
+      "road": "C-14"
+    },
+    {
+      "name": "Vimbodí",
+      "lat": 41.409,
+      "lng": 1.049,
+      "type": "waypoint",
+      "road": "C-233"
+    },
+    {
+      "name": "Rocafort de Queralt",
+      "lat": 41.484,
+      "lng": 1.276,
+      "type": "waypoint",
+      "road": "C-240"
+    },
+    {
+      "name": "Sarral",
+      "lat": 41.459,
+      "lng": 1.248,
+      "type": "waypoint",
+      "road": "TP-2031"
+    },
+    {
+      "name": "Alcover",
+      "lat": 41.284,
+      "lng": 1.166,
+      "type": "waypoint",
+      "road": "TP-2031"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end",
+      "road": "C-14"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 150,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes all key waypoints. The estimated distance and duration are slightly adjusted based on actual road conditions."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ruta-087",
+  "number": 87,
+  "name": "Costa Daurada Sud: Perelló i Vandellòs",
+  "slug": "costa-daurada-sud-perello-i-vandellos",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Baix Ebre",
+  "summary": "Baixada per la costa fins a L'Ametlla de Mar i El Perelló, amb carreteres que s'enfilen entre penya-segats i cales amagades. Tornada per l'interior passant per Vandellòs i els turons del Baix Camp, combinant mar i muntanya en una sola jornada.",
+  "total_distance_km": 165,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1500,
+  "elevation_max_m": 520,
+  "roads_main": [
+    "N-340",
+    "T-310",
+    "TV-3022",
+    "C-44"
+  ],
+  "esmorzar": {
+    "town": "L'Ametlla de Mar",
+    "comarca": "Baix Ebre",
+    "lat": 40.881,
+    "lng": 0.8,
+    "specialty": "Esmorzar de mar: suquet de peix i pa amb anxoves de l'Ametlla",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "costa",
+    "penya-segat",
+    "mar",
+    "cales"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/40.881,0.8/40.877,0.708/41.033,0.6/41.025,0.841/41.001,0.936/41.119,1.245",
+  "waypoints": [
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start",
+      "road": "N-340"
+    },
+    {
+      "name": "L'Ametlla de Mar",
+      "lat": 40.881,
+      "lng": 0.8,
+      "type": "esmorzar",
+      "road": "N-340"
+    },
+    {
+      "name": "El Perelló",
+      "lat": 40.877,
+      "lng": 0.708,
+      "type": "waypoint",
+      "road": "N-340"
+    },
+    {
+      "name": "Rasquera",
+      "lat": 41.033,
+      "lng": 0.6,
+      "type": "waypoint",
+      "road": "T-3022"
+    },
+    {
+      "name": "Vandellòs",
+      "lat": 41.025,
+      "lng": 0.841,
+      "type": "waypoint",
+      "road": "C-44"
+    },
+    {
+      "name": "Hospitalet de l'Infant",
+      "lat": 41.001,
+      "lng": 0.936,
+      "type": "waypoint",
+      "road": "C-44"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end",
+      "road": "N-340"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 170,
+    "gpt_duration_hours": 3.75,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.07,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely. The estimated distance and duration are slightly higher than claimed due to road conditions and potential traffic."
+  }
+}

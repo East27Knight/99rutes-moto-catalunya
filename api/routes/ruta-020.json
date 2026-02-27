@@ -1,0 +1,118 @@
+{
+  "id": "ruta-020",
+  "number": 20,
+  "name": "Osona per la C-17: Vic i les Guilleries",
+  "slug": "osona-c17-vic-guilleries",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Osona",
+  "summary": "Pujada per la C-17 fins a Vic, volta per les Guilleries amb la seva vegetació exuberant i el pantà de Sau, i tornada per Centelles i Castellcir. Una ruta que combina la velocitat de la C-17 amb els revolts tancats de les carreteres de les Guilleries, on cada corba amaga un nou paisatge.",
+  "total_distance_km": 200,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2000,
+  "elevation_max_m": 920,
+  "roads_main": [
+    "C-17",
+    "BV-5201",
+    "BV-5213",
+    "C-153",
+    "BV-4608"
+  ],
+  "esmorzar": {
+    "town": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254,
+    "specialty": "Esmorzar al mercat central amb llonganissa de Vic i formatge d'Osona",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "mercat",
+    "pantà",
+    "bosc",
+    "guilleries",
+    "corbes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.886,2.254/41.902,2.306/41.951,2.384/41.989,2.398/42.015,2.406/41.987,2.145/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-17"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "esmorzar",
+      "road": "C-17"
+    },
+    {
+      "name": "Sant Julià de Vilatorta",
+      "lat": 41.902,
+      "lng": 2.306,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Vilanova de Sau",
+      "lat": 41.951,
+      "lng": 2.384,
+      "type": "waypoint",
+      "road": "BV-5213"
+    },
+    {
+      "name": "Tavertet",
+      "lat": 41.989,
+      "lng": 2.398,
+      "type": "summit",
+      "road": "BV-5201"
+    },
+    {
+      "name": "L'Esquirol",
+      "lat": 42.015,
+      "lng": 2.406,
+      "type": "waypoint",
+      "road": "C-153"
+    },
+    {
+      "name": "Sant Bartomeu del Grau",
+      "lat": 41.987,
+      "lng": 2.145,
+      "type": "waypoint",
+      "road": "BV-4608"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "C-17"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 200,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible with the given roads and waypoints. The estimated distance and duration align with the claimed values, considering typical road conditions and speed limits."
+  }
+}

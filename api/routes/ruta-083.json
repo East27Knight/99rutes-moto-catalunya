@@ -1,0 +1,115 @@
+{
+  "id": "ruta-083",
+  "number": 83,
+  "name": "Balaguer i la Noguera Suau",
+  "slug": "balaguer-i-la-noguera-suau",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Noguera",
+  "summary": "Pujada suau fins a Balaguer seguint el riu Segre, amb el castell i el centre medieval com a recompensa. Extensió fins a Os de Balaguer i tornada pel pla, amb algunes corbes que comencen a dibuixar el Prepirineu sense demanar gaire compromís.",
+  "total_distance_km": 95,
+  "estimated_duration_hours": 2.5,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 450,
+  "elevation_max_m": 540,
+  "roads_main": [
+    "C-12",
+    "C-13",
+    "L-904"
+  ],
+  "esmorzar": {
+    "town": "Balaguer",
+    "comarca": "Noguera",
+    "lat": 41.79,
+    "lng": 0.805,
+    "specialty": "Esmorzar de forquilla al centre de Balaguer amb botifarra a la brasa",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "noguera",
+    "medieval",
+    "riu",
+    "suau"
+  ],
+  "waypoints": [
+    {
+      "name": "Lleida (sortida)",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start"
+    },
+    {
+      "name": "Térmens",
+      "lat": 41.718,
+      "lng": 0.724,
+      "type": "waypoint"
+    },
+    {
+      "name": "Balaguer (centre medieval)",
+      "lat": 41.79,
+      "lng": 0.805,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Castell de Balaguer (mirador)",
+      "lat": 41.792,
+      "lng": 0.808,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Os de Balaguer",
+      "lat": 41.867,
+      "lng": 0.729,
+      "type": "waypoint"
+    },
+    {
+      "name": "Lleida (arribada)",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.718,0.724/41.79,0.805/41.792,0.808/41.867,0.729/41.617,0.62",
+  "description_long": "Les terres de Lleida tenen una bellesa austera que no s'imposa: es guanya. Aquesta ruta és perfecta per descobrir-la sense exigències. Sortint de Lleida cap al nord per la C-12, la carretera segueix el Segre amb la fidelitat d'un company de viatge. Els camps de fruiters — presseguers, pereres, pomeres — van desfilant als costats, i a la primavera la floració és un espectacle de blancs i roses que perfuma l'aire i fa que el casc amb la visera oberta sigui una decisió intel·ligent.\n\nBalaguer apareix al cap de quaranta quilòmetres com una recompensa merescuda. La ciutat, amb el seu castell comtal dominant el turó i el centre medieval vora el Segre, és d'aquelles que guanyen quan t'hi acostes. El barri antic, amb els seus carrers estrets i la Plaça del Mercadal, és perfecte per aparcar la moto i fer una passejada. L'esmorzar de forquilla amb botifarra a la brasa al centre és un dels plaers senzills que fan gran una ruta.\n\nDes de Balaguer, la L-904 s'endinsa cap a Os de Balaguer, on el paisatge comença a ondular-se suaument anunciant el Prepirineu. Les primeres corbes apareixen sense intimidar, els turons de calcària es cobreixen de carrascars i l'horitzó es tanca una mica, oferint una primera mostra del que espera als motociclistes que vulguin continuar cap al nord. La tornada pel pla, amb el sol de la tarda daurant els camps, és una lliçó de serenitat sobre dues rodes.",
+  "what_makes_it_special": "La porta d'entrada al Prepirineu lleidatà per a principiants: carreteres còmodes que segueixen el Segre fins a la ciutat medieval de Balaguer, amb les primeres corbes de muntanya com a aperitiu del que vindrà.",
+  "roads_detail": [
+    {
+      "name": "C-12",
+      "segment": "Lleida - Balaguer",
+      "type": "carretera comarcal",
+      "notes": "Carretera àmplia que segueix el Segre. Trànsit moderat. Recta amb algunes corbes molt suaus."
+    },
+    {
+      "name": "L-904",
+      "segment": "Balaguer - Os de Balaguer",
+      "type": "carretera local",
+      "notes": "Primeres corbes de la ruta. Desnivell suau. Carretera més estreta però còmoda."
+    },
+    {
+      "name": "C-13 / C-12",
+      "segment": "Os de Balaguer - Lleida",
+      "type": "carretera comarcal",
+      "notes": "Tornada pel pla. Carretera ràpida i sense complicacions."
+    }
+  ],
+  "warnings": [
+    "La boira al pla de Lleida pot ser molt densa a l'hivern i primavera. Si no hi ha visibilitat, espera que s'aixequi.",
+    "Atenció al vent lateral a les zones obertes entre camps, especialment al Segrià.",
+    "Vehicles agrícoles freqüents a les carreteres locals. Mantingues la distància de seguretat.",
+    "A l'estiu les temperatures poden superar els 40°C al pla de Lleida. Porta aigua i fes parades freqüents."
+  ],
+  "fuel_note": "Gasolineres disponibles a Lleida i Balaguer. Amb 95 km de recorregut total, el combustible no és una preocupació."
+}

@@ -1,0 +1,115 @@
+{
+  "id": "ruta-045",
+  "number": 45,
+  "name": "La Ruta del Ter fins a Besalú",
+  "slug": "la-ruta-del-ter-fins-a-besalu",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Garrotxa",
+  "summary": "Seguint el curs del Ter i els seus afluents cap a l'interior, aquesta ruta connecta Banyoles amb Besalú i torna per la Vall d'en Bas. El pont romànic de Besalú és l'escenari perfecte per a una foto, i les carreteres entre Banyoles i Serinyà travessen un paisatge lacustre únic.",
+  "total_distance_km": 155,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 950,
+  "elevation_max_m": 520,
+  "roads_main": [
+    "C-66",
+    "GI-524",
+    "C-152"
+  ],
+  "esmorzar": {
+    "town": "Besalú",
+    "comarca": "La Garrotxa",
+    "lat": 42.199,
+    "lng": 2.699,
+    "specialty": "Embotits d'Olot amb coca de forner i vi negre del país",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "medieval",
+    "rius",
+    "cultura",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.045,2.85/42.116,2.765/42.199,2.699/42.182,2.488/42.148,2.573/41.953,2.635/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Sant Julià de Ramis",
+      "lat": 42.045,
+      "lng": 2.85,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.199,
+      "lng": 2.699,
+      "type": "esmorzar",
+      "road": "C-66"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.182,
+      "lng": 2.488,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Santa Pau",
+      "lat": 42.148,
+      "lng": 2.573,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Anglès",
+      "lat": 41.953,
+      "lng": 2.635,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-66"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 160,
+    "gpt_duration_hours": 3.8,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.09,
+    "plausible": true,
+    "notes": "The route follows scenic secondary roads and includes a breakfast stop in Besalú. The estimated distance and duration are slightly adjusted for realistic travel conditions."
+  }
+}

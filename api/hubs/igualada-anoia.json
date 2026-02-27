@@ -1,0 +1,906 @@
+{
+  "hub": "Igualada / Anoia",
+  "slug": "igualada-anoia",
+  "total": 8,
+  "pro": 5,
+  "aprendiz": 3,
+  "routes": [
+    {
+      "id": "ruta-064",
+      "number": 64,
+      "name": "Montserrat des del Sud: La Ruta dels Monjos",
+      "slug": "montserrat-des-del-sud-la-ruta-dels-monjos",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Bages",
+      "summary": "Ascensió a Montserrat per la cara sud, la menys transitada i la més espectacular. La BP-1103 s'enfila entre agulles de pedra amb revolts tancats i desnivells importants. Les vistes a la serralada prelitoral i les formacions rocoses de Montserrat són hipnòtiques. Una ruta de peregrinatge motociclista.",
+      "total_distance_km": 145,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1800,
+      "elevation_max_m": 1050,
+      "roads_main": [
+        "BP-1103",
+        "B-112",
+        "C-55",
+        "C-37"
+      ],
+      "esmorzar": {
+        "town": "Monistrol de Montserrat",
+        "comarca": "Bages",
+        "lat": 41.61,
+        "lng": 1.837,
+        "specialty": "Esmorzar de forquilla amb carn a la brasa i coca de recapte",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "muntanya",
+        "icònica",
+        "corbes",
+        "espiritualitat"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.563,1.679/41.578,1.83/41.61,1.837/41.648,1.871/41.728,1.823/41.685,1.75/41.65,1.673/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "BP-1103"
+        },
+        {
+          "name": "La Pobla de Claramunt",
+          "lat": 41.563,
+          "lng": 1.679,
+          "type": "waypoint",
+          "road": "B-112"
+        },
+        {
+          "name": "Collbató",
+          "lat": 41.578,
+          "lng": 1.83,
+          "type": "waypoint",
+          "road": "B-112"
+        },
+        {
+          "name": "Monistrol de Montserrat",
+          "lat": 41.61,
+          "lng": 1.837,
+          "type": "esmorzar",
+          "road": "C-55"
+        },
+        {
+          "name": "Sant Vicenç de Castellet",
+          "lat": 41.648,
+          "lng": 1.871,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Manresa",
+          "lat": 41.728,
+          "lng": 1.823,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Sant Salvador de Guardiola",
+          "lat": 41.685,
+          "lng": 1.75,
+          "type": "waypoint",
+          "road": "C-37"
+        },
+        {
+          "name": "Castellfollit del Boix",
+          "lat": 41.65,
+          "lng": 1.673,
+          "type": "waypoint",
+          "road": "C-37"
+        },
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "BP-1103"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 150,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes key waypoints. The estimated distance and duration are slightly adjusted for accuracy."
+      }
+    },
+    {
+      "id": "ruta-065",
+      "number": 65,
+      "name": "La Conca de Barberà i el Priorat",
+      "slug": "la-conca-de-barbera-i-el-priorat",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Conca de Barberà",
+      "summary": "Gran travessa cap al sud passant per Montblanc, la capital medieval de la Conca de Barberà, i endinsant-se al Priorat pels seus cellers i paisatges de vinyes en terrasses. Les carreteres entre muntanyes de pissarra són un laberint de corbes amb vistes als camps de ceps que produeixen vins llegendaris.",
+      "total_distance_km": 230,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 2200,
+      "elevation_max_m": 780,
+      "roads_main": [
+        "C-37",
+        "C-241",
+        "N-240",
+        "T-702",
+        "C-15"
+      ],
+      "esmorzar": {
+        "town": "Montblanc",
+        "comarca": "Conca de Barberà",
+        "lat": 41.377,
+        "lng": 1.163,
+        "specialty": "Esmorzar de forquilla amb calçots (en temporada) o carn a la brasa amb allioli",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "vinyes",
+        "medieval",
+        "priorat",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.286,1.249/41.377,1.163/41.303,1.006/41.145,0.822/41.224,0.783/41.118,1.245/41.346,1.697/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-37"
+        },
+        {
+          "name": "Valls",
+          "lat": 41.286,
+          "lng": 1.249,
+          "type": "waypoint",
+          "road": "C-241"
+        },
+        {
+          "name": "Montblanc",
+          "lat": 41.377,
+          "lng": 1.163,
+          "type": "esmorzar",
+          "road": "N-240"
+        },
+        {
+          "name": "Prades",
+          "lat": 41.303,
+          "lng": 1.006,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "Falset",
+          "lat": 41.145,
+          "lng": 0.822,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "La Vilella Baixa",
+          "lat": 41.224,
+          "lng": 0.783,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.118,
+          "lng": 1.245,
+          "type": "waypoint",
+          "road": "C-15"
+        },
+        {
+          "name": "Vilafranca del Penedès",
+          "lat": 41.346,
+          "lng": 1.697,
+          "type": "waypoint",
+          "road": "C-15"
+        },
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "C-15"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 220,
+        "gpt_duration_hours": 5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values. Some variations in distance can occur depending on exact road conditions and traffic."
+      }
+    },
+    {
+      "id": "ruta-066",
+      "number": 66,
+      "name": "Vinyes de l'Alt Penedès",
+      "slug": "vinyes-de-lalt-penedes",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Alt Penedès",
+      "summary": "Recorregut pels paisatges vinícoles de l'Alt Penedès, on les carreteres comarcals serpentegen entre vinyes, cellers modernistes i masies centenàries. La BV-2136 i la BV-2127 són carreteres de traçat fluid amb revolts suaus que inviten a gaudir del paisatge. Vilafranca del Penedès i Sant Sadurní d'Anoia són les capitals del vi i el cava.",
+      "total_distance_km": 160,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 950,
+      "elevation_max_m": 520,
+      "roads_main": [
+        "BV-2136",
+        "BV-2127",
+        "C-15",
+        "B-224",
+        "BP-2121"
+      ],
+      "esmorzar": {
+        "town": "Vilafranca del Penedès",
+        "comarca": "Alt Penedès",
+        "lat": 41.346,
+        "lng": 1.697,
+        "specialty": "Esmorzar de forquilla amb embotits i una copa de vi negre del Penedès",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "vinyes",
+        "cellers",
+        "gastronomia",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.517,1.545/41.462,1.535/41.433,1.643/41.346,1.697/41.429,1.785/41.462,1.657/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "BV-2136"
+        },
+        {
+          "name": "Sant Martí de Tous",
+          "lat": 41.517,
+          "lng": 1.545,
+          "type": "waypoint",
+          "road": "BV-2136"
+        },
+        {
+          "name": "La Llacuna",
+          "lat": 41.462,
+          "lng": 1.535,
+          "type": "waypoint",
+          "road": "BV-2127"
+        },
+        {
+          "name": "Sant Pere Sacarrera",
+          "lat": 41.433,
+          "lng": 1.643,
+          "type": "waypoint",
+          "road": "C-15"
+        },
+        {
+          "name": "Vilafranca del Penedès",
+          "lat": 41.346,
+          "lng": 1.697,
+          "type": "esmorzar",
+          "road": "C-15"
+        },
+        {
+          "name": "Sant Sadurní d'Anoia",
+          "lat": 41.429,
+          "lng": 1.785,
+          "type": "waypoint",
+          "road": "B-224"
+        },
+        {
+          "name": "Sant Quintí de Mediona",
+          "lat": 41.462,
+          "lng": 1.657,
+          "type": "waypoint",
+          "road": "BP-2121"
+        },
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "BP-2121"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 165,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with slight adjustments for realistic navigation. The estimated distance and duration are slightly higher than claimed due to road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-067",
+      "number": 67,
+      "name": "La Segarra: Castells i Horitzons",
+      "slug": "la-segarra-castells-i-horitzons",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Segarra",
+      "summary": "Ruta cap a les planes de la Segarra, terra de castells medievals, camps de cereals infinits i cel obert. La C-37 porta fins a Cervera, amb la seva universitat barroca, i les carreteres locals connecten pobles de pedra daurada com Guissona i Torà. Una experiència de conducció diferent: rectes llargues amb vent lateral i horitzons que no s'acaben.",
+      "total_distance_km": 185,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 800,
+      "elevation_max_m": 650,
+      "roads_main": [
+        "C-37",
+        "L-311",
+        "C-25",
+        "L-313"
+      ],
+      "esmorzar": {
+        "town": "Cervera",
+        "comarca": "Segarra",
+        "lat": 41.672,
+        "lng": 1.272,
+        "specialty": "Esmorzar de forquilla amb caragols a la llauna i pa amb tomàquet",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "castells",
+        "planes",
+        "medieval",
+        "horitzó"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.565,1.601/41.625,1.42/41.672,1.272/41.783,1.288/41.825,1.385/41.733,1.511/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-37"
+        },
+        {
+          "name": "Santa Margarida de Montbui",
+          "lat": 41.565,
+          "lng": 1.601,
+          "type": "waypoint",
+          "road": "C-37"
+        },
+        {
+          "name": "La Panadella",
+          "lat": 41.625,
+          "lng": 1.42,
+          "type": "waypoint",
+          "road": "C-25"
+        },
+        {
+          "name": "Cervera",
+          "lat": 41.672,
+          "lng": 1.272,
+          "type": "esmorzar",
+          "road": "L-311"
+        },
+        {
+          "name": "Guissona",
+          "lat": 41.783,
+          "lng": 1.288,
+          "type": "waypoint",
+          "road": "L-311"
+        },
+        {
+          "name": "Torà",
+          "lat": 41.825,
+          "lng": 1.385,
+          "type": "waypoint",
+          "road": "L-313"
+        },
+        {
+          "name": "Calaf",
+          "lat": 41.733,
+          "lng": 1.511,
+          "type": "waypoint",
+          "road": "C-25"
+        },
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "C-37"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 190,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly higher than claimed due to real-world conditions."
+      }
+    },
+    {
+      "id": "ruta-068",
+      "number": 68,
+      "name": "La Vall del Cardener",
+      "slug": "la-vall-del-cardener",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Bages",
+      "summary": "Remuntada pel riu Cardener cap al nord, passant per Cardona i la seva impressionant muntanya de sal i castell medieval. La C-55 és una carretera àgil amb corbes constants entre turons i valls. El retorn per Manresa i Montserrat completa un circuit amb diversitat de paisatges: riu, muntanya, plana i roca.",
+      "total_distance_km": 170,
+      "estimated_duration_hours": 4,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1300,
+      "elevation_max_m": 750,
+      "roads_main": [
+        "C-55",
+        "C-1410a",
+        "C-37",
+        "B-40"
+      ],
+      "esmorzar": {
+        "town": "Cardona",
+        "comarca": "Bages",
+        "lat": 41.912,
+        "lng": 1.681,
+        "specialty": "Esmorzar de forquilla amb botifarra amb mongetes i vi del Bages",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "riu",
+        "castell",
+        "sal",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.726,1.826/41.833,1.751/41.912,1.681/41.992,1.518/42.134,1.583/42.095,1.573/42.104,1.846/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-37"
+        },
+        {
+          "name": "Manresa",
+          "lat": 41.726,
+          "lng": 1.826,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Súria",
+          "lat": 41.833,
+          "lng": 1.751,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Cardona",
+          "lat": 41.912,
+          "lng": 1.681,
+          "type": "esmorzar",
+          "road": "C-55"
+        },
+        {
+          "name": "Solsona",
+          "lat": 41.992,
+          "lng": 1.518,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Sant Llorenç de Morunys",
+          "lat": 42.134,
+          "lng": 1.583,
+          "type": "waypoint",
+          "road": "C-1410a"
+        },
+        {
+          "name": "Coll de Jou",
+          "lat": 42.095,
+          "lng": 1.573,
+          "type": "summit",
+          "road": "C-1410a"
+        },
+        {
+          "name": "Berga",
+          "lat": 42.104,
+          "lng": 1.846,
+          "type": "waypoint",
+          "road": "C-37"
+        },
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "C-37"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 180,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to road conditions and terrain."
+      }
+    },
+    {
+      "id": "ruta-069",
+      "number": 69,
+      "name": "Capellades i la Pobla de Claramunt",
+      "slug": "capellades-i-la-pobla-de-claramunt",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Anoia",
+      "summary": "Circuit curt pels voltants d'Igualada passant per Capellades, famosa pel seu molí paperer, i la Pobla de Claramunt amb el seu castell medieval enlairat. Carreteres amples i suaus amb poc trànsit, ideals per a principiants. El paisatge de la conca de l'Anoia és verd i tranquil.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 450,
+      "roads_main": [
+        "C-15",
+        "B-224",
+        "BV-2136"
+      ],
+      "esmorzar": {
+        "town": "Capellades",
+        "comarca": "Anoia",
+        "lat": 41.531,
+        "lng": 1.686,
+        "specialty": "Esmorzar de forquilla amb truita de patates i embotits locals al centre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "patrimoni",
+        "principiant",
+        "tranquil",
+        "pobles"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.553,1.647/41.531,1.686/41.548,1.698/41.558,1.68/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-15"
+        },
+        {
+          "name": "Intersection C-15 and B-224",
+          "lat": 41.553,
+          "lng": 1.647,
+          "type": "waypoint",
+          "road": "C-15"
+        },
+        {
+          "name": "Capellades",
+          "lat": 41.531,
+          "lng": 1.686,
+          "type": "esmorzar",
+          "road": "B-224"
+        },
+        {
+          "name": "Intersection B-224 and BV-2136",
+          "lat": 41.548,
+          "lng": 1.698,
+          "type": "waypoint",
+          "road": "B-224"
+        },
+        {
+          "name": "La Pobla de Claramunt",
+          "lat": 41.558,
+          "lng": 1.68,
+          "type": "waypoint",
+          "road": "BV-2136"
+        },
+        {
+          "name": "Return to Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "BV-2136"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 48,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.07,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes the breakfast stop at Capellades. The estimated distance is slightly higher than claimed, but the duration aligns with the expected travel time."
+      }
+    },
+    {
+      "id": "ruta-070",
+      "number": 70,
+      "name": "Vinyes de l'Anoia",
+      "slug": "vinyes-de-lanoia",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Anoia",
+      "summary": "Ruta suau entre les vinyes i els cellers de la zona sud de l'Anoia, on comença la transició cap al Penedès. Carreteres comarcals tranquil·les entre Masquefa, Piera i els Hostalets de Pierola. Un recorregut per gaudir del paisatge agrícola i descobrir petits cellers familiars.",
+      "total_distance_km": 75,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 350,
+      "elevation_max_m": 420,
+      "roads_main": [
+        "B-224",
+        "BV-2249",
+        "BV-2242",
+        "C-15"
+      ],
+      "esmorzar": {
+        "town": "Piera",
+        "comarca": "Anoia",
+        "lat": 41.521,
+        "lng": 1.748,
+        "specialty": "Entrepà de fuet amb tomàquet i oli d'oliva, acompanyat d'un cava del Penedès",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "vinyes",
+        "principiant",
+        "cellers",
+        "paisatge"
+      ],
+      "waypoints": [
+        {
+          "name": "Igualada (sortida)",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start"
+        },
+        {
+          "name": "Masquefa",
+          "lat": 41.503,
+          "lng": 1.813,
+          "type": "waypoint"
+        },
+        {
+          "name": "Piera (centre)",
+          "lat": 41.521,
+          "lng": 1.748,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Mirador de les vinyes (BV-2242)",
+          "lat": 41.535,
+          "lng": 1.722,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Hostalets de Pierola",
+          "lat": 41.532,
+          "lng": 1.801,
+          "type": "waypoint"
+        },
+        {
+          "name": "Igualada (arribada)",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.503,1.813/41.521,1.748/41.535,1.722/41.532,1.801/41.579,1.617"
+    },
+    {
+      "id": "ruta-071",
+      "number": 71,
+      "name": "Montserrat Fàcil: El Bruc i Collbató",
+      "slug": "montserrat-facil-el-bruc-i-collbato",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Anoia",
+      "summary": "Aproximació a Montserrat sense la dificultat dels ports de muntanya. Des d'Igualada fins a El Bruc i Collbató per carreteres còmodes, amb vistes espectaculars a les agulles de Montserrat des de baix. Una ruta curta per contemplar la muntanya sagrada de Catalunya sense comprometre la seguretat.",
+      "total_distance_km": 65,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 400,
+      "elevation_max_m": 560,
+      "roads_main": [
+        "B-112",
+        "BP-1101",
+        "C-37"
+      ],
+      "esmorzar": {
+        "town": "Collbató",
+        "comarca": "Baix Llobregat",
+        "lat": 41.573,
+        "lng": 1.825,
+        "specialty": "Esmorzar de pa amb tomàquet, pernil ibèric i vistes a Montserrat",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "montserrat",
+        "principiant",
+        "vistes",
+        "accessible"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.575,1.65/41.582,1.737/41.573,1.825/41.592,1.833/41.582,1.737/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-37"
+        },
+        {
+          "name": "Intersection B-112 / C-37",
+          "lat": 41.575,
+          "lng": 1.65,
+          "type": "waypoint",
+          "road": "B-112"
+        },
+        {
+          "name": "El Bruc",
+          "lat": 41.582,
+          "lng": 1.737,
+          "type": "waypoint",
+          "road": "B-112"
+        },
+        {
+          "name": "Collbató",
+          "lat": 41.573,
+          "lng": 1.825,
+          "type": "esmorzar",
+          "road": "BP-1101"
+        },
+        {
+          "name": "Montserrat Viewpoint",
+          "lat": 41.592,
+          "lng": 1.833,
+          "type": "viewpoint",
+          "road": "BP-1101"
+        },
+        {
+          "name": "Return to El Bruc",
+          "lat": 41.582,
+          "lng": 1.737,
+          "type": "waypoint",
+          "road": "B-112"
+        },
+        {
+          "name": "Return to Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "C-37"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 70,
+        "gpt_duration_hours": 2.0,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads with a slight detour for a viewpoint. The estimated distance and duration are close to the claimed values."
+      }
+    }
+  ]
+}

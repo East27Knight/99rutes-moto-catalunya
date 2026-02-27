@@ -1,0 +1,128 @@
+{
+  "id": "ruta-073",
+  "number": 73,
+  "name": "Val d'Aran pel Túnel de Vielha",
+  "slug": "val-daran-pel-tunel-de-vielha",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Val d'Aran",
+  "summary": "Ruta llarga cap a la vall més atlàntica de Catalunya: la N-230 remunta la Ribagorça fins al Túnel de Vielha i s'obre a la Val d'Aran amb els seus pobles de teulades de pissarra. Passejada fins a Bossòst i tornada pel mateix eix amb llum diferent.",
+  "total_distance_km": 240,
+  "estimated_duration_hours": 5.0,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2600,
+  "elevation_max_m": 1590,
+  "roads_main": [
+    "N-230",
+    "C-28",
+    "N-141"
+  ],
+  "esmorzar": {
+    "town": "Vielha",
+    "comarca": "Val d'Aran",
+    "lat": 42.702,
+    "lng": 0.797,
+    "specialty": "Olla aranesa i pa de blat amb mantega de muntanya",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pirineu",
+    "val-daran",
+    "túnel",
+    "cultura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.798,0.583/42.408,0.742/42.702,0.797/42.645,0.794/42.81,0.726/42.778,0.714/42.702,0.797/42.408,0.742/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "N-230"
+    },
+    {
+      "name": "Alfarràs",
+      "lat": 41.798,
+      "lng": 0.583,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Pont de Suert",
+      "lat": 42.408,
+      "lng": 0.742,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Vielha",
+      "lat": 42.702,
+      "lng": 0.797,
+      "type": "esmorzar",
+      "road": "N-230"
+    },
+    {
+      "name": "Vielha Tunnel",
+      "lat": 42.645,
+      "lng": 0.794,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Les",
+      "lat": 42.81,
+      "lng": 0.726,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Bossòst",
+      "lat": 42.778,
+      "lng": 0.714,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Vielha",
+      "lat": 42.702,
+      "lng": 0.797,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Pont de Suert",
+      "lat": 42.408,
+      "lng": 0.742,
+      "type": "waypoint",
+      "road": "N-230"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "N-230"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 240,
+    "gpt_duration_hours": 5.0,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the N-230 closely and includes a stop in Vielha for breakfast. The estimated distance and duration match the claimed values, suggesting the route's plausibility."
+  }
+}

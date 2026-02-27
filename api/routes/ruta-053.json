@@ -1,0 +1,122 @@
+{
+  "id": "ruta-053",
+  "number": 53,
+  "name": "Les Gavarres Secretes",
+  "slug": "les-gavarres-secretes",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Gironès",
+  "summary": "Descoberta del massís de les Gavarres, la muntanya verda entre Girona i la costa. Carreteres tranquil·les entre alzinars i suredes, passant per Madremanya, Monells i Cruïlles. Un circuit curt i suau per gaudir del silenci i els pobles de pedra del Gironès interior.",
+  "total_distance_km": 70,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 380,
+  "elevation_max_m": 320,
+  "roads_main": [
+    "C-66",
+    "GI-660",
+    "GI-664",
+    "C-65"
+  ],
+  "esmorzar": {
+    "town": "Monells",
+    "comarca": "Baix Empordà",
+    "lat": 41.964,
+    "lng": 2.96,
+    "specialty": "Entrepà d'embotits artesans amb oli d'oliva de les Gavarres",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "bosc",
+    "pobles",
+    "tranquil",
+    "principiant"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.009,2.878/41.997,2.946/41.964,2.96/41.953,2.975/41.958,3.038/41.881,2.872/41.831,2.888/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Celrà",
+      "lat": 42.009,
+      "lng": 2.878,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Madremanya",
+      "lat": 41.997,
+      "lng": 2.946,
+      "type": "waypoint",
+      "road": "GI-660"
+    },
+    {
+      "name": "Monells",
+      "lat": 41.964,
+      "lng": 2.96,
+      "type": "esmorzar",
+      "road": "GI-660"
+    },
+    {
+      "name": "Sant Sadurní de l'Heura",
+      "lat": 41.953,
+      "lng": 2.975,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "La Bisbal d'Empordà",
+      "lat": 41.958,
+      "lng": 3.038,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Cassà de la Selva",
+      "lat": 41.881,
+      "lng": 2.872,
+      "type": "waypoint",
+      "road": "C-65"
+    },
+    {
+      "name": "Llagostera",
+      "lat": 41.831,
+      "lng": 2.888,
+      "type": "waypoint",
+      "road": "C-65"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-65"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 78,
+    "gpt_duration_hours": 2.2,
+    "distance_diff_pct": 0.11,
+    "duration_diff_pct": 0.1,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes a scenic detour through Les Gavarres. The estimated distance and duration are slightly higher than claimed, likely due to the winding nature of the roads."
+  }
+}

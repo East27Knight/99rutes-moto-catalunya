@@ -1,0 +1,132 @@
+{
+  "id": "ruta-002",
+  "number": 2,
+  "name": "Solsona i el Port del Comte",
+  "slug": "solsona-port-del-comte",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Solsonès",
+  "summary": "Ruta cap al nord pel cor del Solsonès, travessant paisatges agrícoles fins a Solsona i pujant al Port del Comte per la LV-4241. Revolts generosos amb asfalt net, vistes infinites cap als Pirineus i descens per la vall de la Vansa. Parada imprescindible a Solsona per un esmorzar pagès.",
+  "total_distance_km": 210,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 2600,
+  "elevation_max_m": 1860,
+  "roads_main": [
+    "C-55",
+    "C-25",
+    "LV-4241",
+    "L-401",
+    "C-462"
+  ],
+  "esmorzar": {
+    "town": "Solsona",
+    "comarca": "Solsonès",
+    "lat": 41.994,
+    "lng": 1.518,
+    "specialty": "Esmorzar pagès amb botifarra i mongetes del Solsonès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "port",
+    "altiplà",
+    "corbes",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.754,1.788/41.914,1.683/41.994,1.518/42.052,1.464/42.118,1.586/42.169,1.576/42.171,1.563/41.994,1.518/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Joan de Vilatorrada",
+      "lat": 41.754,
+      "lng": 1.788,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.914,
+      "lng": 1.683,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Solsona",
+      "lat": 41.994,
+      "lng": 1.518,
+      "type": "esmorzar",
+      "road": "C-25"
+    },
+    {
+      "name": "Coll de Jou",
+      "lat": 42.052,
+      "lng": 1.464,
+      "type": "summit",
+      "road": "LV-4241"
+    },
+    {
+      "name": "Sant Llorenç de Morunys",
+      "lat": 42.118,
+      "lng": 1.586,
+      "type": "waypoint",
+      "road": "L-401"
+    },
+    {
+      "name": "Port del Comte",
+      "lat": 42.169,
+      "lng": 1.576,
+      "type": "summit",
+      "road": "C-462"
+    },
+    {
+      "name": "La Coma i la Pedra",
+      "lat": 42.171,
+      "lng": 1.563,
+      "type": "waypoint",
+      "road": "C-462"
+    },
+    {
+      "name": "Solsona",
+      "lat": 41.994,
+      "lng": 1.518,
+      "type": "waypoint",
+      "road": "C-462"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-55"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and the estimated distance and duration align with the claimed values."
+  }
+}

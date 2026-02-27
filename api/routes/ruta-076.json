@@ -1,0 +1,129 @@
+{
+  "id": "ruta-076",
+  "number": 76,
+  "name": "El Montsec de Rúbies per la C-12",
+  "slug": "el-montsec-de-rubies-per-la-c12",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Noguera",
+  "summary": "Circuit pel cor del Montsec seguint la C-12 i pujant als miradors que dominen el Pantà de Camarasa. Carreteres de serra amb pendents pronunciats i revolts que demanen atenció, entre boscos de roure i espadats de roca calcària.",
+  "total_distance_km": 185,
+  "estimated_duration_hours": 4.0,
+  "riding_time_hours": 3.0,
+  "elevation_gain_m": 2300,
+  "elevation_max_m": 1350,
+  "roads_main": [
+    "C-12",
+    "C-13",
+    "LV-9041",
+    "L-904"
+  ],
+  "esmorzar": {
+    "town": "Camarasa",
+    "comarca": "Noguera",
+    "lat": 41.873,
+    "lng": 0.878,
+    "specialty": "Esmorzar amb mel del Montsec, pa de pagès i formatge de cabra",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "montsec",
+    "pantà",
+    "serra",
+    "natura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.791,0.809/41.873,0.878/41.883,0.85/41.981,0.749/42.166,0.894/42.067,1.005/42.094,1.073/41.895,1.058/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-12"
+    },
+    {
+      "name": "Balaguer",
+      "lat": 41.791,
+      "lng": 0.809,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Camarasa",
+      "lat": 41.873,
+      "lng": 0.878,
+      "type": "esmorzar",
+      "road": "C-13"
+    },
+    {
+      "name": "Sant Llorenç de Montgai",
+      "lat": 41.883,
+      "lng": 0.85,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Àger",
+      "lat": 41.981,
+      "lng": 0.749,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Tremp",
+      "lat": 42.166,
+      "lng": 0.894,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Coll de Comiols",
+      "lat": 42.067,
+      "lng": 1.005,
+      "type": "summit",
+      "road": "LV-9041"
+    },
+    {
+      "name": "Isona",
+      "lat": 42.094,
+      "lng": 1.073,
+      "type": "waypoint",
+      "road": "L-904"
+    },
+    {
+      "name": "Artesa de Segre",
+      "lat": 41.895,
+      "lng": 1.058,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-12"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 195,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.12,
+    "plausible": true,
+    "notes": "The route is plausible and follows the main roads specified. The estimated distance and duration are slightly higher due to the winding nature of the roads and elevation changes."
+  }
+}

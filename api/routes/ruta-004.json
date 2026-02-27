@@ -1,0 +1,117 @@
+{
+  "id": "ruta-004",
+  "number": 4,
+  "name": "Montserrat per les Carreteres del Vi",
+  "slug": "montserrat-carreteres-del-vi",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Baixada des de Manresa cap a Montserrat per la BP-1101 amb vistes de la muntanya sagrada, i volta pel Pla de Bages entre vinyes de la DO Pla de Bages. Corbes suaus entre camps de vinya, ermites romàniques i cellers amb encant. Pujada al monestir per la BP-1103 amb revolts espectaculars.",
+  "total_distance_km": 135,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 720,
+  "roads_main": [
+    "BP-1101",
+    "BP-1103",
+    "C-55",
+    "BV-1221",
+    "B-124"
+  ],
+  "esmorzar": {
+    "town": "Monistrol de Montserrat",
+    "comarca": "Bages",
+    "lat": 41.61,
+    "lng": 1.84,
+    "specialty": "Entrepà de llonganissa de pagès amb tomàquet de Montserrat",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "vinyes",
+    "montserrat",
+    "romànic",
+    "cultural",
+    "corbes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.683,1.767/41.636,1.751/41.61,1.84/41.65,1.872/41.65,1.873/41.78,1.85/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Sant Salvador de Guardiola",
+      "lat": 41.683,
+      "lng": 1.767,
+      "type": "waypoint",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Coll de Can Maçana",
+      "lat": 41.636,
+      "lng": 1.751,
+      "type": "summit",
+      "road": "BP-1103"
+    },
+    {
+      "name": "Monistrol de Montserrat",
+      "lat": 41.61,
+      "lng": 1.84,
+      "type": "esmorzar",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Vicenç de Castellet",
+      "lat": 41.65,
+      "lng": 1.872,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Castellbell i el Vilar",
+      "lat": 41.65,
+      "lng": 1.873,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Santpedor",
+      "lat": 41.78,
+      "lng": 1.85,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "B-124"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 140,
+    "gpt_duration_hours": 3.7,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.06,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes scenic views of Montserrat. The estimated distance and duration are slightly higher than claimed due to road conditions and speed limits."
+  }
+}

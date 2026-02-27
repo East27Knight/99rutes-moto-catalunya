@@ -1,0 +1,117 @@
+{
+  "id": "ruta-022",
+  "number": 22,
+  "name": "Collserola i la Carretera de les Aigües",
+  "slug": "collserola-carretera-aigues",
+  "category": "pro",
+  "difficulty": 2,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Barcelonès",
+  "summary": "Travessia completa del Parc de Collserola per carreteres asfaltades, des de la Rabassada fins a Molins de Rei, amb extensió cap a Sant Cugat i Cerdanyola. Revolts entre pins amb vistes a Barcelona d'un costat i al Vallès de l'altre. Tot a menys de 20 minuts del centre de la ciutat.",
+  "total_distance_km": 120,
+  "estimated_duration_hours": 3,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1400,
+  "elevation_max_m": 512,
+  "roads_main": [
+    "BV-1468",
+    "BP-1417",
+    "BV-1462",
+    "B-20",
+    "C-16"
+  ],
+  "esmorzar": {
+    "town": "Sant Cugat del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.473,
+    "lng": 2.086,
+    "specialty": "Esmorzar de forquilla a Cal Cortés amb truita i embotits",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "urbà",
+    "bosc",
+    "vistes-ciutat",
+    "accessible"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.414,2.109/41.428,2.088/41.473,2.086/41.482,2.069/41.491,2.138/41.498,2.188/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "BV-1468"
+    },
+    {
+      "name": "Vallvidrera",
+      "lat": 41.414,
+      "lng": 2.109,
+      "type": "waypoint",
+      "road": "BV-1468"
+    },
+    {
+      "name": "Collserola Park Entrance",
+      "lat": 41.428,
+      "lng": 2.088,
+      "type": "waypoint",
+      "road": "BP-1417"
+    },
+    {
+      "name": "Sant Cugat del Vallès",
+      "lat": 41.473,
+      "lng": 2.086,
+      "type": "esmorzar",
+      "road": "BP-1417"
+    },
+    {
+      "name": "Can Borrell",
+      "lat": 41.482,
+      "lng": 2.069,
+      "type": "waypoint",
+      "road": "BV-1462"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.491,
+      "lng": 2.138,
+      "type": "waypoint",
+      "road": "B-20"
+    },
+    {
+      "name": "Montcada i Reixac",
+      "lat": 41.498,
+      "lng": 2.188,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "C-16"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 65,
+    "gpt_duration_hours": 2,
+    "distance_diff_pct": 0.46,
+    "duration_diff_pct": 0.33,
+    "plausible": true,
+    "notes": "The actual route is shorter than claimed, covering approximately 65 km. The duration is around 2 hours due to the winding nature of the roads in Collserola."
+  }
+}

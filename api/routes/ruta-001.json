@@ -1,0 +1,131 @@
+{
+  "id": "ruta-001",
+  "number": 1,
+  "name": "El Coll de Pal i les Valls del Berguedà",
+  "slug": "coll-de-pal-valls-bergueda",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Berguedà",
+  "summary": "Una ruta emblemàtica que remunta la C-16 fins a Berga i s'endinsa al cor del Berguedà per la BV-4024 fins al Coll de Pal, a 2.106 m d'altitud. Corbes tancades amb vistes espectaculars al Cadí-Moixeró i baixada per Bagà amb un esmorzar de forquilla memorable.",
+  "total_distance_km": 195,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2800,
+  "elevation_max_m": 2106,
+  "roads_main": [
+    "C-16",
+    "BV-4024",
+    "C-26",
+    "B-400",
+    "C-55"
+  ],
+  "esmorzar": {
+    "town": "Bagà",
+    "comarca": "Berguedà",
+    "lat": 42.252,
+    "lng": 1.861,
+    "specialty": "Esmorzar de forquilla amb embotits del Berguedà i truita de patates casolana",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "port",
+    "corbes",
+    "alta-muntanya",
+    "vistes"
+  ],
+  "waypoints": [
+    {
+      "name": "Manresa (sortida)",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start"
+    },
+    {
+      "name": "Berga",
+      "lat": 42.101,
+      "lng": 1.847,
+      "type": "waypoint"
+    },
+    {
+      "name": "Bagà",
+      "lat": 42.252,
+      "lng": 1.861,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Coll de Pal (2.106 m)",
+      "lat": 42.268,
+      "lng": 1.888,
+      "type": "summit"
+    },
+    {
+      "name": "Mirador del Pedraforca",
+      "lat": 42.241,
+      "lng": 1.782,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Guardiola de Berguedà",
+      "lat": 42.234,
+      "lng": 1.783,
+      "type": "waypoint"
+    },
+    {
+      "name": "Manresa (arribada)",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/42.101,1.847/42.252,1.861/42.268,1.888/42.241,1.782/42.234,1.783/41.725,1.826",
+  "description_long": "El Berguedà és terra de motociclistes, i el Coll de Pal n'és la catedral. La ruta comença a Manresa, seguint la C-16 cap al nord amb el Llobregat com a company fidel. Berga apareix al fons de la vall, acollidora i industrial alhora, però no és aquí on ens aturem. La BV-4024 surt de Bagà com un llarg pregunta retòrica dirigida al cel: s'enfila amb determinació entre boscos de pi negre i prats alpins, amb revolts cada vegada més tancats i l'aire cada vegada més fi.\n\nA mesura que puges, el paisatge es transforma de manera gairebé teatral. Les fagedes donen pas als prats d'alta muntanya, i de sobte, a un revolt qualsevol, apareix la serra del Cadí-Moixeró en tota la seva majestat: una muralla calcària que talla l'horitzó de punta a punta. Als 2.106 metres, el Coll de Pal t'espera amb un silenci que només trenquen el vent i el tic-tic del motor refredant-se. Les vistes abasten fins al Pedraforca, aquella muntanya de dues puntes que sembla un somriure de pedra. Respires fons i saps que aquest és un d'aquells moments que recordaràs sempre.\n\nLa baixada per Bagà és un regal: corbes encadenades amb bon asfalt que et porten fins al centre del poble medieval, on un esmorzar de forquilla amb embotits del país i truita de patates casolana et retorna a la terra. La tornada cap a Manresa per la C-26 i la C-55 travessa el Berguedà interior, amb turons suaus i camps que canvien de color segons l'estació. Arribes a casa amb les mans formiguejant i la certesa d'haver conquistat un dels grans ports de Catalunya.",
+  "what_makes_it_special": "El Coll de Pal és un dels ports més alts accessibles en moto a Catalunya (2.106 m), amb unes vistes de la serra del Cadí-Moixeró que et deixen sense paraules i una carretera de revolts tancats que és pura essència de conducció de muntanya.",
+  "roads_detail": [
+    {
+      "name": "C-16",
+      "segment": "Manresa - Berga - Bagà",
+      "type": "via ràpida / carretera comarcal",
+      "notes": "Tram ràpid fins a Berga (autovia). De Berga a Bagà, carretera convencional amb trànsit moderat."
+    },
+    {
+      "name": "BV-4024",
+      "segment": "Bagà - Coll de Pal",
+      "type": "port de muntanya",
+      "notes": "El tram estrella: 20 km de pujada amb revolts tancats i desnivell constant. Asfalt bo però estret. Atenció als ciclistes."
+    },
+    {
+      "name": "BV-4024 / C-26",
+      "segment": "Coll de Pal - Guardiola de Berguedà",
+      "type": "descens de muntanya",
+      "notes": "Baixada tècnica amb corbes tancades. Canvi de rasant freqüent."
+    },
+    {
+      "name": "C-26 / B-400 / C-55",
+      "segment": "Guardiola de Berguedà - Manresa",
+      "type": "carretera comarcal",
+      "notes": "Tornada per l'interior. Carreteres àmplies amb trams rectes i corbes suaus."
+    }
+  ],
+  "warnings": [
+    "La BV-4024 és estreta i sense barreres en molts trams. Condueix dins dels teus límits, especialment al descens.",
+    "A l'hivern i principis de primavera pot haver-hi gel o neu al Coll de Pal. Consulta l'estat de la carretera.",
+    "Ciclistes freqüents a la pujada, especialment els caps de setmana. Precaució als revolts cecs.",
+    "El vent pot ser molt fort al cim del Coll de Pal. Vigila les ràfegues laterals.",
+    "Atenció a la fauna: és habitual veure isards i cabirols prop de la carretera."
+  ],
+  "fuel_note": "Repostatge a Berga (km 60 aprox.) abans de començar la pujada. No hi ha gasolineres entre Berga i Guardiola de Berguedà. Surt de Manresa amb el dipòsit ple per tenir marge."
+}

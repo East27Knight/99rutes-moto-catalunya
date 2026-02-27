@@ -1,0 +1,124 @@
+{
+  "id": "ruta-008",
+  "number": 8,
+  "name": "Els Rasos de Peguera i la Serra de Picancel",
+  "slug": "rasos-peguera-serra-picancel",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Berguedà",
+  "summary": "La ruta més exigent des de Manresa: pujada per la C-16 fins a Berga, desviació als Rasos de Peguera per la BV-4235 amb quilòmetres de revolts tancats entre pins, i tornada per Castellar de n'Hug i la serra de Picancel. Carreteres de muntanya amb asfalt variable que demanen concentració total.",
+  "total_distance_km": 230,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 3200,
+  "elevation_max_m": 2050,
+  "roads_main": [
+    "C-16",
+    "BV-4235",
+    "BV-4024",
+    "B-402",
+    "C-26"
+  ],
+  "esmorzar": {
+    "town": "Castellar de n'Hug",
+    "comarca": "Berguedà",
+    "lat": 42.268,
+    "lng": 2.024,
+    "specialty": "Esmorzar de muntanya amb trumfes i botifarra de Castellar de n'Hug",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "alta-muntanya",
+    "corbes-tancades",
+    "exigent",
+    "bosc",
+    "vistes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/42.104,1.846/42.052,1.88/42.238,1.97/42.268,2.024/42.307,2.053/42.192,2.024/42.145,1.987/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-16"
+    },
+    {
+      "name": "Berga",
+      "lat": 42.104,
+      "lng": 1.846,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "Gironella",
+      "lat": 42.052,
+      "lng": 1.88,
+      "type": "waypoint",
+      "road": "C-16"
+    },
+    {
+      "name": "La Pobla de Lillet",
+      "lat": 42.238,
+      "lng": 1.97,
+      "type": "waypoint",
+      "road": "BV-4024"
+    },
+    {
+      "name": "Castellar de n'Hug",
+      "lat": 42.268,
+      "lng": 2.024,
+      "type": "esmorzar",
+      "road": "BV-4024"
+    },
+    {
+      "name": "Coll de la Creueta",
+      "lat": 42.307,
+      "lng": 2.053,
+      "type": "summit",
+      "road": "BV-4024"
+    },
+    {
+      "name": "Sant Jaume de Frontanyà",
+      "lat": 42.192,
+      "lng": 2.024,
+      "type": "waypoint",
+      "road": "B-402"
+    },
+    {
+      "name": "Borredà",
+      "lat": 42.145,
+      "lng": 1.987,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-16"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.09,
+    "duration_diff_pct": 0.1,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads closely. The estimated distance is slightly less than claimed, but the duration aligns well with typical travel times for this type of terrain."
+  }
+}

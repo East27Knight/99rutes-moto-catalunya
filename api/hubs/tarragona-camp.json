@@ -1,0 +1,1052 @@
+{
+  "hub": "Tarragona / Camp",
+  "slug": "tarragona-camp",
+  "total": 9,
+  "pro": 6,
+  "aprendiz": 3,
+  "routes": [
+    {
+      "id": "ruta-084",
+      "number": 84,
+      "name": "El Priorat Profund",
+      "slug": "el-priorat-profund",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Priorat",
+      "summary": "Immersió total al Priorat per la C-242: vinyes de costers impossibles, pobles com Porrera, Gratallops i Falset entre revolts de muntanya amb olor de garnatxa. Les corbes són tancades, l'asfalt és bo i el paisatge és dels que no s'obliden.",
+      "total_distance_km": 170,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2200,
+      "elevation_max_m": 780,
+      "roads_main": [
+        "C-242",
+        "T-702",
+        "T-714",
+        "C-233"
+      ],
+      "esmorzar": {
+        "town": "Falset",
+        "comarca": "Priorat",
+        "lat": 41.145,
+        "lng": 0.818,
+        "specialty": "Pa amb tomàquet, embotits del Priorat i una gota de vi negre DO Priorat",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "priorat",
+        "vi",
+        "corbes",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.225,1.113/41.213,1.019/41.256,0.899/41.145,0.818/41.193,0.785/41.225,0.776/41.182,0.855/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "C-242"
+        },
+        {
+          "name": "La Selva del Camp",
+          "lat": 41.225,
+          "lng": 1.113,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Alforja",
+          "lat": 41.213,
+          "lng": 1.019,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.256,
+          "lng": 0.899,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Falset",
+          "lat": 41.145,
+          "lng": 0.818,
+          "type": "esmorzar",
+          "road": "T-702"
+        },
+        {
+          "name": "Gratallops",
+          "lat": 41.193,
+          "lng": 0.785,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "La Vilella Baixa",
+          "lat": 41.225,
+          "lng": 0.776,
+          "type": "waypoint",
+          "road": "T-714"
+        },
+        {
+          "name": "Porrera",
+          "lat": 41.182,
+          "lng": 0.855,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "C-233"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 180,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes scenic views typical of the Priorat region. The estimated distance and duration are slightly higher than claimed, likely due to winding roads and elevation changes."
+      }
+    },
+    {
+      "id": "ruta-085",
+      "number": 85,
+      "name": "Siurana, el Niu d'Àliga",
+      "slug": "siurana-el-niu-daliga",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Priorat",
+      "summary": "Pujada mítica al poble cingle de Siurana per la T-702: revolts estrets i vertiginosos entre penya-segats amb vistes al pantà i la serra del Montsant. Un dels finals de ruta més espectaculars de Catalunya, on la carretera acaba al buit.",
+      "total_distance_km": 145,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 2000,
+      "elevation_max_m": 740,
+      "roads_main": [
+        "T-702",
+        "T-710",
+        "C-242",
+        "C-233"
+      ],
+      "esmorzar": {
+        "town": "Cornudella de Montsant",
+        "comarca": "Priorat",
+        "lat": 41.231,
+        "lng": 0.903,
+        "specialty": "Esmorzar de forquilla amb ous i botifarra al restaurant del poble",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "siurana",
+        "cingle",
+        "revolts",
+        "icònica"
+      ],
+      "waypoints": [
+        {
+          "name": "Tarragona (sortida)",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start"
+        },
+        {
+          "name": "Reus",
+          "lat": 41.155,
+          "lng": 1.106,
+          "type": "waypoint"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.231,
+          "lng": 0.903,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Mirador del Pantà de Siurana",
+          "lat": 41.256,
+          "lng": 0.923,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Siurana (poble cingle)",
+          "lat": 41.257,
+          "lng": 0.935,
+          "type": "summit"
+        },
+        {
+          "name": "Serra del Montsant (vista)",
+          "lat": 41.265,
+          "lng": 0.875,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Tarragona (arribada)",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.155,1.106/41.231,0.903/41.256,0.923/41.257,0.935/41.265,0.875/41.119,1.245"
+    },
+    {
+      "id": "ruta-086",
+      "number": 86,
+      "name": "Serra de Prades i Poblet",
+      "slug": "serra-de-prades-i-poblet",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Conca de Barberà",
+      "summary": "Circuit per la Serra de Prades amb parada al Monestir de Poblet, patrimoni de la humanitat. Pujada per la C-240 entre boscos de pi, pas per Prades — el poble vermell — i baixada cap a L'Espluga de Francolí amb corbes encaixades entre muntanyes.",
+      "total_distance_km": 155,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1800,
+      "elevation_max_m": 1040,
+      "roads_main": [
+        "C-240",
+        "T-700",
+        "C-14",
+        "TV-7004"
+      ],
+      "esmorzar": {
+        "town": "Prades",
+        "comarca": "Baix Camp",
+        "lat": 41.321,
+        "lng": 0.989,
+        "specialty": "Esmorzar amb mel de la serra, coca de recapte i formatge de cabra",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "serra",
+        "monestir",
+        "patrimoni",
+        "bosc"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.227,1.141/41.376,1.161/41.321,0.989/41.353,1.006/41.4,1.101/41.266,1.173/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "C-240"
+        },
+        {
+          "name": "La Selva del Camp",
+          "lat": 41.227,
+          "lng": 1.141,
+          "type": "waypoint",
+          "road": "C-240"
+        },
+        {
+          "name": "Montblanc",
+          "lat": 41.376,
+          "lng": 1.161,
+          "type": "waypoint",
+          "road": "T-700"
+        },
+        {
+          "name": "Prades",
+          "lat": 41.321,
+          "lng": 0.989,
+          "type": "esmorzar",
+          "road": "T-700"
+        },
+        {
+          "name": "Vilanova de Prades",
+          "lat": 41.353,
+          "lng": 1.006,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "L'Espluga de Francolí",
+          "lat": 41.4,
+          "lng": 1.101,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Alcover",
+          "lat": 41.266,
+          "lng": 1.173,
+          "type": "waypoint",
+          "road": "TV-7004"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "C-240"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 160,
+        "gpt_duration_hours": 3.75,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.07,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted for realistic travel conditions."
+      }
+    },
+    {
+      "id": "ruta-087",
+      "number": 87,
+      "name": "Costa Daurada Sud: Perelló i Vandellòs",
+      "slug": "costa-daurada-sud-perello-i-vandellos",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Baix Ebre",
+      "summary": "Baixada per la costa fins a L'Ametlla de Mar i El Perelló, amb carreteres que s'enfilen entre penya-segats i cales amagades. Tornada per l'interior passant per Vandellòs i els turons del Baix Camp, combinant mar i muntanya en una sola jornada.",
+      "total_distance_km": 165,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1500,
+      "elevation_max_m": 520,
+      "roads_main": [
+        "N-340",
+        "T-310",
+        "TV-3022",
+        "C-44"
+      ],
+      "esmorzar": {
+        "town": "L'Ametlla de Mar",
+        "comarca": "Baix Ebre",
+        "lat": 40.881,
+        "lng": 0.8,
+        "specialty": "Esmorzar de mar: suquet de peix i pa amb anxoves de l'Ametlla",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "costa",
+        "penya-segat",
+        "mar",
+        "cales"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/40.881,0.8/40.877,0.708/41.033,0.6/41.025,0.841/41.001,0.936/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "N-340"
+        },
+        {
+          "name": "L'Ametlla de Mar",
+          "lat": 40.881,
+          "lng": 0.8,
+          "type": "esmorzar",
+          "road": "N-340"
+        },
+        {
+          "name": "El Perelló",
+          "lat": 40.877,
+          "lng": 0.708,
+          "type": "waypoint",
+          "road": "N-340"
+        },
+        {
+          "name": "Rasquera",
+          "lat": 41.033,
+          "lng": 0.6,
+          "type": "waypoint",
+          "road": "T-3022"
+        },
+        {
+          "name": "Vandellòs",
+          "lat": 41.025,
+          "lng": 0.841,
+          "type": "waypoint",
+          "road": "C-44"
+        },
+        {
+          "name": "Hospitalet de l'Infant",
+          "lat": 41.001,
+          "lng": 0.936,
+          "type": "waypoint",
+          "road": "C-44"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "N-340"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 170,
+        "gpt_duration_hours": 3.75,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.07,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely. The estimated distance and duration are slightly higher than claimed due to road conditions and potential traffic."
+      }
+    },
+    {
+      "id": "ruta-088",
+      "number": 88,
+      "name": "Conca de Barberà i Montblanc",
+      "slug": "conca-de-barbera-i-montblanc",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Conca de Barberà",
+      "summary": "Ruta cap a l'interior medieval de la Conca de Barberà: Montblanc amb les seves muralles, L'Espluga de Francolí i les Coves de l'Espluga, vinyes de la DO Conca de Barberà i carreteres ondulades entre turons suaus amb vistes a la Serra de Prades.",
+      "total_distance_km": 140,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1400,
+      "elevation_max_m": 680,
+      "roads_main": [
+        "C-14",
+        "C-240",
+        "C-233",
+        "TP-2031"
+      ],
+      "esmorzar": {
+        "town": "Montblanc",
+        "comarca": "Conca de Barberà",
+        "lat": 41.377,
+        "lng": 1.163,
+        "specialty": "Calçots amb romesco (en temporada) o coca de recapte amb embotits de la Conca",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "medieval",
+        "muralles",
+        "vi",
+        "cultura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.326,1.168/41.377,1.163/41.405,1.101/41.409,1.049/41.484,1.276/41.459,1.248/41.284,1.166/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "La Riba",
+          "lat": 41.326,
+          "lng": 1.168,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Montblanc",
+          "lat": 41.377,
+          "lng": 1.163,
+          "type": "esmorzar",
+          "road": "C-14"
+        },
+        {
+          "name": "Espluga de Francolí",
+          "lat": 41.405,
+          "lng": 1.101,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Vimbodí",
+          "lat": 41.409,
+          "lng": 1.049,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Rocafort de Queralt",
+          "lat": 41.484,
+          "lng": 1.276,
+          "type": "waypoint",
+          "road": "C-240"
+        },
+        {
+          "name": "Sarral",
+          "lat": 41.459,
+          "lng": 1.248,
+          "type": "waypoint",
+          "road": "TP-2031"
+        },
+        {
+          "name": "Alcover",
+          "lat": 41.284,
+          "lng": 1.166,
+          "type": "waypoint",
+          "road": "TP-2031"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "C-14"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 150,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.07,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes all key waypoints. The estimated distance and duration are slightly adjusted based on actual road conditions."
+      }
+    },
+    {
+      "id": "ruta-089",
+      "number": 89,
+      "name": "Serra del Montsant Integral",
+      "slug": "serra-del-montsant-integral",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Priorat",
+      "summary": "Volta completa a la serra del Montsant per les carreteres que envolten el massís: la T-710 i la T-702 amb revolts tancats entre parets verticals de roca. Pas per Ulldemolins, La Morera de Montsant i Escaladei, bressol del Priorat monàstic.",
+      "total_distance_km": 175,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2500,
+      "elevation_max_m": 920,
+      "roads_main": [
+        "T-710",
+        "T-702",
+        "C-242",
+        "C-233",
+        "TV-7011"
+      ],
+      "esmorzar": {
+        "town": "La Morera de Montsant",
+        "comarca": "Priorat",
+        "lat": 41.267,
+        "lng": 0.854,
+        "specialty": "Pa de pagès amb oli del Priorat, tomàquet i pernil ibèric",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "montsant",
+        "revolts",
+        "serra",
+        "priorat"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.202,1.204/41.267,0.854/41.265,0.905/41.315,0.848/41.342,0.92/41.3,0.988/41.283,1.071/41.309,1.157/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "T-710"
+        },
+        {
+          "name": "El Morell",
+          "lat": 41.202,
+          "lng": 1.204,
+          "type": "waypoint",
+          "road": "T-710"
+        },
+        {
+          "name": "La Morera de Montsant",
+          "lat": 41.267,
+          "lng": 0.854,
+          "type": "esmorzar",
+          "road": "T-702"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.265,
+          "lng": 0.905,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Ulldemolins",
+          "lat": 41.315,
+          "lng": 0.848,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Vilanova de Prades",
+          "lat": 41.342,
+          "lng": 0.92,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Prades",
+          "lat": 41.3,
+          "lng": 0.988,
+          "type": "waypoint",
+          "road": "TV-7011"
+        },
+        {
+          "name": "Mont-ral",
+          "lat": 41.283,
+          "lng": 1.071,
+          "type": "waypoint",
+          "road": "TV-7011"
+        },
+        {
+          "name": "La Riba",
+          "lat": 41.309,
+          "lng": 1.157,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "T-710"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 180,
+        "gpt_duration_hours": 4.2,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes scenic mountain areas. The estimated distance and duration are slightly adjusted based on road conditions and typical travel speeds."
+      }
+    },
+    {
+      "id": "ruta-090",
+      "number": 90,
+      "name": "Altafulla i la Costa de Llevant",
+      "slug": "altafulla-i-la-costa-de-llevant",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Tarragonès",
+      "summary": "Passeig costaner suau des de Tarragona fins a Altafulla i Torredembarra, amb el mar sempre a la vista. Carreteres planes i amples, ideals per a principiants que volen gaudir del Mediterrani sense complicacions tècniques.",
+      "total_distance_km": 50,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 150,
+      "elevation_max_m": 80,
+      "roads_main": [
+        "N-340",
+        "C-31",
+        "TV-2041"
+      ],
+      "esmorzar": {
+        "town": "Altafulla",
+        "comarca": "Tarragonès",
+        "lat": 41.142,
+        "lng": 1.377,
+        "specialty": "Esmorzar de platja amb pa amb tomàquet i anxoves del Mediterrani",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "mar",
+        "suau",
+        "mediterrani"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.134,1.307/41.142,1.377/41.146,1.396/41.172,1.454/41.188,1.475/41.142,1.377/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "N-340"
+        },
+        {
+          "name": "La Mora",
+          "lat": 41.134,
+          "lng": 1.307,
+          "type": "waypoint",
+          "road": "N-340"
+        },
+        {
+          "name": "Altafulla",
+          "lat": 41.142,
+          "lng": 1.377,
+          "type": "esmorzar",
+          "road": "N-340"
+        },
+        {
+          "name": "Torredembarra",
+          "lat": 41.146,
+          "lng": 1.396,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Creixell",
+          "lat": 41.172,
+          "lng": 1.454,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Roda de Berà",
+          "lat": 41.188,
+          "lng": 1.475,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Altafulla",
+          "lat": 41.142,
+          "lng": 1.377,
+          "type": "waypoint",
+          "road": "N-340"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "N-340"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 45,
+        "gpt_duration_hours": 1.2,
+        "distance_diff_pct": 0.1,
+        "duration_diff_pct": 0.2,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and matches the claimed distance and duration. The out-and-back nature of the route ensures a return to Tarragona."
+      }
+    },
+    {
+      "id": "ruta-091",
+      "number": 91,
+      "name": "Poblet i L'Espluga Curta",
+      "slug": "poblet-i-lespluga-curta",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Conca de Barberà",
+      "summary": "Escapada curta al Monestir de Poblet per la C-14, amb parada a L'Espluga de Francolí. Carretera ben senyalitzada amb pendent moderat i algunes corbes per anar agafant ritme. Un tast del Prepirineu sense sortir de la zona de confort.",
+      "total_distance_km": 90,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 600,
+      "elevation_max_m": 530,
+      "roads_main": [
+        "C-14",
+        "C-240",
+        "TP-2031"
+      ],
+      "esmorzar": {
+        "town": "L'Espluga de Francolí",
+        "comarca": "Conca de Barberà",
+        "lat": 41.393,
+        "lng": 1.098,
+        "specialty": "Embotits de la Conca amb pa de forn de llenya i vi blanc",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "monestir",
+        "patrimoni",
+        "suau",
+        "cultura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.286,1.249/41.375,1.161/41.393,1.098/41.377,1.055/41.393,1.098/41.334,1.183/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "N-240"
+        },
+        {
+          "name": "Valls",
+          "lat": 41.286,
+          "lng": 1.249,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Montblanc",
+          "lat": 41.375,
+          "lng": 1.161,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "L'Espluga de Francolí",
+          "lat": 41.393,
+          "lng": 1.098,
+          "type": "esmorzar",
+          "road": "C-14"
+        },
+        {
+          "name": "Poblet Monastery",
+          "lat": 41.377,
+          "lng": 1.055,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Espluga de Francolí Intersection",
+          "lat": 41.393,
+          "lng": 1.098,
+          "type": "waypoint",
+          "road": "C-240"
+        },
+        {
+          "name": "La Riba",
+          "lat": 41.334,
+          "lng": 1.183,
+          "type": "waypoint",
+          "road": "TP-2031"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "N-240"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 95,
+        "gpt_duration_hours": 2.5,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.25,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly higher than claimed due to road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-092",
+      "number": 92,
+      "name": "Reus, Siurana Aprendiz",
+      "slug": "reus-siurana-aprendiz",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Baix Camp",
+      "summary": "Versió curta i accessible de la pujada a Siurana: des de Tarragona fins a Reus i pujada suau cap a Cornudella de Montsant, sense arribar al tram final del cingle. Un primer contacte amb les corbes del Priorat sense les dificultats del tram extrem.",
+      "total_distance_km": 100,
+      "estimated_duration_hours": 2.5,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 700,
+      "elevation_max_m": 620,
+      "roads_main": [
+        "C-14",
+        "T-710",
+        "C-242"
+      ],
+      "esmorzar": {
+        "town": "Cornudella de Montsant",
+        "comarca": "Priorat",
+        "lat": 41.231,
+        "lng": 0.903,
+        "specialty": "Esmorzar amb coca de recapte i oli de les cooperatives del Priorat",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "priorat",
+        "corbes",
+        "suau",
+        "introducció"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.286,1.249/41.375,1.161/41.258,0.892/41.231,0.903/41.256,0.899/41.217,0.977/41.156,1.106/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Valls",
+          "lat": 41.286,
+          "lng": 1.249,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Montblanc",
+          "lat": 41.375,
+          "lng": 1.161,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Poboleda",
+          "lat": 41.258,
+          "lng": 0.892,
+          "type": "waypoint",
+          "road": "T-702"
+        },
+        {
+          "name": "Cornudella de Montsant",
+          "lat": 41.231,
+          "lng": 0.903,
+          "type": "esmorzar",
+          "road": "C-242"
+        },
+        {
+          "name": "Siurana",
+          "lat": 41.256,
+          "lng": 0.899,
+          "type": "viewpoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Alforja",
+          "lat": 41.217,
+          "lng": 0.977,
+          "type": "waypoint",
+          "road": "C-242"
+        },
+        {
+          "name": "Reus",
+          "lat": 41.156,
+          "lng": 1.106,
+          "type": "waypoint",
+          "road": "T-11"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "T-11"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 110,
+        "gpt_duration_hours": 2.5,
+        "distance_diff_pct": 0.1,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes a scenic detour to Siurana. The estimated distance and duration are consistent with the claimed values."
+      }
+    }
+  ]
+}

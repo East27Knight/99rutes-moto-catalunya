@@ -1,0 +1,130 @@
+{
+  "id": "ruta-044",
+  "number": 44,
+  "name": "Palafrugell i la Costa Brava Interior",
+  "slug": "palafrugell-i-la-costa-brava-interior",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Baix Empordà",
+  "summary": "Ruta que combina el Baix Empordà interior amb la costa. Des dels camps d'arròs de Pals fins als penya-segats de Calella de Palafrugell, passant per pobles medievals enlairats. La GI-614 i les carreteres locals ofereixen un ritme constant de corbes suaus entre masies i pinedes.",
+  "total_distance_km": 160,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1050,
+  "elevation_max_m": 280,
+  "roads_main": [
+    "C-66",
+    "GI-614",
+    "C-31",
+    "GI-664"
+  ],
+  "esmorzar": {
+    "town": "Palafrugell",
+    "comarca": "Baix Empordà",
+    "lat": 41.918,
+    "lng": 3.163,
+    "specialty": "Suquet de peix i pa amb tomàquet a un restaurant del centre",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "pobles",
+    "gastronomia",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.016,2.878/41.957,3.038/41.918,3.163/41.953,3.208/41.857,3.081/41.783,3.029/41.831,2.892/41.889,2.874/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Celrà",
+      "lat": 42.016,
+      "lng": 2.878,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "La Bisbal d'Empordà",
+      "lat": 41.957,
+      "lng": 3.038,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Palafrugell",
+      "lat": 41.918,
+      "lng": 3.163,
+      "type": "esmorzar",
+      "road": "C-31"
+    },
+    {
+      "name": "Begur",
+      "lat": 41.953,
+      "lng": 3.208,
+      "type": "waypoint",
+      "road": "GI-614"
+    },
+    {
+      "name": "Calonge",
+      "lat": 41.857,
+      "lng": 3.081,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Sant Feliu de Guíxols",
+      "lat": 41.783,
+      "lng": 3.029,
+      "type": "waypoint",
+      "road": "C-31"
+    },
+    {
+      "name": "Llagostera",
+      "lat": 41.831,
+      "lng": 2.892,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "Cassà de la Selva",
+      "lat": 41.889,
+      "lng": 2.874,
+      "type": "waypoint",
+      "road": "GI-664"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "GI-664"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 165,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely with minor deviations for scenic detours. The estimated distance and duration are slightly higher than claimed due to additional waypoints for scenic views."
+  }
+}

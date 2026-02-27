@@ -1,0 +1,124 @@
+{
+  "id": "ruta-009",
+  "number": 9,
+  "name": "Navarcles, Talamanca i el Congost de la Riera",
+  "slug": "navarcles-talamanca-congost",
+  "category": "pro",
+  "difficulty": 2,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Una ruta fluida que connecta els pobles del Bages per carreteres amb poc trànsit. Navarcles, Talamanca, Mura i Pont de Vilomara per la BV-1221 i BV-1229. Paisatges de conglomerats rocosos, rieres amagades i una sensació constant de descoberta a pocs quilòmetres de Manresa.",
+  "total_distance_km": 125,
+  "estimated_duration_hours": 3,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1200,
+  "elevation_max_m": 650,
+  "roads_main": [
+    "BV-1221",
+    "BV-1229",
+    "B-124",
+    "BP-1101",
+    "BV-1245"
+  ],
+  "esmorzar": {
+    "town": "Mura",
+    "comarca": "Bages",
+    "lat": 41.695,
+    "lng": 1.974,
+    "specialty": "Entrepà de pernil amb tomàquet i oli d'oliva del Bages",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "pobles",
+    "natura",
+    "tranquil",
+    "conglomerats"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.752,1.899/41.724,1.977/41.695,1.974/41.683,2.04/41.727,2.08/41.811,2.098/41.833,1.751/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Navarcles",
+      "lat": 41.752,
+      "lng": 1.899,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Talamanca",
+      "lat": 41.724,
+      "lng": 1.977,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Mura",
+      "lat": 41.695,
+      "lng": 1.974,
+      "type": "esmorzar",
+      "road": "BV-1229"
+    },
+    {
+      "name": "Sant Llorenç Savall",
+      "lat": 41.683,
+      "lng": 2.04,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Granera",
+      "lat": 41.727,
+      "lng": 2.08,
+      "type": "waypoint",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.811,
+      "lng": 2.098,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Súria",
+      "lat": 41.833,
+      "lng": 1.751,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "BV-1221"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 130,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.17,
+    "plausible": true,
+    "notes": "The route is plausible with a slight increase in estimated distance and duration due to the winding nature of the roads and potential traffic conditions."
+  }
+}

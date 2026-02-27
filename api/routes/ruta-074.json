@@ -1,0 +1,122 @@
+{
+  "id": "ruta-074",
+  "number": 74,
+  "name": "Congost de Mont-rebei i la Vall d'Àger",
+  "slug": "congost-de-mont-rebei-i-la-vall-dager",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Noguera",
+  "summary": "Aproximació al congost més impressionant de Catalunya per carreteres de serra que travessen la Vall d'Àger sota les parets del Montsec. Revolts tancats entre espadats calcaris, pas per Camarasa i el pantà, i un esmorzar al cor de la Noguera.",
+  "total_distance_km": 195,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2400,
+  "elevation_max_m": 1050,
+  "roads_main": [
+    "C-12",
+    "C-13",
+    "L-904",
+    "LV-9047"
+  ],
+  "esmorzar": {
+    "town": "Àger",
+    "comarca": "Noguera",
+    "lat": 42.001,
+    "lng": 0.77,
+    "specialty": "Esmorzar de pagès amb truita de patates i embotits de la Noguera",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "congost",
+    "montsec",
+    "pantà",
+    "natura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.79,0.81/41.88,0.88/42.001,0.77/42.05,0.75/42.166,0.894/42.1,1.05/41.895,1.05/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-12"
+    },
+    {
+      "name": "Balaguer",
+      "lat": 41.79,
+      "lng": 0.81,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Camarasa",
+      "lat": 41.88,
+      "lng": 0.88,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Àger",
+      "lat": 42.001,
+      "lng": 0.77,
+      "type": "esmorzar",
+      "road": "C-12"
+    },
+    {
+      "name": "Congost de Mont-rebei",
+      "lat": 42.05,
+      "lng": 0.75,
+      "type": "viewpoint",
+      "road": "L-904"
+    },
+    {
+      "name": "Tremp",
+      "lat": 42.166,
+      "lng": 0.894,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Isona",
+      "lat": 42.1,
+      "lng": 1.05,
+      "type": "waypoint",
+      "road": "LV-9047"
+    },
+    {
+      "name": "Artesa de Segre",
+      "lat": 41.895,
+      "lng": 1.05,
+      "type": "waypoint",
+      "road": "C-12"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-12"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 200,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads closely. The actual distance is slightly over the claimed distance due to road curves and detours."
+  }
+}

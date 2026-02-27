@@ -1,0 +1,123 @@
+{
+  "id": "ruta-012",
+  "number": 12,
+  "name": "El Castell de Cardona",
+  "slug": "castell-cardona",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Escapada directa de Manresa a Cardona per la C-55, una carretera còmoda i segura que segueix la vall del Cardener. El castell de Cardona, el Parador i la muntanya de sal fan d'aquesta ruta una excursió perfecta per a principiants amb molt a veure.",
+  "total_distance_km": 75,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 450,
+  "elevation_max_m": 680,
+  "roads_main": [
+    "C-55",
+    "C-1410a",
+    "BV-3003"
+  ],
+  "esmorzar": {
+    "town": "Cardona",
+    "comarca": "Bages",
+    "lat": 41.912,
+    "lng": 1.68,
+    "specialty": "Esmorzar amb embotits locals i coca de forner a la plaça del Mercat",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "castell",
+    "patrimoni",
+    "fàcil",
+    "sal"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.751,1.832/41.797,1.804/41.829,1.751/41.912,1.68/41.914,1.681/41.797,1.804/41.751,1.832/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Joan de Vilatorrada",
+      "lat": 41.751,
+      "lng": 1.832,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Callús",
+      "lat": 41.797,
+      "lng": 1.804,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Súria",
+      "lat": 41.829,
+      "lng": 1.751,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.912,
+      "lng": 1.68,
+      "type": "esmorzar",
+      "road": "C-1410a"
+    },
+    {
+      "name": "Cardona Castle",
+      "lat": 41.914,
+      "lng": 1.681,
+      "type": "viewpoint",
+      "road": "BV-3003"
+    },
+    {
+      "name": "Callús",
+      "lat": 41.797,
+      "lng": 1.804,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Joan de Vilatorrada",
+      "lat": 41.751,
+      "lng": 1.832,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-55"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 80,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.25,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, and the estimated distance and duration are slightly less than claimed, likely due to direct routing and current road conditions."
+  }
+}

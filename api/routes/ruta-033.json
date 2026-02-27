@@ -1,0 +1,132 @@
+{
+  "id": "ruta-033",
+  "number": 33,
+  "name": "Terrassa - Montseny pel Moianès",
+  "slug": "terrassa-montseny-moianes",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Sabadell / Terrassa",
+  "starting_point": {
+    "name": "Terrassa",
+    "comarca": "Vallès Occidental",
+    "lat": 41.563,
+    "lng": 2.008
+  },
+  "comarca_principal": "Osona",
+  "summary": "Gran ruta que connecta Terrassa amb el Montseny passant pel Moianès. De Terrassa a Castellterçol per la B-124, pujada fins a Moià i baixada al Montseny per carreteres solitàries. Fagedes, pins i corbes inacabables amb un desnivell acumulat notable. Per a motociclistes amb experiència.",
+  "total_distance_km": 220,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 2800,
+  "elevation_max_m": 1200,
+  "roads_main": [
+    "B-124",
+    "BV-1245",
+    "BV-5301",
+    "BV-5114",
+    "C-17",
+    "C-58"
+  ],
+  "esmorzar": {
+    "town": "Santa Fe del Montseny",
+    "comarca": "Vallès Oriental",
+    "lat": 41.776,
+    "lng": 2.449,
+    "specialty": "Esmorzar de muntanya amb botifarra del perol i patates al caliu al restaurant de Santa Fe",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "fageda",
+    "llarga-distància",
+    "corbes",
+    "exigent"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.563,2.008/41.616,2.086/41.684,2.042/41.812,2.098/41.783,2.358/41.776,2.449/41.686,2.491/41.608,2.288/41.548,2.107/41.563,2.008",
+  "waypoints": [
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "start",
+      "road": "B-124"
+    },
+    {
+      "name": "Castellar del Vallès",
+      "lat": 41.616,
+      "lng": 2.086,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Sant Llorenç Savall",
+      "lat": 41.684,
+      "lng": 2.042,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.812,
+      "lng": 2.098,
+      "type": "waypoint",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Collformic",
+      "lat": 41.783,
+      "lng": 2.358,
+      "type": "summit",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Santa Fe del Montseny",
+      "lat": 41.776,
+      "lng": 2.449,
+      "type": "esmorzar",
+      "road": "BV-5114"
+    },
+    {
+      "name": "Sant Celoni",
+      "lat": 41.686,
+      "lng": 2.491,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Granollers",
+      "lat": 41.608,
+      "lng": 2.288,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Sabadell",
+      "lat": 41.548,
+      "lng": 2.107,
+      "type": "waypoint",
+      "road": "C-58"
+    },
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "end",
+      "road": "C-58"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 4.75,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes key waypoints. Distance and duration are slightly adjusted based on road conditions and speed limits."
+  }
+}

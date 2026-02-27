@@ -1,0 +1,121 @@
+{
+  "id": "ruta-049",
+  "number": 49,
+  "name": "Empordanet: Pals, Peratallada i Ullastret",
+  "slug": "empordanet-pals-peratallada-i-ullastret",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Baix Empordà",
+  "summary": "Passeig tranquil pels pobles medievals més bonics de l'Empordà. Carreteres planes i amples entre camps d'arròs, masies i pobles de pedra com Pals, Peratallada i Ullastret. Ideal per gaudir sense pressa del paisatge empordanès i la seva gastronomia.",
+  "total_distance_km": 85,
+  "estimated_duration_hours": 2.5,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 250,
+  "elevation_max_m": 180,
+  "roads_main": [
+    "C-66",
+    "GI-643",
+    "GI-644",
+    "C-31"
+  ],
+  "esmorzar": {
+    "town": "Pals",
+    "comarca": "Baix Empordà",
+    "lat": 41.972,
+    "lng": 3.148,
+    "specialty": "Arròs de Pals amb botifarra i oli d'oliva de l'Empordà",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "medieval",
+    "empordà",
+    "gastronomia",
+    "tranquil"
+  ],
+  "waypoints": [
+    {
+      "name": "Girona (sortida)",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start"
+    },
+    {
+      "name": "La Bisbal d'Empordà",
+      "lat": 41.959,
+      "lng": 3.045,
+      "type": "waypoint"
+    },
+    {
+      "name": "Pals (nucli antic)",
+      "lat": 41.972,
+      "lng": 3.148,
+      "type": "esmorzar"
+    },
+    {
+      "name": "Peratallada",
+      "lat": 41.978,
+      "lng": 3.094,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Ullastret (jaciment ibèric)",
+      "lat": 41.966,
+      "lng": 3.071,
+      "type": "waypoint"
+    },
+    {
+      "name": "Girona (arribada)",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.959,3.045/41.972,3.148/41.978,3.094/41.966,3.071/41.983,2.824",
+  "description_long": "L'Empordanet és aquella Catalunya que sembla sortida d'un conte. Carreteres rectes entre camps d'arròs on la tramuntana pentina les espigues, masies de pedra amb teulades de quatre aigües, i pobles medievals que no han canviat gaire des del segle XII. Aquesta ruta és un poema lent, pensat per ser recitat amb calma sobre dues rodes, sense presses ni exigències tècniques.\n\nDes de Girona, la C-66 porta cap al cor del Baix Empordà amb eficàcia. A Pals, el nucli antic puja per un turó fins a la Torre de les Hores, des d'on les vistes s'estenen fins al mar i les Illes Medes. Els carrers empedrats, les arcades gòtiques i l'olor de pa acabat de fer conviden a deixar la moto aparcada i passejar. Però el millor encara ha de venir: la GI-644 cap a Peratallada és una carretera plana entre oliveres centenàries i camps que canvien de color amb les estacions. Peratallada és, sense exagerar, un dels pobles més bonics de la Mediterrània: les muralles intactes, els fossats secs, la plaça amb els seus restaurants i aquella llum empordanesa que ho daura tot.\n\nUllastret, amb el seu jaciment ibèric del segle VI aC, tanca el triangle medieval. Les restes dels indiketes, el poble ibèric que va habitar aquesta terra fa 2.500 anys, ens recorden que les bones carreteres sempre han connectat llocs que val la pena visitar. La tornada per la C-31 cap a Girona és suau com una cançó de bressol: camps oberts, cel ample i la satisfacció de saber que has tastat l'Empordà autèntic.",
+  "what_makes_it_special": "Tres dels pobles medievals més bonics de Catalunya connectats per carreteres planes i sense dificultat, amb la gastronomia empordanesa com a fil conductor — arròs de Pals, oli d'oliva i tramuntana.",
+  "roads_detail": [
+    {
+      "name": "C-66",
+      "segment": "Girona - La Bisbal d'Empordà",
+      "type": "carretera comarcal",
+      "notes": "Carretera àmplia i ràpida. Trànsit moderat. Bon punt de partida cap al Baix Empordà."
+    },
+    {
+      "name": "GI-643",
+      "segment": "La Bisbal d'Empordà - Pals",
+      "type": "carretera local",
+      "notes": "Carretera plana entre camps d'arròs. Poc trànsit. Vistes obertes cap al mar."
+    },
+    {
+      "name": "GI-644",
+      "segment": "Pals - Peratallada - Ullastret",
+      "type": "carretera local",
+      "notes": "El tram més bonic: carretera entre oliveres i masies. Sense dificultat tècnica."
+    },
+    {
+      "name": "C-31 / C-66",
+      "segment": "Ullastret - Girona",
+      "type": "carretera comarcal",
+      "notes": "Tornada directa per carretera àmplia. Pas per La Bisbal d'Empordà, capital de la ceràmica."
+    }
+  ],
+  "warnings": [
+    "La tramuntana pot bufar amb molta força a l'Empordà, especialment a les zones obertes entre camps. Vigila l'estabilitat de la moto.",
+    "A l'estiu, el trànsit turístic als pobles pot ser intens. Evita les hores centrals del dia.",
+    "Atenció als tractors i vehicles agrícoles a les carreteres secundàries entre pobles."
+  ],
+  "fuel_note": "Gasolineres a Girona i La Bisbal d'Empordà. Amb 85 km totals, no cal preocupar-se pel combustible."
+}

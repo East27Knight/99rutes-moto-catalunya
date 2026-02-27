@@ -1,0 +1,118 @@
+{
+  "id": "ruta-003",
+  "number": 3,
+  "name": "La Ruta de la Sal: Cardona i Súria",
+  "slug": "ruta-de-la-sal-cardona-suria",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Un recorregut pel patrimoni miner del Bages que connecta Súria, Cardona i les seves impressionants mines de sal. Carreteres secundàries amb poc trànsit que serpentegen entre camps de cereals i turons, amb el castell de Cardona dominant l'horitzó. Tornada pel Cardener amb trams ràpids.",
+  "total_distance_km": 145,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1400,
+  "elevation_max_m": 750,
+  "roads_main": [
+    "C-55",
+    "C-1410a",
+    "B-420",
+    "BV-3003",
+    "C-25"
+  ],
+  "esmorzar": {
+    "town": "Cardona",
+    "comarca": "Bages",
+    "lat": 41.912,
+    "lng": 1.68,
+    "specialty": "Esmorzar de forquilla amb vedella de Cardona i trinxat",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "patrimoni",
+    "castell",
+    "mines",
+    "paisatge-rural"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.833,1.753/41.822,1.774/41.912,1.68/41.933,1.632/41.822,1.694/41.824,1.895/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-55"
+    },
+    {
+      "name": "Súria",
+      "lat": 41.833,
+      "lng": 1.753,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Callús",
+      "lat": 41.822,
+      "lng": 1.774,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.912,
+      "lng": 1.68,
+      "type": "esmorzar",
+      "road": "C-1410a"
+    },
+    {
+      "name": "Navès",
+      "lat": 41.933,
+      "lng": 1.632,
+      "type": "waypoint",
+      "road": "B-420"
+    },
+    {
+      "name": "Sant Mateu de Bages",
+      "lat": 41.822,
+      "lng": 1.694,
+      "type": "waypoint",
+      "road": "BV-3003"
+    },
+    {
+      "name": "Sallent",
+      "lat": 41.824,
+      "lng": 1.895,
+      "type": "waypoint",
+      "road": "C-25"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "C-25"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 150,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and includes the breakfast stop in Cardona. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+  }
+}

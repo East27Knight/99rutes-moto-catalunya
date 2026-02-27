@@ -1,0 +1,1400 @@
+{
+  "hub": "Lleida / Segrià",
+  "slug": "lleida-segrià",
+  "total": 12,
+  "pro": 8,
+  "aprendiz": 4,
+  "routes": [
+    {
+      "id": "ruta-072",
+      "number": 72,
+      "name": "La Bonaigua i el Sostre del Pirineu",
+      "slug": "la-bonaigua-i-el-sostre-del-pirineu",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Pallars Sobirà",
+      "summary": "La gran travessa pirinenca per excel·lència: des de Lleida fins al Port de la Bonaigua (2.072 m) per la C-13, amb revolts infinits que tallen la respiració i vistes que abasten des del Montsec fins a les crestes araneses. Tornada per la N-230 amb el contrapunt del Congost de Collegats.",
+      "total_distance_km": 245,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 4.0,
+      "elevation_gain_m": 3200,
+      "elevation_max_m": 2072,
+      "roads_main": [
+        "C-13",
+        "C-28",
+        "N-230",
+        "C-147"
+      ],
+      "esmorzar": {
+        "town": "Sort",
+        "comarca": "Pallars Sobirà",
+        "lat": 42.413,
+        "lng": 1.13,
+        "specialty": "Esmorzar de forquilla amb embotits del Pirineu i formatge de pastor",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "port",
+        "alta-muntanya",
+        "revolts",
+        "paisatge"
+      ],
+      "waypoints": [
+        {
+          "name": "Lleida (sortida)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start"
+        },
+        {
+          "name": "Congost de Collegats",
+          "lat": 42.314,
+          "lng": 0.949,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Sort",
+          "lat": 42.413,
+          "lng": 1.13,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Port de la Bonaigua (2.072 m)",
+          "lat": 42.669,
+          "lng": 0.988,
+          "type": "summit"
+        },
+        {
+          "name": "Vielha (Vall d'Aran)",
+          "lat": 42.702,
+          "lng": 0.796,
+          "type": "waypoint"
+        },
+        {
+          "name": "El Pont de Suert",
+          "lat": 42.401,
+          "lng": 0.743,
+          "type": "waypoint"
+        },
+        {
+          "name": "Lleida (arribada)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/42.314,0.949/42.413,1.13/42.669,0.988/42.702,0.796/42.401,0.743/41.617,0.62"
+    },
+    {
+      "id": "ruta-073",
+      "number": 73,
+      "name": "Val d'Aran pel Túnel de Vielha",
+      "slug": "val-daran-pel-tunel-de-vielha",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Val d'Aran",
+      "summary": "Ruta llarga cap a la vall més atlàntica de Catalunya: la N-230 remunta la Ribagorça fins al Túnel de Vielha i s'obre a la Val d'Aran amb els seus pobles de teulades de pissarra. Passejada fins a Bossòst i tornada pel mateix eix amb llum diferent.",
+      "total_distance_km": 240,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2600,
+      "elevation_max_m": 1590,
+      "roads_main": [
+        "N-230",
+        "C-28",
+        "N-141"
+      ],
+      "esmorzar": {
+        "town": "Vielha",
+        "comarca": "Val d'Aran",
+        "lat": 42.702,
+        "lng": 0.797,
+        "specialty": "Olla aranesa i pa de blat amb mantega de muntanya",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "val-daran",
+        "túnel",
+        "cultura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.798,0.583/42.408,0.742/42.702,0.797/42.645,0.794/42.81,0.726/42.778,0.714/42.702,0.797/42.408,0.742/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "N-230"
+        },
+        {
+          "name": "Alfarràs",
+          "lat": 41.798,
+          "lng": 0.583,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Pont de Suert",
+          "lat": 42.408,
+          "lng": 0.742,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Vielha",
+          "lat": 42.702,
+          "lng": 0.797,
+          "type": "esmorzar",
+          "road": "N-230"
+        },
+        {
+          "name": "Vielha Tunnel",
+          "lat": 42.645,
+          "lng": 0.794,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Les",
+          "lat": 42.81,
+          "lng": 0.726,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Bossòst",
+          "lat": 42.778,
+          "lng": 0.714,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Vielha",
+          "lat": 42.702,
+          "lng": 0.797,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Pont de Suert",
+          "lat": 42.408,
+          "lng": 0.742,
+          "type": "waypoint",
+          "road": "N-230"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "N-230"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 240,
+        "gpt_duration_hours": 5.0,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the N-230 closely and includes a stop in Vielha for breakfast. The estimated distance and duration match the claimed values, suggesting the route's plausibility."
+      }
+    },
+    {
+      "id": "ruta-074",
+      "number": 74,
+      "name": "Congost de Mont-rebei i la Vall d'Àger",
+      "slug": "congost-de-mont-rebei-i-la-vall-dager",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Noguera",
+      "summary": "Aproximació al congost més impressionant de Catalunya per carreteres de serra que travessen la Vall d'Àger sota les parets del Montsec. Revolts tancats entre espadats calcaris, pas per Camarasa i el pantà, i un esmorzar al cor de la Noguera.",
+      "total_distance_km": 195,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2400,
+      "elevation_max_m": 1050,
+      "roads_main": [
+        "C-12",
+        "C-13",
+        "L-904",
+        "LV-9047"
+      ],
+      "esmorzar": {
+        "town": "Àger",
+        "comarca": "Noguera",
+        "lat": 42.001,
+        "lng": 0.77,
+        "specialty": "Esmorzar de pagès amb truita de patates i embotits de la Noguera",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "congost",
+        "montsec",
+        "pantà",
+        "natura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.79,0.81/41.88,0.88/42.001,0.77/42.05,0.75/42.166,0.894/42.1,1.05/41.895,1.05/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Balaguer",
+          "lat": 41.79,
+          "lng": 0.81,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Camarasa",
+          "lat": 41.88,
+          "lng": 0.88,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Àger",
+          "lat": 42.001,
+          "lng": 0.77,
+          "type": "esmorzar",
+          "road": "C-12"
+        },
+        {
+          "name": "Congost de Mont-rebei",
+          "lat": 42.05,
+          "lng": 0.75,
+          "type": "viewpoint",
+          "road": "L-904"
+        },
+        {
+          "name": "Tremp",
+          "lat": 42.166,
+          "lng": 0.894,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Isona",
+          "lat": 42.1,
+          "lng": 1.05,
+          "type": "waypoint",
+          "road": "LV-9047"
+        },
+        {
+          "name": "Artesa de Segre",
+          "lat": 41.895,
+          "lng": 1.05,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 200,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The actual distance is slightly over the claimed distance due to road curves and detours."
+      }
+    },
+    {
+      "id": "ruta-075",
+      "number": 75,
+      "name": "Tremp i el Pantà de Sant Antoni",
+      "slug": "tremp-i-el-panta-de-sant-antoni",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Pallars Jussà",
+      "summary": "La C-13 s'enfila cap a Tremp passant pel Congost de Terradets i la Pobla de Segur, amb el Pantà de Sant Antoni com a mirall turquesa entre muntanyes. Carreteres netes, corbes amples i l'essència del Prepirineu lleidatà.",
+      "total_distance_km": 210,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2100,
+      "elevation_max_m": 920,
+      "roads_main": [
+        "C-13",
+        "C-1412b",
+        "L-511",
+        "N-260"
+      ],
+      "esmorzar": {
+        "town": "Tremp",
+        "comarca": "Pallars Jussà",
+        "lat": 42.167,
+        "lng": 0.895,
+        "specialty": "Esmorzar de forquilla amb girella pallaresa i formatge de tupí",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "prepirineu",
+        "pantà",
+        "congost",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.791,0.809/41.879,0.883/42.167,0.895/42.086,1.071/42.145,1.316/42.366,1.465/42.357,1.463/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-13"
+        },
+        {
+          "name": "Balaguer",
+          "lat": 41.791,
+          "lng": 0.809,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Camarasa",
+          "lat": 41.879,
+          "lng": 0.883,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Tremp",
+          "lat": 42.167,
+          "lng": 0.895,
+          "type": "esmorzar",
+          "road": "C-13"
+        },
+        {
+          "name": "Isona",
+          "lat": 42.086,
+          "lng": 1.071,
+          "type": "waypoint",
+          "road": "C-1412b"
+        },
+        {
+          "name": "Coll de Nargó",
+          "lat": 42.145,
+          "lng": 1.316,
+          "type": "waypoint",
+          "road": "L-511"
+        },
+        {
+          "name": "Adrall",
+          "lat": 42.366,
+          "lng": 1.465,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "La Seu d'Urgell",
+          "lat": 42.357,
+          "lng": 1.463,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-13"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes notable towns and intersections. The estimated distance and duration are consistent with the claimed values."
+      }
+    },
+    {
+      "id": "ruta-076",
+      "number": 76,
+      "name": "El Montsec de Rúbies per la C-12",
+      "slug": "el-montsec-de-rubies-per-la-c12",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Noguera",
+      "summary": "Circuit pel cor del Montsec seguint la C-12 i pujant als miradors que dominen el Pantà de Camarasa. Carreteres de serra amb pendents pronunciats i revolts que demanen atenció, entre boscos de roure i espadats de roca calcària.",
+      "total_distance_km": 185,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2300,
+      "elevation_max_m": 1350,
+      "roads_main": [
+        "C-12",
+        "C-13",
+        "LV-9041",
+        "L-904"
+      ],
+      "esmorzar": {
+        "town": "Camarasa",
+        "comarca": "Noguera",
+        "lat": 41.873,
+        "lng": 0.878,
+        "specialty": "Esmorzar amb mel del Montsec, pa de pagès i formatge de cabra",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "montsec",
+        "pantà",
+        "serra",
+        "natura"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.791,0.809/41.873,0.878/41.883,0.85/41.981,0.749/42.166,0.894/42.067,1.005/42.094,1.073/41.895,1.058/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Balaguer",
+          "lat": 41.791,
+          "lng": 0.809,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Camarasa",
+          "lat": 41.873,
+          "lng": 0.878,
+          "type": "esmorzar",
+          "road": "C-13"
+        },
+        {
+          "name": "Sant Llorenç de Montgai",
+          "lat": 41.883,
+          "lng": 0.85,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Àger",
+          "lat": 41.981,
+          "lng": 0.749,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tremp",
+          "lat": 42.166,
+          "lng": 0.894,
+          "type": "waypoint",
+          "road": "C-13"
+        },
+        {
+          "name": "Coll de Comiols",
+          "lat": 42.067,
+          "lng": 1.005,
+          "type": "summit",
+          "road": "LV-9041"
+        },
+        {
+          "name": "Isona",
+          "lat": 42.094,
+          "lng": 1.073,
+          "type": "waypoint",
+          "road": "L-904"
+        },
+        {
+          "name": "Artesa de Segre",
+          "lat": 41.895,
+          "lng": 1.058,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 195,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.12,
+        "plausible": true,
+        "notes": "The route is plausible and follows the main roads specified. The estimated distance and duration are slightly higher due to the winding nature of the roads and elevation changes."
+      }
+    },
+    {
+      "id": "ruta-077",
+      "number": 77,
+      "name": "Port del Cantó i la Seu d'Urgell",
+      "slug": "port-del-canto-i-la-seu-durgell",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Alt Urgell",
+      "summary": "Ascens de la C-14 fins al Port del Cantó (1.725 m) amb una successió de revolts que fan somriure, i baixada cap a la Seu d'Urgell amb els Pirineus axials com a teló de fons. Tornada per Organyà i el Congost de Tres Ponts.",
+      "total_distance_km": 230,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2800,
+      "elevation_max_m": 1725,
+      "roads_main": [
+        "C-14",
+        "N-260",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "La Seu d'Urgell",
+        "comarca": "Alt Urgell",
+        "lat": 42.358,
+        "lng": 1.457,
+        "specialty": "Formatge de la Seu d'Urgell amb mel i nous, pa de coca",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "port",
+        "revolts",
+        "alt-urgell"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.917,1.183/42.158,1.321/42.35,1.383/42.358,1.457/42.217,1.317/41.9,1.05/41.791,0.809/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.917,
+          "lng": 1.183,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Coll de Nargó",
+          "lat": 42.158,
+          "lng": 1.321,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Port del Cantó",
+          "lat": 42.35,
+          "lng": 1.383,
+          "type": "summit",
+          "road": "N-260"
+        },
+        {
+          "name": "La Seu d'Urgell",
+          "lat": 42.358,
+          "lng": 1.457,
+          "type": "esmorzar",
+          "road": "N-260"
+        },
+        {
+          "name": "Organyà",
+          "lat": 42.217,
+          "lng": 1.317,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Artesa de Segre",
+          "lat": 41.9,
+          "lng": 1.05,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Balaguer",
+          "lat": 41.791,
+          "lng": 0.809,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-14"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 220,
+        "gpt_duration_hours": 4.8,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.04,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly less than claimed but align with typical travel times for this region."
+      }
+    },
+    {
+      "id": "ruta-078",
+      "number": 78,
+      "name": "Cerdanya pel Coll de Nargó",
+      "slug": "cerdanya-pel-coll-de-nargo",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Cerdanya",
+      "summary": "Gran volta per assolir la Cerdanya des de Lleida: la C-14 fins a Coll de Nargó, el Pont de Bar i l'entrada a la plana cerdana amb el Cadí al nord. Puigcerdà, Bellver i tornada per la N-260, el Túnel del Cadí i Solsona. Jornada completa.",
+      "total_distance_km": 250,
+      "estimated_duration_hours": 5.0,
+      "riding_time_hours": 4.0,
+      "elevation_gain_m": 3400,
+      "elevation_max_m": 1800,
+      "roads_main": [
+        "C-14",
+        "N-260",
+        "C-16",
+        "C-26"
+      ],
+      "esmorzar": {
+        "town": "Puigcerdà",
+        "comarca": "Cerdanya",
+        "lat": 42.431,
+        "lng": 1.928,
+        "specialty": "Trinxat de la Cerdanya i embotits del país",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "pirineu",
+        "cerdanya",
+        "port",
+        "gran-volta"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.916,1.184/42.152,1.317/42.357,1.463/42.431,1.928/42.104,1.846/41.993,1.518/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.916,
+          "lng": 1.184,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Coll de Nargó",
+          "lat": 42.152,
+          "lng": 1.317,
+          "type": "summit",
+          "road": "C-14"
+        },
+        {
+          "name": "La Seu d'Urgell",
+          "lat": 42.357,
+          "lng": 1.463,
+          "type": "waypoint",
+          "road": "N-260"
+        },
+        {
+          "name": "Puigcerdà",
+          "lat": 42.431,
+          "lng": 1.928,
+          "type": "esmorzar",
+          "road": "N-260"
+        },
+        {
+          "name": "Berga",
+          "lat": 42.104,
+          "lng": 1.846,
+          "type": "waypoint",
+          "road": "C-16"
+        },
+        {
+          "name": "Solsona",
+          "lat": 41.993,
+          "lng": 1.518,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-26"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 230,
+        "gpt_duration_hours": 4.8,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.04,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on actual road conditions and typical driving speeds."
+      }
+    },
+    {
+      "id": "ruta-079",
+      "number": 79,
+      "name": "La Segarra i Solsona",
+      "slug": "la-segarra-i-solsona",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Segarra",
+      "summary": "Ruta per la Catalunya interior que puja cap a Cervera per la C-14 i s'enfila fins a Solsona i Cardona amb el seu castell de sal. Paisatge de secà amb camps de cereal, pobles medievals i carreteres tranquil·les i ben asfaltades.",
+      "total_distance_km": 200,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 860,
+      "roads_main": [
+        "C-14",
+        "C-142",
+        "C-26",
+        "C-149"
+      ],
+      "esmorzar": {
+        "town": "Solsona",
+        "comarca": "Solsonès",
+        "lat": 41.994,
+        "lng": 1.517,
+        "specialty": "Esmorzar amb trumfos del Solsonès, botifarra i coca de recapte",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "interior",
+        "medieval",
+        "cultura",
+        "secà"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.916,1.184/41.994,1.517/42.134,1.583/42.103,1.55/41.914,1.681/41.674,1.272/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.916,
+          "lng": 1.184,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Solsona",
+          "lat": 41.994,
+          "lng": 1.517,
+          "type": "esmorzar",
+          "road": "C-26"
+        },
+        {
+          "name": "Sant Llorenç de Morunys",
+          "lat": 42.134,
+          "lng": 1.583,
+          "type": "waypoint",
+          "road": "C-142"
+        },
+        {
+          "name": "Coll de Jou",
+          "lat": 42.103,
+          "lng": 1.55,
+          "type": "summit",
+          "road": "C-149"
+        },
+        {
+          "name": "Cardona",
+          "lat": 41.914,
+          "lng": 1.681,
+          "type": "waypoint",
+          "road": "C-26"
+        },
+        {
+          "name": "Cervera",
+          "lat": 41.674,
+          "lng": 1.272,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-14"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.12,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes a scenic detour through Sant Llorenç de Morunys. The estimated distance is slightly longer than claimed, but the duration is consistent with a leisurely motorcycle ride."
+      }
+    },
+    {
+      "id": "ruta-080",
+      "number": 80,
+      "name": "Les Garrigues i l'Oli d'Oliva",
+      "slug": "les-garrigues-i-loli-doliva",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Garrigues",
+      "summary": "Circuit suau per les terres de l'oli: camps d'oliveres fins a l'horitzó, pobles de pedra com Borges Blanques i les Borges del Camp, i carreteres planes i amples ideals per a qui comença. L'esmorzar amb pa amb oli dels Arbequina és obligat.",
+      "total_distance_km": 85,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 350,
+      "elevation_max_m": 480,
+      "roads_main": [
+        "L-202",
+        "C-233",
+        "L-501"
+      ],
+      "esmorzar": {
+        "town": "Les Borges Blanques",
+        "comarca": "Garrigues",
+        "lat": 41.513,
+        "lng": 0.859,
+        "specialty": "Pa torrat amb oli d'oliva arbequina i pernil",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "garrigues",
+        "gastronomia",
+        "oli",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.548,0.822/41.513,0.859/41.527,0.915/41.558,1.011/41.448,0.976/41.431,0.895/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "N-240"
+        },
+        {
+          "name": "Juneda",
+          "lat": 41.548,
+          "lng": 0.822,
+          "type": "waypoint",
+          "road": "L-202"
+        },
+        {
+          "name": "Les Borges Blanques",
+          "lat": 41.513,
+          "lng": 0.859,
+          "type": "esmorzar",
+          "road": "C-233"
+        },
+        {
+          "name": "Arbeca",
+          "lat": 41.527,
+          "lng": 0.915,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Belianes",
+          "lat": 41.558,
+          "lng": 1.011,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "Vinaixa",
+          "lat": 41.448,
+          "lng": 0.976,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "L'Albi",
+          "lat": 41.431,
+          "lng": 0.895,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "N-240"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 90,
+        "gpt_duration_hours": 2.2,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and the estimated distance and duration are slightly higher than claimed, but plausible for a leisurely motorcycle ride."
+      }
+    },
+    {
+      "id": "ruta-081",
+      "number": 81,
+      "name": "Pobles de l'Urgell",
+      "slug": "pobles-de-lurgell",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Urgell",
+      "summary": "Passeig tranquil pels pobles de l'Urgell: Tàrrega amb el seu teatre, Agramunt i el seu torró famós, i Bellpuig amb l'elegància del seu convent. Carreteres rectes entre camps de blat i fruiters, perfectes per agafar confiança amb la moto.",
+      "total_distance_km": 80,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 280,
+      "elevation_max_m": 430,
+      "roads_main": [
+        "C-14",
+        "L-303",
+        "C-53"
+      ],
+      "esmorzar": {
+        "town": "Agramunt",
+        "comarca": "Urgell",
+        "lat": 41.789,
+        "lng": 1.1,
+        "specialty": "Torró d'Agramunt i xocolata desfeta amb coca de forner",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "urgell",
+        "pobles",
+        "cultura",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.789,1.1/41.783,1.071/41.873,1.051/41.916,1.186/41.647,1.139/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Agramunt",
+          "lat": 41.789,
+          "lng": 1.1,
+          "type": "esmorzar",
+          "road": "L-303"
+        },
+        {
+          "name": "Preixens",
+          "lat": 41.783,
+          "lng": 1.071,
+          "type": "waypoint",
+          "road": "L-303"
+        },
+        {
+          "name": "Artesa de Segre",
+          "lat": 41.873,
+          "lng": 1.051,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.916,
+          "lng": 1.186,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-53"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-53"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 85,
+        "gpt_duration_hours": 1.8,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and is plausible as a circular route. The estimated distance and duration are slightly less than claimed, likely due to more direct routing."
+      }
+    },
+    {
+      "id": "ruta-082",
+      "number": 82,
+      "name": "Raimat i els Vinyers del Segrià",
+      "slug": "raimat-i-els-vinyers-del-segria",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Segrià",
+      "summary": "Ruta curta i accessible pels voltants de Lleida: Raimat amb el seu castell i vinyes, Alcarràs entre fruiters, i tornada per la ribera del Segre. Ideal per a la primera sortida en moto, amb rectes llargues i alguna corba suau per practicar.",
+      "total_distance_km": 55,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 180,
+      "elevation_max_m": 310,
+      "roads_main": [
+        "L-700",
+        "L-504"
+      ],
+      "esmorzar": {
+        "town": "Raimat",
+        "comarca": "Segrià",
+        "lat": 41.658,
+        "lng": 0.478,
+        "specialty": "Esmorzar entre vinyes amb embotits i vi blanc de Raimat",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "vinyes",
+        "segrià",
+        "suau",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.635,0.58/41.658,0.478/41.665,0.45/41.691,0.49/41.675,0.53/41.65,0.57/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "L-700"
+        },
+        {
+          "name": "Intersection L-700 & L-702",
+          "lat": 41.635,
+          "lng": 0.58,
+          "type": "waypoint",
+          "road": "L-700"
+        },
+        {
+          "name": "Raimat",
+          "lat": 41.658,
+          "lng": 0.478,
+          "type": "esmorzar",
+          "road": "L-700"
+        },
+        {
+          "name": "Intersection L-700 & L-504",
+          "lat": 41.665,
+          "lng": 0.45,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Vilanova de Segrià",
+          "lat": 41.691,
+          "lng": 0.49,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Intersection L-504 & L-702",
+          "lat": 41.675,
+          "lng": 0.53,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Intersection L-702 & L-700",
+          "lat": 41.65,
+          "lng": 0.57,
+          "type": "waypoint",
+          "road": "L-700"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "L-700"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and matches the claimed distance and duration."
+      }
+    },
+    {
+      "id": "ruta-083",
+      "number": 83,
+      "name": "Balaguer i la Noguera Suau",
+      "slug": "balaguer-i-la-noguera-suau",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Noguera",
+      "summary": "Pujada suau fins a Balaguer seguint el riu Segre, amb el castell i el centre medieval com a recompensa. Extensió fins a Os de Balaguer i tornada pel pla, amb algunes corbes que comencen a dibuixar el Prepirineu sense demanar gaire compromís.",
+      "total_distance_km": 95,
+      "estimated_duration_hours": 2.5,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 450,
+      "elevation_max_m": 540,
+      "roads_main": [
+        "C-12",
+        "C-13",
+        "L-904"
+      ],
+      "esmorzar": {
+        "town": "Balaguer",
+        "comarca": "Noguera",
+        "lat": 41.79,
+        "lng": 0.805,
+        "specialty": "Esmorzar de forquilla al centre de Balaguer amb botifarra a la brasa",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "noguera",
+        "medieval",
+        "riu",
+        "suau"
+      ],
+      "waypoints": [
+        {
+          "name": "Lleida (sortida)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start"
+        },
+        {
+          "name": "Térmens",
+          "lat": 41.718,
+          "lng": 0.724,
+          "type": "waypoint"
+        },
+        {
+          "name": "Balaguer (centre medieval)",
+          "lat": 41.79,
+          "lng": 0.805,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Castell de Balaguer (mirador)",
+          "lat": 41.792,
+          "lng": 0.808,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Os de Balaguer",
+          "lat": 41.867,
+          "lng": 0.729,
+          "type": "waypoint"
+        },
+        {
+          "name": "Lleida (arribada)",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.718,0.724/41.79,0.805/41.792,0.808/41.867,0.729/41.617,0.62"
+    }
+  ]
+}

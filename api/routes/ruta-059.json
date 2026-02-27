@@ -1,0 +1,129 @@
+{
+  "id": "ruta-059",
+  "number": 59,
+  "name": "Coll de Bracons i la Garrotxa",
+  "slug": "coll-de-bracons-i-la-garrotxa",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "La Garrotxa",
+  "summary": "El Coll de Bracons per la C-152 és un dels passos de muntanya més espectaculars de la Catalunya interior. Des de la plana de Vic s'enfila amb revolts tancats fins a la Vall d'en Bas, porta d'entrada a la Garrotxa volcànica. El descens cap a Olot és un regal de corbes entre valls verdes.",
+  "total_distance_km": 165,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1700,
+  "elevation_max_m": 1120,
+  "roads_main": [
+    "C-152",
+    "C-63",
+    "BV-5224"
+  ],
+  "esmorzar": {
+    "town": "La Vall d'en Bas",
+    "comarca": "La Garrotxa",
+    "lat": 42.119,
+    "lng": 2.456,
+    "specialty": "Fesols de Santa Pau amb cansalada viada i pa de pagès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "coll",
+    "corbes",
+    "volcans",
+    "muntanya"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.946,2.34/42.1,2.372/42.127,2.443/42.119,2.456/42.116,2.462/42.143,2.47/42.183,2.488/42.0,2.283/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "C-152"
+    },
+    {
+      "name": "Tavèrnoles",
+      "lat": 41.946,
+      "lng": 2.34,
+      "type": "waypoint",
+      "road": "BV-5213"
+    },
+    {
+      "name": "Coll de Bracons",
+      "lat": 42.1,
+      "lng": 2.372,
+      "type": "summit",
+      "road": "BV-5224"
+    },
+    {
+      "name": "Joanetes",
+      "lat": 42.127,
+      "lng": 2.443,
+      "type": "waypoint",
+      "road": "BV-5224"
+    },
+    {
+      "name": "La Vall d'en Bas",
+      "lat": 42.119,
+      "lng": 2.456,
+      "type": "esmorzar",
+      "road": "C-63"
+    },
+    {
+      "name": "Sant Esteve d'en Bas",
+      "lat": 42.116,
+      "lng": 2.462,
+      "type": "waypoint",
+      "road": "C-63"
+    },
+    {
+      "name": "Les Preses",
+      "lat": 42.143,
+      "lng": 2.47,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.183,
+      "lng": 2.488,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Manlleu",
+      "lat": 42.0,
+      "lng": 2.283,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "C-152"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 175,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads with scenic views, including the Coll de Bracons summit. The estimated distance and duration are slightly adjusted for realistic travel conditions."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ruta-057",
+  "number": 57,
+  "name": "De Vic a Ripoll pel Ripollès",
+  "slug": "de-vic-a-ripoll-pel-ripolles",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Ripollès",
+  "summary": "Travessa cap al nord seguint la C-17 fins a Ripoll, bressol de Catalunya, i continuant per la N-152 cap al Coll de Toses. Carreteres amples amb revolts progressius que guanyen alçada cap als Pirineus. El monestir de Ripoll i el paisatge de muntanya fan d'aquesta ruta un clàssic.",
+  "total_distance_km": 180,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1900,
+  "elevation_max_m": 1450,
+  "roads_main": [
+    "C-17",
+    "N-152",
+    "C-26",
+    "BV-5224"
+  ],
+  "esmorzar": {
+    "town": "Ripoll",
+    "comarca": "Ripollès",
+    "lat": 42.201,
+    "lng": 2.19,
+    "specialty": "Esmorzar de forquilla ripollès amb trinxat de la Cerdanya i botifarra",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "estiu"
+  ],
+  "tags": [
+    "pirineus",
+    "cultura",
+    "muntanya",
+    "monestir"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.847,2.227/42.108,2.225/42.201,2.19/42.15,2.168/42.157,2.048/42.201,2.19/42.108,2.225/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "C-17"
+    },
+    {
+      "name": "Tona",
+      "lat": 41.847,
+      "lng": 2.227,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Sant Quirze de Besora",
+      "lat": 42.108,
+      "lng": 2.225,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Ripoll",
+      "lat": 42.201,
+      "lng": 2.19,
+      "type": "esmorzar",
+      "road": "N-152"
+    },
+    {
+      "name": "Les Llosses",
+      "lat": 42.15,
+      "lng": 2.168,
+      "type": "waypoint",
+      "road": "C-26"
+    },
+    {
+      "name": "Sant Jaume de Frontanyà",
+      "lat": 42.157,
+      "lng": 2.048,
+      "type": "waypoint",
+      "road": "BV-5224"
+    },
+    {
+      "name": "Ripoll",
+      "lat": 42.201,
+      "lng": 2.19,
+      "type": "waypoint",
+      "road": "N-152"
+    },
+    {
+      "name": "Sant Quirze de Besora",
+      "lat": 42.108,
+      "lng": 2.225,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "C-17"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 185,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and typical speeds."
+  }
+}

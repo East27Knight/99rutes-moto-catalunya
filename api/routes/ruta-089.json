@@ -1,0 +1,130 @@
+{
+  "id": "ruta-089",
+  "number": 89,
+  "name": "Serra del Montsant Integral",
+  "slug": "serra-del-montsant-integral",
+  "category": "pro",
+  "difficulty": 5,
+  "starting_hub": "Tarragona / Camp",
+  "starting_point": {
+    "name": "Tarragona",
+    "comarca": "Tarragonès",
+    "lat": 41.119,
+    "lng": 1.245
+  },
+  "comarca_principal": "Priorat",
+  "summary": "Volta completa a la serra del Montsant per les carreteres que envolten el massís: la T-710 i la T-702 amb revolts tancats entre parets verticals de roca. Pas per Ulldemolins, La Morera de Montsant i Escaladei, bressol del Priorat monàstic.",
+  "total_distance_km": 175,
+  "estimated_duration_hours": 4.0,
+  "riding_time_hours": 3.0,
+  "elevation_gain_m": 2500,
+  "elevation_max_m": 920,
+  "roads_main": [
+    "T-710",
+    "T-702",
+    "C-242",
+    "C-233",
+    "TV-7011"
+  ],
+  "esmorzar": {
+    "town": "La Morera de Montsant",
+    "comarca": "Priorat",
+    "lat": 41.267,
+    "lng": 0.854,
+    "specialty": "Pa de pagès amb oli del Priorat, tomàquet i pernil ibèric",
+    "confidence": "area"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "montsant",
+    "revolts",
+    "serra",
+    "priorat"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.202,1.204/41.267,0.854/41.265,0.905/41.315,0.848/41.342,0.92/41.3,0.988/41.283,1.071/41.309,1.157/41.119,1.245",
+  "waypoints": [
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "start",
+      "road": "T-710"
+    },
+    {
+      "name": "El Morell",
+      "lat": 41.202,
+      "lng": 1.204,
+      "type": "waypoint",
+      "road": "T-710"
+    },
+    {
+      "name": "La Morera de Montsant",
+      "lat": 41.267,
+      "lng": 0.854,
+      "type": "esmorzar",
+      "road": "T-702"
+    },
+    {
+      "name": "Cornudella de Montsant",
+      "lat": 41.265,
+      "lng": 0.905,
+      "type": "waypoint",
+      "road": "C-242"
+    },
+    {
+      "name": "Ulldemolins",
+      "lat": 41.315,
+      "lng": 0.848,
+      "type": "waypoint",
+      "road": "C-242"
+    },
+    {
+      "name": "Vilanova de Prades",
+      "lat": 41.342,
+      "lng": 0.92,
+      "type": "waypoint",
+      "road": "C-233"
+    },
+    {
+      "name": "Prades",
+      "lat": 41.3,
+      "lng": 0.988,
+      "type": "waypoint",
+      "road": "TV-7011"
+    },
+    {
+      "name": "Mont-ral",
+      "lat": 41.283,
+      "lng": 1.071,
+      "type": "waypoint",
+      "road": "TV-7011"
+    },
+    {
+      "name": "La Riba",
+      "lat": 41.309,
+      "lng": 1.157,
+      "type": "waypoint",
+      "road": "T-702"
+    },
+    {
+      "name": "Tarragona",
+      "lat": 41.119,
+      "lng": 1.245,
+      "type": "end",
+      "road": "T-710"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 180,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes scenic mountain areas. The estimated distance and duration are slightly adjusted based on road conditions and typical travel speeds."
+  }
+}

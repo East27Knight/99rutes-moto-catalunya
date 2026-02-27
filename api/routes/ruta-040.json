@@ -1,0 +1,115 @@
+{
+  "id": "ruta-040",
+  "number": 40,
+  "name": "Cap de Creus i Cadaqués",
+  "slug": "cap-de-creus-i-cadaques",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Alt Empordà",
+  "summary": "Travessa de l'Empordà fins al punt més oriental de la Península Ibèrica. Les carreteres serpentejen entre oliveres centenàries i vinyes fins a Cadaqués, el poble blanc que va inspirar Dalí. El descens cap al Cap de Creus és un laberint de corbes amb vistes al cap rocós batut pel vent.",
+  "total_distance_km": 210,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 1600,
+  "elevation_max_m": 450,
+  "roads_main": [
+    "C-66",
+    "GI-614",
+    "GI-610",
+    "N-II"
+  ],
+  "esmorzar": {
+    "town": "Cadaqués",
+    "comarca": "Alt Empordà",
+    "lat": 42.289,
+    "lng": 3.278,
+    "specialty": "Esmorzar de forquilla amb anxoves de Cadaqués i pa de vidre",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "costa",
+    "corbes",
+    "cultura",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/42.116,2.765/42.199,2.698/42.261,3.176/42.289,3.278/42.343,3.203/42.267,2.961/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.199,
+      "lng": 2.698,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Roses",
+      "lat": 42.261,
+      "lng": 3.176,
+      "type": "waypoint",
+      "road": "GI-614"
+    },
+    {
+      "name": "Cadaqués",
+      "lat": 42.289,
+      "lng": 3.278,
+      "type": "esmorzar",
+      "road": "GI-614"
+    },
+    {
+      "name": "Port de la Selva",
+      "lat": 42.343,
+      "lng": 3.203,
+      "type": "waypoint",
+      "road": "GI-610"
+    },
+    {
+      "name": "Figueres",
+      "lat": 42.267,
+      "lng": 2.961,
+      "type": "waypoint",
+      "road": "N-II"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "N-II"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance and duration match the claimed values closely, considering typical road conditions and speed limits."
+  }
+}

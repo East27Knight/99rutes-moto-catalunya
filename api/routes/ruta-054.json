@@ -1,0 +1,123 @@
+{
+  "id": "ruta-054",
+  "number": 54,
+  "name": "El Collsacabra: Rupit i els Cingles",
+  "slug": "el-collsacabra-rupit-i-els-cingles",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "La joia de la corona d'Osona: la BV-5207 puja fins a Rupit i Pruit entre cingles vertiginosos i boscos frondosos. El pont penjant sobre el Salt de Sallent, la cascada més alta de Catalunya, és un moment màgic. Revolts tècnics amb vistes que tallen l'alè sobre la plana de Vic.",
+  "total_distance_km": 135,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1800,
+  "elevation_max_m": 1050,
+  "roads_main": [
+    "BV-5207",
+    "BV-5224",
+    "C-153",
+    "BV-5201"
+  ],
+  "esmorzar": {
+    "town": "Rupit i Pruit",
+    "comarca": "Osona",
+    "lat": 42.024,
+    "lng": 2.464,
+    "specialty": "Esmorzar de forquilla rústic amb patates amb suc i botifarra a la brasa",
+    "confidence": "verified"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "cingles",
+    "cascada",
+    "tècnic",
+    "natura"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.947,2.345/42.007,2.388/42.024,2.464/42.081,2.426/42.055,2.435/41.994,2.406/41.979,2.316/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "BV-5207"
+    },
+    {
+      "name": "Tavèrnoles",
+      "lat": 41.947,
+      "lng": 2.345,
+      "type": "waypoint",
+      "road": "BV-5207"
+    },
+    {
+      "name": "Sant Julià de Cabrera",
+      "lat": 42.007,
+      "lng": 2.388,
+      "type": "waypoint",
+      "road": "BV-5224"
+    },
+    {
+      "name": "Rupit i Pruit",
+      "lat": 42.024,
+      "lng": 2.464,
+      "type": "esmorzar",
+      "road": "C-153"
+    },
+    {
+      "name": "Sant Esteve d'en Bas",
+      "lat": 42.081,
+      "lng": 2.426,
+      "type": "waypoint",
+      "road": "C-153"
+    },
+    {
+      "name": "Coll de Condreu",
+      "lat": 42.055,
+      "lng": 2.435,
+      "type": "summit",
+      "road": "C-153"
+    },
+    {
+      "name": "Tavertet",
+      "lat": 41.994,
+      "lng": 2.406,
+      "type": "viewpoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Roda de Ter",
+      "lat": 41.979,
+      "lng": 2.316,
+      "type": "waypoint",
+      "road": "BV-5201"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "BV-5207"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 140,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted for accuracy based on real road conditions."
+  }
+}

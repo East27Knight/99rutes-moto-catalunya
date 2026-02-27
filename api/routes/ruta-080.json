@@ -1,0 +1,115 @@
+{
+  "id": "ruta-080",
+  "number": 80,
+  "name": "Les Garrigues i l'Oli d'Oliva",
+  "slug": "les-garrigues-i-loli-doliva",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Garrigues",
+  "summary": "Circuit suau per les terres de l'oli: camps d'oliveres fins a l'horitzó, pobles de pedra com Borges Blanques i les Borges del Camp, i carreteres planes i amples ideals per a qui comença. L'esmorzar amb pa amb oli dels Arbequina és obligat.",
+  "total_distance_km": 85,
+  "estimated_duration_hours": 2.0,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 350,
+  "elevation_max_m": 480,
+  "roads_main": [
+    "L-202",
+    "C-233",
+    "L-501"
+  ],
+  "esmorzar": {
+    "town": "Les Borges Blanques",
+    "comarca": "Garrigues",
+    "lat": 41.513,
+    "lng": 0.859,
+    "specialty": "Pa torrat amb oli d'oliva arbequina i pernil",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "garrigues",
+    "gastronomia",
+    "oli",
+    "suau"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.548,0.822/41.513,0.859/41.527,0.915/41.558,1.011/41.448,0.976/41.431,0.895/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "N-240"
+    },
+    {
+      "name": "Juneda",
+      "lat": 41.548,
+      "lng": 0.822,
+      "type": "waypoint",
+      "road": "L-202"
+    },
+    {
+      "name": "Les Borges Blanques",
+      "lat": 41.513,
+      "lng": 0.859,
+      "type": "esmorzar",
+      "road": "C-233"
+    },
+    {
+      "name": "Arbeca",
+      "lat": 41.527,
+      "lng": 0.915,
+      "type": "waypoint",
+      "road": "C-233"
+    },
+    {
+      "name": "Belianes",
+      "lat": 41.558,
+      "lng": 1.011,
+      "type": "waypoint",
+      "road": "L-501"
+    },
+    {
+      "name": "Vinaixa",
+      "lat": 41.448,
+      "lng": 0.976,
+      "type": "waypoint",
+      "road": "L-501"
+    },
+    {
+      "name": "L'Albi",
+      "lat": 41.431,
+      "lng": 0.895,
+      "type": "waypoint",
+      "road": "L-501"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "N-240"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 90,
+    "gpt_duration_hours": 2.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.1,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely and the estimated distance and duration are slightly higher than claimed, but plausible for a leisurely motorcycle ride."
+  }
+}

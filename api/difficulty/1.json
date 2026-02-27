@@ -1,0 +1,1866 @@
+{
+  "difficulty": 1,
+  "total": 17,
+  "routes": [
+    {
+      "id": "ruta-013",
+      "number": 13,
+      "name": "El Llobregat per Navàs i Balsareny",
+      "slug": "llobregat-navas-balsareny",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Manresa / Bages",
+      "starting_point": {
+        "name": "Manresa",
+        "comarca": "Bages",
+        "lat": 41.725,
+        "lng": 1.826
+      },
+      "comarca_principal": "Bages",
+      "summary": "Volta suau pel nord del Bages passant per Navàs i Balsareny, dues viles amb encant que conserven el patrimoni industrial tèxtil. Carreteres planes i fàcils al costat del Llobregat, perfectes per a qui comença a rodar en moto.",
+      "total_distance_km": 50,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 300,
+      "elevation_max_m": 450,
+      "roads_main": [
+        "C-16",
+        "BV-4501",
+        "B-423"
+      ],
+      "esmorzar": {
+        "town": "Navàs",
+        "comarca": "Bages",
+        "lat": 41.886,
+        "lng": 1.876,
+        "specialty": "Entrepà de botifarra amb mongetes a un bar de plaça",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "pla",
+        "riu",
+        "patrimoni-industrial"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.824,1.873/41.886,1.876/41.873,1.874/41.973,1.878/41.833,1.75/41.725,1.826",
+      "waypoints": [
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "start",
+          "road": "C-16"
+        },
+        {
+          "name": "Sallent",
+          "lat": 41.824,
+          "lng": 1.873,
+          "type": "waypoint",
+          "road": "C-16"
+        },
+        {
+          "name": "Navàs",
+          "lat": 41.886,
+          "lng": 1.876,
+          "type": "esmorzar",
+          "road": "C-16"
+        },
+        {
+          "name": "Balsareny",
+          "lat": 41.873,
+          "lng": 1.874,
+          "type": "waypoint",
+          "road": "BV-4501"
+        },
+        {
+          "name": "Puig-reig",
+          "lat": 41.973,
+          "lng": 1.878,
+          "type": "waypoint",
+          "road": "B-423"
+        },
+        {
+          "name": "Súria",
+          "lat": 41.833,
+          "lng": 1.75,
+          "type": "waypoint",
+          "road": "B-423"
+        },
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "end",
+          "road": "C-16"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.1,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted for accuracy."
+      }
+    },
+    {
+      "id": "ruta-015",
+      "number": 15,
+      "name": "El Pont de Vilomara i la Riera de Sant Joan",
+      "slug": "pont-vilomara-riera-sant-joan",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Manresa / Bages",
+      "starting_point": {
+        "name": "Manresa",
+        "comarca": "Bages",
+        "lat": 41.725,
+        "lng": 1.826
+      },
+      "comarca_principal": "Bages",
+      "summary": "Circuit curt i planer que surt de Manresa cap al Pont de Vilomara i Rocafort, travessant zones boscoses al costat del Llobregat. Tornada per Sant Vicenç de Castellet amb un ritme suau i sense cap tram complicat. Ideal per a una primera sortida en grup.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 380,
+      "roads_main": [
+        "BV-1221",
+        "B-124",
+        "C-55"
+      ],
+      "esmorzar": {
+        "town": "El Pont de Vilomara i Rocafort",
+        "comarca": "Bages",
+        "lat": 41.686,
+        "lng": 1.879,
+        "specialty": "Entrepà de truita de patates i cafè amb llet a un bar del poble",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "primer-cop",
+        "bosc",
+        "riu"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.686,1.879/41.693,1.898/41.665,1.87/41.783,1.807/41.725,1.826",
+      "waypoints": [
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "start",
+          "road": "C-55"
+        },
+        {
+          "name": "Pont de Vilomara i Rocafort",
+          "lat": 41.686,
+          "lng": 1.879,
+          "type": "esmorzar",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Intersection BV-1221 and B-124",
+          "lat": 41.693,
+          "lng": 1.898,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sant Vicenç de Castellet",
+          "lat": 41.665,
+          "lng": 1.87,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Callús",
+          "lat": 41.783,
+          "lng": 1.807,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Manresa",
+          "lat": 41.725,
+          "lng": 1.826,
+          "type": "end",
+          "road": "C-55"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 50,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.11,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance is slightly more than claimed due to the actual road layout."
+      }
+    },
+    {
+      "id": "ruta-027",
+      "number": 27,
+      "name": "Collserola Express",
+      "slug": "collserola-express",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Barcelona / Vallès",
+      "starting_point": {
+        "name": "Barcelona",
+        "comarca": "Barcelonès",
+        "lat": 41.389,
+        "lng": 2.159
+      },
+      "comarca_principal": "Barcelonès",
+      "summary": "El circuit més accessible des de Barcelona: pujada al Tibidabo per la BV-1468, volta pel Parc de Collserola i baixada per Molins de Rei. Carreteres ben asfaltades, revolts suaus i vistes espectaculars de la ciutat. La introducció perfecta al motociclisme de ruta.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 400,
+      "elevation_max_m": 512,
+      "roads_main": [
+        "BV-1468",
+        "BP-1417",
+        "BV-1462"
+      ],
+      "esmorzar": {
+        "town": "Vallvidrera",
+        "comarca": "Barcelonès",
+        "lat": 41.417,
+        "lng": 2.107,
+        "specialty": "Cafè amb croissant a Can Trampa, amb vistes sobre Barcelona",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "urbà",
+        "fàcil",
+        "vistes",
+        "primer-cop"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.417,2.107/41.421,2.091/41.422,2.119/41.472,2.086/41.441,2.075/41.434,2.088/41.389,2.159",
+      "waypoints": [
+        {
+          "name": "Barcelona",
+          "lat": 41.389,
+          "lng": 2.159,
+          "type": "start",
+          "road": "BV-1468"
+        },
+        {
+          "name": "Vallvidrera",
+          "lat": 41.417,
+          "lng": 2.107,
+          "type": "esmorzar",
+          "road": "BV-1468"
+        },
+        {
+          "name": "Collserola Park Entrance",
+          "lat": 41.421,
+          "lng": 2.091,
+          "type": "waypoint",
+          "road": "BV-1468"
+        },
+        {
+          "name": "Tibidabo",
+          "lat": 41.422,
+          "lng": 2.119,
+          "type": "viewpoint",
+          "road": "BP-1417"
+        },
+        {
+          "name": "Sant Cugat del Vallès",
+          "lat": 41.472,
+          "lng": 2.086,
+          "type": "waypoint",
+          "road": "BP-1417"
+        },
+        {
+          "name": "La Floresta",
+          "lat": 41.441,
+          "lng": 2.075,
+          "type": "waypoint",
+          "road": "BV-1462"
+        },
+        {
+          "name": "Les Planes",
+          "lat": 41.434,
+          "lng": 2.088,
+          "type": "waypoint",
+          "road": "BV-1462"
+        },
+        {
+          "name": "Barcelona",
+          "lat": 41.389,
+          "lng": 2.159,
+          "type": "end",
+          "road": "BV-1462"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 42,
+        "gpt_duration_hours": 1.2,
+        "distance_diff_pct": 0.07,
+        "duration_diff_pct": 0.2,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and matches the claimed distance and duration."
+      }
+    },
+    {
+      "id": "ruta-028",
+      "number": 28,
+      "name": "Sant Cugat i la Floresta",
+      "slug": "sant-cugat-floresta",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Barcelona / Vallès",
+      "starting_point": {
+        "name": "Cerdanyola del Vallès",
+        "comarca": "Vallès Occidental",
+        "lat": 41.549,
+        "lng": 2.107
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Volta curta per les urbanitzacions boscoses de Sant Cugat, la Floresta i Valldoreix. Carreteres residencials amb poc trànsit, ombra de pins i una sensació de calma total. Perfecta per practicar revolts suaus i agafar confiança amb la moto.",
+      "total_distance_km": 40,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 300,
+      "elevation_max_m": 350,
+      "roads_main": [
+        "BV-1462",
+        "BP-1417",
+        "B-20"
+      ],
+      "esmorzar": {
+        "town": "Sant Cugat del Vallès",
+        "comarca": "Vallès Occidental",
+        "lat": 41.473,
+        "lng": 2.086,
+        "specialty": "Esmorzar complet amb torrada de pa amb tomàquet i cafè a la plaça Octavià",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "tranquil",
+        "bosc",
+        "urbà"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.51,2.088/41.473,2.086/41.448,2.068/41.441,2.058/41.549,2.107",
+      "waypoints": [
+        {
+          "name": "Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "start",
+          "road": "BV-1462"
+        },
+        {
+          "name": "Intersection BV-1462 & BP-1417",
+          "lat": 41.51,
+          "lng": 2.088,
+          "type": "waypoint",
+          "road": "BP-1417"
+        },
+        {
+          "name": "Sant Cugat del Vallès",
+          "lat": 41.473,
+          "lng": 2.086,
+          "type": "esmorzar",
+          "road": "BP-1417"
+        },
+        {
+          "name": "La Floresta",
+          "lat": 41.448,
+          "lng": 2.068,
+          "type": "waypoint",
+          "road": "BP-1417"
+        },
+        {
+          "name": "Intersection BP-1417 & B-20",
+          "lat": 41.441,
+          "lng": 2.058,
+          "type": "waypoint",
+          "road": "B-20"
+        },
+        {
+          "name": "Return to Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "end",
+          "road": "BV-1462"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 42,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and returns to the starting point, matching the circular route description. Estimated distance and duration are slightly adjusted for accuracy."
+      }
+    },
+    {
+      "id": "ruta-030",
+      "number": 30,
+      "name": "Granollers i la Roca del Vallès",
+      "slug": "granollers-roca-valles",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Barcelona / Vallès",
+      "starting_point": {
+        "name": "Cerdanyola del Vallès",
+        "comarca": "Vallès Occidental",
+        "lat": 41.549,
+        "lng": 2.107
+      },
+      "comarca_principal": "Vallès Oriental",
+      "summary": "Travessia del Vallès de punta a punta, de Cerdanyola a Granollers per la Roca del Vallès. Carreteres planes i directes que permeten rodar amb comoditat, amb una parada a Granollers per esmorzar al mercat. Ruta ideal per a un matí tranquil sense complicacions.",
+      "total_distance_km": 60,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 280,
+      "roads_main": [
+        "C-33",
+        "C-17",
+        "BV-5001"
+      ],
+      "esmorzar": {
+        "town": "Granollers",
+        "comarca": "Vallès Oriental",
+        "lat": 41.608,
+        "lng": 2.288,
+        "specialty": "Esmorzar al mercat de Granollers amb embotits i torrades amb tomàquet",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "pla",
+        "fàcil",
+        "mercat",
+        "vallès"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.498,2.188/41.54,2.211/41.574,2.232/41.608,2.288/41.584,2.326/41.531,2.25/41.558,2.267/41.549,2.107",
+      "waypoints": [
+        {
+          "name": "Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "start",
+          "road": "C-33"
+        },
+        {
+          "name": "Montcada i Reixac",
+          "lat": 41.498,
+          "lng": 2.188,
+          "type": "waypoint",
+          "road": "C-33"
+        },
+        {
+          "name": "Mollet del Vallès",
+          "lat": 41.54,
+          "lng": 2.211,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Parets del Vallès",
+          "lat": 41.574,
+          "lng": 2.232,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Granollers",
+          "lat": 41.608,
+          "lng": 2.288,
+          "type": "esmorzar",
+          "road": "C-17"
+        },
+        {
+          "name": "La Roca del Vallès",
+          "lat": 41.584,
+          "lng": 2.326,
+          "type": "waypoint",
+          "road": "BV-5001"
+        },
+        {
+          "name": "Santa Maria de Martorelles",
+          "lat": 41.531,
+          "lng": 2.25,
+          "type": "waypoint",
+          "road": "BV-5001"
+        },
+        {
+          "name": "Montornès del Vallès",
+          "lat": 41.558,
+          "lng": 2.267,
+          "type": "waypoint",
+          "road": "BV-5001"
+        },
+        {
+          "name": "Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "end",
+          "road": "BV-5001"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 65,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes a scenic loop through Vallès Oriental. The estimated distance and duration are consistent with the claimed values."
+      }
+    },
+    {
+      "id": "ruta-031",
+      "number": 31,
+      "name": "Mollet i Santa Perpètua",
+      "slug": "mollet-santa-perpetua",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Barcelona / Vallès",
+      "starting_point": {
+        "name": "Cerdanyola del Vallès",
+        "comarca": "Vallès Occidental",
+        "lat": 41.549,
+        "lng": 2.107
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Circuit curtíssim i sense cap dificultat tècnica: Cerdanyola, Santa Perpètua de Mogoda, Mollet del Vallès i tornada. Perfecta per a qui acaba de treure's el carnet i vol fer els primers quilòmetres fora de ciutat amb total seguretat. Carreteres planes i rectes.",
+      "total_distance_km": 42,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 100,
+      "elevation_max_m": 180,
+      "roads_main": [
+        "B-140",
+        "C-33",
+        "N-150"
+      ],
+      "esmorzar": {
+        "town": "Mollet del Vallès",
+        "comarca": "Vallès Oriental",
+        "lat": 41.544,
+        "lng": 2.19,
+        "specialty": "Entrepà de truita amb café amb llet a un bar del centre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "primer-cop",
+        "pla",
+        "urbà"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.546,2.133/41.544,2.19/41.548,2.203/41.531,2.154/41.516,2.122/41.549,2.107",
+      "waypoints": [
+        {
+          "name": "Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "start",
+          "road": "N-150"
+        },
+        {
+          "name": "Intersection B-140 with C-58",
+          "lat": 41.546,
+          "lng": 2.133,
+          "type": "waypoint",
+          "road": "B-140"
+        },
+        {
+          "name": "Mollet del Vallès",
+          "lat": 41.544,
+          "lng": 2.19,
+          "type": "esmorzar",
+          "road": "B-140"
+        },
+        {
+          "name": "C-33 Entrance near Mollet",
+          "lat": 41.548,
+          "lng": 2.203,
+          "type": "waypoint",
+          "road": "C-33"
+        },
+        {
+          "name": "Intersection C-33 with N-150",
+          "lat": 41.531,
+          "lng": 2.154,
+          "type": "waypoint",
+          "road": "C-33"
+        },
+        {
+          "name": "Intersection N-150 with B-140",
+          "lat": 41.516,
+          "lng": 2.122,
+          "type": "waypoint",
+          "road": "N-150"
+        },
+        {
+          "name": "Cerdanyola del Vallès",
+          "lat": 41.549,
+          "lng": 2.107,
+          "type": "end",
+          "road": "N-150"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 42,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and matches the claimed distance and duration. The waypoints are chosen at key intersections and the breakfast stop."
+      }
+    },
+    {
+      "id": "ruta-038",
+      "number": 38,
+      "name": "Sabadell a Sentmenat pel Rodal",
+      "slug": "sabadell-sentmenat-rodal",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Sabadell",
+        "comarca": "Vallès Occidental",
+        "lat": 41.543,
+        "lng": 2.108
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "El circuit més senzill des de Sabadell: pujada a Sentmenat per la B-124, volta per Polinyà i Santa Perpètua de Mogoda, i tornada. Carreteres planes amb algun revolt suau, paisatge agrícola del Vallès i zero complicacions. La ruta perfecta per estrenar-se.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 280,
+      "roads_main": [
+        "B-124",
+        "C-59",
+        "N-150",
+        "B-140"
+      ],
+      "esmorzar": {
+        "town": "Sentmenat",
+        "comarca": "Vallès Occidental",
+        "lat": 41.632,
+        "lng": 2.148,
+        "specialty": "Entrepà de botifarra amb mongetes a un bar de carretera a Sentmenat",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "primer-cop",
+        "pla",
+        "agrícola"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.583,2.124/41.632,2.148/41.607,2.14/41.556,2.108/41.543,2.108",
+      "waypoints": [
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "start",
+          "road": "B-124"
+        },
+        {
+          "name": "Intersection B-124 and C-59",
+          "lat": 41.583,
+          "lng": 2.124,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sentmenat",
+          "lat": 41.632,
+          "lng": 2.148,
+          "type": "esmorzar",
+          "road": "B-124"
+        },
+        {
+          "name": "Intersection C-59 and N-150",
+          "lat": 41.607,
+          "lng": 2.14,
+          "type": "waypoint",
+          "road": "C-59"
+        },
+        {
+          "name": "Intersection N-150 and B-140",
+          "lat": 41.556,
+          "lng": 2.108,
+          "type": "waypoint",
+          "road": "N-150"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "end",
+          "road": "B-140"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 45,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and matches the claimed distance and duration."
+      }
+    },
+    {
+      "id": "ruta-049",
+      "number": 49,
+      "name": "Empordanet: Pals, Peratallada i Ullastret",
+      "slug": "empordanet-pals-peratallada-i-ullastret",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Baix Empordà",
+      "summary": "Passeig tranquil pels pobles medievals més bonics de l'Empordà. Carreteres planes i amples entre camps d'arròs, masies i pobles de pedra com Pals, Peratallada i Ullastret. Ideal per gaudir sense pressa del paisatge empordanès i la seva gastronomia.",
+      "total_distance_km": 85,
+      "estimated_duration_hours": 2.5,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 180,
+      "roads_main": [
+        "C-66",
+        "GI-643",
+        "GI-644",
+        "C-31"
+      ],
+      "esmorzar": {
+        "town": "Pals",
+        "comarca": "Baix Empordà",
+        "lat": 41.972,
+        "lng": 3.148,
+        "specialty": "Arròs de Pals amb botifarra i oli d'oliva de l'Empordà",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "medieval",
+        "empordà",
+        "gastronomia",
+        "tranquil"
+      ],
+      "waypoints": [
+        {
+          "name": "Girona (sortida)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start"
+        },
+        {
+          "name": "La Bisbal d'Empordà",
+          "lat": 41.959,
+          "lng": 3.045,
+          "type": "waypoint"
+        },
+        {
+          "name": "Pals (nucli antic)",
+          "lat": 41.972,
+          "lng": 3.148,
+          "type": "esmorzar"
+        },
+        {
+          "name": "Peratallada",
+          "lat": 41.978,
+          "lng": 3.094,
+          "type": "viewpoint"
+        },
+        {
+          "name": "Ullastret (jaciment ibèric)",
+          "lat": 41.966,
+          "lng": 3.071,
+          "type": "waypoint"
+        },
+        {
+          "name": "Girona (arribada)",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end"
+        }
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.959,3.045/41.972,3.148/41.978,3.094/41.966,3.071/41.983,2.824"
+    },
+    {
+      "id": "ruta-050",
+      "number": 50,
+      "name": "L'Estany de Banyoles i Porqueres",
+      "slug": "lestany-de-banyoles-i-porqueres",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Girona / Empordà",
+      "starting_point": {
+        "name": "Girona",
+        "comarca": "Gironès",
+        "lat": 41.983,
+        "lng": 2.824
+      },
+      "comarca_principal": "Pla de l'Estany",
+      "summary": "Ruta curta i planera fins a l'estany de Banyoles, el llac més gran de Catalunya. Volta tranquil·la per Porqueres i els voltants del llac amb carreteres amples i ben asfaltades. Perfecta per a un matí relaxat amb esmorzar a la vora de l'aigua.",
+      "total_distance_km": 65,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 180,
+      "elevation_max_m": 175,
+      "roads_main": [
+        "C-66",
+        "GI-524",
+        "GI-554"
+      ],
+      "esmorzar": {
+        "town": "Banyoles",
+        "comarca": "Pla de l'Estany",
+        "lat": 42.119,
+        "lng": 2.764,
+        "specialty": "Entrepà de llonganissa amb un tallat a la plaça Major",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "llac",
+        "tranquil",
+        "principiant",
+        "paisatge"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.981,2.734/41.999,2.739/42.119,2.764/42.116,2.756/42.136,2.609/42.148,2.572/42.051,2.74/41.983,2.824",
+      "waypoints": [
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "start",
+          "road": "C-66"
+        },
+        {
+          "name": "Bescanó",
+          "lat": 41.981,
+          "lng": 2.734,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Sant Gregori",
+          "lat": 41.999,
+          "lng": 2.739,
+          "type": "waypoint",
+          "road": "C-66"
+        },
+        {
+          "name": "Banyoles",
+          "lat": 42.119,
+          "lng": 2.764,
+          "type": "esmorzar",
+          "road": "GI-524"
+        },
+        {
+          "name": "Porqueres",
+          "lat": 42.116,
+          "lng": 2.756,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Mieres",
+          "lat": 42.136,
+          "lng": 2.609,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Santa Pau",
+          "lat": 42.148,
+          "lng": 2.572,
+          "type": "waypoint",
+          "road": "GI-524"
+        },
+        {
+          "name": "Canet d'Adri",
+          "lat": 42.051,
+          "lng": 2.74,
+          "type": "waypoint",
+          "road": "GI-554"
+        },
+        {
+          "name": "Girona",
+          "lat": 41.983,
+          "lng": 2.824,
+          "type": "end",
+          "road": "GI-554"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 70,
+        "gpt_duration_hours": 2.2,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route is slightly longer than claimed, likely due to additional curves and elevation changes. The estimated duration accounts for typical traffic and road conditions."
+      }
+    },
+    {
+      "id": "ruta-061",
+      "number": 61,
+      "name": "Centelles, Tona i el Pla de Vic",
+      "slug": "centelles-tona-i-el-pla-de-vic",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Circuit suau pel pla de Vic passant per Tona, Centelles i els pobles dels voltants. Carreteres amples i rectes amb suaus ondulacions entre camps de conreu i granges. Perfecta per agafar confiança amb la moto i gaudir dels embotits de Vic en un esmorzar de forquilla memorable.",
+      "total_distance_km": 55,
+      "estimated_duration_hours": 2,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 590,
+      "roads_main": [
+        "C-17",
+        "BV-5303",
+        "N-141c"
+      ],
+      "esmorzar": {
+        "town": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254,
+        "specialty": "Esmorzar de forquilla al mercat de Vic amb llonganissa, fuet i secallona",
+        "confidence": "verified"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "pla",
+        "principiant",
+        "gastronomia",
+        "mercat"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.886,2.254/41.847,2.227/41.798,2.217/41.828,2.232/41.891,2.274/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Breakfast Stop Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "esmorzar",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.847,
+          "lng": 2.227,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Centelles",
+          "lat": 41.798,
+          "lng": 2.217,
+          "type": "waypoint",
+          "road": "BV-5303"
+        },
+        {
+          "name": "Sant Miquel de Balenyà",
+          "lat": 41.828,
+          "lng": 2.232,
+          "type": "waypoint",
+          "road": "N-141c"
+        },
+        {
+          "name": "El Pla de Vic",
+          "lat": 41.891,
+          "lng": 2.274,
+          "type": "waypoint",
+          "road": "N-141c"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "N-141c"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.25,
+        "plausible": true,
+        "notes": "The route follows the specified roads and is plausible within the claimed distance and duration. The waypoints are accurately placed along the C-17, BV-5303, and N-141c roads."
+      }
+    },
+    {
+      "id": "ruta-063",
+      "number": 63,
+      "name": "Manlleu, Roda de Ter i el Ter",
+      "slug": "manlleu-roda-de-ter-i-el-ter",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Vic / Osona",
+      "starting_point": {
+        "name": "Vic",
+        "comarca": "Osona",
+        "lat": 41.886,
+        "lng": 2.254
+      },
+      "comarca_principal": "Osona",
+      "summary": "Passeig relaxat seguint el curs del riu Ter entre Vic, Manlleu i Roda de Ter. Carreteres planes al costat del riu amb poques corbes. El meandre de Roda de Ter és un dels paisatges fluvials més bonics d'Osona. Ruta perfecta per a un matí tranquil amb bon esmorzar.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 150,
+      "elevation_max_m": 480,
+      "roads_main": [
+        "C-17",
+        "BV-5202",
+        "BV-5201"
+      ],
+      "esmorzar": {
+        "town": "Manlleu",
+        "comarca": "Osona",
+        "lat": 41.874,
+        "lng": 2.284,
+        "specialty": "Esmorzar de forquilla amb embotits de Vic i pa de coca",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "riu",
+        "pla",
+        "principiant",
+        "tranquil"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.845,2.228/41.874,2.284/41.973,2.312/42.015,2.377/41.976,2.328/41.886,2.254",
+      "waypoints": [
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "start",
+          "road": "C-17"
+        },
+        {
+          "name": "Tona",
+          "lat": 41.845,
+          "lng": 2.228,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Manlleu",
+          "lat": 41.874,
+          "lng": 2.284,
+          "type": "esmorzar",
+          "road": "BV-5202"
+        },
+        {
+          "name": "Roda de Ter",
+          "lat": 41.973,
+          "lng": 2.312,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "L'Esquirol",
+          "lat": 42.015,
+          "lng": 2.377,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Sant Martí Sescorts",
+          "lat": 41.976,
+          "lng": 2.328,
+          "type": "waypoint",
+          "road": "BV-5201"
+        },
+        {
+          "name": "Vic",
+          "lat": 41.886,
+          "lng": 2.254,
+          "type": "end",
+          "road": "BV-5201"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 50,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.11,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route is plausible and closely follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-069",
+      "number": 69,
+      "name": "Capellades i la Pobla de Claramunt",
+      "slug": "capellades-i-la-pobla-de-claramunt",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Igualada / Anoia",
+      "starting_point": {
+        "name": "Igualada",
+        "comarca": "Anoia",
+        "lat": 41.579,
+        "lng": 1.617
+      },
+      "comarca_principal": "Anoia",
+      "summary": "Circuit curt pels voltants d'Igualada passant per Capellades, famosa pel seu molí paperer, i la Pobla de Claramunt amb el seu castell medieval enlairat. Carreteres amples i suaus amb poc trànsit, ideals per a principiants. El paisatge de la conca de l'Anoia és verd i tranquil.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 450,
+      "roads_main": [
+        "C-15",
+        "B-224",
+        "BV-2136"
+      ],
+      "esmorzar": {
+        "town": "Capellades",
+        "comarca": "Anoia",
+        "lat": 41.531,
+        "lng": 1.686,
+        "specialty": "Esmorzar de forquilla amb truita de patates i embotits locals al centre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "patrimoni",
+        "principiant",
+        "tranquil",
+        "pobles"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.553,1.647/41.531,1.686/41.548,1.698/41.558,1.68/41.579,1.617",
+      "waypoints": [
+        {
+          "name": "Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "start",
+          "road": "C-15"
+        },
+        {
+          "name": "Intersection C-15 and B-224",
+          "lat": 41.553,
+          "lng": 1.647,
+          "type": "waypoint",
+          "road": "C-15"
+        },
+        {
+          "name": "Capellades",
+          "lat": 41.531,
+          "lng": 1.686,
+          "type": "esmorzar",
+          "road": "B-224"
+        },
+        {
+          "name": "Intersection B-224 and BV-2136",
+          "lat": 41.548,
+          "lng": 1.698,
+          "type": "waypoint",
+          "road": "B-224"
+        },
+        {
+          "name": "La Pobla de Claramunt",
+          "lat": 41.558,
+          "lng": 1.68,
+          "type": "waypoint",
+          "road": "BV-2136"
+        },
+        {
+          "name": "Return to Igualada",
+          "lat": 41.579,
+          "lng": 1.617,
+          "type": "end",
+          "road": "BV-2136"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 48,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.07,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes the breakfast stop at Capellades. The estimated distance is slightly higher than claimed, but the duration aligns with the expected travel time."
+      }
+    },
+    {
+      "id": "ruta-080",
+      "number": 80,
+      "name": "Les Garrigues i l'Oli d'Oliva",
+      "slug": "les-garrigues-i-loli-doliva",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Garrigues",
+      "summary": "Circuit suau per les terres de l'oli: camps d'oliveres fins a l'horitzó, pobles de pedra com Borges Blanques i les Borges del Camp, i carreteres planes i amples ideals per a qui comença. L'esmorzar amb pa amb oli dels Arbequina és obligat.",
+      "total_distance_km": 85,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 350,
+      "elevation_max_m": 480,
+      "roads_main": [
+        "L-202",
+        "C-233",
+        "L-501"
+      ],
+      "esmorzar": {
+        "town": "Les Borges Blanques",
+        "comarca": "Garrigues",
+        "lat": 41.513,
+        "lng": 0.859,
+        "specialty": "Pa torrat amb oli d'oliva arbequina i pernil",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "garrigues",
+        "gastronomia",
+        "oli",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.548,0.822/41.513,0.859/41.527,0.915/41.558,1.011/41.448,0.976/41.431,0.895/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "N-240"
+        },
+        {
+          "name": "Juneda",
+          "lat": 41.548,
+          "lng": 0.822,
+          "type": "waypoint",
+          "road": "L-202"
+        },
+        {
+          "name": "Les Borges Blanques",
+          "lat": 41.513,
+          "lng": 0.859,
+          "type": "esmorzar",
+          "road": "C-233"
+        },
+        {
+          "name": "Arbeca",
+          "lat": 41.527,
+          "lng": 0.915,
+          "type": "waypoint",
+          "road": "C-233"
+        },
+        {
+          "name": "Belianes",
+          "lat": 41.558,
+          "lng": 1.011,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "Vinaixa",
+          "lat": 41.448,
+          "lng": 0.976,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "L'Albi",
+          "lat": 41.431,
+          "lng": 0.895,
+          "type": "waypoint",
+          "road": "L-501"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "N-240"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 90,
+        "gpt_duration_hours": 2.2,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and the estimated distance and duration are slightly higher than claimed, but plausible for a leisurely motorcycle ride."
+      }
+    },
+    {
+      "id": "ruta-081",
+      "number": 81,
+      "name": "Pobles de l'Urgell",
+      "slug": "pobles-de-lurgell",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Urgell",
+      "summary": "Passeig tranquil pels pobles de l'Urgell: Tàrrega amb el seu teatre, Agramunt i el seu torró famós, i Bellpuig amb l'elegància del seu convent. Carreteres rectes entre camps de blat i fruiters, perfectes per agafar confiança amb la moto.",
+      "total_distance_km": 80,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.5,
+      "elevation_gain_m": 280,
+      "elevation_max_m": 430,
+      "roads_main": [
+        "C-14",
+        "L-303",
+        "C-53"
+      ],
+      "esmorzar": {
+        "town": "Agramunt",
+        "comarca": "Urgell",
+        "lat": 41.789,
+        "lng": 1.1,
+        "specialty": "Torró d'Agramunt i xocolata desfeta amb coca de forner",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "urgell",
+        "pobles",
+        "cultura",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.647,1.139/41.789,1.1/41.783,1.071/41.873,1.051/41.916,1.186/41.647,1.139/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Agramunt",
+          "lat": 41.789,
+          "lng": 1.1,
+          "type": "esmorzar",
+          "road": "L-303"
+        },
+        {
+          "name": "Preixens",
+          "lat": 41.783,
+          "lng": 1.071,
+          "type": "waypoint",
+          "road": "L-303"
+        },
+        {
+          "name": "Artesa de Segre",
+          "lat": 41.873,
+          "lng": 1.051,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Ponts",
+          "lat": 41.916,
+          "lng": 1.186,
+          "type": "waypoint",
+          "road": "C-14"
+        },
+        {
+          "name": "Tàrrega",
+          "lat": 41.647,
+          "lng": 1.139,
+          "type": "waypoint",
+          "road": "C-53"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "C-53"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 85,
+        "gpt_duration_hours": 1.8,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.1,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and is plausible as a circular route. The estimated distance and duration are slightly less than claimed, likely due to more direct routing."
+      }
+    },
+    {
+      "id": "ruta-082",
+      "number": 82,
+      "name": "Raimat i els Vinyers del Segrià",
+      "slug": "raimat-i-els-vinyers-del-segria",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Lleida / Segrià",
+      "starting_point": {
+        "name": "Lleida",
+        "comarca": "Segrià",
+        "lat": 41.617,
+        "lng": 0.62
+      },
+      "comarca_principal": "Segrià",
+      "summary": "Ruta curta i accessible pels voltants de Lleida: Raimat amb el seu castell i vinyes, Alcarràs entre fruiters, i tornada per la ribera del Segre. Ideal per a la primera sortida en moto, amb rectes llargues i alguna corba suau per practicar.",
+      "total_distance_km": 55,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 180,
+      "elevation_max_m": 310,
+      "roads_main": [
+        "L-700",
+        "L-504"
+      ],
+      "esmorzar": {
+        "town": "Raimat",
+        "comarca": "Segrià",
+        "lat": 41.658,
+        "lng": 0.478,
+        "specialty": "Esmorzar entre vinyes amb embotits i vi blanc de Raimat",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "vinyes",
+        "segrià",
+        "suau",
+        "gastronomia"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.635,0.58/41.658,0.478/41.665,0.45/41.691,0.49/41.675,0.53/41.65,0.57/41.617,0.62",
+      "waypoints": [
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "start",
+          "road": "L-700"
+        },
+        {
+          "name": "Intersection L-700 & L-702",
+          "lat": 41.635,
+          "lng": 0.58,
+          "type": "waypoint",
+          "road": "L-700"
+        },
+        {
+          "name": "Raimat",
+          "lat": 41.658,
+          "lng": 0.478,
+          "type": "esmorzar",
+          "road": "L-700"
+        },
+        {
+          "name": "Intersection L-700 & L-504",
+          "lat": 41.665,
+          "lng": 0.45,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Vilanova de Segrià",
+          "lat": 41.691,
+          "lng": 0.49,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Intersection L-504 & L-702",
+          "lat": 41.675,
+          "lng": 0.53,
+          "type": "waypoint",
+          "road": "L-504"
+        },
+        {
+          "name": "Intersection L-702 & L-700",
+          "lat": 41.65,
+          "lng": 0.57,
+          "type": "waypoint",
+          "road": "L-700"
+        },
+        {
+          "name": "Lleida",
+          "lat": 41.617,
+          "lng": 0.62,
+          "type": "end",
+          "road": "L-700"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and matches the claimed distance and duration."
+      }
+    },
+    {
+      "id": "ruta-090",
+      "number": 90,
+      "name": "Altafulla i la Costa de Llevant",
+      "slug": "altafulla-i-la-costa-de-llevant",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Tarragona / Camp",
+      "starting_point": {
+        "name": "Tarragona",
+        "comarca": "Tarragonès",
+        "lat": 41.119,
+        "lng": 1.245
+      },
+      "comarca_principal": "Tarragonès",
+      "summary": "Passeig costaner suau des de Tarragona fins a Altafulla i Torredembarra, amb el mar sempre a la vista. Carreteres planes i amples, ideals per a principiants que volen gaudir del Mediterrani sense complicacions tècniques.",
+      "total_distance_km": 50,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 150,
+      "elevation_max_m": 80,
+      "roads_main": [
+        "N-340",
+        "C-31",
+        "TV-2041"
+      ],
+      "esmorzar": {
+        "town": "Altafulla",
+        "comarca": "Tarragonès",
+        "lat": 41.142,
+        "lng": 1.377,
+        "specialty": "Esmorzar de platja amb pa amb tomàquet i anxoves del Mediterrani",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "costa",
+        "mar",
+        "suau",
+        "mediterrani"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.119,1.245/41.134,1.307/41.142,1.377/41.146,1.396/41.172,1.454/41.188,1.475/41.142,1.377/41.119,1.245",
+      "waypoints": [
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "start",
+          "road": "N-340"
+        },
+        {
+          "name": "La Mora",
+          "lat": 41.134,
+          "lng": 1.307,
+          "type": "waypoint",
+          "road": "N-340"
+        },
+        {
+          "name": "Altafulla",
+          "lat": 41.142,
+          "lng": 1.377,
+          "type": "esmorzar",
+          "road": "N-340"
+        },
+        {
+          "name": "Torredembarra",
+          "lat": 41.146,
+          "lng": 1.396,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Creixell",
+          "lat": 41.172,
+          "lng": 1.454,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Roda de Berà",
+          "lat": 41.188,
+          "lng": 1.475,
+          "type": "waypoint",
+          "road": "C-31"
+        },
+        {
+          "name": "Altafulla",
+          "lat": 41.142,
+          "lng": 1.377,
+          "type": "waypoint",
+          "road": "N-340"
+        },
+        {
+          "name": "Tarragona",
+          "lat": 41.119,
+          "lng": 1.245,
+          "type": "end",
+          "road": "N-340"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 45,
+        "gpt_duration_hours": 1.2,
+        "distance_diff_pct": 0.1,
+        "duration_diff_pct": 0.2,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and matches the claimed distance and duration. The out-and-back nature of the route ensures a return to Tarragona."
+      }
+    },
+    {
+      "id": "ruta-098",
+      "number": 98,
+      "name": "Delta de l'Ebre Aprendiz",
+      "slug": "delta-de-lebre-aprendiz",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Baix Ebre",
+      "summary": "Versió curta i plana del Delta de l'Ebre: baixada fins a Deltebre i recorregut per l'hemidelta esquerre amb parades als miradors d'aus i els arrossars. Zero corbes, zero pendents, cent per cent paisatge. Ideal per a qui tot just comença.",
+      "total_distance_km": 65,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 80,
+      "elevation_max_m": 15,
+      "roads_main": [
+        "C-12",
+        "TV-3405",
+        "TV-3406"
+      ],
+      "esmorzar": {
+        "town": "Deltebre",
+        "comarca": "Baix Ebre",
+        "lat": 40.721,
+        "lng": 0.726,
+        "specialty": "Arròs del Delta amb verdures de l'hort i musclos de la badia",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "delta",
+        "aus",
+        "pla",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.716,0.581/40.719,0.702/40.721,0.726/40.72,0.715/40.716,0.581/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.716,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Sant Jaume d'Enveja",
+          "lat": 40.719,
+          "lng": 0.702,
+          "type": "waypoint",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Deltebre",
+          "lat": 40.721,
+          "lng": 0.726,
+          "type": "esmorzar",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Pont Lo Passador",
+          "lat": 40.72,
+          "lng": 0.715,
+          "type": "waypoint",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.716,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 65,
+        "gpt_duration_hours": 2.0,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and matches the claimed distance and duration."
+      }
+    }
+  ]
+}

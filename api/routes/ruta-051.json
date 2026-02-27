@@ -1,0 +1,121 @@
+{
+  "id": "ruta-051",
+  "number": 51,
+  "name": "Besalú i la Vall del Fluvià",
+  "slug": "besalu-i-la-vall-del-fluvia",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Garrotxa",
+  "summary": "Excursió matinal fins a Besalú, la joia medieval de la Garrotxa. La C-66 és àmplia i còmoda, i el poble amb el seu pont romànic del segle XII és una parada obligatòria. Tornada per Banyoles per completar un circuit fàcil i gratificant.",
+  "total_distance_km": 90,
+  "estimated_duration_hours": 2.5,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 350,
+  "elevation_max_m": 290,
+  "roads_main": [
+    "C-66",
+    "GI-524"
+  ],
+  "esmorzar": {
+    "town": "Besalú",
+    "comarca": "La Garrotxa",
+    "lat": 42.199,
+    "lng": 2.699,
+    "specialty": "Esmorzar de pagès amb truita, embotits i coca de llardons",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "medieval",
+    "cultura",
+    "principiant",
+    "pont"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.993,2.763/42.116,2.765/42.199,2.699/42.201,2.682/42.141,2.601/42.144,2.573/42.182,2.488/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-66"
+    },
+    {
+      "name": "Sant Gregori",
+      "lat": 41.993,
+      "lng": 2.763,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Banyoles",
+      "lat": 42.116,
+      "lng": 2.765,
+      "type": "waypoint",
+      "road": "C-66"
+    },
+    {
+      "name": "Besalú",
+      "lat": 42.199,
+      "lng": 2.699,
+      "type": "esmorzar",
+      "road": "C-66"
+    },
+    {
+      "name": "Sant Ferriol",
+      "lat": 42.201,
+      "lng": 2.682,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Mieres",
+      "lat": 42.141,
+      "lng": 2.601,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Santa Pau",
+      "lat": 42.144,
+      "lng": 2.573,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.182,
+      "lng": 2.488,
+      "type": "waypoint",
+      "road": "GI-524"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-66"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 95,
+    "gpt_duration_hours": 2.5,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows scenic secondary roads as specified, with a slight adjustment to include Olot for a more complete circuit."
+  }
+}

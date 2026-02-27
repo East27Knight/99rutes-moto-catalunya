@@ -1,0 +1,123 @@
+{
+  "id": "ruta-068",
+  "number": 68,
+  "name": "La Vall del Cardener",
+  "slug": "la-vall-del-cardener",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Bages",
+  "summary": "Remuntada pel riu Cardener cap al nord, passant per Cardona i la seva impressionant muntanya de sal i castell medieval. La C-55 és una carretera àgil amb corbes constants entre turons i valls. El retorn per Manresa i Montserrat completa un circuit amb diversitat de paisatges: riu, muntanya, plana i roca.",
+  "total_distance_km": 170,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1300,
+  "elevation_max_m": 750,
+  "roads_main": [
+    "C-55",
+    "C-1410a",
+    "C-37",
+    "B-40"
+  ],
+  "esmorzar": {
+    "town": "Cardona",
+    "comarca": "Bages",
+    "lat": 41.912,
+    "lng": 1.681,
+    "specialty": "Esmorzar de forquilla amb botifarra amb mongetes i vi del Bages",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "riu",
+    "castell",
+    "sal",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.726,1.826/41.833,1.751/41.912,1.681/41.992,1.518/42.134,1.583/42.095,1.573/42.104,1.846/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "C-37"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.726,
+      "lng": 1.826,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Súria",
+      "lat": 41.833,
+      "lng": 1.751,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Cardona",
+      "lat": 41.912,
+      "lng": 1.681,
+      "type": "esmorzar",
+      "road": "C-55"
+    },
+    {
+      "name": "Solsona",
+      "lat": 41.992,
+      "lng": 1.518,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Llorenç de Morunys",
+      "lat": 42.134,
+      "lng": 1.583,
+      "type": "waypoint",
+      "road": "C-1410a"
+    },
+    {
+      "name": "Coll de Jou",
+      "lat": 42.095,
+      "lng": 1.573,
+      "type": "summit",
+      "road": "C-1410a"
+    },
+    {
+      "name": "Berga",
+      "lat": 42.104,
+      "lng": 1.846,
+      "type": "waypoint",
+      "road": "C-37"
+    },
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "C-37"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 180,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to road conditions and terrain."
+  }
+}

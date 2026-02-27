@@ -1,0 +1,123 @@
+{
+  "id": "ruta-075",
+  "number": 75,
+  "name": "Tremp i el Pantà de Sant Antoni",
+  "slug": "tremp-i-el-panta-de-sant-antoni",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Lleida / Segrià",
+  "starting_point": {
+    "name": "Lleida",
+    "comarca": "Segrià",
+    "lat": 41.617,
+    "lng": 0.62
+  },
+  "comarca_principal": "Pallars Jussà",
+  "summary": "La C-13 s'enfila cap a Tremp passant pel Congost de Terradets i la Pobla de Segur, amb el Pantà de Sant Antoni com a mirall turquesa entre muntanyes. Carreteres netes, corbes amples i l'essència del Prepirineu lleidatà.",
+  "total_distance_km": 210,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2100,
+  "elevation_max_m": 920,
+  "roads_main": [
+    "C-13",
+    "C-1412b",
+    "L-511",
+    "N-260"
+  ],
+  "esmorzar": {
+    "town": "Tremp",
+    "comarca": "Pallars Jussà",
+    "lat": 42.167,
+    "lng": 0.895,
+    "specialty": "Esmorzar de forquilla amb girella pallaresa i formatge de tupí",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "prepirineu",
+    "pantà",
+    "congost",
+    "paisatge"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.617,0.62/41.791,0.809/41.879,0.883/42.167,0.895/42.086,1.071/42.145,1.316/42.366,1.465/42.357,1.463/41.617,0.62",
+  "waypoints": [
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "start",
+      "road": "C-13"
+    },
+    {
+      "name": "Balaguer",
+      "lat": 41.791,
+      "lng": 0.809,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Camarasa",
+      "lat": 41.879,
+      "lng": 0.883,
+      "type": "waypoint",
+      "road": "C-13"
+    },
+    {
+      "name": "Tremp",
+      "lat": 42.167,
+      "lng": 0.895,
+      "type": "esmorzar",
+      "road": "C-13"
+    },
+    {
+      "name": "Isona",
+      "lat": 42.086,
+      "lng": 1.071,
+      "type": "waypoint",
+      "road": "C-1412b"
+    },
+    {
+      "name": "Coll de Nargó",
+      "lat": 42.145,
+      "lng": 1.316,
+      "type": "waypoint",
+      "road": "L-511"
+    },
+    {
+      "name": "Adrall",
+      "lat": 42.366,
+      "lng": 1.465,
+      "type": "waypoint",
+      "road": "N-260"
+    },
+    {
+      "name": "La Seu d'Urgell",
+      "lat": 42.357,
+      "lng": 1.463,
+      "type": "waypoint",
+      "road": "N-260"
+    },
+    {
+      "name": "Lleida",
+      "lat": 41.617,
+      "lng": 0.62,
+      "type": "end",
+      "road": "C-13"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 210,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows the specified roads and includes notable towns and intersections. The estimated distance and duration are consistent with the claimed values."
+  }
+}

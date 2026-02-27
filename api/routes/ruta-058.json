@@ -1,0 +1,115 @@
+{
+  "id": "ruta-058",
+  "number": 58,
+  "name": "El Lluçanès Profund",
+  "slug": "el-llucanes-profund",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "Immersió en el Lluçanès, una de les zones més desconegudes i despoblades de la Catalunya central. Carreteres estretes i solitàries entre Prats de Lluçanès, Sant Boi de Lluçanès i Alpens. Un territori de masies, camps de blat i silenci absolut on la moto és l'única banda sonora.",
+  "total_distance_km": 140,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1100,
+  "elevation_max_m": 850,
+  "roads_main": [
+    "BV-4341",
+    "BV-4316",
+    "BV-4406",
+    "C-62"
+  ],
+  "esmorzar": {
+    "town": "Prats de Lluçanès",
+    "comarca": "Osona",
+    "lat": 41.916,
+    "lng": 2.034,
+    "specialty": "Esmorzar de pagès amb fuet de Vic, pa amb tomàquet i olives",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "aïllament",
+    "tranquil",
+    "masies",
+    "solitari"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.933,2.143/41.916,2.034/41.938,2.012/41.933,2.067/41.933,1.976/41.947,2.029/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "BV-4341"
+    },
+    {
+      "name": "Sant Bartomeu del Grau",
+      "lat": 41.933,
+      "lng": 2.143,
+      "type": "waypoint",
+      "road": "BV-4341"
+    },
+    {
+      "name": "Prats de Lluçanès",
+      "lat": 41.916,
+      "lng": 2.034,
+      "type": "esmorzar",
+      "road": "BV-4406"
+    },
+    {
+      "name": "Intersection BV-4406 & BV-4316",
+      "lat": 41.938,
+      "lng": 2.012,
+      "type": "waypoint",
+      "road": "BV-4316"
+    },
+    {
+      "name": "Olost",
+      "lat": 41.933,
+      "lng": 2.067,
+      "type": "waypoint",
+      "road": "BV-4316"
+    },
+    {
+      "name": "Sant Feliu Sasserra",
+      "lat": 41.933,
+      "lng": 1.976,
+      "type": "waypoint",
+      "road": "BV-4406"
+    },
+    {
+      "name": "Intersection BV-4406 & C-62",
+      "lat": 41.947,
+      "lng": 2.029,
+      "type": "waypoint",
+      "road": "C-62"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "C-62"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 145,
+    "gpt_duration_hours": 3.7,
+    "distance_diff_pct": 0.04,
+    "duration_diff_pct": 0.06,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to road conditions and speed limits."
+  }
+}

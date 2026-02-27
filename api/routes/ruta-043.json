@@ -1,0 +1,115 @@
+{
+  "id": "ruta-043",
+  "number": 43,
+  "name": "Montseny des del Gironès",
+  "slug": "montseny-des-del-girones",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "La Selva",
+  "summary": "Ascensió al massís del Montseny des del vessant oriental, menys transitat però igualment espectacular. La GI-543 puja entre alzinars i castanyers amb revolts tancs i desnivells exigents. Un repte tècnic amb recompensa paisatgística des dels cims del Turó de l'Home.",
+  "total_distance_km": 200,
+  "estimated_duration_hours": 4.5,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 2200,
+  "elevation_max_m": 1100,
+  "roads_main": [
+    "C-63",
+    "GI-543",
+    "BV-5301",
+    "C-35"
+  ],
+  "esmorzar": {
+    "town": "Arbúcies",
+    "comarca": "La Selva",
+    "lat": 41.819,
+    "lng": 2.514,
+    "specialty": "Esmorzar de pagès amb truita de patates, botifarra i mongetes",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "muntanya",
+    "corbes",
+    "natura",
+    "tècnic"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.847,2.663/41.819,2.514/41.841,2.395/41.705,2.449/41.686,2.492/41.746,2.635/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-63"
+    },
+    {
+      "name": "Santa Coloma de Farners",
+      "lat": 41.847,
+      "lng": 2.663,
+      "type": "waypoint",
+      "road": "C-63"
+    },
+    {
+      "name": "Arbúcies",
+      "lat": 41.819,
+      "lng": 2.514,
+      "type": "esmorzar",
+      "road": "GI-543"
+    },
+    {
+      "name": "Coll de Revell",
+      "lat": 41.841,
+      "lng": 2.395,
+      "type": "summit",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Sant Esteve de Palautordera",
+      "lat": 41.705,
+      "lng": 2.449,
+      "type": "waypoint",
+      "road": "BV-5301"
+    },
+    {
+      "name": "Sant Celoni",
+      "lat": 41.686,
+      "lng": 2.492,
+      "type": "waypoint",
+      "road": "C-35"
+    },
+    {
+      "name": "Hostalric",
+      "lat": 41.746,
+      "lng": 2.635,
+      "type": "waypoint",
+      "road": "C-35"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-63"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 190,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.05,
+    "duration_diff_pct": 0.07,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and provides a scenic ride through the Montseny area. The distance and duration estimates are slightly less than claimed, but the route remains plausible and enjoyable."
+  }
+}

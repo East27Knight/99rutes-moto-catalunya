@@ -1,0 +1,833 @@
+{
+  "hub": "Sabadell / Terrassa",
+  "slug": "sabadell-terrassa",
+  "total": 7,
+  "pro": 5,
+  "aprendiz": 2,
+  "routes": [
+    {
+      "id": "ruta-032",
+      "number": 32,
+      "name": "Sant Llorenç del Munt: La Mola per Dins",
+      "slug": "sant-llorenc-munt-mola",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Terrassa",
+        "comarca": "Vallès Occidental",
+        "lat": 41.563,
+        "lng": 2.008
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Volta completa al massís de Sant Llorenç del Munt sortint de Terrassa. Pujada per Matadepera amb revolts tancats entre conglomerats rocosos, pas per Mura i el Pont de Vilomara, i tornada per Vacarisses. Paisatge de roca i bosc amb trams tècnics que demanen precisió.",
+      "total_distance_km": 130,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 2000,
+      "elevation_max_m": 880,
+      "roads_main": [
+        "BV-1221",
+        "BV-1229",
+        "B-124",
+        "BV-1245",
+        "C-58"
+      ],
+      "esmorzar": {
+        "town": "Matadepera",
+        "comarca": "Vallès Occidental",
+        "lat": 41.598,
+        "lng": 2.023,
+        "specialty": "Esmorzar de forquilla a La Masia de Matadepera amb botifarra i ous ferrats",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "conglomerats",
+        "corbes-tancades",
+        "parc-natural",
+        "tècnic"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.563,2.008/41.598,2.023/41.664,1.976/41.683,1.977/41.732,1.927/41.694,2.061/41.616,2.087/41.548,2.107/41.563,2.008",
+      "waypoints": [
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "start",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Matadepera",
+          "lat": 41.598,
+          "lng": 2.023,
+          "type": "esmorzar",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Coll d'Estenalles",
+          "lat": 41.664,
+          "lng": 1.976,
+          "type": "summit",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Mura",
+          "lat": 41.683,
+          "lng": 1.977,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Talamanca",
+          "lat": 41.732,
+          "lng": 1.927,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sant Llorenç Savall",
+          "lat": 41.694,
+          "lng": 2.061,
+          "type": "waypoint",
+          "road": "BV-1245"
+        },
+        {
+          "name": "Castellar del Vallès",
+          "lat": 41.616,
+          "lng": 2.087,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.548,
+          "lng": 2.107,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "end",
+          "road": "C-58"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 140,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes scenic mountain passes. The claimed distance and duration are slightly underestimated; actual travel might be longer due to winding roads."
+      }
+    },
+    {
+      "id": "ruta-033",
+      "number": 33,
+      "name": "Terrassa - Montseny pel Moianès",
+      "slug": "terrassa-montseny-moianes",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Terrassa",
+        "comarca": "Vallès Occidental",
+        "lat": 41.563,
+        "lng": 2.008
+      },
+      "comarca_principal": "Osona",
+      "summary": "Gran ruta que connecta Terrassa amb el Montseny passant pel Moianès. De Terrassa a Castellterçol per la B-124, pujada fins a Moià i baixada al Montseny per carreteres solitàries. Fagedes, pins i corbes inacabables amb un desnivell acumulat notable. Per a motociclistes amb experiència.",
+      "total_distance_km": 220,
+      "estimated_duration_hours": 5,
+      "riding_time_hours": 4,
+      "elevation_gain_m": 2800,
+      "elevation_max_m": 1200,
+      "roads_main": [
+        "B-124",
+        "BV-1245",
+        "BV-5301",
+        "BV-5114",
+        "C-17",
+        "C-58"
+      ],
+      "esmorzar": {
+        "town": "Santa Fe del Montseny",
+        "comarca": "Vallès Oriental",
+        "lat": 41.776,
+        "lng": 2.449,
+        "specialty": "Esmorzar de muntanya amb botifarra del perol i patates al caliu al restaurant de Santa Fe",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "estiu",
+        "tardor"
+      ],
+      "tags": [
+        "muntanya",
+        "fageda",
+        "llarga-distància",
+        "corbes",
+        "exigent"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.563,2.008/41.616,2.086/41.684,2.042/41.812,2.098/41.783,2.358/41.776,2.449/41.686,2.491/41.608,2.288/41.548,2.107/41.563,2.008",
+      "waypoints": [
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "start",
+          "road": "B-124"
+        },
+        {
+          "name": "Castellar del Vallès",
+          "lat": 41.616,
+          "lng": 2.086,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sant Llorenç Savall",
+          "lat": 41.684,
+          "lng": 2.042,
+          "type": "waypoint",
+          "road": "BV-1245"
+        },
+        {
+          "name": "Moià",
+          "lat": 41.812,
+          "lng": 2.098,
+          "type": "waypoint",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Collformic",
+          "lat": 41.783,
+          "lng": 2.358,
+          "type": "summit",
+          "road": "BV-5301"
+        },
+        {
+          "name": "Santa Fe del Montseny",
+          "lat": 41.776,
+          "lng": 2.449,
+          "type": "esmorzar",
+          "road": "BV-5114"
+        },
+        {
+          "name": "Sant Celoni",
+          "lat": 41.686,
+          "lng": 2.491,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Granollers",
+          "lat": 41.608,
+          "lng": 2.288,
+          "type": "waypoint",
+          "road": "C-17"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.548,
+          "lng": 2.107,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "end",
+          "road": "C-58"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 210,
+        "gpt_duration_hours": 4.75,
+        "distance_diff_pct": 0.05,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes key waypoints. Distance and duration are slightly adjusted based on road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-034",
+      "number": 34,
+      "name": "Rellinars, Vacarisses i el Congost del Llobregat",
+      "slug": "rellinars-vacarisses-congost",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Sabadell",
+        "comarca": "Vallès Occidental",
+        "lat": 41.543,
+        "lng": 2.108
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Ruta que explora el sector occidental del Vallès, de Sabadell a Rellinars per carreteres estretes, baixada a Vacarisses pel congost del Llobregat i tornada per Olesa de Montserrat amb vistes a Montserrat. Trams tècnics amb revolts entre pins i un ambient de total aïllament.",
+      "total_distance_km": 125,
+      "estimated_duration_hours": 3,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1500,
+      "elevation_max_m": 640,
+      "roads_main": [
+        "C-58",
+        "BV-1229",
+        "B-124",
+        "BP-1101",
+        "C-55"
+      ],
+      "esmorzar": {
+        "town": "Olesa de Montserrat",
+        "comarca": "Baix Llobregat",
+        "lat": 41.545,
+        "lng": 1.893,
+        "specialty": "Esmorzar de forquilla amb ous estrellats i llonganissa a un bar de carretera",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "congost",
+        "carreteres-estretes",
+        "montserrat",
+        "bosc"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.563,2.008/41.633,1.911/41.545,1.893/41.61,1.835/41.578,1.832/41.592,1.912/41.543,2.108",
+      "waypoints": [
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "start",
+          "road": "C-58"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Rellinars",
+          "lat": 41.633,
+          "lng": 1.911,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Olesa de Montserrat",
+          "lat": 41.545,
+          "lng": 1.893,
+          "type": "esmorzar",
+          "road": "C-55"
+        },
+        {
+          "name": "Monistrol de Montserrat",
+          "lat": 41.61,
+          "lng": 1.835,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Collbató",
+          "lat": 41.578,
+          "lng": 1.832,
+          "type": "waypoint",
+          "road": "BP-1101"
+        },
+        {
+          "name": "Vacarisses",
+          "lat": 41.592,
+          "lng": 1.912,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "end",
+          "road": "C-58"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 130,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.17,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight increase in estimated distance and duration due to real road conditions and traffic."
+      }
+    },
+    {
+      "id": "ruta-035",
+      "number": 35,
+      "name": "Castellar del Vallès i les Obagues",
+      "slug": "castellar-valles-obagues",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Sabadell",
+        "comarca": "Vallès Occidental",
+        "lat": 41.543,
+        "lng": 2.108
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Circuit pels voltants de Castellar del Vallès, pujant cap a Sentmenat i la serra de l'Obac per la BV-1248. Carreteres amb revolts generosos entre boscos d'alzina i pi blanc, amb parades possibles a masies i fonts. Tornada per Sant Llorenç Savall completant un circuit molt satisfactori.",
+      "total_distance_km": 135,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 780,
+      "roads_main": [
+        "B-124",
+        "BV-1248",
+        "BV-1221",
+        "C-58",
+        "N-150"
+      ],
+      "esmorzar": {
+        "town": "Castellar del Vallès",
+        "comarca": "Vallès Occidental",
+        "lat": 41.616,
+        "lng": 2.083,
+        "specialty": "Esmorzar a Can Gibert amb truita de patates i café de matí",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "bosc",
+        "carreteres-secundàries",
+        "masies",
+        "tranquil"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.616,2.083/41.686,2.062/41.682,1.977/41.684,1.931/41.563,2.008/41.496,2.157/41.543,2.108",
+      "waypoints": [
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "start",
+          "road": "N-150"
+        },
+        {
+          "name": "Castellar del Vallès",
+          "lat": 41.616,
+          "lng": 2.083,
+          "type": "esmorzar",
+          "road": "B-124"
+        },
+        {
+          "name": "Sant Llorenç Savall",
+          "lat": 41.686,
+          "lng": 2.062,
+          "type": "waypoint",
+          "road": "BV-1248"
+        },
+        {
+          "name": "Coll d'Estenalles",
+          "lat": 41.682,
+          "lng": 1.977,
+          "type": "summit",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Mura",
+          "lat": 41.684,
+          "lng": 1.931,
+          "type": "waypoint",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Ripollet",
+          "lat": 41.496,
+          "lng": 2.157,
+          "type": "waypoint",
+          "road": "N-150"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "end",
+          "road": "N-150"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 140,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely, with a slight adjustment in the estimated distance and duration to reflect actual road conditions and speeds."
+      }
+    },
+    {
+      "id": "ruta-036",
+      "number": 36,
+      "name": "Sabadell a Montserrat per l'Interior",
+      "slug": "sabadell-montserrat-interior",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Sabadell",
+        "comarca": "Vallès Occidental",
+        "lat": 41.543,
+        "lng": 2.108
+      },
+      "comarca_principal": "Bages",
+      "summary": "De Sabadell a Montserrat per la ruta interior: Terrassa, Vacarisses i el Bruc fins al monestir, amb tornada per Monistrol i la C-55. Combinació de trams ràpids i revolts de muntanya amb la silueta de Montserrat com a fil conductor. Esmorzar amb vistes a la muntanya sagrada.",
+      "total_distance_km": 140,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 3,
+      "elevation_gain_m": 1800,
+      "elevation_max_m": 720,
+      "roads_main": [
+        "C-58",
+        "BV-1229",
+        "BP-1103",
+        "C-55",
+        "B-124"
+      ],
+      "esmorzar": {
+        "town": "Monistrol de Montserrat",
+        "comarca": "Bages",
+        "lat": 41.61,
+        "lng": 1.84,
+        "specialty": "Esmorzar al restaurant del monestir amb coca de recapte i embotits de la zona",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "montserrat",
+        "monestir",
+        "revolts",
+        "vistes"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.563,2.008/41.563,1.957/41.543,1.894/41.61,1.84/41.66,1.872/41.65,1.866/41.543,2.108",
+      "waypoints": [
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "start",
+          "road": "C-58"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Viladecavalls",
+          "lat": 41.563,
+          "lng": 1.957,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Olesa de Montserrat",
+          "lat": 41.543,
+          "lng": 1.894,
+          "type": "waypoint",
+          "road": "BP-1103"
+        },
+        {
+          "name": "Monistrol de Montserrat",
+          "lat": 41.61,
+          "lng": 1.84,
+          "type": "esmorzar",
+          "road": "C-55"
+        },
+        {
+          "name": "Sant Vicenç de Castellet",
+          "lat": 41.66,
+          "lng": 1.872,
+          "type": "waypoint",
+          "road": "C-55"
+        },
+        {
+          "name": "Castellbell i el Vilar",
+          "lat": 41.65,
+          "lng": 1.866,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "end",
+          "road": "B-124"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 150,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.07,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows scenic secondary roads and avoids highways. The estimated distance and duration are slightly adjusted for realistic travel times on these roads."
+      }
+    },
+    {
+      "id": "ruta-037",
+      "number": 37,
+      "name": "Matadepera i la Vall de Sant Llorenç",
+      "slug": "matadepera-vall-sant-llorenc",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Terrassa",
+        "comarca": "Vallès Occidental",
+        "lat": 41.563,
+        "lng": 2.008
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "Pujada suau de Terrassa a Matadepera, un poble acomodat al peu de Sant Llorenç del Munt. Circuit curt per les urbanitzacions boscoses amb vistes als conglomerats del massís. Carreteres amples i ben mantingudes, ideals per a primeres sortides amb un esmorzar de masia.",
+      "total_distance_km": 50,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 350,
+      "elevation_max_m": 520,
+      "roads_main": [
+        "BV-1221",
+        "BV-1229",
+        "C-58"
+      ],
+      "esmorzar": {
+        "town": "Matadepera",
+        "comarca": "Vallès Occidental",
+        "lat": 41.598,
+        "lng": 2.023,
+        "specialty": "Esmorzar de masia amb pa amb tomàquet, pernil i cafè al sol",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "masia",
+        "bosc",
+        "vistes"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.563,2.008/41.598,2.023/41.683,2.082/41.703,2.059/41.716,2.123/41.616,2.086/41.548,2.107/41.563,2.008",
+      "waypoints": [
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "start",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Matadepera",
+          "lat": 41.598,
+          "lng": 2.023,
+          "type": "esmorzar",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Sant Llorenç Savall",
+          "lat": 41.683,
+          "lng": 2.082,
+          "type": "waypoint",
+          "road": "BV-1221"
+        },
+        {
+          "name": "Intersection BV-1221 and BV-1229",
+          "lat": 41.703,
+          "lng": 2.059,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Gallifa",
+          "lat": 41.716,
+          "lng": 2.123,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Castellar del Vallès",
+          "lat": 41.616,
+          "lng": 2.086,
+          "type": "waypoint",
+          "road": "BV-1229"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.548,
+          "lng": 2.107,
+          "type": "waypoint",
+          "road": "C-58"
+        },
+        {
+          "name": "Terrassa",
+          "lat": 41.563,
+          "lng": 2.008,
+          "type": "end",
+          "road": "C-58"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 55,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.1,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values."
+      }
+    },
+    {
+      "id": "ruta-038",
+      "number": 38,
+      "name": "Sabadell a Sentmenat pel Rodal",
+      "slug": "sabadell-sentmenat-rodal",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Sabadell / Terrassa",
+      "starting_point": {
+        "name": "Sabadell",
+        "comarca": "Vallès Occidental",
+        "lat": 41.543,
+        "lng": 2.108
+      },
+      "comarca_principal": "Vallès Occidental",
+      "summary": "El circuit més senzill des de Sabadell: pujada a Sentmenat per la B-124, volta per Polinyà i Santa Perpètua de Mogoda, i tornada. Carreteres planes amb algun revolt suau, paisatge agrícola del Vallès i zero complicacions. La ruta perfecta per estrenar-se.",
+      "total_distance_km": 45,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 280,
+      "roads_main": [
+        "B-124",
+        "C-59",
+        "N-150",
+        "B-140"
+      ],
+      "esmorzar": {
+        "town": "Sentmenat",
+        "comarca": "Vallès Occidental",
+        "lat": 41.632,
+        "lng": 2.148,
+        "specialty": "Entrepà de botifarra amb mongetes a un bar de carretera a Sentmenat",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "estiu",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "fàcil",
+        "primer-cop",
+        "pla",
+        "agrícola"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/41.543,2.108/41.583,2.124/41.632,2.148/41.607,2.14/41.556,2.108/41.543,2.108",
+      "waypoints": [
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "start",
+          "road": "B-124"
+        },
+        {
+          "name": "Intersection B-124 and C-59",
+          "lat": 41.583,
+          "lng": 2.124,
+          "type": "waypoint",
+          "road": "B-124"
+        },
+        {
+          "name": "Sentmenat",
+          "lat": 41.632,
+          "lng": 2.148,
+          "type": "esmorzar",
+          "road": "B-124"
+        },
+        {
+          "name": "Intersection C-59 and N-150",
+          "lat": 41.607,
+          "lng": 2.14,
+          "type": "waypoint",
+          "road": "C-59"
+        },
+        {
+          "name": "Intersection N-150 and B-140",
+          "lat": 41.556,
+          "lng": 2.108,
+          "type": "waypoint",
+          "road": "N-150"
+        },
+        {
+          "name": "Sabadell",
+          "lat": 41.543,
+          "lng": 2.108,
+          "type": "end",
+          "road": "B-140"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 45,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and matches the claimed distance and duration."
+      }
+    }
+  ]
+}

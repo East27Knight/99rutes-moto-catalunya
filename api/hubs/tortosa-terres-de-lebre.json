@@ -1,0 +1,828 @@
+{
+  "hub": "Tortosa / Terres de l'Ebre",
+  "slug": "tortosa-terres-de-lebre",
+  "total": 7,
+  "pro": 5,
+  "aprendiz": 2,
+  "routes": [
+    {
+      "id": "ruta-093",
+      "number": 93,
+      "name": "Ports de Tortosa-Beseit i Horta de Sant Joan",
+      "slug": "ports-de-tortosa-beseit-i-horta-de-sant-joan",
+      "category": "pro",
+      "difficulty": 5,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Terra Alta",
+      "summary": "La ruta reina de les Terres de l'Ebre: pujada pels Ports de Tortosa-Beseit per la T-330, pas per Paüls amb revolts de muntanya espectaculars, i arribada a Horta de Sant Joan, on Picasso va trobar la inspiració. Carretera de muntanya pura amb desnivells importants.",
+      "total_distance_km": 160,
+      "estimated_duration_hours": 4.0,
+      "riding_time_hours": 3.0,
+      "elevation_gain_m": 2600,
+      "elevation_max_m": 1050,
+      "roads_main": [
+        "T-330",
+        "T-333",
+        "T-334",
+        "C-12"
+      ],
+      "esmorzar": {
+        "town": "Horta de Sant Joan",
+        "comarca": "Terra Alta",
+        "lat": 40.94,
+        "lng": 0.319,
+        "specialty": "Esmorzar de pagès amb oli de la Terra Alta, pa de forn i embotits casolans",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "ports",
+        "muntanya",
+        "picasso",
+        "revolts"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.822,0.503/40.864,0.396/40.94,0.319/40.945,0.268/40.935,0.398/40.977,0.509/40.916,0.501/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Roquetes",
+          "lat": 40.822,
+          "lng": 0.503,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Alfara de Carles",
+          "lat": 40.864,
+          "lng": 0.396,
+          "type": "waypoint",
+          "road": "T-330"
+        },
+        {
+          "name": "Horta de Sant Joan",
+          "lat": 40.94,
+          "lng": 0.319,
+          "type": "esmorzar",
+          "road": "T-334"
+        },
+        {
+          "name": "Arnes",
+          "lat": 40.945,
+          "lng": 0.268,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Prat de Comte",
+          "lat": 40.935,
+          "lng": 0.398,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Benifallet",
+          "lat": 40.977,
+          "lng": 0.509,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Xerta",
+          "lat": 40.916,
+          "lng": 0.501,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 165,
+        "gpt_duration_hours": 3.8,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.05,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads closely. The estimated distance and duration are slightly adjusted based on typical road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-094",
+      "number": 94,
+      "name": "Delta de l'Ebre Gran Volta",
+      "slug": "delta-de-lebre-gran-volta",
+      "category": "pro",
+      "difficulty": 2,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Montsià",
+      "summary": "Circuit únic pel Delta de l'Ebre: arrossars infinits, flamencs rosats, llacunes i la línia de l'horitzó on el cel es fon amb l'aigua. Una ruta plana però hipnòtica que recorre els dos hemideltes, amb parades als miradors d'aus i les salines de la Trinitat.",
+      "total_distance_km": 130,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 200,
+      "elevation_max_m": 25,
+      "roads_main": [
+        "TV-3405",
+        "TV-3406",
+        "C-12",
+        "TV-3401"
+      ],
+      "esmorzar": {
+        "town": "Deltebre",
+        "comarca": "Baix Ebre",
+        "lat": 40.721,
+        "lng": 0.726,
+        "specialty": "Arròs a banda del Delta i anguiles amb all i julivert",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "delta",
+        "natura",
+        "aus",
+        "arrossars"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.713,0.581/40.721,0.726/40.72,0.746/40.619,0.604/40.621,0.59/40.713,0.581/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.713,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Deltebre",
+          "lat": 40.721,
+          "lng": 0.726,
+          "type": "esmorzar",
+          "road": "TV-3401"
+        },
+        {
+          "name": "Sant Jaume d'Enveja",
+          "lat": 40.72,
+          "lng": 0.746,
+          "type": "waypoint",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Sant Carles de la Ràpita",
+          "lat": 40.619,
+          "lng": 0.604,
+          "type": "waypoint",
+          "road": "TV-3406"
+        },
+        {
+          "name": "La Ràpita",
+          "lat": 40.621,
+          "lng": 0.59,
+          "type": "waypoint",
+          "road": "TV-3406"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.713,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 135,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.04,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and the estimated distance and duration are consistent with the claimed values."
+      }
+    },
+    {
+      "id": "ruta-095",
+      "number": 95,
+      "name": "Terra Alta: Gandesa i el Front de l'Ebre",
+      "slug": "terra-alta-gandesa-i-el-front-de-lebre",
+      "category": "pro",
+      "difficulty": 3,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Terra Alta",
+      "summary": "Ruta per la Terra Alta, terra de vi i memòria: Gandesa amb el celler modernista, Bot entre camps d'ametllers, i Arnes al peu dels Ports. Les carreteres ondulades entre vinyes i oliveres tenen un ritme perfecte, amb corbes ben peraltades i poc trànsit.",
+      "total_distance_km": 145,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1600,
+      "elevation_max_m": 720,
+      "roads_main": [
+        "T-333",
+        "T-334",
+        "C-12",
+        "T-330"
+      ],
+      "esmorzar": {
+        "town": "Gandesa",
+        "comarca": "Terra Alta",
+        "lat": 41.051,
+        "lng": 0.438,
+        "specialty": "Esmorzar de forquilla amb ametlles torrades, oli DOP Terra Alta i coca amb pebrot",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "terra-alta",
+        "vi",
+        "guerra-civil",
+        "ametllers"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.957,0.454/40.957,0.319/41.021,0.394/41.051,0.438/41.076,0.474/41.031,0.505/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "T-333"
+        },
+        {
+          "name": "Prat de Comte",
+          "lat": 40.957,
+          "lng": 0.454,
+          "type": "waypoint",
+          "road": "T-334"
+        },
+        {
+          "name": "Horta de Sant Joan",
+          "lat": 40.957,
+          "lng": 0.319,
+          "type": "waypoint",
+          "road": "T-334"
+        },
+        {
+          "name": "Bot",
+          "lat": 41.021,
+          "lng": 0.394,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Gandesa",
+          "lat": 41.051,
+          "lng": 0.438,
+          "type": "esmorzar",
+          "road": "C-12"
+        },
+        {
+          "name": "Corbera d'Ebre",
+          "lat": 41.076,
+          "lng": 0.474,
+          "type": "waypoint",
+          "road": "T-330"
+        },
+        {
+          "name": "Pinell de Brai",
+          "lat": 41.031,
+          "lng": 0.505,
+          "type": "waypoint",
+          "road": "T-330"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "T-333"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 150,
+        "gpt_duration_hours": 3.5,
+        "distance_diff_pct": 0.03,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes all necessary waypoints. The estimated distance and duration are slightly higher than claimed but within a reasonable range."
+      }
+    },
+    {
+      "id": "ruta-096",
+      "number": 96,
+      "name": "Matarranya: Beceite i Calaceit",
+      "slug": "matarranya-beceite-i-calaceit",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Terra Alta",
+      "summary": "Travessa cap a la frontera aragonesa per carreteres de serra que porten a Beceite i el seu riu cristal·lí, i a Calaceit amb la plaça porxada. Revolt darrere revolt entre boscos de pi i parets de roca, amb el sabor d'una Catalunya que toca l'Aragó.",
+      "total_distance_km": 180,
+      "estimated_duration_hours": 4.5,
+      "riding_time_hours": 3.5,
+      "elevation_gain_m": 2400,
+      "elevation_max_m": 980,
+      "roads_main": [
+        "T-330",
+        "T-333",
+        "N-420"
+      ],
+      "esmorzar": {
+        "town": "Beceite",
+        "comarca": "Matarranya (Aragó)",
+        "lat": 40.835,
+        "lng": 0.186,
+        "specialty": "Esmorzar de pastor amb pernil d'Aragó, pa de llenya i oli del Matarranya",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "matarranya",
+        "frontera",
+        "riu",
+        "pobles"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.926,0.396/40.957,0.312/40.964,0.267/40.835,0.186/40.866,0.156/41.011,0.165/41.053,0.437/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "T-330"
+        },
+        {
+          "name": "Prat de Comte",
+          "lat": 40.926,
+          "lng": 0.396,
+          "type": "waypoint",
+          "road": "T-330"
+        },
+        {
+          "name": "Horta de Sant Joan",
+          "lat": 40.957,
+          "lng": 0.312,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Arnes",
+          "lat": 40.964,
+          "lng": 0.267,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Beceite",
+          "lat": 40.835,
+          "lng": 0.186,
+          "type": "esmorzar",
+          "road": "T-333"
+        },
+        {
+          "name": "Valderrobres",
+          "lat": 40.866,
+          "lng": 0.156,
+          "type": "waypoint",
+          "road": "T-333"
+        },
+        {
+          "name": "Calaceit",
+          "lat": 41.011,
+          "lng": 0.165,
+          "type": "waypoint",
+          "road": "N-420"
+        },
+        {
+          "name": "Gandesa",
+          "lat": 41.053,
+          "lng": 0.437,
+          "type": "waypoint",
+          "road": "N-420"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "N-420"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 190,
+        "gpt_duration_hours": 4.5,
+        "distance_diff_pct": 0.06,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route closely follows the specified roads and includes scenic towns and landscapes. The estimated distance is slightly less than claimed but within a reasonable range."
+      }
+    },
+    {
+      "id": "ruta-097",
+      "number": 97,
+      "name": "Serra de Cardó i el Coll de l'Alba",
+      "slug": "serra-de-cardo-i-el-coll-de-lalba",
+      "category": "pro",
+      "difficulty": 4,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Baix Ebre",
+      "summary": "Ascensió a la Serra de Cardó per carreteres estretes i sinuoses que pugen entre pinedes fins als miradors amb vistes al Delta de l'Ebre i el mar. Pas pel Coll de l'Alba i baixada cap a Rasquera, amb revolts que demanen concentració i recompensen amb panoràmiques grandioses.",
+      "total_distance_km": 120,
+      "estimated_duration_hours": 3.5,
+      "riding_time_hours": 2.5,
+      "elevation_gain_m": 1800,
+      "elevation_max_m": 890,
+      "roads_main": [
+        "TV-3022",
+        "T-301",
+        "C-12",
+        "TV-3031"
+      ],
+      "esmorzar": {
+        "town": "Rasquera",
+        "comarca": "Ribera d'Ebre",
+        "lat": 40.949,
+        "lng": 0.577,
+        "specialty": "Esmorzar casolà amb productes de l'hort i embotits de la Ribera d'Ebre",
+        "confidence": "area"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor"
+      ],
+      "tags": [
+        "serra",
+        "cardó",
+        "miradors",
+        "revolts"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.843,0.545/40.949,0.577/41.007,0.585/41.04,0.6/41.053,0.65/40.97,0.6/40.97,0.51/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "TV-3022"
+        },
+        {
+          "name": "Intersection TV-3022 and T-301",
+          "lat": 40.843,
+          "lng": 0.545,
+          "type": "waypoint",
+          "road": "T-301"
+        },
+        {
+          "name": "Rasquera",
+          "lat": 40.949,
+          "lng": 0.577,
+          "type": "esmorzar",
+          "road": "T-301"
+        },
+        {
+          "name": "Intersection T-301 and C-12",
+          "lat": 41.007,
+          "lng": 0.585,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Miravet",
+          "lat": 41.04,
+          "lng": 0.6,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Intersection C-12 and TV-3031",
+          "lat": 41.053,
+          "lng": 0.65,
+          "type": "waypoint",
+          "road": "TV-3031"
+        },
+        {
+          "name": "Coll de Som",
+          "lat": 40.97,
+          "lng": 0.6,
+          "type": "summit",
+          "road": "TV-3031"
+        },
+        {
+          "name": "Benifallet",
+          "lat": 40.97,
+          "lng": 0.51,
+          "type": "waypoint",
+          "road": "TV-3031"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "TV-3022"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 130,
+        "gpt_duration_hours": 3.0,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.14,
+        "plausible": true,
+        "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly less than claimed, likely due to the actual road conditions and speed limits."
+      }
+    },
+    {
+      "id": "ruta-098",
+      "number": 98,
+      "name": "Delta de l'Ebre Aprendiz",
+      "slug": "delta-de-lebre-aprendiz",
+      "category": "aprendiz",
+      "difficulty": 1,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Baix Ebre",
+      "summary": "Versió curta i plana del Delta de l'Ebre: baixada fins a Deltebre i recorregut per l'hemidelta esquerre amb parades als miradors d'aus i els arrossars. Zero corbes, zero pendents, cent per cent paisatge. Ideal per a qui tot just comença.",
+      "total_distance_km": 65,
+      "estimated_duration_hours": 2.0,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 80,
+      "elevation_max_m": 15,
+      "roads_main": [
+        "C-12",
+        "TV-3405",
+        "TV-3406"
+      ],
+      "esmorzar": {
+        "town": "Deltebre",
+        "comarca": "Baix Ebre",
+        "lat": 40.721,
+        "lng": 0.726,
+        "specialty": "Arròs del Delta amb verdures de l'hort i musclos de la badia",
+        "confidence": "recommended"
+      },
+      "route_type": "anada-i-tornada",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "delta",
+        "aus",
+        "pla",
+        "suau"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.716,0.581/40.719,0.702/40.721,0.726/40.72,0.715/40.716,0.581/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.716,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Sant Jaume d'Enveja",
+          "lat": 40.719,
+          "lng": 0.702,
+          "type": "waypoint",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Deltebre",
+          "lat": 40.721,
+          "lng": 0.726,
+          "type": "esmorzar",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Pont Lo Passador",
+          "lat": 40.72,
+          "lng": 0.715,
+          "type": "waypoint",
+          "road": "TV-3405"
+        },
+        {
+          "name": "Amposta",
+          "lat": 40.716,
+          "lng": 0.581,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 65,
+        "gpt_duration_hours": 2.0,
+        "distance_diff_pct": 0.0,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads closely and matches the claimed distance and duration."
+      }
+    },
+    {
+      "id": "ruta-099",
+      "number": 99,
+      "name": "Tortosa, Xerta i Benifallet",
+      "slug": "tortosa-xerta-i-benifallet",
+      "category": "aprendiz",
+      "difficulty": 2,
+      "starting_hub": "Tortosa / Terres de l'Ebre",
+      "starting_point": {
+        "name": "Tortosa",
+        "comarca": "Baix Ebre",
+        "lat": 40.812,
+        "lng": 0.521
+      },
+      "comarca_principal": "Baix Ebre",
+      "summary": "Circuit curt pel riu Ebre: pujada fins a Xerta amb la seva resclosa històrica i continuació fins a Benifallet, poble fluvial entre muntanyes. Carretera suau que segueix el curs del riu amb algunes corbes amples, perfecte per agafar confiança i gaudir del paisatge de ribera.",
+      "total_distance_km": 60,
+      "estimated_duration_hours": 1.5,
+      "riding_time_hours": 1.0,
+      "elevation_gain_m": 250,
+      "elevation_max_m": 180,
+      "roads_main": [
+        "C-12",
+        "TV-3031",
+        "T-301"
+      ],
+      "esmorzar": {
+        "town": "Xerta",
+        "comarca": "Baix Ebre",
+        "lat": 40.917,
+        "lng": 0.494,
+        "specialty": "Esmorzar de ribera amb truita d'espàrrecs i pa amb oli de l'Ebre",
+        "confidence": "recommended"
+      },
+      "route_type": "circular",
+      "best_season": [
+        "primavera",
+        "tardor",
+        "hivern"
+      ],
+      "tags": [
+        "riu",
+        "ebre",
+        "suau",
+        "ribera"
+      ],
+      "google_maps_url": "https://www.google.com/maps/dir/40.812,0.521/40.917,0.494/40.923,0.491/40.95,0.468/40.975,0.464/40.969,0.509/40.965,0.514/40.812,0.521",
+      "waypoints": [
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "start",
+          "road": "C-12"
+        },
+        {
+          "name": "Xerta",
+          "lat": 40.917,
+          "lng": 0.494,
+          "type": "esmorzar",
+          "road": "C-12"
+        },
+        {
+          "name": "Intersection C-12 and TV-3031",
+          "lat": 40.923,
+          "lng": 0.491,
+          "type": "waypoint",
+          "road": "TV-3031"
+        },
+        {
+          "name": "Paüls",
+          "lat": 40.95,
+          "lng": 0.468,
+          "type": "waypoint",
+          "road": "TV-3031"
+        },
+        {
+          "name": "Intersection TV-3031 and T-301",
+          "lat": 40.975,
+          "lng": 0.464,
+          "type": "waypoint",
+          "road": "T-301"
+        },
+        {
+          "name": "Benifallet",
+          "lat": 40.969,
+          "lng": 0.509,
+          "type": "waypoint",
+          "road": "T-301"
+        },
+        {
+          "name": "Intersection T-301 and C-12",
+          "lat": 40.965,
+          "lng": 0.514,
+          "type": "waypoint",
+          "road": "C-12"
+        },
+        {
+          "name": "Tortosa",
+          "lat": 40.812,
+          "lng": 0.521,
+          "type": "end",
+          "road": "C-12"
+        }
+      ],
+      "waypoints_source": "openai_verified",
+      "verification": {
+        "gpt_distance_km": 65,
+        "gpt_duration_hours": 1.5,
+        "distance_diff_pct": 0.08,
+        "duration_diff_pct": 0.0,
+        "plausible": true,
+        "notes": "The route follows the specified roads and includes notable intersections and towns. The estimated distance and duration are slightly adjusted to account for actual road conditions."
+      }
+    }
+  ]
+}

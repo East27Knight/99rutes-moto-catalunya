@@ -1,0 +1,116 @@
+{
+  "id": "ruta-027",
+  "number": 27,
+  "name": "Collserola Express",
+  "slug": "collserola-express",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Barcelona",
+    "comarca": "Barcelonès",
+    "lat": 41.389,
+    "lng": 2.159
+  },
+  "comarca_principal": "Barcelonès",
+  "summary": "El circuit més accessible des de Barcelona: pujada al Tibidabo per la BV-1468, volta pel Parc de Collserola i baixada per Molins de Rei. Carreteres ben asfaltades, revolts suaus i vistes espectaculars de la ciutat. La introducció perfecta al motociclisme de ruta.",
+  "total_distance_km": 45,
+  "estimated_duration_hours": 1.5,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 400,
+  "elevation_max_m": 512,
+  "roads_main": [
+    "BV-1468",
+    "BP-1417",
+    "BV-1462"
+  ],
+  "esmorzar": {
+    "town": "Vallvidrera",
+    "comarca": "Barcelonès",
+    "lat": 41.417,
+    "lng": 2.107,
+    "specialty": "Cafè amb croissant a Can Trampa, amb vistes sobre Barcelona",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "urbà",
+    "fàcil",
+    "vistes",
+    "primer-cop"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.389,2.159/41.417,2.107/41.421,2.091/41.422,2.119/41.472,2.086/41.441,2.075/41.434,2.088/41.389,2.159",
+  "waypoints": [
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "start",
+      "road": "BV-1468"
+    },
+    {
+      "name": "Vallvidrera",
+      "lat": 41.417,
+      "lng": 2.107,
+      "type": "esmorzar",
+      "road": "BV-1468"
+    },
+    {
+      "name": "Collserola Park Entrance",
+      "lat": 41.421,
+      "lng": 2.091,
+      "type": "waypoint",
+      "road": "BV-1468"
+    },
+    {
+      "name": "Tibidabo",
+      "lat": 41.422,
+      "lng": 2.119,
+      "type": "viewpoint",
+      "road": "BP-1417"
+    },
+    {
+      "name": "Sant Cugat del Vallès",
+      "lat": 41.472,
+      "lng": 2.086,
+      "type": "waypoint",
+      "road": "BP-1417"
+    },
+    {
+      "name": "La Floresta",
+      "lat": 41.441,
+      "lng": 2.075,
+      "type": "waypoint",
+      "road": "BV-1462"
+    },
+    {
+      "name": "Les Planes",
+      "lat": 41.434,
+      "lng": 2.088,
+      "type": "waypoint",
+      "road": "BV-1462"
+    },
+    {
+      "name": "Barcelona",
+      "lat": 41.389,
+      "lng": 2.159,
+      "type": "end",
+      "road": "BV-1462"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 42,
+    "gpt_duration_hours": 1.2,
+    "distance_diff_pct": 0.07,
+    "duration_diff_pct": 0.2,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and matches the claimed distance and duration."
+  }
+}

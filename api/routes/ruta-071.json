@@ -1,0 +1,108 @@
+{
+  "id": "ruta-071",
+  "number": 71,
+  "name": "Montserrat Fàcil: El Bruc i Collbató",
+  "slug": "montserrat-facil-el-bruc-i-collbato",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Anoia",
+  "summary": "Aproximació a Montserrat sense la dificultat dels ports de muntanya. Des d'Igualada fins a El Bruc i Collbató per carreteres còmodes, amb vistes espectaculars a les agulles de Montserrat des de baix. Una ruta curta per contemplar la muntanya sagrada de Catalunya sense comprometre la seguretat.",
+  "total_distance_km": 65,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 400,
+  "elevation_max_m": 560,
+  "roads_main": [
+    "B-112",
+    "BP-1101",
+    "C-37"
+  ],
+  "esmorzar": {
+    "town": "Collbató",
+    "comarca": "Baix Llobregat",
+    "lat": 41.573,
+    "lng": 1.825,
+    "specialty": "Esmorzar de pa amb tomàquet, pernil ibèric i vistes a Montserrat",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "montserrat",
+    "principiant",
+    "vistes",
+    "accessible"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.575,1.65/41.582,1.737/41.573,1.825/41.592,1.833/41.582,1.737/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "C-37"
+    },
+    {
+      "name": "Intersection B-112 / C-37",
+      "lat": 41.575,
+      "lng": 1.65,
+      "type": "waypoint",
+      "road": "B-112"
+    },
+    {
+      "name": "El Bruc",
+      "lat": 41.582,
+      "lng": 1.737,
+      "type": "waypoint",
+      "road": "B-112"
+    },
+    {
+      "name": "Collbató",
+      "lat": 41.573,
+      "lng": 1.825,
+      "type": "esmorzar",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Montserrat Viewpoint",
+      "lat": 41.592,
+      "lng": 1.833,
+      "type": "viewpoint",
+      "road": "BP-1101"
+    },
+    {
+      "name": "Return to El Bruc",
+      "lat": 41.582,
+      "lng": 1.737,
+      "type": "waypoint",
+      "road": "B-112"
+    },
+    {
+      "name": "Return to Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "C-37"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 70,
+    "gpt_duration_hours": 2.0,
+    "distance_diff_pct": 0.08,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route follows scenic secondary roads with a slight detour for a viewpoint. The estimated distance and duration are close to the claimed values."
+  }
+}

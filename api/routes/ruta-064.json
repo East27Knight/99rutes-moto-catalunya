@@ -1,0 +1,123 @@
+{
+  "id": "ruta-064",
+  "number": 64,
+  "name": "Montserrat des del Sud: La Ruta dels Monjos",
+  "slug": "montserrat-des-del-sud-la-ruta-dels-monjos",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Bages",
+  "summary": "Ascensió a Montserrat per la cara sud, la menys transitada i la més espectacular. La BP-1103 s'enfila entre agulles de pedra amb revolts tancats i desnivells importants. Les vistes a la serralada prelitoral i les formacions rocoses de Montserrat són hipnòtiques. Una ruta de peregrinatge motociclista.",
+  "total_distance_km": 145,
+  "estimated_duration_hours": 3.5,
+  "riding_time_hours": 2.5,
+  "elevation_gain_m": 1800,
+  "elevation_max_m": 1050,
+  "roads_main": [
+    "BP-1103",
+    "B-112",
+    "C-55",
+    "C-37"
+  ],
+  "esmorzar": {
+    "town": "Monistrol de Montserrat",
+    "comarca": "Bages",
+    "lat": 41.61,
+    "lng": 1.837,
+    "specialty": "Esmorzar de forquilla amb carn a la brasa i coca de recapte",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "muntanya",
+    "icònica",
+    "corbes",
+    "espiritualitat"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.563,1.679/41.578,1.83/41.61,1.837/41.648,1.871/41.728,1.823/41.685,1.75/41.65,1.673/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "BP-1103"
+    },
+    {
+      "name": "La Pobla de Claramunt",
+      "lat": 41.563,
+      "lng": 1.679,
+      "type": "waypoint",
+      "road": "B-112"
+    },
+    {
+      "name": "Collbató",
+      "lat": 41.578,
+      "lng": 1.83,
+      "type": "waypoint",
+      "road": "B-112"
+    },
+    {
+      "name": "Monistrol de Montserrat",
+      "lat": 41.61,
+      "lng": 1.837,
+      "type": "esmorzar",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Vicenç de Castellet",
+      "lat": 41.648,
+      "lng": 1.871,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.728,
+      "lng": 1.823,
+      "type": "waypoint",
+      "road": "C-55"
+    },
+    {
+      "name": "Sant Salvador de Guardiola",
+      "lat": 41.685,
+      "lng": 1.75,
+      "type": "waypoint",
+      "road": "C-37"
+    },
+    {
+      "name": "Castellfollit del Boix",
+      "lat": 41.65,
+      "lng": 1.673,
+      "type": "waypoint",
+      "road": "C-37"
+    },
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "BP-1103"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 150,
+    "gpt_duration_hours": 3.5,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route closely follows the specified roads and includes key waypoints. The estimated distance and duration are slightly adjusted for accuracy."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "ruta-011",
+  "number": 11,
+  "name": "Volta a Montserrat per Sant Benet",
+  "slug": "volta-montserrat-sant-benet",
+  "category": "aprendiz",
+  "difficulty": 2,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Bages",
+  "summary": "Ruta curta i accessible que baixa fins a Sant Fruitós de Bages per visitar el monestir de Sant Benet i continua fins als peus de Montserrat. Carreteres amples i ben asfaltades, ideals per agafar confiança. Vistes magnífiques de la silueta de Montserrat des del pla.",
+  "total_distance_km": 65,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1.5,
+  "elevation_gain_m": 500,
+  "elevation_max_m": 450,
+  "roads_main": [
+    "C-55",
+    "BP-1101",
+    "BV-1124"
+  ],
+  "esmorzar": {
+    "town": "Sant Fruitós de Bages",
+    "comarca": "Bages",
+    "lat": 41.741,
+    "lng": 1.874,
+    "specialty": "Esmorzar al restaurant de Sant Benet amb coca de recapte",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "monestir",
+    "cultural",
+    "fàcil",
+    "vistes"
+  ],
+  "waypoints": [
+    {
+      "name": "Manresa (sortida)",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start"
+    },
+    {
+      "name": "Sant Fruitós de Bages (Monestir de Sant Benet)",
+      "lat": 41.741,
+      "lng": 1.874,
+      "type": "esmorzar"
+    },
+    {
+      "name": "El Pont de Vilomara",
+      "lat": 41.668,
+      "lng": 1.877,
+      "type": "waypoint"
+    },
+    {
+      "name": "Mirador de Montserrat (des del pla)",
+      "lat": 41.635,
+      "lng": 1.855,
+      "type": "viewpoint"
+    },
+    {
+      "name": "Castellbell i el Vilar",
+      "lat": 41.627,
+      "lng": 1.862,
+      "type": "waypoint"
+    },
+    {
+      "name": "Manresa (arribada)",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end"
+    }
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.741,1.874/41.668,1.877/41.635,1.855/41.627,1.862/41.725,1.826",
+  "description_long": "Aquesta ruta és un abraçada. És la mà amiga que et diu: 'Vine, que anar en moto és meravellós.' Sortint de Manresa per la C-55, la carretera és àmplia, el trànsit previsible i l'asfalt impecable. En pocs quilòmetres arribes a Sant Fruitós de Bages i al monestir de Sant Benet, un conjunt monàstic del segle X que ha estat restaurat amb cura exquisida. El claustre romànic, les pintures murals i els jardins conventuals són un recordatori que la bellesa existeix en la calma.\n\nDes de Sant Benet, la BP-1101 s'obre cap al sud amb un paisatge que és pura Catalunya Central: vinyes del Pla de Bages, camps de cereals daurats, masies de pedra amb els teulats de teula àrab. I al fons, sempre al fons, Montserrat. La muntanya sagrada apareix com una aparició de pedra serrada que creix a mesura que t'hi acostes. Les seves agulles, torres i canals dibuixen una silueta que no es confon amb cap altra muntanya del món. Des de la moto, la perspectiva és privilegiada: el pla obert al teu voltant, Montserrat omplint l'horitzó, i la sensació de llibertat que només dona una carretera recta amb bona visibilitat.\n\nLa tornada per la BV-1124 cap a Manresa és igualment plaent: alguna corba suau entre camps, un parell de pobles petits amb les seves esglésies de campanar quadrat, i la satisfacció d'haver completat la teva primera ruta en moto amb un somriure. Perquè d'això es tracta: de gaudir del camí, de sentir el sol a l'esquena, i de tornar a casa amb ganes de repetir.",
+  "what_makes_it_special": "La combinació perfecta per a un motociclista novell: carreteres fàcils i segures, un monestir mil·lenari amb jardins on passejar, i la vista majestuosa de Montserrat com a teló de fons permanent.",
+  "roads_detail": [
+    {
+      "name": "C-55",
+      "segment": "Manresa - Sant Fruitós de Bages",
+      "type": "carretera comarcal",
+      "notes": "Carretera àmplia i ben senyalitzada. Trànsit moderat. Algunes rotondes a la sortida de Manresa."
+    },
+    {
+      "name": "BP-1101",
+      "segment": "Sant Fruitós de Bages - El Pont de Vilomara",
+      "type": "carretera local",
+      "notes": "Carretera plana entre camps. Poc trànsit. Alguna corba suau. Vistes de Montserrat al davant."
+    },
+    {
+      "name": "BV-1124",
+      "segment": "El Pont de Vilomara - Manresa",
+      "type": "carretera local",
+      "notes": "Tornada per l'interior. Carretera còmoda sense dificultats tècniques."
+    }
+  ],
+  "warnings": [
+    "Ruta ideal per a principiants, però no descuidis la concentració. Vigila les rotondes a la sortida de Manresa.",
+    "A l'hivern el sol és baix i pot enlluerar en alguns trams orientats al sud. Porta visera neta.",
+    "Atenció als tractors i maquinària agrícola a les carreteres secundàries, especialment en època de collita."
+  ],
+  "fuel_note": "Gasolineres disponibles a Manresa i Sant Fruitós de Bages. Amb 65 km de recorregut, qualsevol moto fa la ruta sense necessitat de repostar."
+}

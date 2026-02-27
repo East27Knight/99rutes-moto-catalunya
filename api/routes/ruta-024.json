@@ -1,0 +1,118 @@
+{
+  "id": "ruta-024",
+  "number": 24,
+  "name": "Sant Llorenç Savall i el Pre-Pirineu Proper",
+  "slug": "sant-llorenc-savall-pre-pirineu",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Barcelona / Vallès",
+  "starting_point": {
+    "name": "Cerdanyola del Vallès",
+    "comarca": "Vallès Occidental",
+    "lat": 41.549,
+    "lng": 2.107
+  },
+  "comarca_principal": "Vallès Occidental",
+  "summary": "Ruta que connecta el Vallès amb el pre-Pirineu proper, passant per Sant Llorenç Savall, Castellterçol i Moià. Carreteres que guanyen alçada progressivament, amb vegetació que canvia dels alzinars mediterranis als boscos de pi roig. Tornada pel Congost amb un tram ràpid per la C-17.",
+  "total_distance_km": 160,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1900,
+  "elevation_max_m": 900,
+  "roads_main": [
+    "C-58",
+    "BV-1221",
+    "B-124",
+    "BV-1245",
+    "C-17",
+    "C-33"
+  ],
+  "esmorzar": {
+    "town": "Castellterçol",
+    "comarca": "Moianès",
+    "lat": 41.756,
+    "lng": 2.12,
+    "specialty": "Esmorzar de forquilla amb vedella de Castellterçol i patates a la brasa",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pre-pirineu",
+    "bosc",
+    "progressiu",
+    "carreteres-secundàries"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.549,2.107/41.563,2.008/41.683,2.041/41.756,2.12/41.812,2.098/41.93,2.254/41.608,2.288/41.549,2.107",
+  "waypoints": [
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "start",
+      "road": "C-58"
+    },
+    {
+      "name": "Terrassa",
+      "lat": 41.563,
+      "lng": 2.008,
+      "type": "waypoint",
+      "road": "C-58"
+    },
+    {
+      "name": "Sant Llorenç Savall",
+      "lat": 41.683,
+      "lng": 2.041,
+      "type": "waypoint",
+      "road": "BV-1221"
+    },
+    {
+      "name": "Castellterçol",
+      "lat": 41.756,
+      "lng": 2.12,
+      "type": "esmorzar",
+      "road": "B-124"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.812,
+      "lng": 2.098,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.93,
+      "lng": 2.254,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Granollers",
+      "lat": 41.608,
+      "lng": 2.288,
+      "type": "waypoint",
+      "road": "C-33"
+    },
+    {
+      "name": "Cerdanyola del Vallès",
+      "lat": 41.549,
+      "lng": 2.107,
+      "type": "end",
+      "road": "C-58"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 175,
+    "gpt_duration_hours": 4,
+    "distance_diff_pct": 0.09,
+    "duration_diff_pct": 0.0,
+    "plausible": true,
+    "notes": "The route covers a scenic path through the Pre-Pyrenees with a slightly longer distance than claimed, but within the expected duration."
+  }
+}

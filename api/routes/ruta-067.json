@@ -1,0 +1,115 @@
+{
+  "id": "ruta-067",
+  "number": 67,
+  "name": "La Segarra: Castells i Horitzons",
+  "slug": "la-segarra-castells-i-horitzons",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Igualada / Anoia",
+  "starting_point": {
+    "name": "Igualada",
+    "comarca": "Anoia",
+    "lat": 41.579,
+    "lng": 1.617
+  },
+  "comarca_principal": "Segarra",
+  "summary": "Ruta cap a les planes de la Segarra, terra de castells medievals, camps de cereals infinits i cel obert. La C-37 porta fins a Cervera, amb la seva universitat barroca, i les carreteres locals connecten pobles de pedra daurada com Guissona i Torà. Una experiència de conducció diferent: rectes llargues amb vent lateral i horitzons que no s'acaben.",
+  "total_distance_km": 185,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3.5,
+  "elevation_gain_m": 800,
+  "elevation_max_m": 650,
+  "roads_main": [
+    "C-37",
+    "L-311",
+    "C-25",
+    "L-313"
+  ],
+  "esmorzar": {
+    "town": "Cervera",
+    "comarca": "Segarra",
+    "lat": 41.672,
+    "lng": 1.272,
+    "specialty": "Esmorzar de forquilla amb caragols a la llauna i pa amb tomàquet",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "tardor"
+  ],
+  "tags": [
+    "castells",
+    "planes",
+    "medieval",
+    "horitzó"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.579,1.617/41.565,1.601/41.625,1.42/41.672,1.272/41.783,1.288/41.825,1.385/41.733,1.511/41.579,1.617",
+  "waypoints": [
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "start",
+      "road": "C-37"
+    },
+    {
+      "name": "Santa Margarida de Montbui",
+      "lat": 41.565,
+      "lng": 1.601,
+      "type": "waypoint",
+      "road": "C-37"
+    },
+    {
+      "name": "La Panadella",
+      "lat": 41.625,
+      "lng": 1.42,
+      "type": "waypoint",
+      "road": "C-25"
+    },
+    {
+      "name": "Cervera",
+      "lat": 41.672,
+      "lng": 1.272,
+      "type": "esmorzar",
+      "road": "L-311"
+    },
+    {
+      "name": "Guissona",
+      "lat": 41.783,
+      "lng": 1.288,
+      "type": "waypoint",
+      "road": "L-311"
+    },
+    {
+      "name": "Torà",
+      "lat": 41.825,
+      "lng": 1.385,
+      "type": "waypoint",
+      "road": "L-313"
+    },
+    {
+      "name": "Calaf",
+      "lat": 41.733,
+      "lng": 1.511,
+      "type": "waypoint",
+      "road": "C-25"
+    },
+    {
+      "name": "Igualada",
+      "lat": 41.579,
+      "lng": 1.617,
+      "type": "end",
+      "road": "C-37"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 190,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with minor deviations for scenic or practical reasons. The estimated distance and duration are slightly higher than claimed due to real-world conditions."
+  }
+}

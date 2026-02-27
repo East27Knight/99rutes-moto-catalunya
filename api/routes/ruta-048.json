@@ -1,0 +1,117 @@
+{
+  "id": "ruta-048",
+  "number": 48,
+  "name": "Pirineu de Girona: Ripoll i la Vall de Camprodon",
+  "slug": "pirineu-de-girona-ripoll-i-la-vall-de-camprodon",
+  "category": "pro",
+  "difficulty": 4,
+  "starting_hub": "Girona / Empordà",
+  "starting_point": {
+    "name": "Girona",
+    "comarca": "Gironès",
+    "lat": 41.983,
+    "lng": 2.824
+  },
+  "comarca_principal": "Ripollès",
+  "summary": "Gran ruta cap als Pirineus orientals, remuntant la C-17 fins a Ripoll i després la N-260 cap a Camprodon i Molló. Carreteres de muntanya amb revolts amplis i vistes als pics nevats. El monestir de Ripoll i els pobles pirinencs de pedra són parades imprescindibles.",
+  "total_distance_km": 245,
+  "estimated_duration_hours": 5,
+  "riding_time_hours": 4,
+  "elevation_gain_m": 2400,
+  "elevation_max_m": 1350,
+  "roads_main": [
+    "C-63",
+    "C-17",
+    "N-260",
+    "C-38",
+    "C-152"
+  ],
+  "esmorzar": {
+    "town": "Camprodon",
+    "comarca": "Ripollès",
+    "lat": 42.313,
+    "lng": 2.365,
+    "specialty": "Embotits del Ripollès amb mel i galetes Birba de Camprodon",
+    "confidence": "recommended"
+  },
+  "route_type": "anada-i-tornada",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "pirineus",
+    "muntanya",
+    "cultura",
+    "corbes"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.983,2.824/41.953,2.635/42.108,2.233/42.201,2.19/42.313,2.365/42.23,2.288/42.182,2.488/41.983,2.824",
+  "waypoints": [
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "start",
+      "road": "C-63"
+    },
+    {
+      "name": "Anglès",
+      "lat": 41.953,
+      "lng": 2.635,
+      "type": "waypoint",
+      "road": "C-63"
+    },
+    {
+      "name": "Sant Quirze de Besora",
+      "lat": 42.108,
+      "lng": 2.233,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Ripoll",
+      "lat": 42.201,
+      "lng": 2.19,
+      "type": "waypoint",
+      "road": "N-260"
+    },
+    {
+      "name": "Camprodon",
+      "lat": 42.313,
+      "lng": 2.365,
+      "type": "esmorzar",
+      "road": "C-38"
+    },
+    {
+      "name": "Sant Joan de les Abadesses",
+      "lat": 42.23,
+      "lng": 2.288,
+      "type": "waypoint",
+      "road": "N-260"
+    },
+    {
+      "name": "Olot",
+      "lat": 42.182,
+      "lng": 2.488,
+      "type": "waypoint",
+      "road": "C-152"
+    },
+    {
+      "name": "Girona",
+      "lat": 41.983,
+      "lng": 2.824,
+      "type": "end",
+      "road": "C-63"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 230,
+    "gpt_duration_hours": 4.5,
+    "distance_diff_pct": 0.06,
+    "duration_diff_pct": 0.1,
+    "plausible": true,
+    "notes": "The route follows the specified roads closely, with minor deviations for practical navigation. The estimated distance and duration are slightly less than claimed, likely due to more direct routing."
+  }
+}

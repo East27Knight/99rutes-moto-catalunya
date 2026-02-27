@@ -1,0 +1,109 @@
+{
+  "id": "ruta-061",
+  "number": 61,
+  "name": "Centelles, Tona i el Pla de Vic",
+  "slug": "centelles-tona-i-el-pla-de-vic",
+  "category": "aprendiz",
+  "difficulty": 1,
+  "starting_hub": "Vic / Osona",
+  "starting_point": {
+    "name": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254
+  },
+  "comarca_principal": "Osona",
+  "summary": "Circuit suau pel pla de Vic passant per Tona, Centelles i els pobles dels voltants. Carreteres amples i rectes amb suaus ondulacions entre camps de conreu i granges. Perfecta per agafar confiança amb la moto i gaudir dels embotits de Vic en un esmorzar de forquilla memorable.",
+  "total_distance_km": 55,
+  "estimated_duration_hours": 2,
+  "riding_time_hours": 1,
+  "elevation_gain_m": 200,
+  "elevation_max_m": 590,
+  "roads_main": [
+    "C-17",
+    "BV-5303",
+    "N-141c"
+  ],
+  "esmorzar": {
+    "town": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254,
+    "specialty": "Esmorzar de forquilla al mercat de Vic amb llonganissa, fuet i secallona",
+    "confidence": "verified"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor",
+    "hivern"
+  ],
+  "tags": [
+    "pla",
+    "principiant",
+    "gastronomia",
+    "mercat"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.886,2.254/41.886,2.254/41.847,2.227/41.798,2.217/41.828,2.232/41.891,2.274/41.886,2.254",
+  "waypoints": [
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "start",
+      "road": "C-17"
+    },
+    {
+      "name": "Breakfast Stop Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "esmorzar",
+      "road": "C-17"
+    },
+    {
+      "name": "Tona",
+      "lat": 41.847,
+      "lng": 2.227,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Centelles",
+      "lat": 41.798,
+      "lng": 2.217,
+      "type": "waypoint",
+      "road": "BV-5303"
+    },
+    {
+      "name": "Sant Miquel de Balenyà",
+      "lat": 41.828,
+      "lng": 2.232,
+      "type": "waypoint",
+      "road": "N-141c"
+    },
+    {
+      "name": "El Pla de Vic",
+      "lat": 41.891,
+      "lng": 2.274,
+      "type": "waypoint",
+      "road": "N-141c"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "end",
+      "road": "N-141c"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 55,
+    "gpt_duration_hours": 1.5,
+    "distance_diff_pct": 0.0,
+    "duration_diff_pct": 0.25,
+    "plausible": true,
+    "notes": "The route follows the specified roads and is plausible within the claimed distance and duration. The waypoints are accurately placed along the C-17, BV-5303, and N-141c roads."
+  }
+}

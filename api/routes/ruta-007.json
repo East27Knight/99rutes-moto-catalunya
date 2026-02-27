@@ -1,0 +1,117 @@
+{
+  "id": "ruta-007",
+  "number": 7,
+  "name": "L'Eix Transversal: Bages a la Plana de Vic",
+  "slug": "eix-transversal-bages-plana-vic",
+  "category": "pro",
+  "difficulty": 3,
+  "starting_hub": "Manresa / Bages",
+  "starting_point": {
+    "name": "Manresa",
+    "comarca": "Bages",
+    "lat": 41.725,
+    "lng": 1.826
+  },
+  "comarca_principal": "Osona",
+  "summary": "De Manresa a Vic per l'Eix Transversal i tornada per les carreteres secundàries del Moianès. La C-25 ofereix un primer tram ràpid i fluid, mentre que la tornada per Tona, Centelles i Castellterçol regala un seguit de revolts entre camps i boscos amb una tranquil·litat absoluta.",
+  "total_distance_km": 165,
+  "estimated_duration_hours": 4,
+  "riding_time_hours": 3,
+  "elevation_gain_m": 1500,
+  "elevation_max_m": 880,
+  "roads_main": [
+    "C-25",
+    "C-17",
+    "BV-1245",
+    "B-124",
+    "BV-4316"
+  ],
+  "esmorzar": {
+    "town": "Vic",
+    "comarca": "Osona",
+    "lat": 41.886,
+    "lng": 2.254,
+    "specialty": "Esmorzar al mercat de Vic amb embotits d'Osona i pa de pagès",
+    "confidence": "recommended"
+  },
+  "route_type": "circular",
+  "best_season": [
+    "primavera",
+    "estiu",
+    "tardor"
+  ],
+  "tags": [
+    "plana",
+    "mercat",
+    "carreteres-secundàries",
+    "tranquil"
+  ],
+  "google_maps_url": "https://www.google.com/maps/dir/41.725,1.826/41.825,2.05/41.886,2.254/41.847,2.223/41.733,2.115/41.812,2.098/41.75,1.95/41.725,1.826",
+  "waypoints": [
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "start",
+      "road": "C-25"
+    },
+    {
+      "name": "Interchange C-25/C-17",
+      "lat": 41.825,
+      "lng": 2.05,
+      "type": "waypoint",
+      "road": "C-25"
+    },
+    {
+      "name": "Vic",
+      "lat": 41.886,
+      "lng": 2.254,
+      "type": "esmorzar",
+      "road": "C-17"
+    },
+    {
+      "name": "Tona",
+      "lat": 41.847,
+      "lng": 2.223,
+      "type": "waypoint",
+      "road": "C-17"
+    },
+    {
+      "name": "Intersection BV-1245/B-124",
+      "lat": 41.733,
+      "lng": 2.115,
+      "type": "waypoint",
+      "road": "BV-1245"
+    },
+    {
+      "name": "Moià",
+      "lat": 41.812,
+      "lng": 2.098,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Intersection B-124/BV-4316",
+      "lat": 41.75,
+      "lng": 1.95,
+      "type": "waypoint",
+      "road": "B-124"
+    },
+    {
+      "name": "Manresa",
+      "lat": 41.725,
+      "lng": 1.826,
+      "type": "end",
+      "road": "BV-4316"
+    }
+  ],
+  "waypoints_source": "openai_verified",
+  "verification": {
+    "gpt_distance_km": 170,
+    "gpt_duration_hours": 4.2,
+    "distance_diff_pct": 0.03,
+    "duration_diff_pct": 0.05,
+    "plausible": true,
+    "notes": "The route is plausible and follows the specified roads. The estimated distance and duration are slightly adjusted based on actual road conditions and speed limits."
+  }
+}
