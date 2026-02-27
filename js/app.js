@@ -501,6 +501,10 @@
           btn.textContent = 'Gr\u00e0cies! \u2714';
         }
         scoutForm.reset();
+        if (zonaAltraInput) {
+          zonaAltraInput.style.display = 'none';
+          zonaAltraInput.required = false;
+        }
         setTimeout(function () {
           btn.textContent = originalText;
           btn.disabled = false;

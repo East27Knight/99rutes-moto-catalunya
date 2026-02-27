@@ -954,6 +954,24 @@ img {
   border-color: var(--accent);
 }
 
+.scout-altra-input {
+  width: 100%;
+  padding: 1rem 1.4rem;
+  font-size: 1.05rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  outline: none;
+  margin-bottom: 0.75rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.scout-altra-input::placeholder {
+  color: var(--text-muted);
+}
+
 .scout-submit {
   width: 100%;
   padding: 1.1rem 2rem;
