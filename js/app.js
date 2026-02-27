@@ -436,12 +436,30 @@
   function initScoutForm() {
     if (!scoutForm) return;
 
+    // Show/hide "altra zona" text input
+    var zonaSelect = scoutForm.querySelector('select[name="zona"]');
+    var zonaAltraInput = document.getElementById('zona-altra-input');
+    if (zonaSelect && zonaAltraInput) {
+      zonaSelect.addEventListener('change', function () {
+        if (this.value === 'altra') {
+          zonaAltraInput.style.display = '';
+          zonaAltraInput.required = true;
+          zonaAltraInput.focus();
+        } else {
+          zonaAltraInput.style.display = 'none';
+          zonaAltraInput.required = false;
+          zonaAltraInput.value = '';
+        }
+      });
+    }
+
     scoutForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var nom = this.querySelector('input[name="nom"]').value.trim();
       var email = this.querySelector('input[name="email"]').value.trim();
       var whatsapp = this.querySelector('input[name="whatsapp"]').value.trim();
-      var zona = this.querySelector('select[name="zona"]').value;
+      var zonaVal = this.querySelector('select[name="zona"]').value;
+      var zona = zonaVal === 'altra' ? (zonaAltraInput ? zonaAltraInput.value.trim() : '') : zonaVal;
       var experiencia = this.querySelector('select[name="experiencia"]').value;
 
       if (!nom || !email || !whatsapp || !zona || !experiencia) {
