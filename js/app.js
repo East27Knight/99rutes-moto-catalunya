@@ -492,7 +492,7 @@
       btn.textContent = 'Enviant...';
       btn.disabled = true;
 
-      fetch('https://formsubmit.co/ajax/estebangcr@gmail.com', {
+      fetch('https://formsubmit.co/ajax/el/vulatu', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
