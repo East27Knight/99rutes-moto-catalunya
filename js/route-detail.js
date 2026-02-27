@@ -298,9 +298,9 @@
       '<a href="index.html#rutes" class="back-link">&larr; Tornar a totes les rutes</a>';
     html += '<h2>' + escapeHTML(route.name) + '</h2>';
     html +=
-      '<p>Aquesta ruta estar\u00e0 disponible aviat amb tota la informaci\u00f3 completa: mapa interactiu, coordenades GPS, carreteres detallades i recomanaci\u00f3 d\'esmorzar.</p>';
+      '<p>Aquesta ruta encara no ha estat verificada sobre el terreny. Necessitem un pilot que la faci i ens confirmi que tot funciona: carreteres, waypoints i esmorzar.</p>';
     html +=
-      '<a href="index.html#cta" class="btn btn-primary">Vull rebre la guia completa</a>';
+      '<a href="index.html#cta" class="btn btn-primary">Vull verificar aquesta ruta</a>';
     html += '</div>';
     html += '</div>';
 

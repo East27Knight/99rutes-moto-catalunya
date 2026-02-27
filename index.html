@@ -35,7 +35,7 @@
         <li><a href="#mapa">Mapa</a></li>
         <li><a href="#destacades">Destacades</a></li>
         <li><a href="#rutes">Rutes</a></li>
-        <li><a href="#cta" class="btn btn-primary" style="padding:0.5rem 1.2rem;font-size:0.85rem;">Vull la guia</a></li>
+        <li><a href="#cta" class="btn btn-primary" style="padding:0.5rem 1.2rem;font-size:0.85rem;">Vull col&middot;laborar</a></li>
       </ul>
     </div>
   </nav>
@@ -43,9 +43,9 @@
   <!-- ==================== HERO ==================== -->
   <section class="hero" id="hero">
     <div class="hero-content">
-      <div class="hero-badge">Nova guia 2026</div>
+      <div class="hero-badge">Busquem pilots &mdash; 2026</div>
       <h1>99 Rutes en Moto per Catalunya</h1>
-      <p class="hero-subtitle">La guia definitiva per als caps de setmana sobre dues rodes</p>
+      <p class="hero-subtitle">Estem construint la guia definitiva amb pilots reals. Vols ser-ne un?</p>
       <div class="hero-tagline">
         <span>66 rutes Pro</span>
         <span class="separator">&middot;</span>
@@ -54,8 +54,8 @@
         <span>Esmorzar de forquilla a cada parada</span>
       </div>
       <div class="hero-actions">
-        <a href="#destacades" class="btn btn-primary">Descobreix les rutes</a>
-        <a href="#cta" class="btn btn-secondary">Vull la guia completa</a>
+        <a href="#cta" class="btn btn-primary">Vull col&middot;laborar</a>
+        <a href="#mapa" class="btn btn-secondary">Descobreix les rutes</a>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
@@ -81,8 +81,8 @@
   <!-- ==================== VALUE PROPOSITION ==================== -->
   <section class="section value-section" id="proposta">
     <div class="container">
-      <h2 class="section-title">Com funciona?</h2>
-      <p class="section-subtitle">Cada ruta est&agrave; dissenyada per oferir-te la millor experi&egrave;ncia sobre dues rodes, amb esmorzar incl&ograve;s.</p>
+      <h2 class="section-title">Qu&egrave; estem construint?</h2>
+      <p class="section-subtitle">99 rutes verificades per pilots reals, amb esmorzar de forquilla a cada parada. Aix&ograve; &eacute;s el que trobar&agrave;s a la guia.</p>
       <div class="value-grid">
         <!-- Card 1: Rutes Pro -->
         <div class="value-card">
@@ -109,35 +109,56 @@
     </div>
   </section>
 
-  <!-- ==================== CTA ==================== -->
+  <!-- ==================== CTA: SCOUT SIGNUP ==================== -->
   <section class="section cta-section" id="cta">
     <div class="container">
       <div class="cta-content">
-        <h2>Reserva la guia al millor preu</h2>
-        <p>Estem preparant la guia definitiva amb les 99 rutes completes, mapes interactius, coordenades GPS i recomanacions d'esmorzar.</p>
+        <h2>Fes-te pilot verificador</h2>
+        <p>Necessitem moters que coneguin la seva zona per verificar rutes. Tu fas la ruta, ens dius si funciona, i aconsegueixes la guia gratis.</p>
 
-        <!-- Pre-sale button -->
+        <!-- Scout signup form -->
+        <form class="scout-form" id="scout-form" novalidate>
+          <div class="scout-form-grid">
+            <input type="text" name="nom" placeholder="El teu nom" required aria-label="Nom">
+            <input type="email" name="email" placeholder="el-teu@email.cat" required aria-label="Email">
+            <input type="tel" name="whatsapp" placeholder="WhatsApp (ex: 612 345 678)" required aria-label="WhatsApp">
+            <select name="zona" required aria-label="Zona o hub m&eacute;s proper">
+              <option value="" disabled selected>La teva zona...</option>
+              <option value="Manresa / Bages">Manresa / Bages</option>
+              <option value="Barcelona / Vall&egrave;s">Barcelona / Vall&egrave;s</option>
+              <option value="Girona / Empord&agrave;">Girona / Empord&agrave;</option>
+              <option value="Lleida / Segri&agrave;">Lleida / Segri&agrave;</option>
+              <option value="Vic / Osona">Vic / Osona</option>
+              <option value="Igualada / Anoia">Igualada / Anoia</option>
+              <option value="Tarragona / Camp">Tarragona / Camp</option>
+              <option value="Sabadell / Terrassa">Sabadell / Terrassa</option>
+              <option value="Tortosa / Terres de l'Ebre">Tortosa / Terres de l'Ebre</option>
+            </select>
+            <select name="experiencia" required aria-label="Nivell d'experi&egrave;ncia">
+              <option value="" disabled selected>Experi&egrave;ncia...</option>
+              <option value="pro">Pro (rutes de 4h)</option>
+              <option value="aprendiz">Aprendiz (rutes de 2h)</option>
+              <option value="ambdos">Ambd&oacute;s nivells</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary scout-submit">Vull ser pilot verificador</button>
+        </form>
+        <p class="cta-disclaimer">T'assignarem 2-3 rutes a prop teu. Nom&eacute;s cal que les facis i ens diguis qu&egrave; tal.</p>
+
+        <div class="cta-divider">
+          <span>o b&eacute;, si ja ho tens clar</span>
+        </div>
+
+        <!-- Pre-sale (secondary) -->
         <div class="presale-box">
           <div class="presale-pricing">
             <span class="presale-old-price">&euro;17</span>
             <span class="presale-price">&euro;7</span>
             <span class="presale-label">Pre-venda</span>
           </div>
-          <a href="https://buy.stripe.com/bJeeVf63l0uP71n4EE3ks00" id="presale-btn" class="btn btn-presale" target="_blank" rel="noopener">Reserva ara per 7&euro;</a>
+          <a href="https://buy.stripe.com/bJeeVf63l0uP71n4EE3ks00" id="presale-btn" class="btn btn-presale" target="_blank" rel="noopener">Reserva la guia per 7&euro;</a>
           <p class="presale-note">Preu de llan&ccedil;ament: 17&euro;. Estalvia un 59% reservant ara.</p>
         </div>
-
-        <div class="cta-divider">
-          <span>o b&eacute;</span>
-        </div>
-
-        <!-- Email signup -->
-        <p class="cta-email-label">Deixa'ns el teu email i t'avisarem quan estigui llesta:</p>
-        <form class="cta-form" id="cta-form" novalidate>
-          <input type="email" placeholder="el-teu@email.cat" required aria-label="Adre&ccedil;a de correu electr&ograve;nic">
-          <button type="submit">Avisa'm</button>
-        </form>
-        <p class="cta-disclaimer">Sense spam. Nom&eacute;s una notificaci&oacute; quan la guia estigui llesta.</p>
       </div>
     </div>
   </section>
@@ -218,11 +239,12 @@
   </footer>
 
   <!-- ==================== COMING SOON MODAL ==================== -->
-  <div class="modal-overlay" id="coming-soon-modal" role="dialog" aria-modal="true" aria-label="Ruta disponible aviat">
+  <div class="modal-overlay" id="coming-soon-modal" role="dialog" aria-modal="true" aria-label="Ruta pendent de verificaci&oacute;">
     <div class="modal-content">
-      <h3>Disponible aviat</h3>
-      <p>Aquesta ruta estar&agrave; disponible amb tota la informaci&oacute; quan publiquem la guia completa. Deixa'ns el teu email per ser el primer en saber-ho!</p>
-      <button class="modal-close" id="modal-close">D'acord</button>
+      <h3>Aquesta ruta necessita un pilot</h3>
+      <p>Encara no l'hem verificat sobre el terreny. Vols ser tu qui la faci i ens digui si funciona?</p>
+      <a href="#cta" class="btn btn-primary modal-scout-btn" id="modal-scout-link">Vull verificar-la</a>
+      <button class="modal-close" id="modal-close">Tancar</button>
     </div>
   </div>
 

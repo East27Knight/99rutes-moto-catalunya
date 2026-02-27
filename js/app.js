@@ -16,7 +16,7 @@
   const indexGrid = document.getElementById('index-grid');
   const filterButtons = document.querySelectorAll('.filter-btn');
   const searchInput = document.getElementById('route-search');
-  const ctaForm = document.getElementById('cta-form');
+  const scoutForm = document.getElementById('scout-form');
   const navToggle = document.getElementById('nav-toggle');
   const navMenu = document.getElementById('nav-menu');
   const modalOverlay = document.getElementById('coming-soon-modal');
@@ -35,7 +35,7 @@
     try { renderRouteIndex(); } catch(e) { console.error('Index error:', e); }
     try { initFilters(); } catch(e) { console.error('Filter error:', e); }
     try { initSearch(); } catch(e) { console.error('Search error:', e); }
-    try { initCTAForm(); } catch(e) { console.error('CTA error:', e); }
+    try { initScoutForm(); } catch(e) { console.error('Scout form error:', e); }
     try { initModal(); } catch(e) { console.error('Modal error:', e); }
     console.log('Init complete. SHOWCASE:', SHOWCASE.length, 'ROUTES:', ROUTES.length);
   }
@@ -432,22 +432,29 @@
     });
   }
 
-  // --- CTA Form ---
-  function initCTAForm() {
-    if (!ctaForm) return;
+  // --- Scout Signup Form ---
+  function initScoutForm() {
+    if (!scoutForm) return;
 
-    ctaForm.addEventListener('submit', function (e) {
+    scoutForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      var emailInput = this.querySelector('input[type="email"]');
-      var email = emailInput ? emailInput.value.trim() : '';
+      var nom = this.querySelector('input[name="nom"]').value.trim();
+      var email = this.querySelector('input[name="email"]').value.trim();
+      var whatsapp = this.querySelector('input[name="whatsapp"]').value.trim();
+      var zona = this.querySelector('select[name="zona"]').value;
+      var experiencia = this.querySelector('select[name="experiencia"]').value;
 
-      if (!email || !isValidEmail(email)) {
+      if (!nom || !email || !whatsapp || !zona || !experiencia) {
+        alert("Si us plau, omple tots els camps.");
+        return;
+      }
+
+      if (!isValidEmail(email)) {
         alert("Si us plau, introdueix un email v\u00e0lid.");
         return;
       }
 
-      // Submit email via FormSubmit.co (sends to inbox + dashboard)
-      var btn = this.querySelector('button');
+      var btn = this.querySelector('button[type="submit"]');
       var originalText = btn.textContent;
       btn.textContent = 'Enviant...';
       btn.disabled = true;
@@ -459,19 +466,23 @@
           'Accept': 'application/json'
         },
         body: JSON.stringify({
+          nom: nom,
           email: email,
-          _subject: '99 Rutes - Nou registre!',
+          whatsapp: whatsapp,
+          zona: zona,
+          experiencia: experiencia,
+          _subject: '99 Rutes - Nou pilot verificador!',
           _template: 'table'
         })
       }).then(function (response) {
         return response.json();
       }).then(function (data) {
         if (data.success) {
-          btn.textContent = 'Registrat! \u2714';
+          btn.textContent = 'Apuntat! \u2714';
         } else {
           btn.textContent = 'Gr\u00e0cies! \u2714';
         }
-        emailInput.value = '';
+        scoutForm.reset();
         setTimeout(function () {
           btn.textContent = originalText;
           btn.disabled = false;
@@ -492,6 +503,13 @@
 
     if (modalCloseBtn) {
       modalCloseBtn.addEventListener('click', hideComingSoonModal);
+    }
+
+    var modalScoutLink = document.getElementById('modal-scout-link');
+    if (modalScoutLink) {
+      modalScoutLink.addEventListener('click', function () {
+        hideComingSoonModal();
+      });
     }
 
     modalOverlay.addEventListener('click', function (e) {
