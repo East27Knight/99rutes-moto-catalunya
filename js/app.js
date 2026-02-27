@@ -436,6 +436,10 @@
   function initScoutForm() {
     if (!scoutForm) return;
 
+    // Anti-spam: record page load time
+    var loadTimeField = document.getElementById('form-loadtime');
+    if (loadTimeField) loadTimeField.value = Date.now();
+
     // Show/hide "altra zona" text input
     var zonaSelect = scoutForm.querySelector('select[name="zona"]');
     var zonaAltraInput = document.getElementById('zona-altra-input');
@@ -455,6 +459,17 @@
 
     scoutForm.addEventListener('submit', function (e) {
       e.preventDefault();
+
+      // Anti-spam: honeypot check (bots fill hidden fields)
+      var honey = this.querySelector('input[name="_honey"]');
+      if (honey && honey.value) return;
+
+      // Anti-spam: time check (bots submit instantly)
+      if (loadTimeField && loadTimeField.value) {
+        var elapsed = Date.now() - parseInt(loadTimeField.value, 10);
+        if (elapsed < 3000) return; // Less than 3 seconds = bot
+      }
+
       var nom = this.querySelector('input[name="nom"]').value.trim();
       var email = this.querySelector('input[name="email"]').value.trim();
       var whatsapp = this.querySelector('input[name="whatsapp"]').value.trim();

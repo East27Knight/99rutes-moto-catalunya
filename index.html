@@ -118,6 +118,9 @@
 
         <!-- Scout signup form -->
         <form class="scout-form" id="scout-form" novalidate>
+          <!-- Anti-spam honeypot (invisible to humans) -->
+          <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_loadtime" id="form-loadtime" value="">
           <div class="scout-form-grid">
             <input type="text" name="nom" placeholder="El teu nom" required aria-label="Nom">
             <input type="email" name="email" placeholder="el-teu@email.cat" required aria-label="Email">
