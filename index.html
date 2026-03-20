@@ -35,7 +35,7 @@
         <li><a href="#mapa">Mapa</a></li>
         <li><a href="#destacades">Destacades</a></li>
         <li><a href="#rutes">Rutes</a></li>
-        <li><a href="#cta" class="btn btn-primary" style="padding:0.5rem 1.2rem;font-size:0.85rem;">Vull col&middot;laborar</a></li>
+        <li><a href="https://chat.whatsapp.com/CvGmLexoPPs4OBNVF94gYu" target="_blank" rel="noopener" class="btn btn-primary" style="padding:0.5rem 1.2rem;font-size:0.85rem;">Uneix-te al grup</a></li>
       </ul>
     </div>
   </nav>
@@ -43,9 +43,9 @@
   <!-- ==================== HERO ==================== -->
   <section class="hero" id="hero">
     <div class="hero-content">
-      <div class="hero-badge">Busquem pilots &mdash; 2026</div>
+      <div class="hero-badge">Beta oberta &mdash; 2026</div>
       <h1>99 Rutes en Moto per Catalunya</h1>
-      <p class="hero-subtitle">Estem construint la guia definitiva amb pilots reals. Vols ser-ne un?</p>
+      <p class="hero-subtitle">Un navegador intel&middot;ligent que coneix 99 rutes, 99 esmorzars i cada corba de Catalunya. Digue-li qu&egrave; busques i et munta la ruta.</p>
       <div class="hero-tagline">
         <span>66 rutes Pro</span>
         <span class="separator">&middot;</span>
@@ -54,7 +54,7 @@
         <span>Esmorzar de forquilla a cada parada</span>
       </div>
       <div class="hero-actions">
-        <a href="#cta" class="btn btn-primary">Vull col&middot;laborar</a>
+        <a href="https://chat.whatsapp.com/CvGmLexoPPs4OBNVF94gYu" target="_blank" rel="noopener" class="btn btn-primary">Vull provar-ho</a>
         <a href="#mapa" class="btn btn-secondary">Descobreix les rutes</a>
       </div>
       <div class="hero-stats">
@@ -109,61 +109,19 @@
     </div>
   </section>
 
-  <!-- ==================== CTA: SCOUT SIGNUP ==================== -->
+  <!-- ==================== CTA: BETA TESTERS ==================== -->
   <section class="section cta-section" id="cta">
     <div class="container">
       <div class="cta-content">
-        <h2>Fes-te pilot verificador</h2>
-        <p>Necessitem moters que coneguin la seva zona per verificar rutes. Tu fas la ruta, ens dius si funciona, i aconsegueixes la guia gratis.</p>
+        <h2>Busquem 10 pilots per provar-ho</h2>
+        <p>Estem construint un navegador de rutes intel&middot;ligent. Li dius qu&egrave; busques &mdash; dist&agrave;ncia, zona, nivell, temps disponible &mdash; i et munta la ruta perfecta amb esmorzar incl&ograve;s i enlla&ccedil; directe a Google Maps.</p>
+        <p style="margin-top:0.8rem;color:var(--text-muted, #aaa);">Busquem 10 moters que vulguin provar les primeres rutes i dir-nos qu&egrave; tal. Sense cost, sense compromisos.</p>
 
-        <!-- Scout signup form -->
-        <form class="scout-form" id="scout-form" novalidate>
-          <!-- Anti-spam honeypot (invisible to humans) -->
-          <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off">
-          <input type="hidden" name="_loadtime" id="form-loadtime" value="">
-          <div class="scout-form-grid">
-            <input type="text" name="nom" placeholder="El teu nom" required aria-label="Nom">
-            <input type="email" name="email" placeholder="el-teu@email.cat" required aria-label="Email">
-            <input type="tel" name="whatsapp" placeholder="WhatsApp (ex: 612 345 678)" required aria-label="WhatsApp">
-            <select name="zona" required aria-label="Zona o hub m&eacute;s proper">
-              <option value="" disabled selected>La teva zona...</option>
-              <option value="Manresa / Bages">Manresa / Bages</option>
-              <option value="Barcelona / Vall&egrave;s">Barcelona / Vall&egrave;s</option>
-              <option value="Girona / Empord&agrave;">Girona / Empord&agrave;</option>
-              <option value="Lleida / Segri&agrave;">Lleida / Segri&agrave;</option>
-              <option value="Vic / Osona">Vic / Osona</option>
-              <option value="Igualada / Anoia">Igualada / Anoia</option>
-              <option value="Tarragona / Camp">Tarragona / Camp</option>
-              <option value="Sabadell / Terrassa">Sabadell / Terrassa</option>
-              <option value="Tortosa / Terres de l'Ebre">Tortosa / Terres de l'Ebre</option>
-              <option value="altra">Altra zona...</option>
-            </select>
-            <select name="experiencia" required aria-label="Nivell d'experi&egrave;ncia">
-              <option value="" disabled selected>Experi&egrave;ncia...</option>
-              <option value="pro">Pro (rutes de 4h)</option>
-              <option value="aprendiz">Aprendiz (rutes de 2h)</option>
-              <option value="ambdos">Ambd&oacute;s nivells</option>
-            </select>
-          </div>
-          <input type="text" name="zona_altra" id="zona-altra-input" class="scout-altra-input" placeholder="Escriu la teva zona (comarca, ciutat...)" aria-label="Altra zona" style="display:none;">
-          <button type="submit" class="btn btn-primary scout-submit">Vull ser pilot verificador</button>
-        </form>
-        <p class="cta-disclaimer">T'assignarem 2-3 rutes a prop teu. Nom&eacute;s cal que les facis i ens diguis qu&egrave; tal.</p>
-
-        <div class="cta-divider">
-          <span>o b&eacute;, si ja ho tens clar</span>
-        </div>
-
-        <!-- Pre-sale (secondary) -->
-        <div class="presale-box">
-          <div class="presale-pricing">
-            <span class="presale-old-price">&euro;17</span>
-            <span class="presale-price">&euro;7</span>
-            <span class="presale-label">Pre-venda</span>
-          </div>
-          <a href="https://buy.stripe.com/bJeeVf63l0uP71n4EE3ks00" id="presale-btn" class="btn btn-presale" target="_blank" rel="noopener">Reserva la guia per 7&euro;</a>
-          <p class="presale-note">Preu de llan&ccedil;ament: 17&euro;. Estalvia un 59% reservant ara.</p>
-        </div>
+        <a href="https://chat.whatsapp.com/CvGmLexoPPs4OBNVF94gYu" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:0.6rem;padding:1rem 2rem;font-size:1.1rem;margin-top:1.5rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Uneix-te al grup de pilots
+        </a>
+        <p class="cta-disclaimer" style="margin-top:1rem;">Entra al grup de WhatsApp. Ser&agrave;s dels primers a provar el navegador.</p>
       </div>
     </div>
   </section>
@@ -246,9 +204,9 @@
   <!-- ==================== COMING SOON MODAL ==================== -->
   <div class="modal-overlay" id="coming-soon-modal" role="dialog" aria-modal="true" aria-label="Ruta pendent de verificaci&oacute;">
     <div class="modal-content">
-      <h3>Aquesta ruta necessita un pilot</h3>
-      <p>Encara no l'hem verificat sobre el terreny. Vols ser tu qui la faci i ens digui si funciona?</p>
-      <a href="#cta" class="btn btn-primary modal-scout-btn" id="modal-scout-link">Vull verificar-la</a>
+      <h3>Vols provar aquesta ruta?</h3>
+      <p>Uneix-te al grup de pilots beta i ser&agrave;s dels primers a provar el navegador de rutes.</p>
+      <a href="https://chat.whatsapp.com/CvGmLexoPPs4OBNVF94gYu" target="_blank" rel="noopener" class="btn btn-primary modal-scout-btn" id="modal-scout-link">Uneix-te al grup</a>
       <button class="modal-close" id="modal-close">Tancar</button>
     </div>
   </div>
